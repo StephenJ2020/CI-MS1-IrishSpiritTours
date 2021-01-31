@@ -3,28 +3,27 @@
 # Irish Spirit Tours
 <br>  
     
-# Contents:  
-# 1. Project Description  
-# 2. Goal and Requirements  
-## 2.1 Strategy  
-* ## 2.1.1 - Business objectives  
-* ## 2.1.2 - User needs  
-* ## 2.1.3 - User persona's  
-# 3. Scope  
-* ## 3.1 - Features  
-* ## 3.1.1 - Current feature requirements    
-* ## 3.1.2 - Future feature requirements  
-* ## 3.2 - Content requirements  
-# 4. Structure  
-* ## 4.1 - 
-# 5. wireframes
-# 6. Visual Design  
+## Contents:  
+## 1. Project Description  
+## 2. Goal and Requirements  
+### 2.1 Strategy  
+* #### 2.1.1 - Business objectives  
+* #### 2.1.2 - User needs  
+* #### 2.1.3 - User persona's  
+## 3. Scope  
+* ### 3.1 - Features  
+* #### 3.1.1 - Current feature requirements    
+* #### 3.1.2 - Future feature requirements  
+## 4. Structure  
+* ### 4.1 - 
+## 5. wireframes
+## 6. Visual Design  
 
 
 <br>
 <br>  
 
-# 1. Project Description 
+## 1. Project Description 
 Code Institute: User-Centric Front-End Development  
   
 The Milestone 1 project assignment is to build a static front-end website using the technologies that we have learned so far on the Code Institute course.  
@@ -56,9 +55,9 @@ and the functionality required in order to produce a wireframe that will form th
 <br>
 <br>
   
-# 2. Goal and Requirements 
-## 2.1 Strategy  
-## 2.1.1 - Business objectives  
+## 2. Goal and Requirements 
+### 2.1 Strategy  
+#### 2.1.1 - Business objectives  
   
 ### ***Tom O'Donoghue: Owner of Irish Spirit Tours***  
   
@@ -90,7 +89,7 @@ available add-on options pre & post tour.  The site needs to offer a streamlined
 device sizes.
   
 
-## 2.1.2 - User needs:  
+#### 2.1.2 - User needs:  
     
 The user is looking to get more out of their trip to Ireland. They want to get a little bit off the beaten track but they don't want the hassle of having to organise everything   
 themselves.  They are interested in seeing some of the culture and history of Ireland's Ancient East but they enjoy sampling quality local food and they are keen to experience  
@@ -102,7 +101,7 @@ nights and activities in Dublin, which is the main gateway city for the majority
 The user wants a quick and easy way to make enquiries and get a quote via a site that makes them feel confident that they are dealing with a reliable  local tour operator and that   
 it is safe to ultimately book their tour via this site.  
 
-## 2.1.3 - User persona's   
+#### 2.1.3 - User persona's   
   
 So who exactly are the users who are interested in using the internet to search for a tour like this.  Well lets look at the Personas below to discover more about our users:  
 
@@ -128,9 +127,9 @@ that Ireland should be the destination for their next short break.
 <br>
 <br>
 
-# 3. Scope  
-## 3.1 - Features  
-## 3.1.1 - Current feature requirements  
+## 3. Scope  
+### 3.1 - Functional Specification  
+#### 3.1.1 - Current feature requirements  
 * Fully responsive website that will automatically adapt for for desktop, tablet and mobile devices.
 * A navigation bar that will be fixed to the top of the screen so that it is always visible, even as the user scrolls down the page.  
 * A unique hero image for each page that will visually communicate the content contained within the page.
@@ -141,26 +140,95 @@ that Ireland should be the destination for their next short break.
 * A gallery page to visually re-enforce the quality of the tour.
 * A Contact Us page that will contain a multi-fucntional form to enable the user to make an enquiry, request a quote or make a booking.
 * A Get a Quote button on the right of the navbar that will link to the multi-functional form on the Contact Us page.
-## 3.1.2 - Future feature requirements  
+#### 3.1.2 - Future feature requirements  
 * The addition of an interactive map on the Itinerary page.
 * The addition of a language selection option so that users can access the site in their own language.
-## 3.2 - Content requirements  
+### 3.2 - Content Requirements  
+* An overview of the comapny and the main product i.e. the tour.  
+* A text area with link to entice the user to explore the full tour itinerary.  
+* A text area with link to entice the user to explore the full list of options available to customise the tour.  
+* A testimonial section to help build trust with the user.
+* A subcription form so that we can stay in contact with the user and work on building their trust until they are ready to book the tour.
+* The full tour itinerary
+* The tour inclusions
+* The full list of optional pre & post tour add-on's.  
+* An image gallery to visually re-encfore the quality and value of the tour.
+* A multi-functional contact form that can handle enguiries, quotes & bookings.
+* Social media links to help re-enforce the brand, to stay connected with the user and for users to use as a promotion tool on our behalf.
 <br>
 <br>  
      
-# 4. Structure  
-## 4.1 -   
+## 4. Structure  / Information Design  (IA)
+### 4.1 -   
+
+Using Dan Brown's 8 Principles Of Information Architecture as described by [careerfoundry](https://careerfoundry.com/en/blog/ux-design/a-beginners-guide-to-information-architecture/) I now need to group the content (objects) from the contents requirements above so that   
+I can define the structure / design (Information Architecture) of the site.  
+  
+***These 8 principles are:***  
+  
+***The principle of objects:*** Content should be treated as a living, breathing thing. It has lifecycles, behaviors, and attributes.  
+***The principle of choices:*** Less is more. Keep the number of choices to a minimum.  
+***The principle of disclosure:*** Show a preview of information that will help users understand what kind of information is hidden if they dig deeper.  
+***The principle of exemplars:*** Show examples of content when describing the content of the categories.  
+***The principle of front doors:*** Assume that at least 50% of users will use a different entry point than the home page.  
+***The principle of multiple classifications:*** Offer users several different classification schemes to browse the site’s content.  
+***The principle of focused navigation:*** Keep navigation simple and never mix different things.   
+***The principle of growth:*** Assume that the content on the website will grow. Make sure the website is scalable.   
+
+So by applying these principles to the objects of my site I can group them as follows:  
+  
+***index.html***  
+* An overview of the comapny and the main product i.e. the tour.  
+* A text area with link to entice the user to explore the full tour itinerary.  
+* A text area with link to entice the user to explore the full list of options available to customise the tour.  
+* A testimonial section to help build trust with the user.   
+  
+***tour-itinerary.html***  
+* The full tour itinerary  
+* The tour inclusions  
+  
+***add-ons.html***  
+* The full list of optional pre & post tour add-on's.  
+  
+***gallery.html***  
+* An image gallery to visually re-encfore the quality and value of the tour.  
+  
+***contact.html***  
+* A multi-functional contact form that can handle enguiries, quotes & bookings.  
+  
+Objects common to all pages will be located in the ***footer***  
+* Social media links to help re-enforce the brand, to stay connected with the user and for users to use as a promotion tool on our behalf. 
+* A subcription form so that we can stay in contact with the user and work on building their trust until they are ready to book the tour. 
+  
+![Information Architecture](./assets/images/ia.png)
+  
 <br>  
 <br>
 
-# 5. wireframes
+## 5. wireframes
 [Desktop](#)  
 [Tablet](#)  
 [Mobile](#)  
 <br>  
 <br>  
        
- # 6. Visual Design 
+## 6. Visual Design   
+For my colour palette I looked at a number of different sites (all of which are referenced in the credits section) but the site that provided the most inspiration was [99designs](https://99designs.ie/blog/creative-inspiration/color-combinations/)  
+as it really helped me to visualise how the colours might interact with each other.  So I choose the following colour scheme from 99designs as the basis of my colour palette.  
+![The foundation of my colour palette](./assets/images/colour-palette.png)  
+However, I felt that it wasn't exactly what I needed for my site so I also took elements from the colour schemed used on the [Audley Travel](https://www.audleytravel.com/ie/brazil/tours/in-search-of-the-jaguar) website, as it is one of the sites  
+from which I took inspiration when I first started thinking about how I would approach this project. So I subsituted the gray #CED7D8 from the 99designs colour palette with  
+the lighter gray #DAE0E4 from the Audley Travel site.  Plus I added two additional tones of gray #545454 #343434 to my colour palette, and again I took these from the colour   
+palette used for the Audely Travel site.  
+  
+The final colour palette that I decided upon is:  
+- ![#316879](https://placehold.it/15/316879/316879) `#316879` 
+- ![#F47A60](https://placehold.it/15/F47A60/F47A60) `#F47A60`   
+- ![#7FE7DC](https://placehold.it/15/7FE7DC/7FE7DC) `#7FE7DC`  
+- ![#DAE0E4](https://placehold.it/15/DAE0E4/DAE0E4) `#DAE0E4`  
+- ![#545454](https://placehold.it/15/545454/545454) `#545454`
+- ![#343434](https://placehold.it/15/343434/343434) `#343434`  
+  
 
 # Design  
 
@@ -179,4 +247,9 @@ that Ireland should be the destination for their next short break.
 
 # Credits  
 
+https://careerfoundry.com/en/blog/ux-design/a-beginners-guide-to-information-architecture/  
+https://color.adobe.com/create/color-wheel  
+https://www.canva.com/colors/color-wheel/  
+https://ie.oberlo.com/blog/color-combinations-cheat-sheet  
+https://99designs.ie/blog/creative-inspiration/color-combinations/  
 
