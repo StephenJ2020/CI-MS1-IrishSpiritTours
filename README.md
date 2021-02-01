@@ -7,17 +7,21 @@
 ## 1. Project Description  
 ## 2. Goal and Requirements  
 ### 2.1 Strategy  
-* #### 2.1.1 - Business objectives  
-* #### 2.1.2 - User needs  
-* #### 2.1.3 - User persona's  
+* **2.1.1 - Business objectives**  
+* **2.1.2 - User needs**  
+* **2.1.3 - User persona's** 
 ## 3. Scope  
-* ### 3.1 - Features  
-* #### 3.1.1 - Current feature requirements    
-* #### 3.1.2 - Future feature requirements  
+* **3.1 - Features**  
+* **3.1.1 - Current feature requirements**    
+* **3.1.2 - Future feature requirements**  
 ## 4. Structure  
 * ### 4.1 - 
 ## 5. wireframes
 ## 6. Visual Design  
+## Technologies  
+## Testing  
+## Deployment  
+## Credits 
 
 
 <br>
@@ -241,16 +245,19 @@ The final colour palette that I decided upon is:
 - ![#DAE0E4](https://placehold.it/20/DAE0E4/DAE0E4) `#DAE0E4`  
 - ![#545454](https://placehold.it/20/545454/545454) `#545454`
 - ![#343434](https://placehold.it/20/343434/343434) `#343434`  
+
+In order to test my colour palette prior to starting to code I've created a partial mock-up of my wireframe for the  
+the desktop view and I'm satisfied it works.  
+![](./assets/images/wireframe-mockup.png)  
   
-
-# Design  
-
-
-# Features  
-
-
 # Technologies  
-
+(Rough bullet points to be expanded upon)  
+* HMTL  
+* CSS  
+* Bootstrap navbar  
+* Bootstrap grid for layout of the body of each page  
+* Bootstrap carousel for testimonials  
+* Font Awesome for icons
 
 # Testing  
 
