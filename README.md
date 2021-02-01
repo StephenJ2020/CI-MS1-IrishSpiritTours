@@ -26,32 +26,38 @@
 ## 1. Project Description 
 Code Institute: User-Centric Front-End Development  
   
-The Milestone 1 project assignment is to build a static front-end website using the technologies that we have learned so far on the Code Institute course.  
-I have the option to choose from one of the following three scenarios or to come up with my own idea:  
+The Milestone 1 project assignment is to build a static front-end website using the technologies that we have learned  
+so far on the Code Institute course. I have the option to choose from one of the following three scenarios or to come   
+up with my own idea:  
 . Build a website for a band (real or fictional)  
 . Build a website for a gym  
 . Build a personal portfolio site ( potentially for yourself) 
    
-I have decided to create a website for a fictional tour company here in Ireland.  However, while the tour company is fictional the places featured  
-are real and this was an idea that I had brought forward in September 2019 to the Celbridge Tourism and Heritage Forum, of which I'm a voluntary member.  
-Over the last 5 years this voluntary community group has sought funding to produce [Celbridge Tourism and Heritage Strategy (2016-2020)](http://www.kildarelcdc.ie/wp-content/uploads/2012/07/Celbridge-Gateway-to-Irelands-AE-Tourism-Heritage-Strategy-May-2016.pdf),  
-[Celbridge Heritage Trail Audio Guide](http://www.abartaheritage.ie/product/celbridge-heritage-trail-audio-guide/) and [The Discover Celbridge website](http://www.discovercelbridge.com/).  
-While the group have not met since the end of 2019 and our activities have been suspended due to the Covid-19 Pandemic and the devastating effects it continues  
-to have across the globe; it is hoped that we will be able to resume our work on future projects in late 2021 or early 2022.  
+I have decided to create a website for a fictional tour company here in Ireland.  However, while the tour company is  
+fictional the places featured are real and this was an idea that I had brought forward in September 2019 to the Celbridge  
+Tourism and Heritage Forum, of which I'm a voluntary member. Over the last 5 years this voluntary community group has  
+sought funding to produce [Celbridge Tourism and Heritage Strategy (2016-2020)](http://www.kildarelcdc.ie/wp-content/uploads/2012/07/Celbridge-Gateway-to-Irelands-AE-Tourism-Heritage-Strategy-May-2016.pdf), [Celbridge Heritage Trail Audio Guide](http://www.abartaheritage.ie/product/celbridge-heritage-trail-audio-guide/)  
+and [The Discover Celbridge website](http://www.discovercelbridge.com/).  
+While the group have not met since the end of 2019 and our activities have been suspended due to the Covid-19 Pandemic  
+and the devastating effects it continues to have across the globe; it is hoped that we will be able to resume our work  
+on future projects in late 2021 or early 2022.  
   
-The idea for this tour came from the fact that the town of Celbridge, in Co. Kildare, has many historic and cultural sites that would appeal to the domestic  
-and international tourism market, but also the realisation that our offering isn't yet developed enough to be able to  market Celbridge as a stand-alone   
-tourist destination.  Therefore, my idea was to identify other coummunity groups in neighbouring counties who are also working to promote their local area  
-and to collaborate to create a ready-made tour itinerary featuring each of our localities and to then pitch it at a number of local tour companies for one of  
-them to take on and opperate.  The idea is not for any of the community groups or the individuals involed with them to directly benefit from this project.  
-Rather the objective is for our wider communities to benefit from the impact that increased tourism will lead to i.e. increased private and public sector  
-investment into improved facilities in these localities.  
+The idea for this tour came from the fact that the town of Celbridge, in Co. Kildare, has many historic and cultural sites  
+that would appeal to the domestic and international tourism market, but also the realisation that our offering isn't yet  
+developed enough to be able to  market Celbridge as a stand-alone tourist destination.  Therefore, my idea was to identify  
+other coummunity groups in neighbouring counties who are also working to promote their local area and to collaborate to create  
+a ready-made tour itinerary featuring each of our localities and to then pitch it at a number of local tour companies for one  
+of them to take on and opperate.  The idea is not for any of the community groups or the individuals involed with them to  
+directly benefit from this project. Rather the objective is for our wider communities to benefit from the impact that increased  
+tourism will lead to i.e. increased private and public sector investment into improved facilities in these localities.  
   
-For the purpose of my Milestone 1 project we're going to assume that the final tour itinerary has been agreed and that the fictional family run tour operator,  
-Irish Spirit Tours, has undertaken to incorporate this itinerary into thier business as a means of expanding their current product offering.  
+For the purpose of my Milestone 1 project we're going to assume that the final tour itinerary has been agreed and that the  
+fictional family run tour operator, Irish Spirit Tours, has undertaken to incorporate this itinerary into thier business as a  
+means of expanding their current product offering.  
   
-On that basis I have used the five planes of UX methodology to identify the user needs, the features required, the most logical way to structure the information  
-and the functionality required in order to produce a wireframe that will form the blueprint for this Milestone project.
+On that basis I have used the five planes of UX methodology to identify the user needs, the features required, the most logical  
+way to structure the information and the functionality required in order to produce a wireframe that will form the blueprint for  
+this Milestone project.
 <br>
 <br>
   
@@ -61,32 +67,39 @@ and the functionality required in order to produce a wireframe that will form th
   
 ### ***Tom O'Donoghue: Owner of Irish Spirit Tours***  
   
-Tom started his career in his early 20's working for a chauffeur company that serviced the corporate and high-end leisure market.  For the 10 years that Tom worked for   
-this company he was a chauffeur and qualified tour guide and he mainly drove 24 seater mini-coaches.  In his late 20's Tom got married and started a family, by his   
-early 30's Tom spotted an opportunity to go out on his own and he decided to buy his own 16 seater mini-bus and to start operating a series of day-trips from Dublin.  
-Over the years the business has grown and Tom has continue to invest in the business by buying a second 16 seater mini-bus and in recent years he has replaced his  
-original mini-bus with a brand new luxary 24 seater mini-coach.  
+Tom started his career in his early 20's working for a chauffeur company that serviced the corporate and high-end leisure market.  
+For the 10 years that Tom worked for this company he was a chauffeur and qualified tour guide and he mainly drove 24 seater  
+mini-coaches.  In his late 20's Tom got married and started a family, by his early 30's Tom spotted an opportunity to go out  
+on his own and he decided to buy his own 16 seater mini-bus and to start operating a series of day-trips from Dublin. Over the  
+years the business has grown and Tom has continue to invest in the business by buying a second 16 seater mini-bus and in recent  
+years he has replaced his original mini-bus with a brand new luxary 24 seater mini-coach.  
   
-Now in his early 50's and his children fully grown, Tom's son Patrick works with Tom on a full-time basis as a tour guide driving the 16 seater mini-bus while Tom leads  
-the larger tour groups in the 24 seater mini-coach.  Tom's wife Mary works part-time in a local supermarket but she also helps process the bookings for Tom's business.  
-His daughter Grainne recently graduated from Trinity College with a degree in Marketing and is now working for a leading multi-national in Dublin's Silicon Docks.  
-Grainne has been updating Tom's wordpress website and social media channels for the last 7 years but with her increasing work load in her own job this is becoming more of  
-a challenge for Grainne to maintain.
+Now in his early 50's and his children fully grown, Tom's son Patrick works with Tom on a full-time basis as a tour guide driving  
+the 16 seater mini-bus while Tom leads the larger tour groups in the 24 seater mini-coach.  Tom's wife Mary works part-time in a  
+local supermarket but she also helps process the bookings for Tom's business. His daughter Grainne recently graduated from  
+Trinity College with a degree in Marketing and is now working for a leading multi-national in Dublin's Silicon Docks. Grainne has  
+been updating Tom's wordpress website and social media channels for the last 7 years but with her increasing work load in her own  
+job this is becoming more of a challenge for Grainne to maintain.
 
-Celbridge Tourism and Heritage Forum approached a number of Irish based tour operators, including Irish Spirit Tours.  The group presented their ready-made tour itinerary as  
-a cultural tour of Ireland's Ancient East, which has been designed around some of the best Craft Food & Drink producers that lie just beyond the doorstep of Dublin, Ireland's  
-capitol city.  The group highlighted how this exciting new tour ties in with Faile Ireland's [FOOD AND DRINK STRATEGY 2018 – 2023](https://www.failteireland.ie/FailteIreland/media/WebsiteStructure/Documents/Publications/FI-Food-Strategy-Document.pdf) and the fact that there may  
-be grant opportunities available to companies who are actively involved in developing and promoting products that compliment Failte Ireland's strategy.
+Celbridge Tourism and Heritage Forum approached a number of Irish based tour operators, including Irish Spirit Tours.  The group  
+presented their ready-made tour itinerary as a cultural tour of Ireland's Ancient East, which has been designed around some of  
+the best Craft Food & Drink producers that lie just beyond the doorstep of Dublin, Ireland's capitol city.  The group highlighted  
+how this exciting new tour ties in with Faile Ireland's [FOOD AND DRINK STRATEGY 2018 – 2023](https://www.failteireland.ie/FailteIreland/media/WebsiteStructure/Documents/Publications/FI-Food-Strategy-Document.pdf) and the fact that there  
+may be grant opportunities available to companies who are actively involved in developing and promoting products that compliment  
+Failte Ireland's strategy.
 
-The group had interest from two of the five tour operators that they approached but Tom was by far the most enthusiastic about the new possibilities that this tour itinerary  
-presented his small family run company.  Irish Spirit Tours have traditionally promoted their products as a series of day-trips aimed as an add-on to the itineraries of overseas  
-tourists who have already made their way to Dublin.  With the creation of this new 6 day tour Tom can see the added value in moving away from offering a purely last minute  
-add-on product, to having a tour package that would be the main purpose of his client's trip to Ireland, one which is booked and paid for in advance of their arrival into Ireland.
+The group had interest from two of the five tour operators that they approached but Tom was by far the most enthusiastic about  
+the new possibilities that this tour itinerary presented his small family run company.  Irish Spirit Tours have traditionally  
+promoted their products as a series of day-trips aimed as an add-on to the itineraries of overseas tourists who have already  
+made their way to Dublin.  With the creation of this new 6 day tour Tom can see the added value in moving away from offering a  
+purely last minute add-on product, to having a tour package that would be the main purpose of his client's trip to Ireland, one  
+which is booked and paid for in advance of their arrival into Ireland.
 
-As part of this agreement to operate the tour itinerary Tom has undertaken to commission a new website that is more professional and user-friendly.  Tom needs the site to act as  
-his principle tool to promote the tour to international clients.  The site needs to look professional and eye-catching, it need to clearly display the details of the tour and the  
-available add-on options pre & post tour.  The site needs to offer a streamlined way to process enquiries, quotes and bookings and it needs to be fully responsive for multiple   
-device sizes.
+As part of this agreement to operate the tour itinerary Tom has undertaken to commission a new website that is more professional  
+and user-friendly.  Tom needs the site to act as his principle tool to promote the tour to international clients.  The site  
+needs to look professional and eye-catching, it need to clearly display the details of the tour and the available add-on options  
+pre & post tour.  The site needs to offer a streamlined way to process enquiries, quotes and bookings and it needs to be fully  
+responsive for multiple device sizes.
   
 
 #### 2.1.2 - User needs:  
@@ -206,9 +219,9 @@ Objects common to all pages will be located in the ***footer***
 <br>
 
 ## 5. wireframes
-[Desktop](#)  
-[Tablet](#)  
-[Mobile](#)  
+[Desktop](./assets/images/wireframe-desktop.png)    
+[Tablet](./assets/images/wireframe-tablet.png)   
+[Mobile](./assets/images/wireframe-mobile.png)   
 <br>  
 <br>  
        
@@ -222,12 +235,12 @@ the lighter gray #DAE0E4 from the Audley Travel site.  Plus I added two addition
 palette used for the Audely Travel site.  
   
 The final colour palette that I decided upon is:  
-- ![#316879](https://placehold.it/15/316879/316879) `#316879` 
-- ![#F47A60](https://placehold.it/15/F47A60/F47A60) `#F47A60`   
-- ![#7FE7DC](https://placehold.it/15/7FE7DC/7FE7DC) `#7FE7DC`  
-- ![#DAE0E4](https://placehold.it/15/DAE0E4/DAE0E4) `#DAE0E4`  
-- ![#545454](https://placehold.it/15/545454/545454) `#545454`
-- ![#343434](https://placehold.it/15/343434/343434) `#343434`  
+- ![#316879](https://placehold.it/20/316879/316879) `#316879` 
+- ![#F47A60](https://placehold.it/20/F47A60/F47A60) `#F47A60`   
+- ![#7FE7DC](https://placehold.it/20/7FE7DC/7FE7DC) `#7FE7DC`  
+- ![#DAE0E4](https://placehold.it/20/DAE0E4/DAE0E4) `#DAE0E4`  
+- ![#545454](https://placehold.it/20/545454/545454) `#545454`
+- ![#343434](https://placehold.it/20/343434/343434) `#343434`  
   
 
 # Design  
@@ -252,4 +265,15 @@ https://color.adobe.com/create/color-wheel
 https://www.canva.com/colors/color-wheel/  
 https://ie.oberlo.com/blog/color-combinations-cheat-sheet  
 https://99designs.ie/blog/creative-inspiration/color-combinations/  
+  
+https://irelandluxurytravel.com/ireland-tours/ireland-food-tours/
+https://www.audleytravel.com/ie/brazil/tours/in-search-of-the-jaguar  
+https://breweryhops.com/  
+https://www.meetthemakerswicklow.ie/  
+https://vagabondtoursofireland.com/tour/6-day-ireland-food-tour#_highlights  
+https://www.ireland.com/en-gb/what-is-available/food-and-drink/articles/taste-the-island-food-experiences/  
+https://www.cietours.com/en-us/tours/ireland/irish-spirit  
+https://www.goirishtours.com/coach-irish-spirit-tour/  
+http://www.sacredirishtours.com/testimonial-2/  
+https://www.authenticvacations.com/europe/ireland-tours/irish-spirit-tour/   
 
