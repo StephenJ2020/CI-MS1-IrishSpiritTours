@@ -233,6 +233,9 @@ Objects common to all pages will be located in the ***footer***
 For my colour palette I looked at a number of different sites (all of which are referenced in the credits section) but the site that provided the most inspiration was [99designs](https://99designs.ie/blog/creative-inspiration/color-combinations/)  
 as it really helped me to visualise how the colours might interact with each other.  So I choose the following colour scheme from 99designs as the basis of my colour palette.  
 ![The foundation of my colour palette](./assets/images/colour-palette.png)  
+**Hex code: #316879, #F47A60, #7FE7DC, #CED7D8**  
+"This complimentary combination blends the peacefulness of blue-green with little pops of coral passion. An elegant gray rounds out the palette."  
+  
 However, I felt that it wasn't exactly what I needed for my site so I also took elements from the colour schemed used on the [Audley Travel](https://www.audleytravel.com/ie/brazil/tours/in-search-of-the-jaguar) website, as it is one of the sites  
 from which I took inspiration when I first started thinking about how I would approach this project. So I subsituted the gray #CED7D8 from the 99designs colour palette with  
 the lighter gray #DAE0E4 from the Audley Travel site.  Plus I added two additional tones of gray #545454 #343434 to my colour palette, and again I took these from the colour   
