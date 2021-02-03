@@ -8,19 +8,125 @@
     <meta name="author" content="Stephen Johnston">
     <title>Irish Spirit Tours</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />    
 </head>
 <body>
     <header>
-        <!--Bootstrap Navbar and Logo-->
-        <p style="font-family: Lobster">Irish Spirit Tours<p>
-        <p style="font-family: Ibarra+Real+Nova">Irish Spirit Tours<p>
+            <!--Bootstrap Navbar-->
+            <div class="container-fluid container--nav">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="./assets/images/logo.png" width="100" height=100" class="d-inline-block align-top" alt="Irish Spirit Tours Logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="active nav-item mr-3"><a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                            <li class="nav-item mr-3"><a class="nav-link" href="/about">Itinerary</a></li>
+                            <li class="nav-item mr-3"><a class="nav-link" href="/about">Add-on's</a></li>
+                            <li class="nav-item mr-3"><a class="nav-link" href="/about">Gallery</a></li>
+                            <li class="nav-item mr-3"><a class="nav-link" href="/about">Contact Us</a></li>
+                            <li class="nav-item mr-3 d-block d-sm-none"><a class="nav-link" href="#">Get a Quote</a></li>
+                        </ul>
+                    </div>
+                    <div class="d-none d-lg-block">
+                        <a href="#" class="btn">Get a Quote</a>  <!-- Need to create my own class to customise button-->
+                    </div>
+                </nav>
+            </div> 
+
+<!--
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+-->
+
+
+
+        <!--    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="#">Hidden brand</a>
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav> -->
+        
+        
+        
     </header>
     <section>
         <!--First section with brief details of Tour and Add-on's and links to both-->
+        <h1>Irish Spirit Tours</h1>
+        <p>Irish Spirit Tours</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p style="text-align: left;">
+            So why did I include my files at the bottom of the page but the CSS files at the top? Well, remember that when the browser opens our website, it interprets HTML from top to bottom. We want the CSS to be loaded as quickly as possible, so the user doesn't see an unstyled page. So for that reason, we place the CSS files at the top. Conversely, we don't want to prevent the user from seeing the content by including any large JavaScript files that might hold up the process. So for that reason, we place our JavaScript files at the bottom of the page, so they're only processed once all of the HTML and CSS has been loaded by the browser.
+            <br><br>
+            So why did I include my files at the bottom of the page but the CSS files at the top? Well, remember that when the browser opens our website, it interprets HTML from top to bottom. We want the CSS to be loaded as quickly as possible, so the user doesn't see an unstyled page. So for that reason, we place the CSS files at the top. Conversely, we don't want to prevent the user from seeing the content by including any large JavaScript files that might hold up the process. So for that reason, we place our JavaScript files at the bottom of the page, so they're only processed once all of the HTML and CSS has been loaded by the browser.
+            <br>
+            So why did I include my files at the bottom of the page but the CSS files at the top? Well, remember that when the browser opens our website, it interprets HTML from top to bottom. We want the CSS to be loaded as quickly as possible, so the user doesn't see an unstyled page. So for that reason, we place the CSS files at the top. Conversely, we don't want to prevent the user from seeing the content by including any large JavaScript files that might hold up the process. So for that reason, we place our JavaScript files at the bottom of the page, so they're only processed once all of the HTML and CSS has been loaded by the browser.
+            <br><br>
+            So why did I include my files at the bottom of the page but the CSS files at the top? Well, remember that when the browser opens our website, it interprets HTML from top to bottom. We want the CSS to be loaded as quickly as possible, so the user doesn't see an unstyled page. So for that reason, we place the CSS files at the top. Conversely, we don't want to prevent the user from seeing the content by including any large JavaScript files that might hold up the process. So for that reason, we place our JavaScript files at the bottom of the page, so they're only processed once all of the HTML and CSS has been loaded by the browser.
+        </p>
+        <p style="text-align: justify;">
+            So why did I include my files at the bottom of the page but the CSS files at the top? Well, remember that when the browser opens our website, it interprets HTML from top to bottom. We want the CSS to be loaded as quickly as possible, so the user doesn't see an unstyled page. So for that reason, we place the CSS files at the top. Conversely, we don't want to prevent the user from seeing the content by including any large JavaScript files that might hold up the process. So for that reason, we place our JavaScript files at the bottom of the page, so they're only processed once all of the HTML and CSS has been loaded by the browser.
+            <br><br>
+            So why did I include my files at the bottom of the page but the CSS files at the top? Well, remember that when the browser opens our website, it interprets HTML from top to bottom. We want the CSS to be loaded as quickly as possible, so the user doesn't see an unstyled page. So for that reason, we place the CSS files at the top. Conversely, we don't want to prevent the user from seeing the content by including any large JavaScript files that might hold up the process. So for that reason, we place our JavaScript files at the bottom of the page, so they're only processed once all of the HTML and CSS has been loaded by the browser.
+            <br>
+            So why did I include my files at the bottom of the page but the CSS files at the top? Well, remember that when the browser opens our website, it interprets HTML from top to bottom. We want the CSS to be loaded as quickly as possible, so the user doesn't see an unstyled page. So for that reason, we place the CSS files at the top. Conversely, we don't want to prevent the user from seeing the content by including any large JavaScript files that might hold up the process. So for that reason, we place our JavaScript files at the bottom of the page, so they're only processed once all of the HTML and CSS has been loaded by the browser.
+            <br><br>
+            So why did I include my files at the bottom of the page but the CSS files at the top? Well, remember that when the browser opens our website, it interprets HTML from top to bottom. We want the CSS to be loaded as quickly as possible, so the user doesn't see an unstyled page. So for that reason, we place the CSS files at the top. Conversely, we don't want to prevent the user from seeing the content by including any large JavaScript files that might hold up the process. So for that reason, we place our JavaScript files at the bottom of the page, so they're only processed once all of the HTML and CSS has been loaded by the browser.
+        </p>
+        <p style="text-align: right;">
+            So why did I include my files at the bottom of the page but the CSS files at the top? Well, remember that when the browser opens our website, it interprets HTML from top to bottom. We want the CSS to be loaded as quickly as possible, so the user doesn't see an unstyled page. So for that reason, we place the CSS files at the top. Conversely, we don't want to prevent the user from seeing the content by including any large JavaScript files that might hold up the process. So for that reason, we place our JavaScript files at the bottom of the page, so they're only processed once all of the HTML and CSS has been loaded by the browser.
+            <br><br>
+            So why did I include my files at the bottom of the page but the CSS files at the top? Well, remember that when the browser opens our website, it interprets HTML from top to bottom. We want the CSS to be loaded as quickly as possible, so the user doesn't see an unstyled page. So for that reason, we place the CSS files at the top. Conversely, we don't want to prevent the user from seeing the content by including any large JavaScript files that might hold up the process. So for that reason, we place our JavaScript files at the bottom of the page, so they're only processed once all of the HTML and CSS has been loaded by the browser.
+            <br>
+            So why did I include my files at the bottom of the page but the CSS files at the top? Well, remember that when the browser opens our website, it interprets HTML from top to bottom. We want the CSS to be loaded as quickly as possible, so the user doesn't see an unstyled page. So for that reason, we place the CSS files at the top. Conversely, we don't want to prevent the user from seeing the content by including any large JavaScript files that might hold up the process. So for that reason, we place our JavaScript files at the bottom of the page, so they're only processed once all of the HTML and CSS has been loaded by the browser.
+            <br><br>
+            So why did I include my files at the bottom of the page but the CSS files at the top? Well, remember that when the browser opens our website, it interprets HTML from top to bottom. We want the CSS to be loaded as quickly as possible, so the user doesn't see an unstyled page. So for that reason, we place the CSS files at the top. Conversely, we don't want to prevent the user from seeing the content by including any large JavaScript files that might hold up the process. So for that reason, we place our JavaScript files at the bottom of the page, so they're only processed once all of the HTML and CSS has been loaded by the browser.
+        </p>        
+
+
     </section>
     <section>
         <!--Second section with Bootstrap carousel for Testimonials-->
@@ -29,5 +135,8 @@
         <!--Newsletter & Social Media links-->
         <!--Plus a Modal with the cookie policy on this page only-->
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

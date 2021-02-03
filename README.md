@@ -270,6 +270,17 @@ the desktop view and I'm satisfied it works.
 
 # Credits  
 
+
+.container--nav{
+    font-family: 'Merienda+One', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #316879;  /* Credit to: https://www.geeksforgeeks.org/how-to-change-navigation-bar-color-in-bootstrap/ */
+}
+Helped me realise that I just needed to take out the bootstrap class bg-dark instead of trying to override it.
+
+
 https://careerfoundry.com/en/blog/ux-design/a-beginners-guide-to-information-architecture/  
 https://color.adobe.com/create/color-wheel  
 https://www.canva.com/colors/color-wheel/  

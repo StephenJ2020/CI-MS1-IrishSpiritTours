@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* body{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-align: center;
+} */
+
+h1{
+    font-family: 'Merienda+One', cursive;
+}
+
+/* ********************************* Containers */
+
+.container--nav{
+    font-family: 'Merienda+One', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #316879;  /* Credit to: https://www.geeksforgeeks.org/how-to-change-navigation-bar-color-in-bootstrap/ */
+}
+
+
