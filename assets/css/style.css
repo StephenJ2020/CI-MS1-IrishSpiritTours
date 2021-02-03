@@ -11,6 +11,9 @@ h1{
     font-family: 'Merienda+One', cursive;
 }
 
+/* ******************************************************** Header Section */
+/* *********************************************************************** */
+
 /* ********************************* Containers */
 
 .container--nav{
@@ -18,7 +21,13 @@ h1{
     font-size: 25px;
     font-weight: bold;
     color: #fff;
+    position: fixed;
     background-color: #316879;  /* Credit to: https://www.geeksforgeeks.org/how-to-change-navigation-bar-color-in-bootstrap/ */
 }
 
+/* ********************************* Hero Image */
 
+.hero-image-home{
+    height: 70vh;
+    background: url('/assets/images/big-grill-wide4.png') center center / cover no-repeat fixed;
+}
