@@ -276,10 +276,16 @@ the desktop view and I'm satisfied it works.
     font-size: 25px;
     font-weight: bold;
     color: #fff;
+    position: fixed;
+    z-index: 999;                  /*Credit to: https://stackoverflow.com/questions/23287610/my-fixed-navbar-doesnt-work-properly*/
     background-color: #316879;  /* Credit to: https://www.geeksforgeeks.org/how-to-change-navigation-bar-color-in-bootstrap/ */
+    border-bottom-style: ridge;
 }
 Helped me realise that I just needed to take out the bootstrap class bg-dark instead of trying to override it.
+Helped me solve text and div's scrolling over my navbar rather than behind my navbar as intended.
 
+
+taste.jpg https://secretldn.com/sample-capitals-finest-food-taste-london-festival/
 
 https://careerfoundry.com/en/blog/ux-design/a-beginners-guide-to-information-architecture/  
 https://color.adobe.com/create/color-wheel  

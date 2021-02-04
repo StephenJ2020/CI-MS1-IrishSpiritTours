@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-/* body{
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
-    font-size: 1.25rem;
-    text-align: center;
-} */
+body{
+    font-family: 'Quicksand', sans-serif;    /* Do I actually need this here???*/
+    font-weight: 400;     /* Do I actually need this here???*/
+    font-size: 1.25rem;   /* Do I actually need this here???*/
+    text-align: justify;  /* Do I actually need this here???*/
+    background-color: #fff;
+} 
 
 h1{
     font-family: 'Merienda+One', cursive;
@@ -22,12 +23,54 @@ h1{
     font-weight: bold;
     color: #fff;
     position: fixed;
+    z-index: 999;                  /*Credit to: https://stackoverflow.com/questions/23287610/my-fixed-navbar-doesnt-work-properly*/
     background-color: #316879;  /* Credit to: https://www.geeksforgeeks.org/how-to-change-navigation-bar-color-in-bootstrap/ */
+    border-bottom-style: ridge;
 }
 
 /* ********************************* Hero Image */
 
 .hero-image-home{
-    height: 70vh;
-    background: url('/assets/images/big-grill-wide4.png') center center / cover no-repeat fixed;
+    height: 80vh;
+    background: url('/assets/images/taste.jpg') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
 }
+
+
+
+/* ******************************************************** Main Sections */
+/* *********************************************************************** */
+
+/* ********************************* containers */
+
+.block--container--white{
+    width: 100%;
+    height: 300px;
+    padding: 50px 0px;
+    border-top-style: ridge;
+    background-color: #fff;
+}
+
+.block--container--blue{
+    width: 100%;
+    height: 500px;
+    background-color: #7fe7dc;
+}
+
+.inner--container--one{
+    max-width: 85%;
+    height: 375;
+    align-self: center;
+    padding: 0 30px;
+    background-color: pink;
+    
+}
+
+.inner--container--two{
+    width: auto;
+    height: 440px;
+    padding: 0 30px;
+    background-color: rgb(72, 91, 199);
+}
+
+/* ************************************** boxes */
+
