@@ -52,24 +52,34 @@ h1{
 
 .block--container--blue{
     width: 100%;
-    height: 500px;
-    background-color: #7fe7dc;
+    height: 483px;
+    padding: 50px 0;
+    border-bottom-style: ridge;
+    background-color: #7FE7DC;
 }
 
+
+
 .inner--container--one{
-    max-width: 85%;
-    height: 375;
+    max-width: 90%;
+    height: 450;
     align-self: center;
-    padding: 0 30px;
+    padding: 30px 30px;
     background-color: pink;
     
 }
 
 .inner--container--two{
-    width: auto;
+    max-width: 85%;
     height: 440px;
-    padding: 0 30px;
-    background-color: rgb(72, 91, 199);
+    padding: 30px;
+}
+
+.inner--container--three{
+    max-width: 90%;
+    height: 380px;
+    padding: 50px 30px;
+    background-color: #fff;
 }
 
 /* ************************************** boxes */
