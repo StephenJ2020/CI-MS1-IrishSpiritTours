@@ -10,10 +10,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />    
 </head>
+
 <body>
+    <!-- Header with site logo, navbar and hero image -->
     <header>
-        <!--Bootstrap Navbar-->
         <div class="container-fluid container--nav">
+            <!-- Navbar code adpated from Bootstrap https://getbootstrap.com/docs/4.0/components/navbar A combination of #brand & #nav -->
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <a class="navbar-brand" href="index.html">
                     <img src="./assets/images/logo.png" width="100" height=100" class="d-inline-block align-top" alt="Irish Spirit Tours Logo">
@@ -39,67 +41,78 @@
             <!--Hero Image specified in style.css-->
         </div>        
     </header>
-    <section class="block--container--white"> <!--First section with brief details of Tour and Add-on's and links to both-->
-        <div class="container-fluid ">
-            <div class="row d-flex justify-content-center">
-                <div class="col-12  inner--container--one">
-                    <p>
-                        So why did I include my files at the bottom of the page but the CSS files at the top? Well, remember that when the browser opens our website, it interprets HTML from top to 
-                        bottom. We want the CSS to be loaded as quickly as possible, so the user doesn't see an unstyled page. So for that reason, we place the CSS files at the top. Conversely, we don't 
-                        dsfsfsdfsaa gggggggggggggggggg dsddddddddddddddddd sssssssssssssssssssssssssssshh hhhhhhhhhhhhhhhhh ffffffffffs ssssssssssss ggggggg eeeeeeeeeeeeeee zzxxxxxxxxxfvd
-                    </p>
-                </div> 
+    <!-- End of Header -->  
+
+    <!-- An article containing 3 sections -->
+    <article class="container">   <!--Bootstrap .container class-->
+        <!-- Intro Quote-->
+        <section class="intro--quote">
+            <h1>A Cultural Tour of Ireland's Ancient East</h1>
+            <p>This 7 night tour features some of the finest local food producers, craft breweries and distilleries that Ireland has to offer!</p>
+        </section>
+        <!-- End of Intro Quote Section-->
+
+        <!-- Package Options-->
+        <section class="package--options">
+            <!-- Background Img, Header, description, button -->
+            <h2 class="text-uppercase">Packages</h2>
+            <div class="package--option package--itin">
+                <!--Add Background Img newgreange.jpg -->
+                <h3 class="text-uppercase">The Standard Package</h3>
+                <p>There's nothing standard about our Standard Package other than the name!</p>
+                <p>A lot of thought, planning and attention to detail has gone into this 7 night tour to ensure that you get the most out of this experience.</p>
+                <button>See Tour Itinerary</button>
             </div>
-        </div>   
-    </section> <!--END of .first--section -->
-    <section class="block--container--blue">
-        <div class="container">
-            <div class="row container-fluid d-flex align-self-center justify-content-between">
-                <div class="col-md-6 inner--container--three">
-                    <p>
-                        So why did I include my files at the bottom of the page but the CSS files at the top? Well, remember that when the browser opens our website, it interprets HTML from top to 
-                        bottom. We want the CSS to be loaded as quickly as possible, so the user doesn't see an unstyled page. So for that reason, we place the CSS files at the top. Conversely, we don't 
-                    </p>
-                </div>
-                <div class="col-md-6 inner--container--three">
-                    <p>
-                        So why did I include my files at the bottom of the page but the CSS files at the top? Well, remember that when the browser opens our website, it interprets HTML from top to 
-                        bottom. We want the CSS to be loaded as quickly as possible, so the user doesn't see an unstyled page. So for that reason, we place the CSS files at the top. Conversely, we don't 
-                    </p>
-                </div> 
+            <div class="package--option package--addon">
+                <!--Add Background Img 3arena.jpg -->
+                <h3 class="text-uppercase">Customise Your Tour</h3>
+                <p>We all want a little more and that's not a bad thing!</p>
+                <p>Our Standard Package really does cover all the essentials and more, but if there is a particular experience that is on your bucket-list then let us make it happen for you.</p>
+                <button>See Options</button>
             </div>
-        </div>           
-    </section>   <!--END of .second--section -->
-    <section>
-        <!--section with Bootstrap carousel for Testimonials-->
-        <div class="container-fluid block--container--gray">
-            <div class="row">
-                <div class="col-12 container inner--container--four">
-                    <p>
-                        So why did I include my files at the bottom of the page but the CSS files at the top? Well, remember that when the browser opens our website, it interprets HTML from top to 
-                        bottom. We want the CSS to be loaded as quickly as possible, so the user doesn't see an unstyled page. So for that reason, we place the CSS files at the top. Conversely, we don't 
-                        dsfsfsdfsaa gggggggggggggggggg dsddddddddddddddddd sssssssssssssssssssssssssssshh
-                    </p>
-                </div> 
+        </section>
+        <!-- End of Package Options Section-->
+
+        <!-- Testimonials-->
+        <section class="testimonials">
+            <h2>Client Recommendations</h2>
+            <!-- Add in Bootstrap Carousel or Cards -->
+            <div class="testimonial">
+                <!-- Add in Photo of Rob -->
+                <h3>Rob - From London</h3>
+                <p>
+                    My girlfriend and I really enjoyed the tour, it has the perfect blend of Food, Culture & Craft Beer (and a few other very tasty local spirits! haha) 
+                    Plus we took the option to extend our tour at the end to see a little more of Dublin and we were lucky enough that our dates coincided the Trinity
+                    Summer Series of outdoor concerts - What a wonderful city centre venue for outdoor concerts!
+                </p>
             </div>
-        </div>   
-    </section><!--END of .third--section -->
+            <div class="testimonial">
+                <!-- Add in Photo of Renate -->
+                <h3>Renate - From Sao Paulo</h3>
+                <p>
+                    Thank you Irish Spirit Tours for making my first trip to Ireland a turly magical experience - I will definitely be back again!
+                    The tour is great and you visit so many beautiful places and I was surprised how much I really loved the food here (maybe I shouldn't say that but it's true). 
+                    Plus I was so happy to meet many lovely people from many parts of Europe, we were all different ages but everyone was so friendly happy.
+
+                </p>
+            </div>
+            <div class="testimonial">
+                <!-- Add in Photo of Hans -->
+                <h3>Rob - From Cologne</h3>
+                <p>
+                    I have been to Ireland before with work but this was my first holiday here. My work colleagues recommended I get out of the city and experience "real Ireland"
+                    and I'm glad I did as that is exactly what my friends and I got on this tour. We are also very impressed with the quality of the local Breweries and distilleries
+                    here. I highly recommend the Whiskey from the Slane Distillery, I brought a bottle home with me!
+                </p>
+            </div>
+        </section>
+    </article>
     <footer>
-        <!--Newsletter & Social Media links-->
-        <!--Plus a Modal with the cookie policy on this page only-->
-        <div class="container-fluid block--container--footer">
-            <div class="row">
-                <div class="col-12 container inner--container--three">
-                    <p>
-                        So why did I include my files at the bottom of the page but the CSS files at the top? Well, remember that when the browser opens our website, it interprets HTML from top to 
-                        bottom. We want the CSS to be loaded as quickly as possible, so the user doesn't see an unstyled page. So for that reason, we place the CSS files at the top. Conversely, we don't 
-                    </p>
-                </div> 
-            </div>
-        </div>   
+
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
+

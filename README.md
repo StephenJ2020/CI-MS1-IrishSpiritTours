@@ -286,6 +286,9 @@ Helped me solve text and div's scrolling over my navbar rather than behind my na
 
 
 taste.jpg https://secretldn.com/sample-capitals-finest-food-taste-london-festival/
+newgrange-sunrise.jpg https://edition.cnn.com/travel/article/newgrange-ireland-stone-age/index.html
+trim-castle-hotel-dinner.jpg https://www.thetaste.ie/product/trim-castle-hotel-overnight-offer-thetaste-june18/
+3arena.jpg https://www.thegibsonhotel.ie/hotel-near-3arena/
 
 https://careerfoundry.com/en/blog/ux-design/a-beginners-guide-to-information-architecture/  
 https://color.adobe.com/create/color-wheel  
