@@ -39,11 +39,10 @@
             <!--Hero Image specified in style.css-->
         </div>        
     </header>
-    <section>
-        <!--First section with brief details of Tour and Add-on's and links to both-->
-        <div class="container-fluid block--container--white">
-            <div class="row">
-                <div class="col-12 container inner--container--one">
+    <section class="block--container--white"> <!--First section with brief details of Tour and Add-on's and links to both-->
+        <div class="container-fluid ">
+            <div class="row d-flex justify-content-center">
+                <div class="col-12  inner--container--one">
                     <p>
                         So why did I include my files at the bottom of the page but the CSS files at the top? Well, remember that when the browser opens our website, it interprets HTML from top to 
                         bottom. We want the CSS to be loaded as quickly as possible, so the user doesn't see an unstyled page. So for that reason, we place the CSS files at the top. Conversely, we don't 
@@ -51,10 +50,44 @@
                     </p>
                 </div> 
             </div>
-        </div>   <!--END of .first--section -->
-
-
-        <div class="container-fluid block--container--blue">
+        </div>   
+    </section> <!--END of .first--section -->
+    <section class="block--container--blue">
+        <div class="container">
+            <div class="row container-fluid d-flex align-self-center justify-content-between">
+                <div class="col-md-6 inner--container--three">
+                    <p>
+                        So why did I include my files at the bottom of the page but the CSS files at the top? Well, remember that when the browser opens our website, it interprets HTML from top to 
+                        bottom. We want the CSS to be loaded as quickly as possible, so the user doesn't see an unstyled page. So for that reason, we place the CSS files at the top. Conversely, we don't 
+                    </p>
+                </div>
+                <div class="col-md-6 inner--container--three">
+                    <p>
+                        So why did I include my files at the bottom of the page but the CSS files at the top? Well, remember that when the browser opens our website, it interprets HTML from top to 
+                        bottom. We want the CSS to be loaded as quickly as possible, so the user doesn't see an unstyled page. So for that reason, we place the CSS files at the top. Conversely, we don't 
+                    </p>
+                </div> 
+            </div>
+        </div>           
+    </section>   <!--END of .second--section -->
+    <section>
+        <!--section with Bootstrap carousel for Testimonials-->
+        <div class="container-fluid block--container--gray">
+            <div class="row">
+                <div class="col-12 container inner--container--four">
+                    <p>
+                        So why did I include my files at the bottom of the page but the CSS files at the top? Well, remember that when the browser opens our website, it interprets HTML from top to 
+                        bottom. We want the CSS to be loaded as quickly as possible, so the user doesn't see an unstyled page. So for that reason, we place the CSS files at the top. Conversely, we don't 
+                        dsfsfsdfsaa gggggggggggggggggg dsddddddddddddddddd sssssssssssssssssssssssssssshh
+                    </p>
+                </div> 
+            </div>
+        </div>   
+    </section><!--END of .third--section -->
+    <footer>
+        <!--Newsletter & Social Media links-->
+        <!--Plus a Modal with the cookie policy on this page only-->
+        <div class="container-fluid block--container--footer">
             <div class="row">
                 <div class="col-12 container inner--container--three">
                     <p>
@@ -63,20 +96,7 @@
                     </p>
                 </div> 
             </div>
-        </div>   <!--END of .first--section -->
-
-
-
-
-
-        
-    </section>
-    <section>
-        <!--Second section with Bootstrap carousel for Testimonials-->
-    </section>
-    <footer>
-        <!--Newsletter & Social Media links-->
-        <!--Plus a Modal with the cookie policy on this page only-->
+        </div>   
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
