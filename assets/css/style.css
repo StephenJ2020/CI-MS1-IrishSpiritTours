@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
- 
-
 /* 'Merienda+One', cursive; */
 /* 'Quicksand', sans-serif; */
+
+ body{
+     font-family: 'Quicksand', sans-serif;
+     font-weight: 500;
+ } 
+
+
 
 
 /* ******************************************************** Header Section */
@@ -27,6 +32,9 @@
 .hero-image-home{
     height: 80vh;
     background: url('/assets/images/taste.jpg') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 
@@ -36,6 +44,17 @@
 
 /* ********************************* Intro Quote Section */
 
+.intro--quote--container{
+    max-width: 100%;
+    margin: auto;
+    min-height: 19rem;
+    max-height: fit-content;
+    padding: 20px 0px;
+    text-align: center;
+    border-top-style: ridge;
+    background-color: #fff;
+}
+
 .intro--quote{}
 
 
@@ -43,6 +62,15 @@
 
 
 /* ********************************* Package Options Section */
+
+.package--container{
+    max-width: 100%;
+    min-height: 31rem;
+    max-height: fit-content;
+    margin: auto;
+    border-bottom-style: ridge;
+    background-color: #7FE7DC;
+}
 
 .package--options{}
 
@@ -55,12 +83,26 @@
 
 /* ********************************* Testimonials Section */
 
+.testimonial--container{}
+
 .testimonials{}
 
 .testimonial{}
 
 
-/* ********************************* Testimonials Section */
+
+/* ******************************************************** Footer Section */
+/* *********************************************************************** */
+
+.footer--container{
+    max-width: 100%;
+    margin: auto;
+    height: 350x;
+    padding: 50px 0;
+    background-color: #343434;
+}
+
+
 
 
 
@@ -138,6 +180,4 @@
     background-color:  rgba(218, 224, 228, 0.50);
 }
 
-/* ******************************************************** Footer Section */
-/* *********************************************************************** */
 

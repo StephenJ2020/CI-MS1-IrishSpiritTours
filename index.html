@@ -47,20 +47,25 @@
     <!-- End of Header -->  
 
     <!-- An article containing 3 sections -->
-    <article class="container">   <!--Bootstrap .container class-->
+    <div class="container-fluid intro--quote--container">   <!--Bootstrap .container class-->
         <!-- Intro Quote-->
         <div class="row">
-            <div class="col-12 my-5">
+            <div class="col-12 ml-1 mr-1 my-3">
                 <section class="intro--quote">
-                    <h1>A Cultural Tour of Ireland's Ancient East</h1>
-                    <p class="lead">This 7 night tour features some of the finest local food producers, craft breweries and distilleries that Ireland has to offer!</p>
+                    <h1><strong>Cultural Tour of Ireland's Ancient East</strong></h1>
+                    <p class="lead">
+                        <strong>
+                            This 7 night tour features some of the finest local food producers, craft breweries and distilleries that Ireland has to offer!</p>
+                        </strong>
                     <button class="btn btn-info">Get A Quote</button>
                 </section>
             </div>
         </div>
-        <!-- End of Intro Quote Section-->
+    </div>
+    <!-- End of Intro Quote Section-->
        
-        <!-- Package Options-->
+    <!-- Package Options-->
+    <div class="container package--container pl-1 pr-1 pl-md-5 pr-md-5 pl-lg-15 pr-lg-15">
         <section class="package--options">
             <!-- Background Img, Header, description, button -->
             <div class="row">
@@ -89,9 +94,11 @@
                 </div>
             </div>
         </section>
-        <!-- End of Package Options Section-->
+    </div>
+    <!-- End of Package Options Section-->
 
-        <!-- Testimonials-->
+    <!-- Testimonials-->
+    <div class="container testimonial--container">
         <section class="testimonials">
             <div class="row">
                 <div class="col-12 my-4">
@@ -136,16 +143,37 @@
                 </div>    
             </div>
         </section>
+    </div>
+    <!-- End of Testimonial Section-->
     
-        <!-- Start of Footer-->
+    <!-- Start of Footer Container-->
+    <div class="container footer--container">
         <footer>
             <!-- Newsletter Form-->
             <div class="row">
-                <div class="col-12 col-md-9 offset-md-3 my-4">
+                <div class="col-12 col-lg-10 offset-lg-2 my-4">
                     <h3 class="text-uppercase"><i class="far fa-newspaper"></i> Newsletter</h2>
                     <p>
                         For all the latest tour updates, special events and promotional <strong>Discounts</strong>, Subcribe to our Newsletter!
                     </p>
+
+                    <!-- Form code adapted from https://getbootstrap.com/docs/4.0/components/forms/ -->
+                    <form>
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                    </div>     
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>                 
+                    <button type="submit" class="btn btn-info">Subscribe</button>
+                    </form>
                     
                 </div>
             </div>
@@ -182,7 +210,8 @@
                 </div>
             </div>
         </footer>
-    </article>
+    </div>
+    <!-- End of Footer Container-->
 
     <!-- Modal code adapted from https://getbootstrap.com/docs/4.0/components/modal/ -->
     <div class="modal" tabindex="-1" role="dialog" id="Cookie--policy--modal">
@@ -201,7 +230,7 @@
                 <form class="form-inline">
                 <div class="form-check form-check-inline">
                 <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" checked disabled>
-                <label class="form-check-label" for="inlineCheckbox1">Necessary (disabled)</label>
+                <label class="form-check-label" for="inlineCheckbox1">Necessary</label>
                 </div>
                 <div class="form-check form-check-inline">
                 <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
