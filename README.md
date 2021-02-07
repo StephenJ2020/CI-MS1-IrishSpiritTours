@@ -284,6 +284,8 @@ the desktop view and I'm satisfied it works.
 Helped me realise that I just needed to take out the bootstrap class bg-dark instead of trying to override it.
 Helped me solve text and div's scrolling over my navbar rather than behind my navbar as intended.
 
+Help me auto-launch modal for Cookie Policy on index.html load   https://www.tutorialrepublic.com/faq/how-to-launch-bootstrap-modal-on-page-load.php#:~:text=You%20can%20use%20the%20Bootstrap,to%20subscribe%20the%20website%20newsletter.
+https://www.tutorialrepublic.com/faq/how-to-prevent-bootstrap-modal-from-closing-when-clicking-outside.php
 
 taste.jpg https://secretldn.com/sample-capitals-finest-food-taste-london-festival/
 newgrange-sunrise.jpg https://edition.cnn.com/travel/article/newgrange-ireland-stone-age/index.html
