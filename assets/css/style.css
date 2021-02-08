@@ -112,9 +112,25 @@
     max-height: fit-content;
 } */
 
-.package--itin{}
+.package--itin{
+    width: 100%;
+    height: 200px;
+    border-radius: 22px;
+    background: url('/assets/images/newgrange-sunrise.png') center center / cover no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
 
-.package--addon{}
+.package--addon{
+    width: 100%;
+    height: 200px;
+    border-radius: 22px;
+    background: url('/assets/images/3arena.jpg') center center / cover no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
 
 
 /* ********************************* Testimonials Section */
