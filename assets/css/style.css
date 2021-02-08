@@ -147,10 +147,11 @@
 /* *********************************************************************** */
 
 .footer--container{
+    color: #fff;
     max-width: 100%;
-    margin: auto;
-    height: 350x;
-    padding: 50px 0;
+    margin: 2px 2px;
+    height: fit-content;
+    padding: 0;
     background-color: #343434;
 }
 
