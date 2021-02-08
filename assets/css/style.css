@@ -73,6 +73,10 @@
 
 .intro--quote{}
 
+.intro--quote h1{
+    font-family: 'Merienda+One', cursive;
+}
+
 
 
 
@@ -88,9 +92,25 @@
     background-color: #7FE7DC;
 }
 
-.package--options{}
+.package--options{
+    text-align: center;
+    color: #F47A60;
+    font-weight: 900;
+}
 
-.package--option{}
+.package--option{
+    max-width: 97%;
+    min-height: fit-content;
+    max-height: fit-content;
+    border-radius: 22px;
+    background-color: #ffffff;
+}
+
+/*
+.package--options .package--option{
+    min-height: 5rems;
+    max-height: fit-content;
+} */
 
 .package--itin{}
 
