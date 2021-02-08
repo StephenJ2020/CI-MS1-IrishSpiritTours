@@ -23,14 +23,30 @@
     color: #fff;
     position: fixed;
     z-index: 999;                  /*Credit to: https://stackoverflow.com/questions/23287610/my-fixed-navbar-doesnt-work-properly*/
-    background-color: #316879;  /* Credit to: https://www.geeksforgeeks.org/how-to-change-navigation-bar-color-in-bootstrap/ */
+    background-color: #35798e;  /* Credit to: https://www.geeksforgeeks.org/how-to-change-navigation-bar-color-in-bootstrap/ */   /*Original Colour #316879*/
     border-bottom-style: ridge;
 }
+
+/* ********************************* Navbar */
+
+.navbar{
+    padding: 0;
+}
+
+.navbar-brand{
+    padding: 0;
+}
+.navbar-toggler{
+    border-style: none;
+}
+
+
+
 
 /* ********************************* Hero Image */
 
 .hero-image-home{
-    height: 80vh;
+    height: 75vh;
     background: url('/assets/images/taste.jpg') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -104,9 +120,23 @@
 
 
 
+/* ******************************************************** Buttons */
+/* *********************************************************************** */
 
+.btn-styling{
+    font-weight: bold;
+    color: #fff;
+    background-color: #F47A60;
+    border-radius: 22px;
+}
 
-
+.btn-modal-close{
+    font-weight: bold;
+    color: #fff;
+    border: #252525 1px solid;
+    background-color: #7FE7DC;
+    border-radius: 22px;
+}
 
 
 /* ******************************************************** Media Queries */

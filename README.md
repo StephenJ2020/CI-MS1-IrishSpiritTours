@@ -253,6 +253,9 @@ In order to test my colour palette prior to starting to code I've created a part
 the desktop view and I'm satisfied it works.  
 ![](./assets/images/wireframe-mockup.png)  
   
+Having started to apply the styling to the site I feel that the dark blue ![#316879](https://placehold.it/20/316879/316879) `#316879` is not contrasting enough with the rest of the colour palette  
+so I have amended to a slightly lighter blue ![#35798e](https://placehold.it/20/35798e/35798e) `#35798e`  
+  
 # Technologies  
 (Rough bullet points to be expanded upon)  
 * HMTL  
