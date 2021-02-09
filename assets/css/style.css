@@ -217,9 +217,9 @@
 /* *****************https://bootsnipp.com/snippets/BxA1B ***************** */
  
 .cta-100 {
-  margin-top: 100px;
-  padding-left: 8%;
-  padding-top: 7%;
+  margin-top: 20px;  /* was 100px */
+  padding-left: 2%;  /* was 08% */
+  padding-top: 2%;   /* was 07% */
 }
 .col-md-4{
     padding-bottom:20px;
@@ -237,7 +237,7 @@
 /* figure img{width:300px;} */
 
 #blogCarousel {
-  padding-bottom: 100px;
+  padding-bottom: 50px;  /* Reduced from 100px */
 }
 
 .blog .carousel-indicators {
