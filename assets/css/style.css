@@ -47,7 +47,7 @@
 
 .hero-image-home{
     height: 75vh;
-    background: url('/assets/images/taste.jpg') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
+    background: url('../images/taste.jpg') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -116,7 +116,7 @@
     width: 100%;
     height: 200px;
     border-radius: 22px;
-    background: url('/assets/images/newgrange-sunrise.png') center center / cover no-repeat; 
+    background: url('../images/newgrange-sunrise.png') center center / cover no-repeat; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -126,7 +126,7 @@
     width: 100%;
     height: 200px;
     border-radius: 22px;
-    background: url('/assets/images/3arena.jpg') center center / cover no-repeat; 
+    background: url('../images/3arena.jpg') center center / cover no-repeat; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -155,20 +155,20 @@
 }
 
 #circle-cover-rob{    /* Modified ID name */
-  background: url(/assets/images/rob.png) no-repeat center center;
+  background: url('../images/rob.png') no-repeat center center;
   height: 100%;
   border-radius: 50%;
 }
         /* End of Code snippet from Love Running mini-project */
 
 #circle-cover-renate{
-  background: url(/assets/images/renate.png) no-repeat center center;
+  background: url('../images/renate.png') no-repeat center center;
   height: 100%;
   border-radius: 50%;
 }       
 
 #circle-cover-hans{
-  background: url(/assets/images/hans.png) no-repeat center center;
+  background: url('../images/hans.png') no-repeat center center;
   height: 100%;
   border-radius: 50%;
 }    
