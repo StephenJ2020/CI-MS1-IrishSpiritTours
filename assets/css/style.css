@@ -146,12 +146,12 @@
 #circle-container{
   width: 300px;
   height: 300px;
-  padding: 15px;
+  padding: 15px;                /* Reduced from 30px */
   border-style: solid;
-  border-color: #7FE7DC;
-  border-width: 2px;
-  border-radius: 50%;
-  margin: 0 auto;
+  border-color: #7FE7DC;      /* Changed to my colour palette*/
+  border-width: 2px;            /* Increased from 1px */
+  border-radius: 50%;           /* Added top and bottom margin, was set to 0 */
+  margin: 10px auto;
 }
 
 #circle-cover-rob{    /* Modified ID name */
@@ -231,7 +231,7 @@
 
 .mt{float: left;margin-top: -20px;padding-top: 20px;}
 .bg-blue-ui {
-  background-color: #545454 !important;     /* Updated with my colour palette*/
+  background-color: #35798e !important;     /* Updated with my colour palette*/ /* Backgound colour of review date*/
 } 
 
 /* figure img{width:300px;} */
@@ -269,7 +269,7 @@
 }
 
 .item-box-blog {
-  border: 1px solid #545454;     /* Updated with gray from my colour palette */
+  border: 1px solid #35798e;     /* Updated with gray from my colour palette */
   text-align: justify;
   z-index: 4;
   padding: 20px;
@@ -284,14 +284,14 @@
   height: auto;
 } */
 
-/* .item-box-blog-date {
+.item-box-blog-date {
   position: absolute;
   z-index: 5;
   padding: 4px 20px;
   top: -20px;
   right: 8px;
   background-color: #41cb52;
-} */
+} 
 
 /* .item-box-blog-date span {
   color: #fff;
@@ -316,7 +316,7 @@
   margin: 0;
   line-height: 1;
   text-decoration:none;
-  transition: color 0.3s;
+  transition: color 0.9s;   /* Was 0.3s but have increased while I work on the styling. Will need to be reduced again later!!! */
 }
 
 .item-box-blog-heading a {
