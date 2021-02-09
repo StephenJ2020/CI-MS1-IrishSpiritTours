@@ -132,7 +132,7 @@ as he can indulge his passion for craft beer and there's plenty of history and c
 Renate is a strong independent career focused woman who works for a U.S. multi-national in Sao Paulo and she loves to travel as much as possible. Her favourite program is Game of  
 Thrones and her all time favourite film is Braveheart.  For many years she has dreamed of travelling to Europe and in particular Ireland, ever since she realised that Braveheart   
 was filmed here.  Renate loves meeting new people and experiencing new cultures and is quite happy to travel by herself but she does prefer to join up with a local tour group once  
-she arrives in her destination as she finds this is the best way to meet like-minded people.
+she arrives in her destination as she finds this is the best way to meet like-minded people.  https://unsplash.com/photos/D6IZR-YsDYw
 
 ### ***Hans - Aged 52 - From Colonge***  
 Hans is somewhat of your sterotypical German, he loves beer and is partial to a good Whiskey. He has a beer belly but he says this just shows that he appreciates the finer things  
@@ -140,7 +140,7 @@ in life.  When it comes to beer Hans doesn't talk about craft beer, he talks abo
 married for 31 years and has two grown-up children.  While Hans and his wife go on holiday together every year they both like to get away separately every other year with a small  
 group of their closest friends.  Hans has been to Ireland a number of times before with his work and loves the atmophere and the laid-back nature of the Irish people he has met.  
 When a friend of Hans mentions that he has never been to Ireland but he has read alot recently about the many new mrico-breweries and a resurgence in Irish Distilleries they decide  
-that Ireland should be the destination for their next short break.
+that Ireland should be the destination for their next short break.   https://unsplash.com/photos/6anudmpILw4
 <br>
 <br>
 
