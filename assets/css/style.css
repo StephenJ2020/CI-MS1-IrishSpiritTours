@@ -97,6 +97,7 @@
     color: #F47A60;
     font-weight: 900;
     margin-top: 20px;
+    border: #fff 8px solid;
 }
 
 .package--option{
@@ -108,12 +109,19 @@
 }
 
 .package--options{
-    height: 15vh;
-    background-blend-mode: overlay;
-    background: url('../images/package-background.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
+    height: 16vh;    
+    background: url('../images/taste.jpg') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+
+}
+
+.package--options h2{
+    text-shadow: 2px 2px #35798e;
+    font-weight: 900;
+    padding-bottom: 5px;
+    background: rgba(236, 231, 231, 0.4);
 }
 
 .package--itin{
