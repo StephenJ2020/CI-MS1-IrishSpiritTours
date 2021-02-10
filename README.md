@@ -295,6 +295,9 @@ newgrange-sunrise.jpg https://edition.cnn.com/travel/article/newgrange-ireland-s
 trim-castle-hotel-dinner.jpg https://www.thetaste.ie/product/trim-castle-hotel-overnight-offer-thetaste-june18/
 3arena.jpg https://www.thegibsonhotel.ie/hotel-near-3arena/
 
+William https://www.rawpixel.com/image/2038195/businessman-with-phone
+
+
 https://careerfoundry.com/en/blog/ux-design/a-beginners-guide-to-information-architecture/  
 https://color.adobe.com/create/color-wheel  
 https://www.canva.com/colors/color-wheel/  
