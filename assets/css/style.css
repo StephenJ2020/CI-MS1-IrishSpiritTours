@@ -107,11 +107,14 @@
     background-color: #ffffff;
 }
 
-/*
-.package--options .package--option{
-    min-height: 5rems;
-    max-height: fit-content;
-} */
+.package--options{
+    height: 15vh;
+    background-blend-mode: overlay;
+    background: url('../images/package-background.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
 
 .package--itin{
     width: 100%;
@@ -143,6 +146,7 @@
     font-weight: bold;
     color: #F47A60;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .testimonial{}
@@ -203,7 +207,7 @@
  
 .cta-100 {
   margin-top: 20px;  /* was 100px */
-  padding-left: 2%;  /* was 08% */
+  /* padding-left: 0.5%;   was 08% */
   padding-top: 2%;   /* was 07% */
 }
 .col-md-4{
