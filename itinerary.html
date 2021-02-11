@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A cultural, Food & Craft Spirits tour of Ireland's Ancient East">
+    <meta name="keywords" content="heritage, culture, locally produced, craft breweries, irish distilleries">
+    <meta name="author" content="Stephen Johnston">
+    <title>Irish Spirit Tours</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />   
+   
+    
+</head>
+
+<body>
+    <!-- Header with site logo, navbar and hero image -->
+    <header>
+        <div class="container-fluid container--nav">
+            <!-- Navbar code adpated from Bootstrap https://getbootstrap.com/docs/4.0/components/navbar A combination of #brand & #nav -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./assets/images/logo.png" width="100px" height="100px" class="d-inline-block align-top" alt="Irish Spirit Tours Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mr-3"><a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                        <li class="active nav-item mr-3"><a class="nav-link" href="itinerary.html">Itinerary</a></li>      
+                        <li class="nav-item mr-3"><a class="nav-link" href="/about">Add-on's</a></li>       <!--Do I need to add aria-label="Go to Add-on's section" ????-->
+                        <li class="nav-item mr-3"><a class="nav-link" href="/about">Gallery</a></li>
+                        <li class="nav-item mr-3"><a class="nav-link" href="/about">Contact Us</a></li>
+                        <li class="nav-item mr-3 d-none"><button class="btn btn-info btn-styling"><a class="nav-link" href="#">Get a Quote</a></button></li>
+                    </ul>
+                </div>
+                <div class="d-none d-lg-block">
+                    <button class="btn btn-info btn-styling"><a href="#">Get a Quote</a></button>  <!-- Need to create my own class to customise button-->
+                </div>
+            </nav>
+        </div> 
+        <div class="hero-image-home">
+            <!--Hero Image specified in style.css-->
+        </div>        
+    </header>
+    <!-- End of Header -->  
+
+    <!-- An article containing 3 sections -->
+    <div class="container-fluid intro--quote--container">   <!--Bootstrap .container class-->
+        <!-- Intro Quote-->
+        <div class="row pl-2 pr-2 pl-md-5 pr-md-5 pl-lg-15 pr-lg-15">
+            <div class="col-12 my-3">
+                <section class="intro--quote">
+                    <h1>A Cultural Tour of Ireland's Ancient East</h1>
+                        <p class="lead">
+                            This 7 night tour features some of the finest local food producers, craft breweries and distilleries that Ireland has to offer!
+                        </p>
+                    <button class="btn btn-info btn-styling">Get A Quote</button>
+                </section>
+            </div>
+        </div>
+    </div>
+    <!-- End of Intro Quote Section-->
+       
+    <!-- Itinerary details - created using Bootstrap https://getbootstrap.com/docs/4.0/components/collapse/ -->
+    <div class="container itinerary--container "> <!-- pb-3 -->
+        <section class=""> <!-- px-1 pt-3 pl-md-5 pr-md-5 pl-lg-15 pr-lg-15 -->
+            <div class="row itinerary--header "> <!-- ml-1 my-3 mr-0 mx-lg-5 my-lg-3 p-2 px-lg-2 py-lg-3 -->
+                <div class="col-12 col-md-6 "> <!-- my-4  Increases height of container-->
+                    <h2 class="uppercase">PACKAGES</h2>
+                </div>
+            </div>
+
+            <div class="container day--header--container col-12 align-center mb-1 px-0 "> <!-- mx-1 my-3 ml-0 mx-lg-5 my-lg-3 mb-3 -->
+                <h4 class="d-inline-block p-2 m-1">Day One:</h4>
+                <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    < >
+                </button>   
+            </div>
+            <div class="col-12 outer--day--container collapse.show-md" id="collapseExample">
+                <div class="day--container card card-body "> <!-- float-container  p-2 pb-3 px-lg-4 py-lg-4 mx-1 my-3 ml-0 mx-lg-5 my-lg-3 mb-3 -->
+                    
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <!--<div class=" "> --> <!--package--option  mx-1 my-3 mr-0 mx-lg-5 my-lg-3 p-2 px-lg-4 py-lg-4-->
+                                <div class=" " style="background-color: darkorange;"> <!--d-none d-sm-block package--itin-->
+                                    <p>
+                                        <h3 >Customise Your Tour</h3>
+                                        <p>We all want a little more and that's not a bad thing!</p>
+                                        <p>
+                                            Our Standard Package really does cover all the essentials and more, but if there is a particular experience that is on your 
+                                            bucket-list then let us make it happen for you.
+                                            Our Standard Package really does cover all the essentials and more, but if there is a particular experience that is on your 
+                                            bucket-list then let us make it happen for you.
+                                            Our Standard Package really does cover all the essentials and more, but if there is a particular experience that is on your 
+                                            bucket-list then let us make it happen for you.
+                                            Our Standard Package really does cover all the essentials and more, but if there is a particular experience that is on your 
+                                            bucket-list then let us make it happen for you.
+                                        </p>
+                                    </p>
+                                </div>  
+                            <!--</div> -->
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class=" " style="background-color: darkorchid;"> <!--package--option  mx-1 my-3 ml-0 mx-lg-5 my-lg-3 mb-3 p-2 pb-3 px-lg-4 py-lg-4-->
+                                <img src="./assets/images/newgrange-sunrise.png" alt="newgrange" class="align-center">
+                            </div>
+                        </div>
+                    </div>
+                        
+                    
+                </div>
+            </div>   <!-- End of Collapse -->
+
+        </section>
+    </div>
+    <!-- End of Package Options Section-->
+<br>
+<br>
+<br>
+                   
+
+
+    
+
+    <!-- Start of Footer Container-->
+    <div class="container footer--container p-1">
+        <footer class="px-1 pt-3 pl-md-5 pr-md-5 pl-lg-15 pr-lg-15">
+            <!-- Newsletter Form-->
+            <div class="row">
+                <div class="col-12 offset-0 col-md-10 offset-md-2 col-lg-9 offset-lg-3 my-4">
+                    <h3 class="text-uppercase"><i class="far fa-newspaper"></i> Newsletter</h3>
+                    <p>
+                        For all the latest tour updates, special events and promotional <strong>Discounts</strong>, Subcribe to our Newsletter!
+                    </p>
+
+                    <!-- Form code adapted from https://getbootstrap.com/docs/4.0/components/forms/ -->
+                    
+                    <form class="col-12 col-md-6 col-lg-4">
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <input type="text" class="form-control-sm" id="firstName" placeholder="First Name">
+                        </div>
+                        <form class="col-12 col-md-6 col-lg-4">
+                        <div class="form-group">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" class="form-control-sm" id="lastName" placeholder="Last Name">
+                        </div> 
+                        <div class="form-group">    
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control-sm" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+
+                        <div class="form-group">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            <div>
+                                <button type="submit" class="btn btn-info btn-styling">Subscribe</button>
+                            </div>
+                        </div>               
+                    
+                    </form>
+                         
+
+                </div>
+            </div>
+            <!-- Social Media Links--> 
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 offset-md-4 my-2">
+                    <h5 class="text-uppercase">Follow Us on Social Media</h5>
+                    <ul>
+                        <li class="list-inline-item">
+                            <a href="#" target="_blank">
+                                <i class="fab fa-facebook" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" target="_blank">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" target="_blank">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" target="_blank">
+                                <i class="fab fa-youtube" aria-hidden="true"></i>  
+                                <span class="sr-only">Youtube</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- End of Footer Container-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    </body>
+</html>
+
