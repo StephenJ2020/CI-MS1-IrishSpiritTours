@@ -64,10 +64,10 @@
     <!-- End of Intro Quote Section-->
        
     <!-- Itinerary details - created using Bootstrap https://getbootstrap.com/docs/4.0/components/collapse/ -->
-    <div class="container itinerary--container py-4 px-md-5 "> <!-- pb-3 -->
-        <section class=""> <!-- px-1 pt-3 pl-md-5 pr-md-5 pl-lg-15 pr-lg-15 -->
-            <div class="row itinerary--header mx-0 my-3 "> <!-- ml-1 my-3 mr-0 mx-lg-5 my-lg-3 p-2 px-lg-2 py-lg-3 -->
-                <div class="col-12 col-md-6 my-4"> <!-- my-4  Increases height of container-->
+    <div class="container itinerary--container py-4 px-md-5 "> 
+        <section> 
+            <div class="row itinerary--header mx-0 my-3 "> 
+                <div class="col-12 col-md-6 my-4"> 
                     <h2 class="uppercase">Tour Itinerary</h2>
                 </div>
             </div>
@@ -515,9 +515,9 @@
                             <div class="itinerary--images"> 
                                 <img src="./assets/images/temple-bar.png" alt="Temple Bar Dublin (Photo by Leonhard Niederwimmer)" class="align-center">
                                 <!-- Button to minimise this tab of the itinerary-->
-                                <div class="container day--header--container col-12 align-center mb-1 px-0">
+                                <div class="container button--coral--container col-12 align-center mb-1 px-0">
                                     <h4 class="d-inline-block p-2 m-1">Minimise this tab:</h4>
-                                    <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayEight" aria-expanded="false" aria-controls="dayEight">
+                                    <button class="btn btn-info btn-close float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayEight" aria-expanded="false" aria-controls="dayEight">
                                         <i class="far fa-caret-square-up"></i>
                                         <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Eight of the tour."></span>
                                     </button>   
@@ -526,7 +526,7 @@
                         </div>
                     </div>    
                 </div>
-            </div>
+            </div> <!-- End of Day Eight-->
             <!-- End of Collapse -->
         </section>
     </div>
@@ -534,7 +534,79 @@
 <br>
 <br>
 <br>
-                   
+<!--    <div class="container py-4 px-md-5 ">   itinerary--container
+        <section class="row"> 
+            <div class="row itinerary--header mx-0 my-3 "> 
+                <div class="col-12 col-md-6 my-4"> 
+                    <h2 class="uppercase">Tour Itinerary</h2>
+                </div>
+            </div>
+            <!-- Day One 
+            <div class="container day--header--container col-12 md-col-6 align-center mb-1 px-0">
+                <h4 class="d-inline-block p-2 m-1">Day One:
+                
+            </div>
+                <div class="col-12 md-col-6 outer--day--container mb-1 collapse" id="dayEight" style="background-color: chartreuse;">
+                <div class="day--container card card-body "> -->
+
+
+                    <div class="row included--container">
+                        <div class="col-12 col-md-6">
+                            <div class="day--container">  
+                                <h2>Tour Inclusions</h2>
+                                <p>
+                                    Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
+                                    in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
+                                    fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
+                                </p>
+                                <!-- Read More "collapse" link -->                                
+                                <div>
+                                    <a data-toggle="collapse" href="#dayEightReadMore" role="button" aria-expanded="false" aria-controls="dayEightReadMore">
+                                        Read more
+                                    </a>
+                                </div>
+                                <!-- "Read More" Text section-->
+                                <div class="card card-body collapse p-0" id="dayEightReadMore" style="border: none;">
+                                    <p>
+                                        We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
+                                        some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
+                                        looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
+                                        relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
+                                        for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                                    </p>
+                                    <p>
+                                        The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
+                                        if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
+                                        hotel a <em>little</em> later.
+                                    </p>
+                                    <div class="container day--header--container col-12 align-center mb-1 px-0">
+                                    <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayEight" aria-expanded="false" aria-controls="dayEight">
+                                        Book Now
+                                        <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Eight of the tour."></span>
+                                    </button>   
+                                </div>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="day--container">
+                                <h2>Optional Activities</h2> 
+                                <img src="./assets/images/temple-bar.png" width="100px" height="75px" alt="Temple Bar Dublin (Photo by Leonhard Niederwimmer)" class="align-center">
+                                <!-- Button to minimise this tab of the itinerary-->
+                                <div class="container day--header--container col-12 align-center mb-1 px-0">
+                                    <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayEight" aria-expanded="false" aria-controls="dayEight">
+                                        Customise & Quote
+                                        <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Eight of the tour."></span>
+                                    </button>   
+                                </div>
+                            </div>
+                        </div>
+<!--                        
+                    </div>    
+                </div>
+            </div>
+        </section>
+    </div>            -->       
 
 
     

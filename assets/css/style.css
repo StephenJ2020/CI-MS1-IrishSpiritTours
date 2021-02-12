@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
+/*
+*{
+  margin:0;
+  padding:0;
+  border:0;
+}   */
+
 /* 'Merienda+One', cursive; */
 /* 'Quicksand', sans-serif; */
 
@@ -387,6 +394,22 @@
     border-radius: 22px;
 }
 
+.btn-close{
+    font-weight: bold;
+    color: #fff;
+    background-color: #7FE7DC;
+    border-radius: 22px;
+}
+
+.button--coral--container{
+    max-width: 100%;
+    min-height: fit-content;
+    max-height: fit-content;
+    border-radius: 22px;
+    color: #35798e;
+    background-color: #F47A60;
+    border: #fff 3px solid;
+}
 
 
 
@@ -488,6 +511,13 @@
     border-style: groove;
     border-radius: 22px;
     padding: 10px;
+}
+
+.included--container{
+    max-width: 100%;
+    min-height: 31rem;
+    max-height: fit-content;
+    margin: auto;
 }
 
 /* ******************************************************** Media Queries */
