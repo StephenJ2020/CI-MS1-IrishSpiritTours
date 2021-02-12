@@ -315,3 +315,5 @@ https://www.goirishtours.com/coach-irish-spirit-tour/
 http://www.sacredirishtours.com/testimonial-2/  
 https://www.authenticvacations.com/europe/ireland-tours/irish-spirit-tour/   
 
+temple-bar.png https://unsplash.com/photos/0kcJVLG1VSo
+
