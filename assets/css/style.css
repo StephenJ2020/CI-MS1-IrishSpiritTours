@@ -55,7 +55,7 @@
 
 .hero-image-itinerary{
     height: 75vh;
-    background: url('../images/ardgillan.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
+    background: url('../images/ardgillan2.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -425,10 +425,19 @@
     background-color: #ffffff;
 
     height: 16vh;    
-    background: url('../images/ardgillan.png') center center / cover no-repeat fixed; 
+    background: url('../images/ardgillan2.png') center center / cover no-repeat fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+}
+
+.itinerary--header h2{
+    width: 100%;
+    text-align: center;
+    text-shadow: 2px 2px #35798e;
+    font-weight: 900;
+    padding-bottom: 5px;
+    background: rgba(236, 231, 231, 0.4);
 }
 
 .outer--day--container{
