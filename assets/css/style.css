@@ -68,6 +68,14 @@
     -o-background-size: cover;
 }
 
+.hero-image-contact{
+    height: 75vh;
+    background: url('../images/contact.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
 
 /* ******************************************************** Main Sections */
 /* *********************************************************************** */
@@ -520,6 +528,53 @@
     max-height: fit-content;
     margin: auto;
 }
+
+
+
+
+/* *****************************************************Contact.html page */
+/* *********************************************************************** */
+
+.outer--contact--container{
+
+    background-color: #7FE7DC;
+}
+
+.handle--container{
+    max-width: 40%;
+    min-height: 20%;
+    max-height: 30%;
+    align-self: center;
+    background-color: #ffffff;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.inner--handle{
+    width: 24%;
+    align-self: center;
+    background-color: #7FE7DC;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.left--suitcase--container{
+    max-width: 20%;
+    background-color: #41cb52;
+}
+
+.center--suitcase--container{
+    max-width: 60%;
+    background-color: #ffffff;
+}
+
+.right--suitcase--container{
+    max-width: 20%;
+    background-color: blueviolet;
+}
+
+
+
 
 /* ******************************************************** Media Queries */
 /* *********************************************************************** */
