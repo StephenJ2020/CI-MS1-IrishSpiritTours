@@ -405,10 +405,11 @@
     max-width: 100%;
     min-height: fit-content;
     max-height: fit-content;
+    margin: 3px;
     border-radius: 22px;
-    color: #35798e;
+    color: #fff;
     background-color: #F47A60;
-    border: #fff 3px solid;
+    border: #35798e 3px solid;
 }
 
 
