@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-/*
+
 *{
   margin:0;
   padding:0;
   border:0;
-}   */
+}   
 
 /* 'Merienda+One', cursive; */
 /* 'Quicksand', sans-serif; */
@@ -535,42 +535,81 @@
 /* *****************************************************Contact.html page */
 /* *********************************************************************** */
 
-.outer--contact--container{
-
+.section--container{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #7FE7DC;
 }
 
+.outer--contact--container{
+    width: 90vw;
+    height: 90vh;
+    background-color: #7FE7DC;
+}
+
+.outer--contact--container .container{
+    margin: 0;
+    padding: 0;
+}
+
+.outer--contact--container{
+    height: 90vh;    
+    background: url('../images/contact.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
+    border-radius: 22px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
 .handle--container{
-    max-width: 40%;
-    min-height: 20%;
-    max-height: 30%;
-    align-self: center;
+    max-width: 32vw;
+    max-height: 20vh;
+    margin-left: 34vw;
+    margin-right: 34vw;
+    padding-top: 8vh;
     background-color: #ffffff;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
 
 .inner--handle{
-    width: 24%;
-    align-self: center;
+    width: 20vw;
+    height: 30px;
+    margin-left: 5vw;
+    margin-right: 5vw;
     background-color: #7FE7DC;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
 
+.inner--handle{
+    height: 20vh;    
+    background: url('../images/contact.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
 .left--suitcase--container{
-    max-width: 20%;
+    max-width: 15%;
     background-color: #41cb52;
+    display: inline;
 }
 
 .center--suitcase--container{
-    max-width: 60%;
+    max-width: 70%;
     background-color: #ffffff;
+    display: inline;
 }
 
 .right--suitcase--container{
-    max-width: 20%;
+    max-width: 10%;
     background-color: blueviolet;
+    display: inline;
 }
 
 
