@@ -546,13 +546,13 @@
 }
 
 .outer--contact--container{
-    width: 90vw;
+    width: 85vw;
     height: 90vh;
     background-color: #7FE7DC;
 }
 
 .outer--contact--container .container{
-    margin: 0;
+    margin-right: 0px;
     padding: 0;
 }
 
@@ -564,6 +564,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
 }
+
 
 .handle--container{
     max-width: 32vw;
@@ -596,20 +597,28 @@
 
 .left--suitcase--container{
     max-width: 15%;
+    margin: 0 auto;
     background-color: #41cb52;
-    display: inline;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    display: inline-block;
 }
 
 .center--suitcase--container{
-    max-width: 70%;
+    width: 70vw;
+    min-height: 60vh;
+    margin: 0 5px;
     background-color: #ffffff;
-    display: inline;
+    display: inline-block;
 }
 
 .right--suitcase--container{
-    max-width: 10%;
+    max-width: 20%;
+    margin: 0 auto;
     background-color: blueviolet;
-    display: inline;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: inline-block;
 }
 
 
