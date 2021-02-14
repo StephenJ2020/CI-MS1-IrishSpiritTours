@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-
+/*
 *{
-  margin:0;
-  padding:0;
-  border:0;
-}   
+  margin:0 auto;
+}   */
 
 /* 'Merienda+One', cursive; */
 /* 'Quicksand', sans-serif; */
@@ -536,28 +534,32 @@
 /* *********************************************************************** */
 
 .section--container{
-    width: 100vw;
-    height: 100vh;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    max-width: 100%;
+    height: 120vh;
+    margin: 20px auto;
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #7FE7DC;
 }
 
+
+/* 
 .outer--contact--container{
-    width: 85vw;
+    max-width: 90vw;
     height: 90vh;
     background-color: #7FE7DC;
-}
+} */
 
-.outer--contact--container .container{
-    margin-right: 0px;
+/*
+.section--container .container{
+    margin: 0;
     padding: 0;
-}
+} */
 
 .outer--contact--container{
-    height: 90vh;    
+    max-width: 90vw;
+    height: 100vh;    
+    margin-top: 50px;
     background: url('../images/contact.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
     border-radius: 22px;
     -webkit-background-size: cover;
@@ -569,8 +571,8 @@
 .handle--container{
     max-width: 32vw;
     max-height: 20vh;
-    margin-left: 34vw;
-    margin-right: 34vw;
+    margin-left: 30vw;
+    /*margin-right: 34vw; */
     padding-top: 8vh;
     background-color: #ffffff;
     border-top-left-radius: 30px;
@@ -579,16 +581,19 @@
 
 .inner--handle{
     width: 20vw;
-    height: 30px;
+    max-height: 10vh;
     margin-left: 5vw;
     margin-right: 5vw;
+    align-self: baseline;
+    padding-bottom: 0;
     background-color: #7FE7DC;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
 
 .inner--handle{
-    height: 20vh;    
+    width: 20vw;
+    height: 10vh;    
     background: url('../images/contact.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -596,29 +601,35 @@
 }
 
 .left--suitcase--container{
-    max-width: 15%;
+    max-width: 14%;
     margin: 0 auto;
-    background-color: #41cb52;
+    background-color: #ffffff;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     display: inline-block;
-}
+    position: relative;
+    left: 100px;
+} 
 
 .center--suitcase--container{
-    width: 70vw;
-    min-height: 60vh;
+    width: 60vw;
+    min-height: 76vh;
     margin: 0 5px;
     background-color: #ffffff;
     display: inline-block;
+    position: relative;
+    left: 120px;
 }
 
 .right--suitcase--container{
-    max-width: 20%;
+    max-width: 14%;
     margin: 0 auto;
-    background-color: blueviolet;
+    background-color: #ffffff;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     display: inline-block;
+    position: relative;
+    left: 500px;
 }
 
 
