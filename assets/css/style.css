@@ -1,28 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto&display=swap');
 
-/*
-font-family: 'Oswald', sans-serif;
-font-family: 'Roboto', sans-serif;
-*/
+*{
+  margin:0;
+  padding:0;
+  border:0;
+}
 
-/* @import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Quicksand:wght@300;400;500;600;700&display=swap'); */
-
-{
-  margin: 0;
-  padding: 0;
-}   
-
-/* 'Merienda+One', cursive; */
-/* 'Quicksand', sans-serif; */
-
- body{
-     font-family: 'Roboto', sans-serif;
-     font-weight: 400;
-     font-size: 19px;
- } 
-
-
-
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+}
 
 /* ******************************************************** Header Section */
 /* *********************************************************************** */
@@ -60,10 +48,11 @@ font-family: 'Roboto', sans-serif;
 
 .hero-image-home{
     height: 65vh;
+    overflow: hidden;
     background: url('../images/taste.jpg') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: center center / cover no-repeat fixed;
+    -moz-background-size: center center / cover no-repeat fixed;
+    -o-background-size: center center / cover no-repeat fixed;
 }
 
 .hero-image-itinerary{
@@ -130,6 +119,7 @@ font-family: 'Roboto', sans-serif;
 
 .package--option{
     max-width: 97%;
+    text-align: center;
     min-height: fit-content;
     max-height: fit-content;
     border-radius: 22px;
@@ -187,9 +177,13 @@ font-family: 'Roboto', sans-serif;
 .testimonials{
     text-align: center;
     font-weight: bold;
-    color: #F47A60;
+    color: #000000;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+.testimonials i{
+    color: #F47A60;
 }
 
 .testimonial{}

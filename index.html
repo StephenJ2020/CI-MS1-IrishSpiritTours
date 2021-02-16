@@ -121,7 +121,7 @@
                     <div class="container-fluid pr-0 pr-md-7 pr-lg-15">
                         <div class="row blog">
                             <div class="col-md-12">
-                                <div id="blogCarousel" class="carousel slide container-blog" data-ride="carousel">
+                                <div id="blogCarousel" class="carousel slide container-blog" data-pause="true" data-interval="carousel">
                                     <ol class="carousel-indicators">
                                     <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
                                     <li data-target="#blogCarousel" data-slide-to="1"></li>
@@ -478,31 +478,31 @@
                     </p>
 
                     <!-- Form code adapted from https://getbootstrap.com/docs/4.0/components/forms/ -->
-                    
-                    <form class="col-12 col-md-6 col-lg-4">
-                        <div class="form-group">
-                            <label for="firstName">First Name</label>
-                            <input type="text" class="form-control-sm" id="firstName" placeholder="First Name">
-                        </div>
-                        <form class="col-12 col-md-6 col-lg-4">
-                        <div class="form-group">
-                            <label for="lastName">Last Name</label>
-                            <input type="text" class="form-control-sm" id="lastName" placeholder="Last Name">
-                        </div> 
-                        <div class="form-group">    
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control-sm" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                        </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                            <form>
+                                <div class="form-group d-inline-block">
+                                    <label for="firstName">First Name</label>
+                                    <input type="text" class="form-control-sm" id="firstName" placeholder="First Name">
+                                </div>
+                                <!--<form class="col-12 col-md-6 col-lg-4"> -->
+                                <div class="form-group d-inline-block">
+                                    <label for="lastName">Last Name</label>
+                                    <input type="text" class="form-control-sm" id="lastName" placeholder="Last Name">
+                                </div> 
+                                <div class="form-group d-inline-block">    
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control-sm" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                </div>
 
-                        <div class="form-group">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                            <div>
-                                <button type="submit" class="btn btn-info btn-styling">Subscribe</button>
-                            </div>
-                        </div>               
-                    
-                    </form>
-                         
+                                <div class="form-group">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    <div>
+                                        <button type="submit" class="btn btn-info btn-styling">Subscribe</button>
+                                    </div>
+                                </div>               
+                            
+                            </form>
+                        </div> 
 
                 </div>
             </div>
