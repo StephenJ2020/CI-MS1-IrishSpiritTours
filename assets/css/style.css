@@ -301,10 +301,15 @@ body {
 }
 
 .item-box-blog {
-  border: 1px solid #35798e;     /* Updated with gray from my colour palette */
+  border: 1px solid #35798e;     /* Updated with blue from my colour palette */
+  font-family: 'Roboto', sans-serif;      /* Is this actually required or is it being picked up ok from Body{} ? */
+  font-weight: 400;
+  font-size: 19px;
   text-align: justify;
   z-index: 4;
-  padding: 20px;
+  padding: 15px;  /* reduced from 20px */
+  margin: 70px;     /* Added by me*/
+  min-width: 320px;     /* Added by me */
 }
 
 .item-box-blog-image {
@@ -342,6 +347,7 @@ body {
 
 .item-box-blog-body {
   padding: 5px;             /* Reduced from 10px*/
+  max-height: 200px;        /* Added by me*/
 }
 
 .item-heading-blog a h5 {
@@ -499,7 +505,7 @@ footer form input:hover{
     border-radius: 22px;
 } */
 
-.button--coral--container{
+/*.button--coral--container{
     max-width: 100%;
     min-height: fit-content;
     max-height: fit-content;
@@ -508,9 +514,27 @@ footer form input:hover{
     color: #fff;
     background-color: #F47A60;
     border: #35798e 3px solid;
+} */
+
+/* ******************************************** Media Queries for index.html */
+
+@media screen and (max-width: 1500px) {
+    .item-box-blog {
+        margin: 10px;
+    }
 }
 
+@media screen and (max-width: 991px) {
+    .item-box-blog {
+        margin: 35px;
+    }
+}
 
+@media screen and (max-width: 695px) {
+    .item-box-blog {
+        margin: 10px;
+    }
+} 
 
 
 
@@ -727,7 +751,7 @@ footer form input:hover{
 
 
 
-/* ******************************************************** Media Queries */
+/* **************************************************General Media Queries */
 /* *********************************************************************** */
 /*
 @media only screen and (max-width: 768px) {
@@ -761,3 +785,6 @@ footer form input:hover{
         margin-right: 2px;
     }
 } */
+
+
+
