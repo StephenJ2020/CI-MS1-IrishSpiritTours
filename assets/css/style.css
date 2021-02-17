@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto&display=swap');
 
 *{
-  margin:0;
+  margin: 0;
   padding:0;
-  border:0;
 }
 
 body {
@@ -142,9 +141,12 @@ body {
     height: fit-content;
     width: fit-content;
     text-align: center;
+    text-transform: uppercase;
     margin: 0 auto;
-    font-weight: 900;
-    background: rgba(216, 210, 210, 0.6);
+    /*font-family: 'Oswald', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    background: rgba(241, 229, 209, 0.5);
 }
 
 
@@ -184,6 +186,13 @@ body {
 
 .testimonials i{
     color: #F47A60;
+}
+
+.testimonials{
+    text-transform: uppercase;
+    /*font-family: 'Oswald', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
 .testimonial{}
@@ -382,15 +391,63 @@ body {
 /* *********************************************************************** */
 
 .footer--container{
-    color: #fff;
+    color: #dae0e4;
     max-width: 100%;
-    margin: 2px 2px;
+    margin: 0;
     height: fit-content;
     padding: 0;
     background-color: #343434;
 }
 
+.newsletter{
+    text-align: center;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.newsletter i{
+    color: #F47A60;
+}
 
+.newsletter p{
+    color: #dae0e4;
+}
+
+form{
+    text-align: center;
+} 
+
+
+footer form input:hover{
+    border: 2px solid #7FE7DC;
+    
+}
+
+.social-media{
+    color: #fff;
+    padding-top: 15px;
+    background-color: #343434;  /*?????*/
+    /*border-top: ridge; */
+}
+
+.social-media  i{       /* Code snippet modified from CI Resume walk-through project */
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #7FE7DC;
+    background: #545454;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-media i:hover{
+    background: #F47A60;
+}                       /* End of Code snippet from CI Resume walk-through project */
 
 /* ******************************************************** Buttons */
 /* *********************************************************************** */
@@ -677,4 +734,30 @@ body {
   .responsive {
     width: 100%;
   }
+} */
+
+
+@media screen and (max-width: 420px) {
+    form{
+        text-align: right;
+    }
+    footer label {
+        margin-right: 10px
+    }
+    footer input{
+        margin-right: 2px;
+    }
+}
+
+/*@media screen and (max-width: 768px) {
+    form{
+        text-align: left;
+        margin-right: 150px;
+    }
+    footer label {
+        margin-right: 10px
+    }
+    footer input{
+        margin-right: 2px;
+    }
 } */

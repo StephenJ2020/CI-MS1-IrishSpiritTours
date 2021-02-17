@@ -627,79 +627,70 @@
     </section>  
  <!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
     <!-- Start of Footer Container-->
-    <div class="container footer--container p-1">
-        <footer class="px-1 pt-3 pl-md-5 pr-md-5 pl-lg-15 pr-lg-15">
-            <!-- Newsletter Form-->
-            <div class="row">
-                <div class="col-12 offset-0 col-md-10 offset-md-2 col-lg-9 offset-lg-3 my-4">
-                    <h3 class="text-uppercase"><i class="far fa-newspaper"></i> Newsletter</h3>
-                    <p>
-                        For all the latest tour updates, special events and promotional <strong>Discounts</strong>, Subcribe to our Newsletter!
-                    </p>
+    <footer class="container footer--container px-1 pt-3 pl-md-5 pr-md-5 pl-lg-15 pr-lg-15"> <!-- px-1 pt-3 pl-md-5 pr-md-5 pl-lg-15 pr-lg-15 -->
+        <!-- Newsletter Form-->
+        <div class="row">
+            <div class="col-12 newsletter"> <!--  offset-0 col-md-12 offset-md-0 col-lg-9 offset-lg-2 my-4 -->
+                <h3 class="text-uppercase d-inline-block mr-lg-5"><i class="far fa-newspaper"></i> Newsletter</h3>
+                <p class="d-inline-block">
+                    For all the latest tour updates, special events and promotional Discounts, Subcribe to our Newsletter!
+                </p>
 
-                    <!-- Form code adapted from https://getbootstrap.com/docs/4.0/components/forms/ -->
-                    
-                    <form class="col-12 col-md-6 col-lg-4">
-                        <div class="form-group">
+                <!-- Form code adapted from https://getbootstrap.com/docs/4.0/components/forms/ -->
+                <div class="col-12 col-md-4 offset-md-4 pb-md-2 col-lg-12 offset-lg-0">
+                    <form>
                             <label for="firstName">First Name</label>
-                            <input type="text" class="form-control-sm" id="firstName" placeholder="First Name">
-                        </div>
-                        <form class="col-12 col-md-6 col-lg-4">
-                        <div class="form-group">
+                            <input type="text" class="form-control-sm mr-md-4 mb-md-2" id="firstName" placeholder="First Name">
+
                             <label for="lastName">Last Name</label>
-                            <input type="text" class="form-control-sm" id="lastName" placeholder="Last Name">
-                        </div> 
-                        <div class="form-group">    
+                            <input type="text" class="form-control-sm mr-md-4 mb-md-2" id="lastName" placeholder="Last Name">
+
                             <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control-sm" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                        </div>
+                            <input type="email" class="form-control-sm mr-md-4 mb-md-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email">
 
-                        <div class="form-group">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                            <div>
-                                <button type="submit" class="btn btn-info btn-styling">Subscribe</button>
-                            </div>
-                        </div>               
-                    
+                            <span class="d-none d-md-inline-block"><button type="submit" class="btn btn-info btn-styling">Subscribe</button></span> <!-- Tablet upwards -->
+                            <div class="form-group text-center">
+                                <small id="emailHelp" class="form-text text-muted mb-2">We'll never share your email with anyone else.</small>
+                                
+                            <div>            
+                            <span class="d-md-none mb-md-2"><button type="submit" class="btn btn-info btn-styling">Subscribe</button></span> <!-- Only on Mobile -->
                     </form>
-                         
-
-                </div>
+                </div> 
             </div>
-            <!-- Social Media Links--> 
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-8 offset-md-4 my-2">
-                    <h5 class="text-uppercase">Follow Us on Social Media</h5>
-                    <ul>
-                        <li class="list-inline-item">
-                            <a href="#" target="_blank">
-                                <i class="fab fa-facebook" aria-hidden="true"></i>
-                                <span class="sr-only">Facebook</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#" target="_blank">
-                                <i class="fab fa-instagram" aria-hidden="true"></i>
-                                <span class="sr-only">Instagram</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#" target="_blank">
-                                <i class="fab fa-twitter" aria-hidden="true"></i>
-                                <span class="sr-only">Twitter</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#" target="_blank">
-                                <i class="fab fa-youtube" aria-hidden="true"></i>  
-                                <span class="sr-only">Youtube</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+        </div>
+        <!-- Social Media Links--> 
+        <div class="row social-media justify-content-center">
+            <div class="col-12"> <!--  col-md-8 offset-md-4 my-2 -->
+                <h5 class="text-uppercase">Follow Us on Social Media</h5>
+                <ul>
+                    <li class="list-inline-item">
+                        <a href="#" target="_blank">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>  
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" target="_blank">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" target="_blank">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" target="_blank">
+                            <i class="fab fa-youtube" aria-hidden="true"></i>  
+                            <span class="sr-only">Youtube</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </footer>
-    </div>
+        </div>
+    </footer>
     <!-- End of Footer Container-->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
