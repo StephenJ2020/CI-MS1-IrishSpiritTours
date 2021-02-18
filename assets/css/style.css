@@ -347,7 +347,7 @@ body {
 
 .item-box-blog-body {
   padding: 5px;             /* Reduced from 10px*/
-  max-height: 200px;        /* Added by me*/
+  min-height: 200px;        /* Added by me*/
 }
 
 .item-heading-blog a h5 {
@@ -472,6 +472,7 @@ footer form input:hover{
 
 .btn-light-blue:hover{
     background-color: #7FE7DC;
+    color: #35798e;
 }
 
 .btn-styling{
@@ -498,14 +499,14 @@ footer form input:hover{
     border-radius: 22px;
 } */
 
-/* .btn-close{
+ .btn-close{
     font-weight: bold;
     color: #fff;
     background-color: #7FE7DC;
     border-radius: 22px;
-} */
+} 
 
-/*.button--coral--container{
+.button--coral--container{
     max-width: 100%;
     min-height: fit-content;
     max-height: fit-content;
@@ -514,7 +515,7 @@ footer form input:hover{
     color: #fff;
     background-color: #F47A60;
     border: #35798e 3px solid;
-} */
+} 
 
 /* ******************************************** Media Queries for index.html */
 
