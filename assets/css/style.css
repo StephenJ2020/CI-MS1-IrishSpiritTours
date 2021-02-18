@@ -354,7 +354,7 @@ body {
   margin: 0;
   line-height: 1;
   text-decoration:none;
-  transition: color 0.9s;   /* Was 0.3s but have increased while I work on the styling. Will need to be reduced again later!!! */
+  transition: color 0.3s;   /* Was 0.3s but have increased while I work on the styling. Will need to be reduced again later!!! */
 }
 
 .item-box-blog-heading a {
