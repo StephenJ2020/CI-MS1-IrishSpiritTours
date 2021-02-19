@@ -33,600 +33,1085 @@
                         <li class="nav-item mr-3"><a class="nav-link" href="/about">Add-on's</a></li>       <!--Do I need to add aria-label="Go to Add-on's section" ????-->
                         <li class="nav-item mr-3"><a class="nav-link" href="/about">Gallery</a></li>
                         <li class="nav-item mr-3"><a class="nav-link" href="contact.html">Contact Us</a></li>
-                        <li class="nav-item mr-3 d-none"><button class="btn btn-info btn-styling"><a class="nav-link" href="#">Get a Quote</a></button></li>
+                        <li class="nav-item mr-3 d-none"><button class="btn btn-info btn-styling"><a class="nav-link" href="contact.html">Get a Quote</a></button></li>
                     </ul>
                 </div>
                 <div class="d-none d-lg-block">
-                    <button class="btn btn-info btn-styling"><a href="#">Get a Quote</a></button>  <!-- Need to create my own class to customise button-->
+                    <a href="contact.html" class="btn btn-info btn-navbar btn-light-blue">Get a Quote</a>  <!-- Need to create my own class to customise button-->
                 </div>
             </nav>
-        </div> 
+        </div>         
+    </header>
+    <!-- End of Header --> 
+    
+    <section>
         <div class="hero-image-itinerary">
             <!--Hero Image specified in style.css-->
-        </div>        
-    </header>
-    <!-- End of Header -->  
+        </div>
+    </section> 
 
     <!-- An article containing 3 sections -->
-    <div class="container-fluid intro--quote--container">   <!--Bootstrap .container class-->
-        <!-- Intro Quote-->
-        <div class="row pl-2 pr-2 pl-md-5 pr-md-5 pl-lg-15 pr-lg-15">
-            <div class="col-12 my-3">
-                <section class="intro--quote">
+    <article>
+        <section class="container intro--quote--container">   <!--Bootstrap .container class-->
+            <!-- Intro Quote-->
+            <div class="row intro--quote pl-2 pr-2 pl-md-5 pr-md-5 pl-lg-15 pr-lg-15">
+                <div class="col-12 my-3">
                     <h1>A Cultural Tour of Ireland's Ancient East</h1>
                         <p class="lead">
                             This 7 night tour features some of the finest local food producers, craft breweries and distilleries that Ireland has to offer!
                         </p>
-                    <button class="btn btn-info btn-styling">Get A Quote</button>
-                </section>
+                    <a href="contact.html" class="btn btn-info btn-styling">Get A Quote</a>
+                </div>
             </div>
-        </div>
-    </div>
-    <!-- End of Intro Quote Section-->
-       
-    <!-- Itinerary details - created using Bootstrap https://getbootstrap.com/docs/4.0/components/collapse/ -->
-    <div class="container itinerary--container py-4 px-md-5 "> 
-        <section> 
+        </section>
+        <!-- End of Intro Quote Section-->
+        
+        <!-- Itinerary details - created using Bootstrap https://getbootstrap.com/docs/4.0/components/collapse/ -->
+        <section>
+            <div class="container itinerary--container py-5 px-md-5">
+                <div class="row container itinerary--header">
+                    <div class="col-12 col-md-6 my-4"> 
+                        <h2 class="uppercase">Tour Itinerary</h2>
+                    </div>
+                </div>
+                <div class="container itinerary--container py-5">
+                <div class="row container itinerary--body">
+                    <div class="col-12 col-md-6 my-4"> 
+                        <!-- Day One -->
+                    <div class="container day--header--container col-12 align-center mb-1 px-0">
+                        <h4 class="d-inline-block p-2 m-1"><strong>Day One:</strong><span class="d-none d-sm-inline-block"> Walking Food Tour of Dublin & Private Whiskey Tasting</span></h4>
+                        <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayOne" aria-expanded="false" aria-controls="dayOne">
+                            <i class="far fa-caret-square-down"></i>
+                            <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day One of the tour."></span>
+                        </button>   
+                    </div>
+                    <div class="col-12 outer--day--container mb-1 collapse" id="dayOne">
+                        <div class="day--container card card-body "> 
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="itinerary--description"> 
+                                        <p>
+                                            Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
+                                            in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
+                                            fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
+                                        </p>
+                                        <!-- Read More "collapse" link -->                                
+                                        <div>
+                                            <a data-toggle="collapse" href="#dayOneReadMore" role="button" aria-expanded="false" aria-controls="dayOneReadMore">
+                                                Read more
+                                            </a>
+                                        </div>
+                                        <!-- "Read More" Text section-->
+                                        <div class="card card-body collapse p-0" id="dayOneReadMore" style="border: none;">
+                                            <p>
+                                                We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
+                                                some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
+                                                looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
+                                                relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
+                                                for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                                            </p>
+                                            <p>
+                                                The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
+                                                if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
+                                                hotel a <em>little</em> later.
+                                            </p>
+                                        </div>
+                                    </div>  
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="itinerary--images"> 
+                                        <img src="./assets/images/temple-bar.png" alt="Temple Bar Dublin (Photo by Leonhard Niederwimmer)" class="align-center">
+                                        <!-- Button to minimise this tab of the itinerary-->
+                                        <div class="container button--coral--container col-12 align-center mb-1 px-0">
+                                            <h4 class="d-inline-block p-2 m-1">Minimise this tab:</h4>
+                                            <button class="btn btn-info btn-close float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayOne" aria-expanded="false" aria-controls="dayOne">
+                                                <i class="far fa-caret-square-up"></i>
+                                                <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day One of the tour."></span>
+                                            </button>   
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                    <!-- Day Two -->
+                    <div class="container day--header--container col-12 align-center mb-1 px-0">
+                        <h4 class="d-inline-block p-2 m-1"><strong>Day Two:</strong><span class="d-none d-sm-inline-block"> Walking Food Tour of Dublin & Private Whiskey Tasting</span></h4>
+                        <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayTwo" aria-expanded="false" aria-controls="dayTwo">
+                            <i class="far fa-caret-square-down"></i>
+                            <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day Two of the tour."></span>
+                        </button>   
+                    </div>
+                    <div class="col-12 outer--day--container mb-1 collapse" id="dayTwo">
+                        <div class="day--container card card-body "> 
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="itinerary--description"> 
+                                        <p>
+                                            Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
+                                            in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
+                                            fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
+                                        </p>
+                                        <!-- Read More "collapse" link -->                                
+                                        <div>
+                                            <a data-toggle="collapse" href="#dayTwoReadMore" role="button" aria-expanded="false" aria-controls="dayTwoReadMore">
+                                                Read more
+                                            </a>
+                                        </div>
+                                        <!-- "Read More" Text section-->
+                                        <div class="card card-body collapse p-0" id="dayTwoReadMore" style="border: none;">
+                                            <p>
+                                                We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
+                                                some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
+                                                looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
+                                                relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
+                                                for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                                            </p>
+                                            <p>
+                                                The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
+                                                if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
+                                                hotel a <em>little</em> later.
+                                            </p>
+                                        </div>
+                                    </div>  
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="itinerary--images"> 
+                                        <img src="./assets/images/temple-bar.png" alt="Temple Bar Dublin (Photo by Leonhard Niederwimmer)" class="align-center">
+                                        <!-- Button to minimise this tab of the itinerary-->
+                                        <div class="container button--coral--container col-12 align-center mb-1 px-0">
+                                            <h4 class="d-inline-block p-2 m-1">Minimise this tab:</h4>
+                                            <button class="btn btn-info btn-close float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayTwo" aria-expanded="false" aria-controls="dayTwo">
+                                                <i class="far fa-caret-square-up"></i>
+                                                <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Two of the tour."></span>
+                                            </button>   
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                    <!-- Day Three -->
+                    <div class="container day--header--container col-12 align-center mb-1 px-0">
+                        <h4 class="d-inline-block p-2 m-1"><strong>Day Three:</strong><span class="d-none d-sm-inline-block"> Walking Food Tour of Dublin & Private Whiskey Tasting</span></h4>
+                        <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayThree" aria-expanded="false" aria-controls="dayThree">
+                            <i class="far fa-caret-square-down"></i>
+                            <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day Three of the tour."></span>
+                        </button>   
+                    </div>
+                    <div class="col-12 outer--day--container mb-1 collapse" id="dayThree">
+                        <div class="day--container card card-body "> 
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="itinerary--description"> 
+                                        <p>
+                                            Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
+                                            in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
+                                            fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
+                                        </p>
+                                        <!-- Read More "collapse" link -->                                
+                                        <div>
+                                            <a data-toggle="collapse" href="#dayThreeReadMore" role="button" aria-expanded="false" aria-controls="dayThreeReadMore">
+                                                Read more
+                                            </a>
+                                        </div>
+                                        <!-- "Read More" Text section-->
+                                        <div class="card card-body collapse p-0" id="dayThreeReadMore" style="border: none;">
+                                            <p>
+                                                We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
+                                                some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
+                                                looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
+                                                relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
+                                                for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                                            </p>
+                                            <p>
+                                                The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
+                                                if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
+                                                hotel a <em>little</em> later.
+                                            </p>
+                                        </div>
+                                    </div>  
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="itinerary--images"> 
+                                        <img src="./assets/images/temple-bar.png" alt="Temple Bar Dublin (Photo by Leonhard Niederwimmer)" class="align-center">
+                                        <!-- Button to minimise this tab of the itinerary-->
+                                        <div class="container button--coral--container col-12 align-center mb-1 px-0">
+                                            <h4 class="d-inline-block p-2 m-1">Minimise this tab:</h4>
+                                            <button class="btn btn-info btn-close float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayThree" aria-expanded="false" aria-controls="dayThree">
+                                                <i class="far fa-caret-square-up"></i>
+                                                <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Three of the tour."></span>
+                                            </button>   
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                    <!-- Day Four -->
+                    <div class="container day--header--container col-12 align-center mb-1 px-0">
+                        <h4 class="d-inline-block p-2 m-1"><strong>Day Four:</strong><span class="d-none d-sm-inline-block"> Walking Food Tour of Dublin & Private Whiskey Tasting</span></h4>
+                        <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayFour" aria-expanded="false" aria-controls="dayFour">
+                            <i class="far fa-caret-square-down"></i>
+                            <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day Four of the tour."></span>
+                        </button>   
+                    </div>
+                    <div class="col-12 outer--day--container mb-1 collapse" id="dayFour">
+                        <div class="day--container card card-body "> 
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="itinerary--description"> 
+                                        <p>
+                                            Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
+                                            in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
+                                            fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
+                                        </p>
+                                        <!-- Read More "collapse" link -->                                
+                                        <div>
+                                            <a data-toggle="collapse" href="#dayFourReadMore" role="button" aria-expanded="false" aria-controls="dayFourReadMore">
+                                                Read more
+                                            </a>
+                                        </div>
+                                        <!-- "Read More" Text section-->
+                                        <div class="card card-body collapse p-0" id="dayFourReadMore" style="border: none;">
+                                            <p>
+                                                We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
+                                                some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
+                                                looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
+                                                relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
+                                                for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                                            </p>
+                                            <p>
+                                                The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
+                                                if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
+                                                hotel a <em>little</em> later.
+                                            </p>
+                                        </div>
+                                    </div>  
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="itinerary--images"> 
+                                        <img src="./assets/images/temple-bar.png" alt="Temple Bar Dublin (Photo by Leonhard Niederwimmer)" class="align-center">
+                                        <!-- Button to minimise this tab of the itinerary-->
+                                        <div class="container button--coral--container col-12 align-center mb-1 px-0">
+                                            <h4 class="d-inline-block p-2 m-1">Minimise this tab:</h4>
+                                            <button class="btn btn-info btn-close float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayFour" aria-expanded="false" aria-controls="dayFour">
+                                                <i class="far fa-caret-square-up"></i>
+                                                <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Four of the tour."></span>
+                                            </button>   
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                    <!-- Day Five -->
+                    <div class="container day--header--container col-12 align-center mb-1 px-0">
+                        <h4 class="d-inline-block p-2 m-1"><strong>Day Five:</strong><span class="d-none d-sm-inline-block"> Walking Food Tour of Dublin & Private Whiskey Tasting</span></h4>
+                        <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayFive" aria-expanded="false" aria-controls="dayFive">
+                            <i class="far fa-caret-square-down"></i>
+                            <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day Five of the tour."></span>
+                        </button>   
+                    </div>
+                    <div class="col-12 outer--day--container mb-1 collapse" id="dayFive">
+                        <div class="day--container card card-body "> 
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="itinerary--description"> 
+                                        <p>
+                                            Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
+                                            in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
+                                            fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
+                                        </p>
+                                        <!-- Read More "collapse" link -->                                
+                                        <div>
+                                            <a data-toggle="collapse" href="#dayFiveReadMore" role="button" aria-expanded="false" aria-controls="dayFiveReadMore">
+                                                Read more
+                                            </a>
+                                        </div>
+                                        <!-- "Read More" Text section-->
+                                        <div class="card card-body collapse p-0" id="dayFiveReadMore" style="border: none;">
+                                            <p>
+                                                We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
+                                                some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
+                                                looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
+                                                relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
+                                                for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                                            </p>
+                                            <p>
+                                                The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
+                                                if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
+                                                hotel a <em>little</em> later.
+                                            </p>
+                                        </div>
+                                    </div>  
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="itinerary--images"> 
+                                        <img src="./assets/images/temple-bar.png" alt="Temple Bar Dublin (Photo by Leonhard Niederwimmer)" class="align-center">
+                                        <!-- Button to minimise this tab of the itinerary-->
+                                        <div class="container button--coral--container col-12 align-center mb-1 px-0">
+                                            <h4 class="d-inline-block p-2 m-1">Minimise this tab:</h4>
+                                            <button class="btn btn-info btn-close float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayFive" aria-expanded="false" aria-controls="dayFive">
+                                                <i class="far fa-caret-square-up"></i>
+                                                <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Five of the tour."></span>
+                                            </button>   
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                    <!-- Day Six -->
+                    <div class="container day--header--container col-12 align-center mb-1 px-0">
+                        <h4 class="d-inline-block p-2 m-1"><strong>Day Six:</strong><span class="d-none d-sm-inline-block"> Walking Food Tour of Dublin & Private Whiskey Tasting</span></h4>
+                        <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#daySix" aria-expanded="false" aria-controls="daySix">
+                            <i class="far fa-caret-square-down"></i>
+                            <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day six of the tour."></span>
+                        </button>   
+                    </div>
+                    <div class="col-12 outer--day--container mb-1 collapse" id="daySix">
+                        <div class="day--container card card-body "> 
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="itinerary--description"> 
+                                        <p>
+                                            Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
+                                            in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
+                                            fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
+                                        </p>
+                                        <!-- Read More "collapse" link -->                                
+                                        <div>
+                                            <a data-toggle="collapse" href="#daySixReadMore" role="button" aria-expanded="false" aria-controls="daySixReadMore">
+                                                Read more
+                                            </a>
+                                        </div>
+                                        <!-- "Read More" Text section-->
+                                        <div class="card card-body collapse p-0" id="daySixReadMore" style="border: none;">
+                                            <p>
+                                                We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
+                                                some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
+                                                looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
+                                                relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
+                                                for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                                            </p>
+                                            <p>
+                                                The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
+                                                if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
+                                                hotel a <em>little</em> later.
+                                            </p>
+                                        </div>
+                                    </div>  
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="itinerary--images"> 
+                                        <img src="./assets/images/temple-bar.png" alt="Temple Bar Dublin (Photo by Leonhard Niederwimmer)" class="align-center">
+                                        <!-- Button to minimise this tab of the itinerary-->
+                                        <div class="container button--coral--container col-12 align-center mb-1 px-0">
+                                            <h4 class="d-inline-block p-2 m-1">Minimise this tab:</h4>
+                                            <button class="btn btn-info btn-close float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#daySix" aria-expanded="false" aria-controls="daySix">
+                                                <i class="far fa-caret-square-up"></i>
+                                                <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Six of the tour."></span>
+                                            </button>   
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                    <!-- Day Seven -->
+                    <div class="container day--header--container col-12 align-center mb-1 px-0">
+                        <h4 class="d-inline-block p-2 m-1"><strong>Day Seven:</strong><span class="d-none d-sm-inline-block"> Walking Food Tour of Dublin & Private Whiskey Tasting</span></h4>
+                        <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#daySeven" aria-expanded="false" aria-controls="daySeven">
+                            <i class="far fa-caret-square-down"></i>
+                            <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day Seven of the tour."></span>
+                        </button>   
+                    </div>
+                    <div class="col-12 outer--day--container mb-1 collapse" id="daySeven">
+                        <div class="day--container card card-body "> 
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="itinerary--description"> 
+                                        <p>
+                                            Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
+                                            in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
+                                            fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
+                                        </p>
+                                        <!-- Read More "collapse" link -->                                
+                                        <div>
+                                            <a data-toggle="collapse" href="#daySevenReadMore" role="button" aria-expanded="false" aria-controls="daySevenReadMore">
+                                                Read more
+                                            </a>
+                                        </div>
+                                        <!-- "Read More" Text section-->
+                                        <div class="card card-body collapse p-0" id="daySevenReadMore" style="border: none;">
+                                            <p>
+                                                We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
+                                                some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
+                                                looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
+                                                relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
+                                                for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                                            </p>
+                                            <p>
+                                                The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
+                                                if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
+                                                hotel a <em>little</em> later.
+                                            </p>
+                                        </div>
+                                    </div>  
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="itinerary--images"> 
+                                        <img src="./assets/images/temple-bar.png" alt="Temple Bar Dublin (Photo by Leonhard Niederwimmer)" class="align-center">
+                                        <!-- Button to minimise this tab of the itinerary-->
+                                        <div class="container button--coral--container col-12 align-center mb-1 px-0">
+                                            <h4 class="d-inline-block p-2 m-1">Minimise this tab:</h4>
+                                            <button class="btn btn-info btn-close float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#daySeven" aria-expanded="false" aria-controls="daySeven">
+                                                <i class="far fa-caret-square-up"></i>
+                                                <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Seven of the tour."></span>
+                                            </button>   
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                    <!-- Day Eight -->
+                    <div class="container day--header--container col-12 align-center mb-1 px-0">
+                        <h4 class="d-inline-block p-2 m-1"><strong>Day Eight:</strong><span class="d-none d-sm-inline-block"> Walking Food Tour of Dublin & Private Whiskey Tasting</span></h4>
+                        <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayEight" aria-expanded="false" aria-controls="dayEight">
+                            <i class="far fa-caret-square-down"></i>
+                            <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day One of the tour."></span>
+                        </button>   
+                    </div>
+                    <div class="col-12 outer--day--container mb-1 collapse" id="dayEight">
+                        <div class="day--container card card-body "> 
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="itinerary--description"> 
+                                        <p>
+                                            Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
+                                            in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
+                                            fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
+                                        </p>
+                                        
+                                        <!-- "Read More" Text section-->
+                                        <div class="card card-body collapse p-0" id="dayEightReadMore" style="border: none;">
+                                            <p>
+                                                We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
+                                                some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
+                                                looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
+                                                relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
+                                                for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                                            </p>
+                                            <p>
+                                                The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
+                                                if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
+                                                hotel a <em>little</em> later.
+                                            </p>
+                                        </div>
+                                        <!-- Read More "collapse" link -->                                
+                                        <div>
+                                            <a data-toggle="collapse" href="#dayEightReadMore" role="button" aria-expanded="false" aria-controls="dayEightReadMore">
+                                                Read more
+                                            </a>
+                                        </div>
+                                    </div>  
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="itinerary--images"> 
+                                        <img src="./assets/images/temple-bar.png" alt="Temple Bar Dublin (Photo by Leonhard Niederwimmer)" class="align-center">
+                                        <!-- Button to minimise this tab of the itinerary-->
+                                        <div class="container button--coral--container col-12 align-center mb-1 px-0">
+                                            <h4 class="d-inline-block p-2 m-1">Minimise this tab:</h4>
+                                            <button class="btn btn-info btn-close float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayEight" aria-expanded="false" aria-controls="dayEight">
+                                                <i class="far fa-caret-square-up"></i>
+                                                <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Eight of the tour."></span>
+                                            </button>   
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+                    </div> <!-- End of Day Eight-->
+
+                        
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <br>
+        <br>
+        <br>
+
+        <section class="container itinerary--container py-4 px-md-5 "> 
             <div class="row itinerary--header mx-0 my-3 "> 
                 <div class="col-12 col-md-6 my-4"> 
                     <h2 class="uppercase">Tour Itinerary</h2>
                 </div>
             </div>
-            <!-- Day One -->
-            <div class="container day--header--container col-12 align-center mb-1 px-0">
-                <h4 class="d-inline-block p-2 m-1"><strong>Day One:</strong><span class="d-none d-sm-inline-block"> Walking Food Tour of Dublin & Private Whiskey Tasting</span></h4>
-                <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayOne" aria-expanded="false" aria-controls="dayOne">
-                    <i class="far fa-caret-square-down"></i>
-                    <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day One of the tour."></span>
-                </button>   
-            </div>
-            <div class="col-12 outer--day--container mb-1 collapse" id="dayOne">
-                <div class="day--container card card-body "> 
-                    <div class="row">
-                        <div class="col-12 col-md-6">
-                            <div class="itinerary--description"> 
-                                <p>
-                                    Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
-                                    in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
-                                    fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
-                                </p>
-                                <!-- Read More "collapse" link -->                                
-                                <div>
-                                    <a data-toggle="collapse" href="#dayOneReadMore" role="button" aria-expanded="false" aria-controls="dayOneReadMore">
-                                        Read more
-                                    </a>
-                                </div>
-                                <!-- "Read More" Text section-->
-                                <div class="card card-body collapse p-0" id="dayOneReadMore" style="border: none;">
+            <div>
+                <!-- Day One -->
+                <div class="container day--header--container col-12 align-center mb-1 px-0">
+                    <h4 class="d-inline-block p-2 m-1"><strong>Day One:</strong><span class="d-none d-sm-inline-block"> Walking Food Tour of Dublin & Private Whiskey Tasting</span></h4>
+                    <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayOne" aria-expanded="false" aria-controls="dayOne">
+                        <i class="far fa-caret-square-down"></i>
+                        <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day One of the tour."></span>
+                    </button>   
+                </div>
+                <div class="col-12 outer--day--container mb-1 collapse" id="dayOne">
+                    <div class="day--container card card-body "> 
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="itinerary--description"> 
                                     <p>
-                                        We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
-                                        some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
-                                        looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
-                                        relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
-                                        for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                                        Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
+                                        in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
+                                        fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
                                     </p>
-                                    <p>
-                                        The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
-                                        if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
-                                        hotel a <em>little</em> later.
-                                    </p>
-                                </div>
-                            </div>  
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <div class="itinerary--images"> 
-                                <img src="./assets/images/temple-bar.png" alt="Temple Bar Dublin (Photo by Leonhard Niederwimmer)" class="align-center">
-                                <!-- Button to minimise this tab of the itinerary-->
-                                <div class="container button--coral--container col-12 align-center mb-1 px-0">
-                                    <h4 class="d-inline-block p-2 m-1">Minimise this tab:</h4>
-                                    <button class="btn btn-info btn-close float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayOne" aria-expanded="false" aria-controls="dayOne">
-                                        <i class="far fa-caret-square-up"></i>
-                                        <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day One of the tour."></span>
-                                    </button>   
+                                    <!-- Read More "collapse" link -->                                
+                                    <div>
+                                        <a data-toggle="collapse" href="#dayOneReadMore" role="button" aria-expanded="false" aria-controls="dayOneReadMore">
+                                            Read more
+                                        </a>
+                                    </div>
+                                    <!-- "Read More" Text section-->
+                                    <div class="card card-body collapse p-0" id="dayOneReadMore" style="border: none;">
+                                        <p>
+                                            We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
+                                            some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
+                                            looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
+                                            relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
+                                            for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                                        </p>
+                                        <p>
+                                            The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
+                                            if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
+                                            hotel a <em>little</em> later.
+                                        </p>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="itinerary--images"> 
+                                    <img src="./assets/images/temple-bar.png" alt="Temple Bar Dublin (Photo by Leonhard Niederwimmer)" class="align-center">
+                                    <!-- Button to minimise this tab of the itinerary-->
+                                    <div class="container button--coral--container col-12 align-center mb-1 px-0">
+                                        <h4 class="d-inline-block p-2 m-1">Minimise this tab:</h4>
+                                        <button class="btn btn-info btn-close float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayOne" aria-expanded="false" aria-controls="dayOne">
+                                            <i class="far fa-caret-square-up"></i>
+                                            <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day One of the tour."></span>
+                                        </button>   
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>    
+                        </div>    
+                    </div>
                 </div>
-            </div>
-            <!-- Day Two -->
-            <div class="container day--header--container col-12 align-center mb-1 px-0">
-                <h4 class="d-inline-block p-2 m-1"><strong>Day Two:</strong><span class="d-none d-sm-inline-block"> Walking Food Tour of Dublin & Private Whiskey Tasting</span></h4>
-                <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayTwo" aria-expanded="false" aria-controls="dayTwo">
-                    <i class="far fa-caret-square-down"></i>
-                    <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day Two of the tour."></span>
-                </button>   
-            </div>
-            <div class="col-12 outer--day--container mb-1 collapse" id="dayTwo">
-                <div class="day--container card card-body "> 
-                    <div class="row">
-                        <div class="col-12 col-md-6">
-                            <div class="itinerary--description"> 
-                                <p>
-                                    Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
-                                    in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
-                                    fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
-                                </p>
-                                <!-- Read More "collapse" link -->                                
-                                <div>
-                                    <a data-toggle="collapse" href="#dayTwoReadMore" role="button" aria-expanded="false" aria-controls="dayTwoReadMore">
-                                        Read more
-                                    </a>
-                                </div>
-                                <!-- "Read More" Text section-->
-                                <div class="card card-body collapse p-0" id="dayTwoReadMore" style="border: none;">
+                <!-- Day Two -->
+                <div class="container day--header--container col-12 align-center mb-1 px-0">
+                    <h4 class="d-inline-block p-2 m-1"><strong>Day Two:</strong><span class="d-none d-sm-inline-block"> Walking Food Tour of Dublin & Private Whiskey Tasting</span></h4>
+                    <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayTwo" aria-expanded="false" aria-controls="dayTwo">
+                        <i class="far fa-caret-square-down"></i>
+                        <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day Two of the tour."></span>
+                    </button>   
+                </div>
+                <div class="col-12 outer--day--container mb-1 collapse" id="dayTwo">
+                    <div class="day--container card card-body "> 
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="itinerary--description"> 
                                     <p>
-                                        We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
-                                        some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
-                                        looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
-                                        relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
-                                        for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                                        Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
+                                        in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
+                                        fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
                                     </p>
-                                    <p>
-                                        The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
-                                        if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
-                                        hotel a <em>little</em> later.
-                                    </p>
-                                </div>
-                            </div>  
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <div class="itinerary--images"> 
-                                <img src="./assets/images/temple-bar.png" alt="Temple Bar Dublin (Photo by Leonhard Niederwimmer)" class="align-center">
-                                <!-- Button to minimise this tab of the itinerary-->
-                                <div class="container button--coral--container col-12 align-center mb-1 px-0">
-                                    <h4 class="d-inline-block p-2 m-1">Minimise this tab:</h4>
-                                    <button class="btn btn-info btn-close float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayTwo" aria-expanded="false" aria-controls="dayTwo">
-                                        <i class="far fa-caret-square-up"></i>
-                                        <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Two of the tour."></span>
-                                    </button>   
+                                    <!-- Read More "collapse" link -->                                
+                                    <div>
+                                        <a data-toggle="collapse" href="#dayTwoReadMore" role="button" aria-expanded="false" aria-controls="dayTwoReadMore">
+                                            Read more
+                                        </a>
+                                    </div>
+                                    <!-- "Read More" Text section-->
+                                    <div class="card card-body collapse p-0" id="dayTwoReadMore" style="border: none;">
+                                        <p>
+                                            We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
+                                            some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
+                                            looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
+                                            relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
+                                            for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                                        </p>
+                                        <p>
+                                            The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
+                                            if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
+                                            hotel a <em>little</em> later.
+                                        </p>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="itinerary--images"> 
+                                    <img src="./assets/images/temple-bar.png" alt="Temple Bar Dublin (Photo by Leonhard Niederwimmer)" class="align-center">
+                                    <!-- Button to minimise this tab of the itinerary-->
+                                    <div class="container button--coral--container col-12 align-center mb-1 px-0">
+                                        <h4 class="d-inline-block p-2 m-1">Minimise this tab:</h4>
+                                        <button class="btn btn-info btn-close float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayTwo" aria-expanded="false" aria-controls="dayTwo">
+                                            <i class="far fa-caret-square-up"></i>
+                                            <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Two of the tour."></span>
+                                        </button>   
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>    
+                        </div>    
+                    </div>
                 </div>
-            </div>
-            <!-- Day Three -->
-            <div class="container day--header--container col-12 align-center mb-1 px-0">
-                <h4 class="d-inline-block p-2 m-1"><strong>Day Three:</strong><span class="d-none d-sm-inline-block"> Walking Food Tour of Dublin & Private Whiskey Tasting</span></h4>
-                <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayThree" aria-expanded="false" aria-controls="dayThree">
-                    <i class="far fa-caret-square-down"></i>
-                    <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day Three of the tour."></span>
-                </button>   
-            </div>
-            <div class="col-12 outer--day--container mb-1 collapse" id="dayThree">
-                <div class="day--container card card-body "> 
-                    <div class="row">
-                        <div class="col-12 col-md-6">
-                            <div class="itinerary--description"> 
-                                <p>
-                                    Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
-                                    in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
-                                    fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
-                                </p>
-                                <!-- Read More "collapse" link -->                                
-                                <div>
-                                    <a data-toggle="collapse" href="#dayThreeReadMore" role="button" aria-expanded="false" aria-controls="dayThreeReadMore">
-                                        Read more
-                                    </a>
-                                </div>
-                                <!-- "Read More" Text section-->
-                                <div class="card card-body collapse p-0" id="dayThreeReadMore" style="border: none;">
+                <!-- Day Three -->
+                <div class="container day--header--container col-12 align-center mb-1 px-0">
+                    <h4 class="d-inline-block p-2 m-1"><strong>Day Three:</strong><span class="d-none d-sm-inline-block"> Walking Food Tour of Dublin & Private Whiskey Tasting</span></h4>
+                    <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayThree" aria-expanded="false" aria-controls="dayThree">
+                        <i class="far fa-caret-square-down"></i>
+                        <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day Three of the tour."></span>
+                    </button>   
+                </div>
+                <div class="col-12 outer--day--container mb-1 collapse" id="dayThree">
+                    <div class="day--container card card-body "> 
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="itinerary--description"> 
                                     <p>
-                                        We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
-                                        some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
-                                        looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
-                                        relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
-                                        for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                                        Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
+                                        in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
+                                        fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
                                     </p>
-                                    <p>
-                                        The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
-                                        if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
-                                        hotel a <em>little</em> later.
-                                    </p>
-                                </div>
-                            </div>  
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <div class="itinerary--images"> 
-                                <img src="./assets/images/temple-bar.png" alt="Temple Bar Dublin (Photo by Leonhard Niederwimmer)" class="align-center">
-                                <!-- Button to minimise this tab of the itinerary-->
-                                <div class="container button--coral--container col-12 align-center mb-1 px-0">
-                                    <h4 class="d-inline-block p-2 m-1">Minimise this tab:</h4>
-                                    <button class="btn btn-info btn-close float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayThree" aria-expanded="false" aria-controls="dayThree">
-                                        <i class="far fa-caret-square-up"></i>
-                                        <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Three of the tour."></span>
-                                    </button>   
+                                    <!-- Read More "collapse" link -->                                
+                                    <div>
+                                        <a data-toggle="collapse" href="#dayThreeReadMore" role="button" aria-expanded="false" aria-controls="dayThreeReadMore">
+                                            Read more
+                                        </a>
+                                    </div>
+                                    <!-- "Read More" Text section-->
+                                    <div class="card card-body collapse p-0" id="dayThreeReadMore" style="border: none;">
+                                        <p>
+                                            We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
+                                            some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
+                                            looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
+                                            relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
+                                            for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                                        </p>
+                                        <p>
+                                            The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
+                                            if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
+                                            hotel a <em>little</em> later.
+                                        </p>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="itinerary--images"> 
+                                    <img src="./assets/images/temple-bar.png" alt="Temple Bar Dublin (Photo by Leonhard Niederwimmer)" class="align-center">
+                                    <!-- Button to minimise this tab of the itinerary-->
+                                    <div class="container button--coral--container col-12 align-center mb-1 px-0">
+                                        <h4 class="d-inline-block p-2 m-1">Minimise this tab:</h4>
+                                        <button class="btn btn-info btn-close float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayThree" aria-expanded="false" aria-controls="dayThree">
+                                            <i class="far fa-caret-square-up"></i>
+                                            <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Three of the tour."></span>
+                                        </button>   
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>    
+                        </div>    
+                    </div>
                 </div>
-            </div>
-            <!-- Day Four -->
-            <div class="container day--header--container col-12 align-center mb-1 px-0">
-                <h4 class="d-inline-block p-2 m-1"><strong>Day Four:</strong><span class="d-none d-sm-inline-block"> Walking Food Tour of Dublin & Private Whiskey Tasting</span></h4>
-                <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayFour" aria-expanded="false" aria-controls="dayFour">
-                    <i class="far fa-caret-square-down"></i>
-                    <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day Four of the tour."></span>
-                </button>   
-            </div>
-            <div class="col-12 outer--day--container mb-1 collapse" id="dayFour">
-                <div class="day--container card card-body "> 
-                    <div class="row">
-                        <div class="col-12 col-md-6">
-                            <div class="itinerary--description"> 
-                                <p>
-                                    Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
-                                    in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
-                                    fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
-                                </p>
-                                <!-- Read More "collapse" link -->                                
-                                <div>
-                                    <a data-toggle="collapse" href="#dayFourReadMore" role="button" aria-expanded="false" aria-controls="dayFourReadMore">
-                                        Read more
-                                    </a>
-                                </div>
-                                <!-- "Read More" Text section-->
-                                <div class="card card-body collapse p-0" id="dayFourReadMore" style="border: none;">
+                <!-- Day Four -->
+                <div class="container day--header--container col-12 align-center mb-1 px-0">
+                    <h4 class="d-inline-block p-2 m-1"><strong>Day Four:</strong><span class="d-none d-sm-inline-block"> Walking Food Tour of Dublin & Private Whiskey Tasting</span></h4>
+                    <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayFour" aria-expanded="false" aria-controls="dayFour">
+                        <i class="far fa-caret-square-down"></i>
+                        <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day Four of the tour."></span>
+                    </button>   
+                </div>
+                <div class="col-12 outer--day--container mb-1 collapse" id="dayFour">
+                    <div class="day--container card card-body "> 
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="itinerary--description"> 
                                     <p>
-                                        We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
-                                        some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
-                                        looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
-                                        relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
-                                        for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                                        Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
+                                        in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
+                                        fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
                                     </p>
-                                    <p>
-                                        The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
-                                        if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
-                                        hotel a <em>little</em> later.
-                                    </p>
-                                </div>
-                            </div>  
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <div class="itinerary--images"> 
-                                <img src="./assets/images/temple-bar.png" alt="Temple Bar Dublin (Photo by Leonhard Niederwimmer)" class="align-center">
-                                <!-- Button to minimise this tab of the itinerary-->
-                                <div class="container button--coral--container col-12 align-center mb-1 px-0">
-                                    <h4 class="d-inline-block p-2 m-1">Minimise this tab:</h4>
-                                    <button class="btn btn-info btn-close float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayFour" aria-expanded="false" aria-controls="dayFour">
-                                        <i class="far fa-caret-square-up"></i>
-                                        <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Four of the tour."></span>
-                                    </button>   
+                                    <!-- Read More "collapse" link -->                                
+                                    <div>
+                                        <a data-toggle="collapse" href="#dayFourReadMore" role="button" aria-expanded="false" aria-controls="dayFourReadMore">
+                                            Read more
+                                        </a>
+                                    </div>
+                                    <!-- "Read More" Text section-->
+                                    <div class="card card-body collapse p-0" id="dayFourReadMore" style="border: none;">
+                                        <p>
+                                            We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
+                                            some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
+                                            looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
+                                            relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
+                                            for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                                        </p>
+                                        <p>
+                                            The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
+                                            if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
+                                            hotel a <em>little</em> later.
+                                        </p>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="itinerary--images"> 
+                                    <img src="./assets/images/temple-bar.png" alt="Temple Bar Dublin (Photo by Leonhard Niederwimmer)" class="align-center">
+                                    <!-- Button to minimise this tab of the itinerary-->
+                                    <div class="container button--coral--container col-12 align-center mb-1 px-0">
+                                        <h4 class="d-inline-block p-2 m-1">Minimise this tab:</h4>
+                                        <button class="btn btn-info btn-close float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayFour" aria-expanded="false" aria-controls="dayFour">
+                                            <i class="far fa-caret-square-up"></i>
+                                            <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Four of the tour."></span>
+                                        </button>   
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>    
+                        </div>    
+                    </div>
                 </div>
-            </div>
-            <!-- Day Five -->
-            <div class="container day--header--container col-12 align-center mb-1 px-0">
-                <h4 class="d-inline-block p-2 m-1"><strong>Day Five:</strong><span class="d-none d-sm-inline-block"> Walking Food Tour of Dublin & Private Whiskey Tasting</span></h4>
-                <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayFive" aria-expanded="false" aria-controls="dayFive">
-                    <i class="far fa-caret-square-down"></i>
-                    <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day Five of the tour."></span>
-                </button>   
-            </div>
-            <div class="col-12 outer--day--container mb-1 collapse" id="dayFive">
-                <div class="day--container card card-body "> 
-                    <div class="row">
-                        <div class="col-12 col-md-6">
-                            <div class="itinerary--description"> 
-                                <p>
-                                    Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
-                                    in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
-                                    fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
-                                </p>
-                                <!-- Read More "collapse" link -->                                
-                                <div>
-                                    <a data-toggle="collapse" href="#dayFiveReadMore" role="button" aria-expanded="false" aria-controls="dayFiveReadMore">
-                                        Read more
-                                    </a>
-                                </div>
-                                <!-- "Read More" Text section-->
-                                <div class="card card-body collapse p-0" id="dayFiveReadMore" style="border: none;">
+                <!-- Day Five -->
+                <div class="container day--header--container col-12 align-center mb-1 px-0">
+                    <h4 class="d-inline-block p-2 m-1"><strong>Day Five:</strong><span class="d-none d-sm-inline-block"> Walking Food Tour of Dublin & Private Whiskey Tasting</span></h4>
+                    <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayFive" aria-expanded="false" aria-controls="dayFive">
+                        <i class="far fa-caret-square-down"></i>
+                        <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day Five of the tour."></span>
+                    </button>   
+                </div>
+                <div class="col-12 outer--day--container mb-1 collapse" id="dayFive">
+                    <div class="day--container card card-body "> 
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="itinerary--description"> 
                                     <p>
-                                        We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
-                                        some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
-                                        looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
-                                        relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
-                                        for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                                        Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
+                                        in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
+                                        fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
                                     </p>
-                                    <p>
-                                        The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
-                                        if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
-                                        hotel a <em>little</em> later.
-                                    </p>
-                                </div>
-                            </div>  
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <div class="itinerary--images"> 
-                                <img src="./assets/images/temple-bar.png" alt="Temple Bar Dublin (Photo by Leonhard Niederwimmer)" class="align-center">
-                                <!-- Button to minimise this tab of the itinerary-->
-                                <div class="container button--coral--container col-12 align-center mb-1 px-0">
-                                    <h4 class="d-inline-block p-2 m-1">Minimise this tab:</h4>
-                                    <button class="btn btn-info btn-close float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayFive" aria-expanded="false" aria-controls="dayFive">
-                                        <i class="far fa-caret-square-up"></i>
-                                        <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Five of the tour."></span>
-                                    </button>   
+                                    <!-- Read More "collapse" link -->                                
+                                    <div>
+                                        <a data-toggle="collapse" href="#dayFiveReadMore" role="button" aria-expanded="false" aria-controls="dayFiveReadMore">
+                                            Read more
+                                        </a>
+                                    </div>
+                                    <!-- "Read More" Text section-->
+                                    <div class="card card-body collapse p-0" id="dayFiveReadMore" style="border: none;">
+                                        <p>
+                                            We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
+                                            some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
+                                            looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
+                                            relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
+                                            for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                                        </p>
+                                        <p>
+                                            The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
+                                            if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
+                                            hotel a <em>little</em> later.
+                                        </p>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="itinerary--images"> 
+                                    <img src="./assets/images/temple-bar.png" alt="Temple Bar Dublin (Photo by Leonhard Niederwimmer)" class="align-center">
+                                    <!-- Button to minimise this tab of the itinerary-->
+                                    <div class="container button--coral--container col-12 align-center mb-1 px-0">
+                                        <h4 class="d-inline-block p-2 m-1">Minimise this tab:</h4>
+                                        <button class="btn btn-info btn-close float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayFive" aria-expanded="false" aria-controls="dayFive">
+                                            <i class="far fa-caret-square-up"></i>
+                                            <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Five of the tour."></span>
+                                        </button>   
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>    
+                        </div>    
+                    </div>
                 </div>
-            </div>
-            <!-- Day Six -->
-            <div class="container day--header--container col-12 align-center mb-1 px-0">
-                <h4 class="d-inline-block p-2 m-1"><strong>Day Six:</strong><span class="d-none d-sm-inline-block"> Walking Food Tour of Dublin & Private Whiskey Tasting</span></h4>
-                <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#daySix" aria-expanded="false" aria-controls="daySix">
-                    <i class="far fa-caret-square-down"></i>
-                    <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day six of the tour."></span>
-                </button>   
-            </div>
-            <div class="col-12 outer--day--container mb-1 collapse" id="daySix">
-                <div class="day--container card card-body "> 
-                    <div class="row">
-                        <div class="col-12 col-md-6">
-                            <div class="itinerary--description"> 
-                                <p>
-                                    Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
-                                    in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
-                                    fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
-                                </p>
-                                <!-- Read More "collapse" link -->                                
-                                <div>
-                                    <a data-toggle="collapse" href="#daySixReadMore" role="button" aria-expanded="false" aria-controls="daySixReadMore">
-                                        Read more
-                                    </a>
-                                </div>
-                                <!-- "Read More" Text section-->
-                                <div class="card card-body collapse p-0" id="daySixReadMore" style="border: none;">
+                <!-- Day Six -->
+                <div class="container day--header--container col-12 align-center mb-1 px-0">
+                    <h4 class="d-inline-block p-2 m-1"><strong>Day Six:</strong><span class="d-none d-sm-inline-block"> Walking Food Tour of Dublin & Private Whiskey Tasting</span></h4>
+                    <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#daySix" aria-expanded="false" aria-controls="daySix">
+                        <i class="far fa-caret-square-down"></i>
+                        <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day six of the tour."></span>
+                    </button>   
+                </div>
+                <div class="col-12 outer--day--container mb-1 collapse" id="daySix">
+                    <div class="day--container card card-body "> 
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="itinerary--description"> 
                                     <p>
-                                        We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
-                                        some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
-                                        looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
-                                        relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
-                                        for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                                        Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
+                                        in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
+                                        fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
                                     </p>
-                                    <p>
-                                        The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
-                                        if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
-                                        hotel a <em>little</em> later.
-                                    </p>
-                                </div>
-                            </div>  
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <div class="itinerary--images"> 
-                                <img src="./assets/images/temple-bar.png" alt="Temple Bar Dublin (Photo by Leonhard Niederwimmer)" class="align-center">
-                                <!-- Button to minimise this tab of the itinerary-->
-                                <div class="container button--coral--container col-12 align-center mb-1 px-0">
-                                    <h4 class="d-inline-block p-2 m-1">Minimise this tab:</h4>
-                                    <button class="btn btn-info btn-close float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#daySix" aria-expanded="false" aria-controls="daySix">
-                                        <i class="far fa-caret-square-up"></i>
-                                        <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Six of the tour."></span>
-                                    </button>   
+                                    <!-- Read More "collapse" link -->                                
+                                    <div>
+                                        <a data-toggle="collapse" href="#daySixReadMore" role="button" aria-expanded="false" aria-controls="daySixReadMore">
+                                            Read more
+                                        </a>
+                                    </div>
+                                    <!-- "Read More" Text section-->
+                                    <div class="card card-body collapse p-0" id="daySixReadMore" style="border: none;">
+                                        <p>
+                                            We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
+                                            some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
+                                            looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
+                                            relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
+                                            for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                                        </p>
+                                        <p>
+                                            The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
+                                            if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
+                                            hotel a <em>little</em> later.
+                                        </p>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="itinerary--images"> 
+                                    <img src="./assets/images/temple-bar.png" alt="Temple Bar Dublin (Photo by Leonhard Niederwimmer)" class="align-center">
+                                    <!-- Button to minimise this tab of the itinerary-->
+                                    <div class="container button--coral--container col-12 align-center mb-1 px-0">
+                                        <h4 class="d-inline-block p-2 m-1">Minimise this tab:</h4>
+                                        <button class="btn btn-info btn-close float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#daySix" aria-expanded="false" aria-controls="daySix">
+                                            <i class="far fa-caret-square-up"></i>
+                                            <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Six of the tour."></span>
+                                        </button>   
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>    
+                        </div>    
+                    </div>
                 </div>
-            </div>
-            <!-- Day Seven -->
-            <div class="container day--header--container col-12 align-center mb-1 px-0">
-                <h4 class="d-inline-block p-2 m-1"><strong>Day Seven:</strong><span class="d-none d-sm-inline-block"> Walking Food Tour of Dublin & Private Whiskey Tasting</span></h4>
-                <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#daySeven" aria-expanded="false" aria-controls="daySeven">
-                    <i class="far fa-caret-square-down"></i>
-                    <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day Seven of the tour."></span>
-                </button>   
-            </div>
-            <div class="col-12 outer--day--container mb-1 collapse" id="daySeven">
-                <div class="day--container card card-body "> 
-                    <div class="row">
-                        <div class="col-12 col-md-6">
-                            <div class="itinerary--description"> 
-                                <p>
-                                    Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
-                                    in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
-                                    fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
-                                </p>
-                                <!-- Read More "collapse" link -->                                
-                                <div>
-                                    <a data-toggle="collapse" href="#daySevenReadMore" role="button" aria-expanded="false" aria-controls="daySevenReadMore">
-                                        Read more
-                                    </a>
-                                </div>
-                                <!-- "Read More" Text section-->
-                                <div class="card card-body collapse p-0" id="daySevenReadMore" style="border: none;">
+                <!-- Day Seven -->
+                <div class="container day--header--container col-12 align-center mb-1 px-0">
+                    <h4 class="d-inline-block p-2 m-1"><strong>Day Seven:</strong><span class="d-none d-sm-inline-block"> Walking Food Tour of Dublin & Private Whiskey Tasting</span></h4>
+                    <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#daySeven" aria-expanded="false" aria-controls="daySeven">
+                        <i class="far fa-caret-square-down"></i>
+                        <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day Seven of the tour."></span>
+                    </button>   
+                </div>
+                <div class="col-12 outer--day--container mb-1 collapse" id="daySeven">
+                    <div class="day--container card card-body "> 
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="itinerary--description"> 
                                     <p>
-                                        We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
-                                        some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
-                                        looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
-                                        relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
-                                        for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                                        Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
+                                        in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
+                                        fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
                                     </p>
-                                    <p>
-                                        The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
-                                        if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
-                                        hotel a <em>little</em> later.
-                                    </p>
-                                </div>
-                            </div>  
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <div class="itinerary--images"> 
-                                <img src="./assets/images/temple-bar.png" alt="Temple Bar Dublin (Photo by Leonhard Niederwimmer)" class="align-center">
-                                <!-- Button to minimise this tab of the itinerary-->
-                                <div class="container button--coral--container col-12 align-center mb-1 px-0">
-                                    <h4 class="d-inline-block p-2 m-1">Minimise this tab:</h4>
-                                    <button class="btn btn-info btn-close float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#daySeven" aria-expanded="false" aria-controls="daySeven">
-                                        <i class="far fa-caret-square-up"></i>
-                                        <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Seven of the tour."></span>
-                                    </button>   
+                                    <!-- Read More "collapse" link -->                                
+                                    <div>
+                                        <a data-toggle="collapse" href="#daySevenReadMore" role="button" aria-expanded="false" aria-controls="daySevenReadMore">
+                                            Read more
+                                        </a>
+                                    </div>
+                                    <!-- "Read More" Text section-->
+                                    <div class="card card-body collapse p-0" id="daySevenReadMore" style="border: none;">
+                                        <p>
+                                            We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
+                                            some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
+                                            looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
+                                            relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
+                                            for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                                        </p>
+                                        <p>
+                                            The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
+                                            if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
+                                            hotel a <em>little</em> later.
+                                        </p>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="itinerary--images"> 
+                                    <img src="./assets/images/temple-bar.png" alt="Temple Bar Dublin (Photo by Leonhard Niederwimmer)" class="align-center">
+                                    <!-- Button to minimise this tab of the itinerary-->
+                                    <div class="container button--coral--container col-12 align-center mb-1 px-0">
+                                        <h4 class="d-inline-block p-2 m-1">Minimise this tab:</h4>
+                                        <button class="btn btn-info btn-close float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#daySeven" aria-expanded="false" aria-controls="daySeven">
+                                            <i class="far fa-caret-square-up"></i>
+                                            <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Seven of the tour."></span>
+                                        </button>   
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>    
+                        </div>    
+                    </div>
                 </div>
-            </div>
-            <!-- Day Eight -->
-            <div class="container day--header--container col-12 align-center mb-1 px-0">
-                <h4 class="d-inline-block p-2 m-1"><strong>Day Eight:</strong><span class="d-none d-sm-inline-block"> Walking Food Tour of Dublin & Private Whiskey Tasting</span></h4>
-                <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayEight" aria-expanded="false" aria-controls="dayEight">
-                    <i class="far fa-caret-square-down"></i>
-                    <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day One of the tour."></span>
-                </button>   
-            </div>
-            <div class="col-12 outer--day--container mb-1 collapse" id="dayEight">
-                <div class="day--container card card-body "> 
-                    <div class="row">
-                        <div class="col-12 col-md-6">
-                            <div class="itinerary--description"> 
-                                <p>
-                                    Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
-                                    in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
-                                    fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
-                                </p>
-                                
-                                <!-- "Read More" Text section-->
-                                <div class="card card-body collapse p-0" id="dayEightReadMore" style="border: none;">
+                <!-- Day Eight -->
+                <div class="container day--header--container col-12 align-center mb-1 px-0">
+                    <h4 class="d-inline-block p-2 m-1"><strong>Day Eight:</strong><span class="d-none d-sm-inline-block"> Walking Food Tour of Dublin & Private Whiskey Tasting</span></h4>
+                    <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayEight" aria-expanded="false" aria-controls="dayEight">
+                        <i class="far fa-caret-square-down"></i>
+                        <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day One of the tour."></span>
+                    </button>   
+                </div>
+                <div class="col-12 outer--day--container mb-1 collapse" id="dayEight">
+                    <div class="day--container card card-body "> 
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="itinerary--description"> 
                                     <p>
-                                        We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
-                                        some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
-                                        looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
-                                        relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
-                                        for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                                        Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
+                                        in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
+                                        fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
                                     </p>
-                                    <p>
-                                        The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
-                                        if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
-                                        hotel a <em>little</em> later.
-                                    </p>
-                                </div>
-                                <!-- Read More "collapse" link -->                                
-                                <div>
-                                    <a data-toggle="collapse" href="#dayEightReadMore" role="button" aria-expanded="false" aria-controls="dayEightReadMore">
-                                        Read more
-                                    </a>
-                                </div>
-                            </div>  
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <div class="itinerary--images"> 
-                                <img src="./assets/images/temple-bar.png" alt="Temple Bar Dublin (Photo by Leonhard Niederwimmer)" class="align-center">
-                                <!-- Button to minimise this tab of the itinerary-->
-                                <div class="container button--coral--container col-12 align-center mb-1 px-0">
-                                    <h4 class="d-inline-block p-2 m-1">Minimise this tab:</h4>
-                                    <button class="btn btn-info btn-close float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayEight" aria-expanded="false" aria-controls="dayEight">
-                                        <i class="far fa-caret-square-up"></i>
-                                        <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Eight of the tour."></span>
-                                    </button>   
+                                    
+                                    <!-- "Read More" Text section-->
+                                    <div class="card card-body collapse p-0" id="dayEightReadMore" style="border: none;">
+                                        <p>
+                                            We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
+                                            some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
+                                            looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
+                                            relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
+                                            for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                                        </p>
+                                        <p>
+                                            The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
+                                            if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
+                                            hotel a <em>little</em> later.
+                                        </p>
+                                    </div>
+                                    <!-- Read More "collapse" link -->                                
+                                    <div>
+                                        <a data-toggle="collapse" href="#dayEightReadMore" role="button" aria-expanded="false" aria-controls="dayEightReadMore">
+                                            Read more
+                                        </a>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="itinerary--images"> 
+                                    <img src="./assets/images/temple-bar.png" alt="Temple Bar Dublin (Photo by Leonhard Niederwimmer)" class="align-center">
+                                    <!-- Button to minimise this tab of the itinerary-->
+                                    <div class="container button--coral--container col-12 align-center mb-1 px-0">
+                                        <h4 class="d-inline-block p-2 m-1">Minimise this tab:</h4>
+                                        <button class="btn btn-info btn-close float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayEight" aria-expanded="false" aria-controls="dayEight">
+                                            <i class="far fa-caret-square-up"></i>
+                                            <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Eight of the tour."></span>
+                                        </button>   
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>    
-                </div>
-            </div> <!-- End of Day Eight-->
-            <!-- End of Collapse -->
+                        </div>    
+                    </div>
+                </div> <!-- End of Day Eight--> <!-- End of Collapse -->
+            </div>
         </section>
-    </div>
-    <!-- End of Tour Itinerary Section-->
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
-    <!-- Tour Inclusions -->
-    <section>
-        <div class="row">
-            <div class="included--container col-12 col-md-6">
-                <div class="day--container">  
-                    <h2>Tour Inclusions</h2>
-                    <p>
-                        Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
-                        in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
-                        fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
-                    </p>
-                    <!-- Read More "collapse" link -->                                
-                    <div>
-                        <a data-toggle="collapse" href="#dayEightReadMore" role="button" aria-expanded="false" aria-controls="dayEightReadMore">
-                            Read more
-                        </a>
-                    </div>
-                    <!-- "Read More" Text section-->
-                    <div class="card card-body collapse p-0" id="dayEightReadMore" style="border: none;">
+        <!-- End of Tour Itinerary Section-->
+        <!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+        <!-- Tour Inclusions -->
+        <section>
+            <div class="row">
+                <div class="included--container col-12 col-md-6">
+                    <div class="day--container">  
+                        <h2>Tour Inclusions</h2>
                         <p>
-                            We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
-                            some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
-                            looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
-                            relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
-                            for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                            Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
+                            in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
+                            fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
                         </p>
-                        <p>
-                            The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
-                            if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
-                            hotel a <em>little</em> later.
-                        </p>
-                        <div class="container day--header--container col-12 align-center mb-1 px-0">
-                            <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayEight" aria-expanded="false" aria-controls="dayEight">
-                                Book Now
-                                <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Eight of the tour."></span>
-                            </button>   
+                        <!-- Read More "collapse" link -->                                
+                        <div>
+                            <a data-toggle="collapse" href="#dayEightReadMore" role="button" aria-expanded="false" aria-controls="dayEightReadMore">
+                                Read more
+                            </a>
                         </div>
-                    </div>
-                </div>  
-            </div>
-            <div class="included--container col-12 col-md-6">
-                <div class="day--container">  
-                    <h2>Optional Activities</h2>
-                    <p>
-                        Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
-                        in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
-                        fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
-                    </p>
-                    <div class="card card-body collapse p-0" id="dayEightReadMore" style="border: none;">
+                        <!-- "Read More" Text section-->
+                        <div class="card card-body collapse p-0" id="dayEightReadMore" style="border: none;">
+                            <p>
+                                We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
+                                some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
+                                looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
+                                relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
+                                for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                            </p>
+                            <p>
+                                The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
+                                if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
+                                hotel a <em>little</em> later.
+                            </p>
+                            <div class="container day--header--container col-12 align-center mb-1 px-0">
+                                <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayEight" aria-expanded="false" aria-controls="dayEight">
+                                    Book Now
+                                    <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Eight of the tour."></span>
+                                </button>   
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <div class="included--container col-12 col-md-6">
+                    <div class="day--container">  
+                        <h2>Optional Activities</h2>
                         <p>
-                            We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
-                            some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
-                            looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
-                            relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
-                            for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                            Today is really an arrival day to allow everyone to arrive in their own time as we understand that some of you will be travelling
+                            in from further afield than others.  However for those of you who are able to arrive a little earlier in the day we do have some
+                            fun activities planned to introduce to your fellow tour companions while getting a taste of what our capitol city has to offer.
                         </p>
+                        <div class="card card-body collapse p-0" id="dayEightReadMore" style="border: none;">
+                            <p>
+                                We'll meet in the hotel bar at 2pm and enjoy a complimentary glass of prosecco before heading out for a 3 hour walking food tour of
+                                some of Dublin's hidden gems and of course a few old reliables.  We should be back at the hotel by 5:30pm and while we doubt you'll be
+                                looking for a big dinner have the delicious treats you will have sampled on the food tour, we will give you a few hours to rest and 
+                                relax.  We'll re-group in the hotel reception area at 8pm and take a short transfer over to the Church Bar were we have an area reserved
+                                for a private Whiskey Tasting hosted by Glen from Distilled Ireland.
+                            </p>
+                            <p>
+                                The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
+                                if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
+                                hotel a <em>little</em> later.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+
+
+
+
+                <div class="included--container col-12 col-md-6">
+                    <div class="day--container">
+                        <h2>Optional Activities</h2> 
                         <p>
                             The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
                             if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
-                            hotel a <em>little</em> later.
+                            hotel a <em>little</em> later.vscvxcvxcvxcvxcvxcvxcvxcvzxcvc
+                            <p>
+                                <span>
+                                    <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayEight" aria-expanded="false" aria-controls="dayEight">
+                                        Customise & Quote
+                                        <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Eight of the tour."></span>
+                                    </button> 
+                                </span>
+                            </p>
                         </p>
+                        
+                        
+                        
                     </div>
-                </div>  
-            </div>
-
-
-
-
-
-            <div class="included--container col-12 col-md-6">
-                <div class="day--container">
-                    <h2>Optional Activities</h2> 
-                    <p>
-                        The Whiskey Tasting event lasts approx. an hour and half, so at 10pm your tour leader will arrange the transfer back to the hotel, although
-                        if some of you wish to sample a little more of Dublin's lively Saturday night nightlife then you can of cousre make your own way back to the 
-                        hotel a <em>little</em> later.vscvxcvxcvxcvxcvxcvxcvxcvzxcvc
-                        <p>
-                            <span>
-                                <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayEight" aria-expanded="false" aria-controls="dayEight">
-                                    Customise & Quote
-                                    <span class="sr-only" aria-label="Click this Menu Icon to minimise the itinerary for Day Eight of the tour."></span>
-                                </button> 
-                            </span>
-                        </p>
-                    </p>
-                    
-                    
-                    
                 </div>
             </div>
-        </div>
-    </section>  
- <!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+        </section>
+    </article>  
+    <!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
     <!-- Start of Footer Container-->
     <footer class="container footer--container px-1 pt-3 pl-md-5 pr-md-5 pl-lg-15 pr-lg-15"> <!-- px-1 pt-3 pl-md-5 pr-md-5 pl-lg-15 pr-lg-15 -->
         <!-- Newsletter Form-->
