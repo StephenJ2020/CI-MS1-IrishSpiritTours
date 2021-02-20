@@ -657,12 +657,11 @@ footer form input:hover{
 }
 
 .itinerary--images img{
-    width: 100%;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     border-style: groove;
     border-radius: 22px;
-    padding: 10px;
 }
 
 .included--container{
