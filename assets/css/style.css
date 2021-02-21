@@ -617,10 +617,9 @@ footer form input:hover{
     border: #35798e 1px solid;
     border-radius: 22px;
     padding: 0;
-    /* margin: 0 15px 0 15px; */
 } 
 
-.day--header--container{        /* package--option */
+.day--header--container{      
     max-width: 100vw;
     min-height: fit-content;
     max-height: fit-content;
@@ -685,7 +684,32 @@ footer form input:hover{
     }
 }
 
+.inclusions-section{
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
 
+}
+.inclusions{
+    max-width: 100%;
+    margin: 25px auto 0 auto;
+    min-height: 20rem;
+    max-height: fit-content;
+    align-self: center;
+    display: inline-block;
+    background-color: lightpink;
+}
+
+.optionals{
+    max-width: 100%;
+    margin: 25px auto 0 auto;
+    min-height: 20rem;
+    max-height: fit-content;
+    align-self: center;
+    display: inline-block;
+    background-color: rgb(190, 190, 26);
+}
 
 /* *****************************************************Contact.html page */
 /* *********************************************************************** */
