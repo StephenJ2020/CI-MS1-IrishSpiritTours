@@ -701,27 +701,28 @@ footer form input:hover{
     margin: 50px auto;
     display: flex;
     justify-content: center;
-
 }
 .inclusions{
     max-width: 100%;
     margin: 25px auto 0 auto;
+    padding: 20px 25px;
     min-height: 20rem;
     max-height: fit-content;
     align-self: center;
     display: inline-block;
-    background-color: lightpink;
 }
 
 .optionals{
     max-width: 100%;
     margin: 25px auto 0 auto;
+    padding: 20px 25px;
     min-height: 20rem;
     max-height: fit-content;
     align-self: center;
     display: inline-block;
-    background-color: rgb(190, 190, 26);
 }
+
+
 
 /* *****************************************************Contact.html page */
 /* *********************************************************************** */
