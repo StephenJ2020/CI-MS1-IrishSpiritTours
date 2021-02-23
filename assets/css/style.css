@@ -698,13 +698,13 @@ footer form input:hover{
 
 .inclusions-section{
     width: 100%;
-    margin: 50px auto;
+    margin: 20px auto;
     display: flex;
     justify-content: center;
 }
 .inclusions{
     max-width: 100%;
-    margin: 25px auto 0 auto;
+    margin: 0 auto 0 auto;
     padding: 20px 25px;
     min-height: 20rem;
     max-height: fit-content;
@@ -714,7 +714,7 @@ footer form input:hover{
 
 .optionals{
     max-width: 100%;
-    margin: 25px auto 0 auto;
+    margin: 0x auto 0 auto;
     padding: 20px 25px;
     min-height: 20rem;
     max-height: fit-content;
@@ -722,6 +722,15 @@ footer form input:hover{
     display: inline-block;
 }
 
+@media (min-width:678px){
+    .inclusions, optionals{
+        margin: 25px auto 0 auto;
+    }
+}
+
+.orange-icon{
+    color: #F47A60;
+}
 
 
 /* *****************************************************Contact.html page */
