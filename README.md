@@ -327,4 +327,7 @@ walking-food-tour https://unsplash.com/photos/jtLECCiz1e4  - Jasmin Schreiber
 eatyard https://unsplash.com/photos/njMTraScFbQ - Luca Ambrosi
 church bar https://www.thetaste.ie/the-best-beer-gardens-to-visit-this-summer/ - taste.ie
 ardgillian https://avea.ie/ardgillan-castle-ltd/ - Ardgillan Castle Ltd.
+skerries mills https://seda.college/blog/en/6-places-near-dublin-to-visit-in-one-day/skerries/
+dublin-food-tour https://www.gites.fr/gites_temple-bar-district-apartments_dublin_h1273335_en.htm
+dublin https://www.skyscanner.ie/news/inspiration/best-irish-breakfast-in-dublin
 Code snippet from https://css-tricks.com/fluid-width-video/  Boann Distillery Youtube video

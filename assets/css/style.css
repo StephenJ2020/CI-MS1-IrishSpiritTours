@@ -685,6 +685,9 @@ footer form input:hover{
     #dayEightReadMore {
         display: block;
     }
+    .itinerary--description div ul a{
+        display: inline-block;
+    }
     .itinerary--description div a{
         display: none;
     } 
