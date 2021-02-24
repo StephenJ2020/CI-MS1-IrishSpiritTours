@@ -496,12 +496,14 @@ footer form input:hover{
 .btn-styling{
     font-weight: bold;
     color: #fff;
-    background-color: #F47A60;
+    /*background-color: #F47A60; */
+    background-color: #35798e;
     border-radius: 22px;
 }
 
 .btn-styling:hover{
-    background-color: #35798e;
+    /*background-color: #35798e; */
+    background-color: #F47A60;
 }
 
 .center{
@@ -515,6 +517,7 @@ footer form input:hover{
     border-radius: 22px;
 } 
 
+/*
 .button--coral--container{
     max-width: 100%;
     min-height: fit-content;
@@ -523,8 +526,9 @@ footer form input:hover{
     border-radius: 22px;
     color: #fff;
     background-color: #F47A60;
+    background-color: rgba(244, 122, 96, 0.9);
     border: #35798e 1px solid;
-} 
+} */
 
 /* ******************************************** Media Queries for index.html */
 
@@ -642,6 +646,14 @@ footer form input:hover{
     font-size: 18px;
 }
 
+.itinerary--description ul{
+    list-style: none;
+}
+
+.itinerary--description ul i{
+    color: #F47A60;
+}
+
 .itinerary--images img{
     width: 100%;
     justify-content: flex-start;
@@ -676,6 +688,22 @@ footer form input:hover{
     .itinerary--description div a{
         display: none;
     } 
+}
+
+.videoWrapper{ /* Code snippet from https://css-tricks.com/fluid-width-video/ */
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+
+.videoWrapper iframe { /* Modified Code snippet from https://css-tricks.com/fluid-width-video/ */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 22px;
+    background-color: #dae0e4
 }
 
 @media (min-width:992px) {

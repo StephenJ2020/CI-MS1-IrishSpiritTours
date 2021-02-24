@@ -327,3 +327,4 @@ walking-food-tour https://unsplash.com/photos/jtLECCiz1e4  - Jasmin Schreiber
 eatyard https://unsplash.com/photos/njMTraScFbQ - Luca Ambrosi
 church bar https://www.thetaste.ie/the-best-beer-gardens-to-visit-this-summer/ - taste.ie
 ardgillian https://avea.ie/ardgillan-castle-ltd/ - Ardgillan Castle Ltd.
+Code snippet from https://css-tricks.com/fluid-width-video/  Boann Distillery Youtube video
