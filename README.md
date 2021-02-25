@@ -333,4 +333,15 @@ dublin https://www.skyscanner.ie/news/inspiration/best-irish-breakfast-in-dublin
 battle-of-boyne https://www.tripadvisor.ie/Attractions-g21384005-Activities-Oldbridge_County_Meath.html
 listoke https://pershorepatty.com/2018/10/30/piston-gin/
 carlingford https://www.irelandbeforeyoudie.com/top-5-pubs-in-carlingford/
+carlingford-brewing http://www.carlingfordbrewing.ie/brewerytours.php
+newgrange https://www.sciencemag.org/news/2020/06/dna-ancient-irish-tomb-reveals-incest-and-elite-class-ruled-early-farmers
+slane https://www.google.com/maps/uv?pb=!1s0x486746125ffde89f%3A0x217aa9deb4b9a382!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPD_S9uRMvo6F-0Q_8vD44VY3x2qDIkCH91iSmK%3Dw241-h160-k-no!5sslane%20distillery%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e10!2sAF1QipPD_S9uRMvo6F-0Q_8vD44VY3x2qDIkCH91iSmK&hl=en&sa=X&ved=2ahUKEwiZyJKM2IPvAhX1URUIHRRbC4AQoiowJHoECEQQAw#
+boyne-valley-cheese https://www.hinterland.ie/p-258-cheese-the-story-of-milk-and-farmhouse-cheese.aspx
+trim-castle-hotel https://www.google.com/travel/hotels/entity/CgsIjvyQoK6Im5yVARAB/lightbox/CAoSLEFGMVFpcE1Za2dqTmpPVVFQNGNhWGhCc0pxci1BSzA5R3FkN0dEbkVMUDBl?g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4306835%2C4317915%2C4328159%2C4371334%2C4401769%2C4419364%2C4463666%2C4464736%2C4466981%2C4481897%2C4482194%2C4482438%2C4486153%2C4491350%2C4495816%2C4497651%2C4270859%2C4284970%2C4291517&hl=en-IE&gl=ie&grf=EmQKLAgOEigSJnIkKiIKBwjlDxADGBUSBwjlDxADGBYgADAeQMoCSgcI5Q8QAhgZCjQIDBIwEi6yASsSKQonCiUweDQ4Njc1ZTFhNTljMzY5YjM6MHg5NTM4NmM0MmU0MDQzZTBl&rp=EI78kKCuiJuclQEQjvyQoK6Im5yVATgCQABIAcABAg&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwig0cbe7oPvAhUAAAAAHQAAAAAQAw&utm_campaign=sharing&utm_medium=link&utm_source=htls
+bru-brewing https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.tn2magazine.ie%2Fwp-content%2Fuploads%2F2015%2F02%2FIMG_9553.jpg&imgrefurl=https%3A%2F%2Fwww.tn2magazine.ie%2Fblood-sweat-and-beers%2F&tbnid=igL_7rrcFuPY0M&vet=10CAoQMyhoahcKEwiQw7CG64PvAhUAAAAAHQAAAAAQAg..i&docid=GGpmR-oKvtgr_M&w=4014&h=2677&q=Bru%20Brewery&ved=0CAoQMyhoahcKEwiQw7CG64PvAhUAAAAAHQAAAAAQAg
+castletown-house & Celbridge Video https://www.discovercelbridge.com/
+lilly-obrien-chocolate https://www.nytimes.com/2015/11/15/travel/dublin-ireland-chocolate.html
+glendalough https://www.tripadvisor.ie/Tourism-g551590-Glendalough_Village_Vale_of_Glendalough_County_Wicklow-Vacations.html
+glendalough-lake https://www.tripadvisor.ie/LocationPhotoDirectLink-g212530-d2085241-i203612151-West_Wicklow_House-Blessington_County_Wicklow.html
 Code snippet from https://css-tricks.com/fluid-width-video/  Boann Distillery Youtube video
+Change start time of Youtube video https://www.business2community.com/youtube/embed-youtube-video-specific-start-time-01010991

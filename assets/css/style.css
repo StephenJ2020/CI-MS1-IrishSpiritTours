@@ -705,6 +705,7 @@ footer form input:hover{
     left: 0;
     width: 100%;
     height: 100%;
+    border-style: groove;
     border-radius: 22px;
     background-color: #dae0e4
 }
