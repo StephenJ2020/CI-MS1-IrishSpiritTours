@@ -74,7 +74,7 @@ body{
 
 .hero-image-itinerary{
     height: 65vh;
-    background: url('../images/castletown-house.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
+    background: url('../images/castletown-wide.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -599,7 +599,7 @@ footer form input:hover{
     background-color: #ffffff;
 
     height: 16vh;    
-    background: url('../images/ardgillan2.png') center center / cover no-repeat fixed; 
+    background: url('../images/castletown-wide.png') center center / cover no-repeat fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -794,7 +794,21 @@ footer form input:hover{
     -o-background-size: cover;
 }
 
+hr{
+    border: 1px solid #dae0e4;
+}
 
+@media (min-width:678px){
+    .flex-item-A{
+        order: 2;
+    }
+    .flex-item-B{
+        order: 1;
+    }
+    .flex-item-c{
+        order: 3;
+    }
+}
 
 
 
