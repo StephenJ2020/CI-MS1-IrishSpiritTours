@@ -74,7 +74,15 @@ body{
 
 .hero-image-itinerary{
     height: 65vh;
-    background: url('../images/ardgillan2.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
+    background: url('../images/castletown-house.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.hero-image-add-on{
+    height: 65vh;
+    background: url('../images/add-on-hero.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -763,6 +771,32 @@ footer form input:hover{
 .orange-icon{
     color: #F47A60;
 }
+
+
+/* *****************************************************add-on.html page */
+
+.add-on--header{
+    max-width: 95vw;
+    min-height: fit-content;
+    max-height: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    color: #F47A60;
+    font-weight: 900;
+    border-radius: 22px;
+    border: #fff 8px solid;
+    background-color: #ffffff;
+
+    height: 16vh;    
+    background: url('../images/add-on-hero.png') center center / cover no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
+
 
 
 /* *****************************************************Contact.html page */
