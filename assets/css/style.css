@@ -798,7 +798,7 @@ hr{
     border: 1px solid #dae0e4;
 }
 
-@media (min-width:678px){
+@media (min-width:678px){ /* I was assisted by the following example: https://css-tricks.com/almanac/properties/o/order/ */
     .flex-item-A{
         order: 2;
     }
