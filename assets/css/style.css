@@ -834,39 +834,6 @@ hr{
     border-top-style: ridge;
     background-color: #fff;
 }
-/*
-#photos{
-    clear: both;
-    column-count: 4;
-    column-gap: 10px;
-}
-
-#photos img{
-    width: 100%;
-    height: auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    position:relative;
-}
-
-#photos img:hover{
-    transform: scale(3.5);
-    border: 3px #dae0e4 solid;
-    border-radius: 11px;
-    margin: 150px;
-    z-index: 999;
-}
-
-
-
-
-@media (min-width:678px){ 
-    #photos img:hover{
-        transform: scale(1.75);
-    }
-} */
-
-/****************/
 
 #photos{
     box-sizing: border-box;
@@ -878,23 +845,21 @@ img{
     margin-bottom: 2.5px;
 }
 
-
-
-#photos img {
+#photos img {   /* Code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_zoom_hover */
   padding: 2px;
   transition: transform .2s;
   width: 148px;
   height: 110px;
-  margin: 0 auto;
+  margin: 2px auto;
   border-radius: 11px;
   border: 3px solid #343434;
 }
 
-#photos img:hover {
-  -ms-transform: scale(1.4); /* IE 9 */
-  -webkit-transform: scale(1.4); /* Safari 3-8 */
-  transform: scale(1.4); 
-  border: 3px solid #ffffff;
+#photos img:hover {     /* Code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_zoom_hover */
+  -ms-transform: scale(1.35); /* IE 9 */
+  -webkit-transform: scale(1.35); /* Safari 3-8 */
+  transform: scale(1.35); 
+  border: 2px solid #545454;
 }
 
 @media (min-width:678px){ 
