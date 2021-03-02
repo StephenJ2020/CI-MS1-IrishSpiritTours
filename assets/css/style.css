@@ -88,6 +88,14 @@ body{
     -o-background-size: cover;
 }
 
+.hero-image-gallery{
+    height: 65vh;
+    background: url('../images/boann-pot-still.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
 .hero-image-contact{
     height: 65vh;
     background: url('../images/contact.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
@@ -826,41 +834,81 @@ hr{
     border-top-style: ridge;
     background-color: #fff;
 }
-
+/*
 #photos{
     clear: both;
     column-count: 4;
-    column-gap: 5px;
-    position:relative;
+    column-gap: 10px;
 }
 
 #photos img{
     width: 100%;
     height: auto;
-    margin-top: 2.5px;
-    margin-bottom: 2.5px;
-    border-radius: 11px;
-    /*position:relative;
-    
-    height:auto;
-    display:block;
-    z-index:999;*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position:relative;
 }
 
 #photos img:hover{
     transform: scale(3.5);
-    z-index: 1;
     border: 3px #dae0e4 solid;
-    /*top:70px;
-    left:250px;
-    position: absolute;*/
+    border-radius: 11px;
+    margin: 150px;
+    z-index: 999;
 }
+
+
+
 
 @media (min-width:678px){ 
     #photos img:hover{
         transform: scale(1.75);
     }
+} */
+
+/****************/
+
+#photos{
+    box-sizing: border-box;
+    margin: 10px;
 }
+
+img{
+    margin-top: 9.5px;
+    margin-bottom: 2.5px;
+}
+
+
+
+#photos img {
+  padding: 2px;
+  transition: transform .2s;
+  width: 148px;
+  height: 110px;
+  margin: 0 auto;
+  border-radius: 11px;
+  border: 3px solid #343434;
+}
+
+#photos img:hover {
+  -ms-transform: scale(1.4); /* IE 9 */
+  -webkit-transform: scale(1.4); /* Safari 3-8 */
+  transform: scale(1.4); 
+  border: 3px solid #ffffff;
+}
+
+@media (min-width:678px){ 
+    #photos img:hover{
+    -ms-transform: scale(2.5); /* IE 9 */
+    -webkit-transform: scale(2.5); /* Safari 3-8 */
+    transform: scale(2.5); 
+    border: 3px solid #ffffff;
+    }
+}
+
+/************/
+
+
 
 
 .section--container{
