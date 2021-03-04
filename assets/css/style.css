@@ -953,11 +953,11 @@ img{
     border-bottom-left-radius: 30px;
     display: inline-block;
     position: relative;
-    left: 25px;
+    /*left: 20px;*/    /* Not doing anything so needs to be double checked and then removed */
 } 
 
 .center--suitcase--container{
-    width: 60vw;
+    width: 64vw;
     min-height: 76vh;
     margin: 70px 8px;
     border-radius: 11px;
@@ -975,7 +975,7 @@ img{
     border-bottom-right-radius: 30px;
     display: inline-block;
     position: relative;
-    left: 25px;
+    /* left: 70px; */  /* Not doing anything so needs to be double checked and then removed */
 }
 
 .opaque-overlay{   /* External code from the Code Institute walk-thru mini-project - Whiskey Drop */
@@ -988,9 +988,25 @@ img{
     border-radius: 22px;
 }   /* End of external code */
 
+fieldset{
+    border: 1px solid #dae0e4;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 40px;
+}
 
+legend{
+    width: fit-content;
+    text-align: left;
+} 
 
+label{
+    text-align: left;
+}
 
+input{
+    text-align: left;
+}
 
 @media screen and (min-width:779px){
     .center--suitcase--container{
