@@ -960,40 +960,16 @@ img{
     min-height: 76vh;
     margin: 70px 8px;
     border-radius: 11px;
-    background-color: #dae0e4;
+    background-color: #545454;
     display: inline-block;
     position: relative;
    
 }
 
-@media screen and (min-width:779px){
-    .center--suitcase--container{
-        width: 60vw;
-        margin: 70px 8px;
-        border-radius: 11px
-        background-color: #dae0e4;
-        display: inline-block;
-        position: relative;
-        left: 60px;
-    }
-}
-
-@media screen and (min-width:1700px){
-    .center--suitcase--container{
-        width: 60vw;
-        min-height: 76vh;
-        margin: 0 5px;
-        background-color: #dae0e4;
-        display: inline-block;
-        position: relative;
-        left: 25px;
-    }
-}
-
 .right--suitcase--container{
     max-width: 14%;
     margin: 0 auto;
-    background-color: #dae0e4;
+    background-color: #343434;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     display: inline-block;
@@ -1010,6 +986,78 @@ img{
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 22px;
 }   /* End of external code */
+
+fieldset {
+  border: 3px solid gray;
+  margin-top: ;
+}
+
+/*legend {
+    background-color: #545454;
+    color: white;
+    padding: 5px 10px;
+} */
+
+@media screen and (min-width:779px){
+    .center--suitcase--container{
+        width: 60vw;
+        margin: 100px 70px;
+        border-radius: 11px
+        background-color: #dae0e4;
+        display: inline-block;
+        position: relative;
+        left: 21px; 
+    }
+}
+
+@media screen and (min-width:1200px){
+    .left--suitcase--container{
+        max-width: 14%;
+        max-height: 76vh;
+        margin: 0 auto;
+        background-color: #dae0e4;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        display: inline-block;
+        position: relative;
+        left: 25px;
+    } 
+
+    .center--suitcase--container{
+        width: 60vw;
+        min-height: 76vh;
+        margin: 0 8px;
+        border-radius: 11px;
+        background-color: #dae0e4;
+        display: inline-block;
+        position: relative;
+    
+    }
+
+    .right--suitcase--container{
+        max-width: 14%;
+        max-height: 76vh;
+        margin: 0 auto;
+        background-color: #dae0e4;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        display: inline-block;
+        position: relative;
+        left: 25px;
+    }
+}
+
+@media screen and (min-width:1700px){
+    .center--suitcase--container{
+        width: 60vw;
+        min-height: 76vh;
+        margin: 0 5px;
+        background-color: #dae0e4;
+        display: inline-block;
+        position: relative;
+        left: 25px;
+    }
+}
 
 
 /* **************************************************General Media Queries */
