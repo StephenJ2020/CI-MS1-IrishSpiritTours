@@ -904,7 +904,7 @@ img{
     height: 100vh;    
     /*margin-top: 50px;*/
     background: url('../images/contact.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(52, 52, 52, 0.6);
     border-radius: 22px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -918,14 +918,14 @@ img{
     margin-left: 27vw; 
     /*margin-right: 34vw; */
     padding-top: 6vh;
-    background-color: #dae0e4;
+    background-color: rgba(52, 52, 52, 0.6);
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
 
 .inner--handle{
     max-width: 17vw;
-    max-height: 10vh;
+    max-height: 08vh;
     margin-left: 3vw; 
     margin-right: 5vw;
     align-self: baseline;
@@ -947,7 +947,8 @@ img{
 .left--suitcase--container{
     max-width: 14%;
     margin: 0 auto;
-    background-color: #dae0e4;
+    /*background-color: #35798e;*/
+    background-color: rgba(52, 52, 52, 0.6);
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     display: inline-block;
@@ -960,7 +961,7 @@ img{
     min-height: 76vh;
     margin: 70px 8px;
     border-radius: 11px;
-    background-color: pink;
+    background-color: rgba(52, 52, 52, 0.6);
     display: inline-block;
     position: relative;
    
@@ -969,7 +970,7 @@ img{
 .right--suitcase--container{
     max-width: 14%;
     margin: 0 auto;
-    background-color: #343434;
+    background-color: rgba(52, 52, 52, 0.6);
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     display: inline-block;
@@ -983,27 +984,21 @@ img{
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(52, 52, 52, 0.6);
     border-radius: 22px;
 }   /* End of external code */
 
-fieldset {
-  border: 3px solid gray;
-  margin-top: ;
-}
 
-/*legend {
-    background-color: #545454;
-    color: white;
-    padding: 5px 10px;
-} */
+
+
 
 @media screen and (min-width:779px){
     .center--suitcase--container{
         width: 60vw;
         margin: 100px 70px;
-        border-radius: 11px
-        background-color: #dae0e4;
+        padding: 20px 25px;
+        border-radius: 11px;
+        background-color: rgba(52, 52, 52, 0.6);
         display: inline-block;
         position: relative;
         left: 21px; 
@@ -1015,7 +1010,7 @@ fieldset {
         max-width: 14%;
         max-height: 76vh;
         margin: 0 auto;
-        background-color: #dae0e4;
+        background-color: rgba(52, 52, 52, 0.6);
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
         display: inline-block;
@@ -1028,7 +1023,7 @@ fieldset {
         min-height: 76vh;
         margin: 0 8px;
         border-radius: 11px;
-        background-color: #dae0e4;
+        background-color: rgba(52, 52, 52, 0.6);
         display: inline-block;
         position: relative;
     
@@ -1038,7 +1033,7 @@ fieldset {
         max-width: 14%;
         max-height: 76vh;
         margin: 0 auto;
-        background-color: #dae0e4;
+        background-color: rgba(52, 52, 52, 0.6);
         border-top-right-radius: 30px;
         border-bottom-right-radius: 30px;
         display: inline-block;
@@ -1052,7 +1047,7 @@ fieldset {
         width: 60vw;
         min-height: 76vh;
         margin: 0 5px;
-        background-color: #dae0e4;
+        background-color: rgba(52, 52, 52, 0.6);
         display: inline-block;
         position: relative;
         left: 25px;
