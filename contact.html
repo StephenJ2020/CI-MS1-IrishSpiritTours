@@ -105,22 +105,68 @@
                                                 </fieldset>
                                                 <fieldset>
                                                     <legend>&nbsp; Request Details &nbsp;</legend>
-                                                    <div>
-                                                        <label for="firstName">First Name: </label>
-                                                        <input type="text" id="firstName" placeholder="First Name" name="firstName" required>
+                                                    <h2>I want to:</h2>
+                                                  
+                                            
+                                                    <!-- Code adapted from Bootstrap Acordian https://getbootstrap.com/docs/4.5/components/collapse/#accordion-example and Forms https://getbootstrap.com/docs/4.5/components/forms/ --> 
+                                                    <div class="accordion" id="accordionExample">
+                                                        <div class="card">
+                                                            <div class="card-header" id="headingOne">
+                                                            <h2> <!-- class="mb-0" -->
+                                                                <label class="form-check-label" for="inlineRadio1"> Get a Quote </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"   data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> <!-- type="button" -->
+                                                            </h2>
+                                                            </div>
+
+                                                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                                                <div class="card-body">
+                                                                    <p>How many people should we quote you for?</p>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="radio" name="quoteNumberPaxs" id="quoteInlineRadio1" value="quote1">
+                                                                        <label class="form-check-label" for="quoteInlineRadio1">1</label>
+                                                                        </div>
+                                                                        <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="radio" name="quoteNumberPaxs" id="quoteInlineRadio2" value="quote2">
+                                                                        <label class="form-check-label" for="quoteInlineRadio2">2</label>
+                                                                        </div>
+                                                                        <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="radio" name="quoteNumberPaxs" id="quoteInlineRadio3" value="quote3">
+                                                                        <label class="form-check-label" for="quoteInlineRadio3">3</label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <div class="card-header" id="headingTwo">
+                                                            <h2> <!--  class="mb-0" -->
+                                                                <label class="form-check-label" for="inlineRadio2">Make a Booking </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                            </h2>
+                                                            </div>
+                                                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                                                <div class="card-body">
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <div class="card-header" id="headingThree">
+                                                            <h2> <!-- class="mb-0" -->
+                                                                <label class="form-check-label" for="inlineRadio3">Ask a General Question </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                            </h2>
+                                                            </div>
+                                                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                                <div class="card-body">
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                    <div>
-                                                        <label for="lastName">Last Name: </label>
-                                                        <input type="text" id="lastName" placeholder="Last Name" name="lastName" required>
-                                                    </div>
-                                                    <div>
-                                                        <label for="phone">Telephone: </label>
-                                                        <input type="tel" id="phone" placeholder="Enter your number" name="phone">
-                                                    </div>
-                                                    <div>
-                                                        <label for="email">Enter E-mail: </label>
-                                                        <input type="email" id="email" name="email" placeholder="Enter your E-mail" required>
-                                                    </div>
+                                                    <!-- End of Bootstrap code -->
+
+
+                                                    
 
                                                 </fieldset>
                                             

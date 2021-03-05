@@ -878,7 +878,8 @@ img{
 
 .section--container{
     max-width: 100%;
-    height: 120vh;
+    height: fit-content;
+    min-height: 120vh;
     margin: 20px auto;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -901,7 +902,8 @@ img{
 
 .outer--contact--container{
     max-width: 100vw;
-    height: 100vh;    
+    height: fit-content;    
+    min-height: 100vh;
     /*margin-top: 50px;*/
     background: url('../images/contact.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
     background-color: rgba(52, 52, 52, 0.6);
@@ -959,6 +961,7 @@ img{
 .center--suitcase--container{
     width: 64vw;
     min-height: 76vh;
+    height: fit-content;
     margin: 70px 8px;
     border-radius: 11px;
     background-color: rgba(52, 52, 52, 0.6);
@@ -991,8 +994,9 @@ img{
 fieldset{
     border: 1px solid #dae0e4;
     color: #ffffff;
+    font-size: 0.9em;
     padding: 10px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 legend{
@@ -1008,9 +1012,82 @@ input{
     text-align: left;
 }
 
+/* Start of Overriding Bootstrap CSS */
+.card-header {
+    padding: 0;
+    margin-bottom: 0;
+    background-color: rgba(52, 52, 52, 0.1);
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgba(52, 52, 52, 0.1);
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+form fieldset .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0.25rem;
+}
+
+form fieldset p {
+    margin-top: 0;
+    margin-bottom: 0.15rem;
+}
+
+form fieldset .h2 {
+    font-size: 0.9em;
+    text-align: left;
+}
+
+form fieldset .h2 {
+    margin-bottom: 0;
+    font-family: inherit;
+    font-weight: inherit;
+    text-align: left;
+    line-height: 1;
+    color: inherit;
+}
+
+form fieldset h2 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    text-align: left;
+}
+form fieldset h2 {
+    display: block;
+    font-size: 0.9em;
+    text-align: left;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 400;
+}
+
+#headingOne #headingTwo #headingThree label{
+    text-align: left;
+}
+
+#headingOne #headingTwo #headingThree input{
+    margin-left: 200px;
+}
+
+/* End of Overriding Bootstrap CSS */
+
 @media screen and (min-width:779px){
     .center--suitcase--container{
         width: 60vw;
+        min-height: fit-content;
         margin: 100px 70px;
         padding: 20px 25px;
         border-radius: 11px;
