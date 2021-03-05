@@ -372,3 +372,6 @@ Change start time of Youtube video https://www.business2community.com/youtube/em
                 https://www.w3schools.com/howto/howto_css_zoom_hover.asp
                 https://success.appen.com/hc/en-us/articles/202703155-CSS-Guide-to-Enlarge-Images-on-Hover
 Used this one!  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_zoom_hover 
+
+Contact form  
+4. White Frontier  https://wpforms.com/beautiful-contact-form-designs-you-can-steal/
