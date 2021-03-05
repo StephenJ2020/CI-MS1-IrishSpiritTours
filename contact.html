@@ -152,22 +152,99 @@
                                                                     <!-- Preferred Date of Travel--> 
                                                                     <div class="form-check form-check-inline">
                                                                         <label class="form-check-label" for="travelDate"> Preferred Date of Travel: </label>&nbsp;&nbsp;
-                                                                        <input class="form-check-input" type="date" name="travelDate" id="travelDate" value="tDate">                                                                        
+                                                                        <input class="form-check-input" type="date" name="travelDate" id="travelDate" value="dd-mm-yyyy">                                                                        
                                                                     </div>   
                                                                     <br>
                                                                     <!-- Pre or Post Tour Accommodation --> 
-                                                                    <div class="form-check form-check-inline">
+                                                                    <div class="form-check form-check-inline">      <!-- Correct Sizing issue on Mobile devices -->
                                                                         <label class="form-check-label" for="addNights">Pre or Post Tour Accommodation Required? </label>&nbsp;&nbsp;
                                                                         <input class="form-check-input" type="text" id="addNights" list="addNightsList" name="addNights">
                                                                         <datalist class="form-check-input" id="addNightsList">
-                                                                            <option value="No Thank You"></option>
-                                                                            <option value="Yes - 1 Night Pre Tour"></option>
-                                                                            <option value="Yes - 1 Night Post Tour"></option>
-                                                                            <option value="Yes - 1 Night Pre & Post Tour"></option>
-                                                                            <option value="Yes - 2 Nights Pre Tour"></option>
-                                                                            <option value="Yes - 2 Nights Post Tour"></option>
-                                                                            <option value="Yes - 2 Nights Pre & Post Tour"></option>
+                                                                            <option class="form-check-input" value="No Thank You"></option>
+                                                                            <option class="form-check-input" value="Yes - 1 Night Pre Tour"></option>
+                                                                            <option class="form-check-input" value="Yes - 1 Night Post Tour"></option>
+                                                                            <option class="form-check-input" value="Yes - 1 Night Pre & Post Tour"></option>
+                                                                            <option class="form-check-input" value="Yes - 2 Nights Pre Tour"></option>
+                                                                            <option class="form-check-input" value="Yes - 2 Nights Post Tour"></option>
+                                                                            <option class="form-check-input" value="Yes - 2 Nights Pre & Post Tour"></option>
                                                                         </datalist>
+                                                                    </div>
+                                                                    <br>
+                                                                    <!-- Quote Additional Activities -->
+                                                                    <fieldset>
+                                                                    <legend>&nbsp; Select any Add-on's you wish to include: &nbsp;</legend>
+                                                                    <!--<p>Select any Add-on's you wish to include: </p>-->
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                                        <label class="form-check-label" for="inlineCheckbox1">The Alex</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                                                        <label class="form-check-label" for="inlineCheckbox2">Westbury</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                                                                        <label class="form-check-label" for="inlineCheckbox3">Druids Glen</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                                        <label class="form-check-label" for="inlineCheckbox1">Teelings</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                                                        <label class="form-check-label" for="inlineCheckbox2">Rascals</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                                                                        <label class="form-check-label" for="inlineCheckbox3">Pearse Lyons</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                                        <label class="form-check-label" for="inlineCheckbox1">Zip Lining</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                                                        <label class="form-check-label" for="inlineCheckbox2">Mountain Biking</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                                                                        <label class="form-check-label" for="inlineCheckbox3">Abseiling</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                                        <label class="form-check-label" for="inlineCheckbox1">Alltech</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                                                        <label class="form-check-label" for="inlineCheckbox2">Craft Beer</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                                                                        <label class="form-check-label" for="inlineCheckbox3">Brewdog</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                                        <label class="form-check-label" for="inlineCheckbox1">Forbidden Fruit</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                                                        <label class="form-check-label" for="inlineCheckbox2">Trinity</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                                                                        <label class="form-check-label" for="inlineCheckbox3">Electric Picnic</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                                        <label class="form-check-label" for="inlineCheckbox1">Bloom</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                                                        <label class="form-check-label" for="inlineCheckbox2">Horse Show</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                                                                        <label class="form-check-label" for="inlineCheckbox3">Big Grill</label>
                                                                     </div>
                                                                 </div>
                                                             </div>
