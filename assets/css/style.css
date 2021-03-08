@@ -878,32 +878,20 @@ img{
 
 .section--container{
     max-width: 100%;
-    height: fit-content;
-    min-height: 120vh;
+    min-height: fit-content;
+    min-height: 190vh;
+    max-height: fit-content;
     margin: 20px auto;
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #7FE7DC;
 }
 
-
-/* 
-.outer--contact--container{
-    max-width: 90vw;
-    height: 90vh;
-    background-color: #7FE7DC;
-} */
-
-/*
-.section--container .container{
-    margin: 0;
-    padding: 0;
-} */
-
-.outer--contact--container{
+.contact--outer--container{
     max-width: 100vw;
-    height: fit-content;    
-    min-height: 100vh;
+    height: fit-content;  
+    max-height: fit-content;  
+    min-height: 195vh;
     /*margin-top: 50px;*/
     background: url('../images/contact.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
     background-color: rgba(52, 52, 52, 0.6);
@@ -911,6 +899,62 @@ img{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+}
+
+@media screen and (min-width:1200px){
+    .contact--outer--container{
+        max-width: 100vw; 
+        max-height: fit-content;  
+        min-height: 140vh;
+    }
+    .left--suitcase--container{
+        min-height: 120vh;
+    }
+    .right--suitcase--container{
+        min-height: 120vh;
+    }
+}
+
+@media screen and (min-width:1240px){
+    .contact--outer--container{
+        max-width: 100vw; 
+        max-height: fit-content;  
+        min-height: 130vh;
+    }
+    .left--suitcase--container{
+        min-height: 110vh;
+    }
+    .right--suitcase--container{
+        min-height: 110vh;
+    }
+}
+
+@media screen and (min-width:1490px){
+    .contact--outer--container{
+        max-width: 100vw; 
+        max-height: fit-content;  
+        min-height: 120vh;
+    }
+    .left--suitcase--container{
+        min-height: 100vh;
+    }
+    .right--suitcase--container{
+        min-height: 100vh;
+    }
+}
+
+@media screen and (min-width:1515px){
+    .contact--outer--container{
+        max-width: 100vw; 
+        max-height: fit-content;  
+        min-height: 115vh;
+    }
+    .left--suitcase--container{
+        min-height: 90vh;
+    }
+    .right--suitcase--container{
+        min-height: 90vh;
+    }
 }
 
 
@@ -939,7 +983,7 @@ img{
 
 .inner--handle{
     width: 20vw;
-    height: 10vh;    
+    height: 10vh;  
     background: url('../images/contact.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -960,10 +1004,10 @@ img{
 
 .center--suitcase--container{
     width: 64vw;
-    min-height: 76vh;
-    height: fit-content;
+    /*min-height: 76vh;
+    height: fit-content;*/
     margin: 70px 8px;
-    border-radius: 11px;
+    border-radius:11px;
     background-color: rgba(52, 52, 52, 0.6);
     display: inline-block;
     position: relative;
@@ -1013,13 +1057,13 @@ input{
 }
 
 /* Start of Overriding Bootstrap CSS */
-.card-header {
+contact--outer--container .card-header {
     padding: 0;
     margin-bottom: 0;
     background-color: rgba(52, 52, 52, 0.1);
 }
 
-.card {
+.contact--outer--container .card {
     position: relative;
     display: -ms-flexbox;
     display: flex;
@@ -1084,6 +1128,7 @@ form fieldset h2 {
 
 /* End of Overriding Bootstrap CSS */
 
+
 @media screen and (min-width:779px){
     .center--suitcase--container{
         width: 60vw;
@@ -1100,8 +1145,66 @@ form fieldset h2 {
 
 @media screen and (min-width:1200px){
     .left--suitcase--container{
+        max-width: 12%;
+        max-height: 94vh;
+        margin: 0 auto;
+        background-color: rgba(52, 52, 52, 0.6);
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        display: inline-block;
+        position: relative;
+    } 
+
+    .center--suitcase--container{
+        width: 70vw;
+        min-height: 94vh;
+        margin: 0 8px;
+        border-radius: 0;
+        background-color: rgba(52, 52, 52, 0.6);
+        display: inline-block;
+        position: relative;
+    
+    }
+
+    .right--suitcase--container{
+        max-width: 12%;
+        max-height: 94vh;
+        margin: 0 auto;
+        background-color: rgba(52, 52, 52, 0.6);
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        display: inline-block;
+        position: relative;
+    }
+
+    .section--container{
+        max-width: 100%;
+        /*height: fit-content;
+        min-height: 110vh;*/
+        margin: 20px auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #7FE7DC;
+    }
+
+    .outer--contact--container{
+        max-width: 100vw;
+        /*height: fit-content;    
+        min-height: 140vh;*/
+        /*margin-top: 50px;*/
+        background: url('../images/contact.png') center center / cover no-repeat fixed;  'cover' - Alternative Browser!!???
+        background-color: rgba(52, 52, 52, 0.6);
+        border-radius: 22px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+}
+
+@media screen and (min-width:1700px){
+    .left--suitcase--container{
         max-width: 14%;
-        max-height: 76vh;
+        /*max-height: 94vh;*/
         margin: 0 auto;
         background-color: rgba(52, 52, 52, 0.6);
         border-top-left-radius: 30px;
@@ -1112,19 +1215,18 @@ form fieldset h2 {
     } 
 
     .center--suitcase--container{
-        width: 60vw;
-        min-height: 76vh;
-        margin: 0 8px;
-        border-radius: 11px;
+        width: 69vw;
+        /*min-height: 76vh;*/
+        margin: 0 5px;
         background-color: rgba(52, 52, 52, 0.6);
         display: inline-block;
         position: relative;
-    
+        left: 25px;
     }
 
     .right--suitcase--container{
         max-width: 14%;
-        max-height: 76vh;
+        /*max-height: 88vh;*/
         margin: 0 auto;
         background-color: rgba(52, 52, 52, 0.6);
         border-top-right-radius: 30px;
@@ -1135,17 +1237,31 @@ form fieldset h2 {
     }
 }
 
-@media screen and (min-width:1700px){
-    .center--suitcase--container{
-        width: 60vw;
-        min-height: 76vh;
-        margin: 0 5px;
-        background-color: rgba(52, 52, 52, 0.6);
-        display: inline-block;
-        position: relative;
-        left: 25px;
+
+@media screen and (min-width:1200px){
+    .section--container{
+        max-width: 100%;
+        /*height: fit-content;
+        min-height: 140vh;*/
+        margin: 20px auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #7FE7DC;
     }
-}
+
+    .outer--contact--container{
+        max-width: 100vw;
+        /*height: fit-content;    
+        min-height: 100vh;*/
+        /*margin-top: 50px;*/
+        background: url('../images/contact.png') center center / cover no-repeat fixed;  'cover' - Alternative Browser!!???
+        background-color: rgba(52, 52, 52, 0.6);
+        border-radius: 22px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+} */
 
 
 /* **************************************************General Media Queries */

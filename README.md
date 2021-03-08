@@ -268,6 +268,16 @@ so I have amended to a slightly lighter blue ![#35798e](https://placehold.it/20/
 # Testing  
 
 
+Bugs  
+
+Carousel for Client Reviews:
+I had created an ID called #circle-container to create and format the circle around the first profile picture but then I had reused it for all of the 
+profile picture.  But then I had mistakenly re-used this ID for all the other profile pictures as well. To fix this I changed the ID to a Class.
+
+Contact form I had copied in code from Bootstrap but I had forgot to update the input ID's and had copied and pasted a number of of time.  This was hightlighted 
+to me in the Problems tab of Gitpod. To fix this I simply updated each label / imput with a unique ID.  
+
+
 # Deployment  
 
 
