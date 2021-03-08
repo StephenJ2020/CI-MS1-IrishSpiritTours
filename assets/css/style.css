@@ -901,6 +901,14 @@ img{
     -o-background-size: cover;
 }
 
+@media screen and (min-width:569px){
+    .contact--outer--container{
+        max-width: 100vw; 
+        max-height: fit-content;  
+        min-height: 115vh;
+    }
+}
+
 @media screen and (min-width:1200px){
     .contact--outer--container{
         max-width: 100vw; 
@@ -955,7 +963,7 @@ img{
     .right--suitcase--container{
         min-height: 90vh;
     }
-}
+}   /* Pretty sure code is good until here! */
 
 
 .handle--container{
@@ -1057,13 +1065,8 @@ input{
 }
 
 /* Start of Overriding Bootstrap CSS */
-contact--outer--container .card-header {
-    padding: 0;
-    margin-bottom: 0;
-    background-color: rgba(52, 52, 52, 0.1);
-}
 
-.contact--outer--container .card {
+.contact--outer--container .card { 
     position: relative;
     display: -ms-flexbox;
     display: flex;
@@ -1073,9 +1076,15 @@ contact--outer--container .card-header {
     word-wrap: break-word;
     background-color: rgba(52, 52, 52, 0.1);
     background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
+    border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: .25rem;
-}
+} 
+
+form fieldset .card-header {
+    padding: 0;
+    margin-bottom: 0;
+    background-color: rgba(127, 231, 221, 0.164);
+}   /* Pretty sure I can delete this as it does nothing*/
 
 form fieldset .card-body {
     -ms-flex: 1 1 auto;
@@ -1109,13 +1118,15 @@ form fieldset h2 {
 }
 form fieldset h2 {
     display: block;
-    font-size: 0.9em;
+    font-size: 1.15em;
     text-align: left;
     margin-block-start: 0;
     margin-block-end: 0;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-weight: 400;
+    font-weight: 500;
+    color: #ffffff;
+    /*background-color: rgba(52, 52, 52, 0.5);*/
 }
 
 #headingOne #headingTwo #headingThree label{
