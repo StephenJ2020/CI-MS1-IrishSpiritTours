@@ -84,7 +84,7 @@
                                         <div class="col-12 col-md-10 col-xl-6 center--suitcase--container"> <!--center-->
                                             <form>
                                                 <fieldset>
-                                                    <legend class="form-control-sm">&nbsp; Your Details &nbsp;</legend>
+                                                    <legend>&nbsp; Your Details &nbsp;</legend>
                                                     <div class="form-check form-check-inline form-control-sm">
                                                         <label for="contactFirstName">First Name: </label>&nbsp;&nbsp;
                                                         <input type="text" id="contactFirstName" placeholder="First Name" name="contactFirstName" required>
@@ -106,10 +106,7 @@
                                                 <fieldset>
                                                     <legend>&nbsp; Request Details &nbsp;</legend>
                                                     <h2>I want to:</h2>
-                                                  
-                                            
-                                                    <!-- Code adapted from Bootstrap Acordian https://getbootstrap.com/docs/4.5/components/collapse/#accordion-example and Forms https://getbootstrap.com/docs/4.5/components/forms/ --> 
-                                                    <div class="accordion" id="accordionExample">
+                                                    <div class="accordion" id="accordionExample"> <!-- Code adapted from Bootstrap Acordian https://getbootstrap.com/docs/4.5/components/collapse/#accordion-example and Forms https://getbootstrap.com/docs/4.5/components/forms/ --> 
                                                         <div class="card">
                                                             <div class="card-header" id="headingOne">
                                                             <h2> <!-- class="mb-0" -->
@@ -400,25 +397,25 @@
                                                             </div>
                                                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                                                                 <div class="card-body">
-                                                                    <div class="form-check form-check-inline form-control-sm">
+                                                                    <div class="form-group form-check form-check-inline form-control-sm">
                                                                         <label for="mainFormTextarea1">Please enter your query here: </label>&nbsp;&nbsp;
-                                                                        <textarea class="form-control" id="mainFormTextarea1" rows="5"></textarea>
+                                                                        <textarea class="form-control" id="mainFormTextarea1" rows="3"></textarea>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                    <!-- End of Bootstrap code -->
-
+                                                    </div><!-- End of Bootstrap code -->
                                                 </fieldset>
+                                                <div class="form-check form-check-inline form-control-sm">
+                                                    <input type="submit">
+                                                </div>
                                             </form>
-                                        </div>
+                                        </div> <!-- End of Centre Container -->
                                         <div class="col-2 right--suitcase--container d-none d-xl-block">
-                                            <!--right-->
+                                            <!--right side container-->
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
