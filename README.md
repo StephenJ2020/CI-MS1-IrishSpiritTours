@@ -287,6 +287,15 @@ The sign-up form was not maintaining it's correct layout on Mobile and Tablets. 
 correctly on Mobile, Tablet and Desktop.
 
 Rename add-on.html to add-ons.html to match AI Design.
+  
+Unintentionally broke the function and layout of the add-ons.html page. Had to use my last commit in Github to identify which classes I had 
+inadvertently modified so that i could manually reinstate them. As it turned out the initial fault was caused by the two new classes that I added  
+into the add-ons.html file.  These being .overlay--anchor and .overlay, but I didn't think they had caused the problem as the overlay affect did  
+display, albeit out of page as the rest of the page layout had changed. I mistakenly made the assumption that it was changes to the .itinerary--container  
+that I had made during my previous update to the itinerary.html file as I had forgotten that I had re-used some of the classes from that file to  
+create add-ons.html. I then made additional changes to the class .itinerary--container which then made the fault worst. Having retraced my steps using the  
+commit log I then realised that it was something with in the two new classes that I had literally just added, that was causing the page layout and function  
+to break. I will now examine these two new classes to see if I can identify what the issue is.
 
 
 # Deployment  

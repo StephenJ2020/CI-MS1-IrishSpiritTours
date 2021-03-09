@@ -207,6 +207,14 @@ body{
         background-color: rgba(52, 52, 52, 0.4);
         border-radius: 15px;
     }   /* End of external code */
+    #add--on--overlay--text h2{
+        text-align: center;
+        text-transform: uppercase;
+        margin: 07px auto;
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+    }
 }
 
 .package--itin{
@@ -854,6 +862,21 @@ footer ul li{
     -moz-background-size: cover;
     -o-background-size: cover;
 }
+
+.add-ons-overlay{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px auto;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.add-ons-overlay--anchor{
+    height: 16vh;
+    position: relative;
+}
+
 
 hr{
     border: 1px solid #dae0e4;
