@@ -465,8 +465,8 @@ footer form input:hover{
 .social-media{
     color: #fff;
     padding-top: 15px;
-    background-color: #343434;  /*?????*/
-    /*border-top: ridge; */
+    background-color: #343434;  
+    
 }
 
 .social-media  i{       /* Code snippet modified from CI Resume walk-through project */
@@ -488,6 +488,15 @@ footer form input:hover{
 .social-media i:hover{
     background: #F47A60;
 }                       /* End of Code snippet from CI Resume walk-through project */
+
+footer ul{
+    padding: 15px;
+}
+
+footer ul li{
+    padding-left: 4px;
+    padding-right: 4px;
+}
 
 /* *************************************************************** Buttons */
 /* *********************************************************************** */
