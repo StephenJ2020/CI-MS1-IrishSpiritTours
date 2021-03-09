@@ -286,6 +286,8 @@ The sign-up form was not maintaining it's correct layout on Mobile and Tablets. 
 .form-row and .form-group and I also adjusted the .Col for Tablet & Desktop to .col-8 with an .offset-2. As per the screenshots the form now displays  
 correctly on Mobile, Tablet and Desktop.
 
+Rename add-on.html to add-ons.html to match AI Design.
+
 
 # Deployment  
 
