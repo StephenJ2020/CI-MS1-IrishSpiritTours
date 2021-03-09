@@ -788,6 +788,12 @@ footer ul li{
     }
 }
 
+@media screen and (max-width:568px){
+    .day--header--container h4{
+        font-size: smaller;
+    }
+}
+
 .inclusions-section{
     width: 100%;
     margin: 20px auto;
