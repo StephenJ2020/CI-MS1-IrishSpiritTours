@@ -86,19 +86,19 @@
                                                 <fieldset>
                                                     <legend>&nbsp; Your Details &nbsp;</legend>
                                                     <div class="form-check form-check-inline form-control-sm">
-                                                        <label for="contactFirstName">First Name: </label>&nbsp;&nbsp;
+                                                        <label for="contactFirstName"><span>First Name: </span></label>&nbsp;&nbsp;
                                                         <input type="text" id="contactFirstName" placeholder="First Name" name="contactFirstName" required>
                                                     </div>
                                                     <div class="form-check form-check-inline form-control-sm">
-                                                        <label for="contactLastName">Last Name: </label>&nbsp;&nbsp;
+                                                        <label for="contactLastName"><span>Last Name: </span></label>&nbsp;&nbsp;
                                                         <input type="text" id="contactLastName" placeholder="Last Name" name="contactLastName" required>
                                                     </div>
                                                     <div class="form-check form-check-inline form-control-sm">
-                                                        <label for="phone">Telephone: </label>&nbsp;&nbsp;
+                                                        <label for="phone"><span>Telephone: </span></label>&nbsp;&nbsp;
                                                         <input type="tel" id="phone" placeholder="Enter your number" name="phone">
                                                     </div>
                                                     <div class="form-check form-check-inline form-control-sm">
-                                                        <label for="email">Enter E-mail: </label>&nbsp;&nbsp;
+                                                        <label for="email"><span>Enter Email: </span></label>&nbsp;&nbsp;
                                                         <input type="email" id="email" name="email" placeholder="Enter your E-mail" required>
                                                     </div>
 
@@ -148,13 +148,15 @@
                                                                     <br>
                                                                     <!-- Preferred Date of Travel--> 
                                                                     <div class="form-check form-check-inline form-control-sm">
-                                                                        <label class="form-check-label" for="travelDate"> Preferred Date of Travel: </label>&nbsp;&nbsp;
+                                                                        <label class="form-check-label" for="travelDate"><span> Date of Travel: </span></label>&nbsp;&nbsp;
                                                                         <input class="form-check-input" type="date" name="travelDate" id="travelDate" value="yyyy-MM-dd">                                                                        
                                                                     </div>   
                                                                     <br>
                                                                     <!-- Pre or Post Tour Accommodation --> 
                                                                     <div class="form-check form-check-inline form-control-sm">      <!-- *** Correct Sizing issue on Mobile devices *** -->
-                                                                        <label class="form-check-label" for="addNights">Pre or Post Tour Accommodation Required? </label>&nbsp;&nbsp;
+                                                                        
+                                                                        <label class="form-check-label" for="addNights"><span>Pre or Post Tour Accommodation Required? </span></label>&nbsp;&nbsp;
+                                                                        
                                                                         <input class="form-check-input" type="text" id="addNights" list="addNightsList" name="addNights">
                                                                         <datalist class="form-check-input" id="addNightsList">
                                                                             <option class="form-check-input" value="No Thank You"></option>
@@ -257,7 +259,7 @@
                                                                 <div class="card-body">
                                                                     <!-- Do they have a Quote Reference-->
                                                                     <div class="form-check form-check-inline form-control-sm">
-                                                                        <label class="form-check-label" for="quoteReference">Have we already quoted you? If so please enter the Quote Reference: </label>
+                                                                        <label class="form-check-label" for="quoteReference"><span>Have we already quoted you? </span></label>
                                                                         <input class="form-check-input" type="text" name="quoteReference" id="quoteReference" placeholder="Enter Quote Reference">                                                                        
                                                                     </div>
                                                                     <p>How many people are you booking for?</p>
@@ -290,13 +292,13 @@
                                                                     <br>
                                                                     <!-- Preferred Date of Travel--> 
                                                                     <div class="form-check form-check-inline form-control-sm">
-                                                                        <label class="form-check-label" for="bookdate"> Preferred Date of Travel: </label>&nbsp;&nbsp;
+                                                                        <label class="form-check-label" for="bookdate"><span> Date of Travel: </span></label>&nbsp;&nbsp;
                                                                         <input class="form-check-input" type="date" name="bookDate" id="bookDate" value="yyyy-MM-dd">                                                                        
                                                                     </div>   
                                                                     <br>
                                                                     <!-- Pre or Post Tour Accommodation --> 
                                                                     <div class="form-check form-check-inline form-control-sm">      <!-- Correct Sizing issue on Mobile devices -->
-                                                                        <label class="form-check-label" for="bookAddNights">Pre or Post Tour Accommodation Required? </label>&nbsp;&nbsp;
+                                                                        <label class="form-check-label" for="bookAddNights"><span>Pre or Post Tour Accommodation Required? </span></label>&nbsp;&nbsp;
                                                                         <input class="form-check-input" type="text" id="bookAddNights" list="bookAddNightsList" name="bookAddNights">
                                                                         <datalist class="form-check-input" id="bookAddNightsList">
                                                                             <option class="form-check-input" value="No Thank You"></option>
@@ -398,16 +400,16 @@
                                                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                                                                 <div class="card-body">
                                                                     <div class="form-group form-check form-check-inline form-control-sm">
-                                                                        <label for="mainFormTextarea1">Please enter your query here: </label>&nbsp;&nbsp;
-                                                                        <textarea class="form-control" id="mainFormTextarea1" rows="3"></textarea>
+                                                                        <label for="mainFormTextarea1"><span>Please enter your query here: </span></label>&nbsp;&nbsp;
+                                                                        <textarea class="form-control" id="mainFormTextarea1" rows="5"></textarea>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div><!-- End of Bootstrap code -->
                                                 </fieldset>
-                                                <div class="form-check form-check-inline form-control-sm">
-                                                    <input type="submit">
+                                                <div class="form-check form-check-inline form-control-sm mb-3 mr-5 mr-md-0 pr-4 pr-md-0">
+                                                    <button type="submit" class="btn btn-info btn-styling mt-4 justify-content-center" >Submit Request</button>
                                                 </div>
                                             </form>
                                         </div> <!-- End of Centre Container -->
@@ -425,6 +427,7 @@
              <section class="container gallery-container">
                 <div class="row intro--quote pl-2 pr-2 pl-md-5 pr-md-5 pl-lg-15 pr-lg-15">
                     <!-- Empty conainter to create a white space between the gallery section and the footer to maintain the overall style of the site -->
+                    <h2 class="note">We look forward to welcoming you to Ireland's Ancient East in the near future!</h2>
                 </div>
             </section>
         </article>

@@ -891,9 +891,8 @@ img{
     max-width: 100vw;
     height: fit-content;  
     max-height: fit-content;  
-    min-height: 195vh;
-    /*margin-top: 50px;*/
-    background: url('../images/contact.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
+    min-height: 205vh;
+    background: url('../images/contact.png') center center / cover no-repeat fixed; 
     background-color: rgba(52, 52, 52, 0.6);
     border-radius: 22px;
     -webkit-background-size: cover;
@@ -905,7 +904,26 @@ img{
     .contact--outer--container{
         max-width: 100vw; 
         max-height: fit-content;  
-        min-height: 115vh;
+        min-height: 125vh;
+        font-size: 0.90em;
+    }
+    fieldset span{
+        font-size: 0.90em;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+    fieldset{
+        border: 1px solid #dae0e4;
+        color: #ffffff;
+        font-size: 0.90em;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    fieldset label, p{
+        font-size: 0.90em;
+    }
+    fieldset .form-check-input{
+        size: 0px;
     }
 }
 
@@ -913,7 +931,19 @@ img{
     .contact--outer--container{
         max-width: 100vw; 
         max-height: fit-content;  
-        min-height: 140vh;
+        min-height: 145vh;
+    }
+    fieldset span{
+        font-size: 1.25em;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+    fieldset{
+        border: 1px solid #dae0e4;
+        color: #ffffff;
+        font-size: 1.25em;
+        padding: 10px;
+        margin-top: 20px;
     }
     .left--suitcase--container{
         min-height: 120vh;
@@ -927,7 +957,19 @@ img{
     .contact--outer--container{
         max-width: 100vw; 
         max-height: fit-content;  
-        min-height: 130vh;
+        min-height: 145vh;
+    }
+    fieldset span{
+        font-size: 1.25em;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+    fieldset{
+        border: 1px solid #dae0e4;
+        color: #ffffff;
+        font-size: 1.25em;
+        padding: 10px;
+        margin-top: 20px;
     }
     .left--suitcase--container{
         min-height: 110vh;
@@ -937,11 +979,23 @@ img{
     }
 }
 
-@media screen and (min-width:1490px){
+@media screen and (min-width:1500px){
     .contact--outer--container{
         max-width: 100vw; 
         max-height: fit-content;  
         min-height: 120vh;
+    }
+    fieldset span{
+        font-size: 1.25em;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+    fieldset{
+        border: 1px solid #dae0e4;
+        color: #ffffff;
+        font-size: 1.25em;
+        padding: 10px;
+        margin-top: 20px;
     }
     .left--suitcase--container{
         min-height: 100vh;
@@ -955,7 +1009,22 @@ img{
     .contact--outer--container{
         max-width: 100vw; 
         max-height: fit-content;  
-        min-height: 115vh;
+        min-height: 130vh;
+    }
+    fieldset span{
+        font-size: 1.25em;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+    fieldset{
+        border: 1px solid #dae0e4;
+        color: #ffffff;
+        font-size: 1.25em;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    fieldset label, p{
+        font-size: 1.25em;
     }
     .left--suitcase--container{
         min-height: 90vh;
@@ -992,7 +1061,7 @@ img{
 .inner--handle{
     width: 20vw;
     height: 10vh;  
-    background: url('../images/contact.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
+    background: url('../images/contact.png') center center / cover no-repeat fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1001,19 +1070,17 @@ img{
 .left--suitcase--container{
     max-width: 14%;
     margin: 0 auto;
-    /*background-color: #35798e;*/
     background-color: rgba(52, 52, 52, 0.6);
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     display: inline-block;
     position: relative;
-    /*left: 20px;*/    /* Not doing anything so needs to be double checked and then removed */
 } 
 
 .center--suitcase--container{
-    width: 64vw;
-    /*min-height: 76vh;
-    height: fit-content;*/
+    /*width: 64vw; */
+    /*min-height: 76vh;*/
+    height: fit-content;
     margin: 70px 8px;
     border-radius:11px;
     background-color: rgba(52, 52, 52, 0.6);
@@ -1024,13 +1091,12 @@ img{
 
 .right--suitcase--container{
     max-width: 14%;
-    margin: 0 auto;
+    margin: 0 25px 0 0;
     background-color: rgba(52, 52, 52, 0.6);
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     display: inline-block;
     position: relative;
-    /* left: 70px; */  /* Not doing anything so needs to be double checked and then removed */
 }
 
 .opaque-overlay{   /* External code from the Code Institute walk-thru mini-project - Whiskey Drop */
@@ -1047,7 +1113,6 @@ fieldset{
     border: 1px solid #dae0e4;
     color: #ffffff;
     font-size: 0.9em;
-    padding: 10px;
     margin-top: 20px;
 }
 
@@ -1056,12 +1121,25 @@ legend{
     text-align: left;
 } 
 
-label{
+fieldset label{
     text-align: left;
+    padding-right: 5px;
 }
 
 input{
     text-align: left;
+}
+
+fieldset span{
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+textarea{
+    width: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 40px;
 }
 
 /* Start of Overriding Bootstrap CSS */
@@ -1081,15 +1159,26 @@ input{
 } 
 
 form fieldset .card-header {
-    padding: 0;
-    margin-bottom: 0;
-    background-color: rgba(127, 231, 221, 0.164);
-}   /* Pretty sure I can delete this as it does nothing*/
+    background-color: rgba(255, 255, 255, 0.164);
+}  
+
+form fieldset input label{
+    margin: 5px;
+}
 
 form fieldset .card-body {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
-    padding: 0.25rem;
+    padding: 25px;
+    min-height: 300px;
+    margin: 0;
+}
+
+textarea {
+    width: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 40px 0 0 0;
 }
 
 form fieldset p {
@@ -1118,7 +1207,7 @@ form fieldset h2 {
 }
 form fieldset h2 {
     display: block;
-    font-size: 1.15em;
+    font-size: 0.95em;
     text-align: left;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -1126,23 +1215,22 @@ form fieldset h2 {
     margin-inline-end: 0px;
     font-weight: 500;
     color: #ffffff;
-    /*background-color: rgba(52, 52, 52, 0.5);*/
 }
-
+/*
 #headingOne #headingTwo #headingThree label{
     text-align: left;
 }
 
 #headingOne #headingTwo #headingThree input{
     margin-left: 200px;
-}
+}*/
 
 /* End of Overriding Bootstrap CSS */
 
 
 @media screen and (min-width:779px){
     .center--suitcase--container{
-        width: 60vw;
+        /*width: 60vw; */
         min-height: fit-content;
         margin: 100px 70px;
         padding: 20px 25px;
@@ -1157,8 +1245,8 @@ form fieldset h2 {
 @media screen and (min-width:1200px){
     .left--suitcase--container{
         max-width: 12%;
-        max-height: 94vh;
-        margin: 0 auto;
+        /*max-height: 94vh;*/
+        margin: 0 20px 0 70px;
         background-color: rgba(52, 52, 52, 0.6);
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
@@ -1167,7 +1255,7 @@ form fieldset h2 {
     } 
 
     .center--suitcase--container{
-        width: 70vw;
+        /*width: 70vw; */
         min-height: 94vh;
         margin: 0 8px;
         border-radius: 0;
@@ -1179,7 +1267,7 @@ form fieldset h2 {
 
     .right--suitcase--container{
         max-width: 12%;
-        max-height: 94vh;
+        /*max-height: 94vh;*/
         margin: 0 auto;
         background-color: rgba(52, 52, 52, 0.6);
         border-top-right-radius: 30px;
@@ -1203,7 +1291,7 @@ form fieldset h2 {
         /*height: fit-content;    
         min-height: 140vh;*/
         /*margin-top: 50px;*/
-        background: url('../images/contact.png') center center / cover no-repeat fixed;  'cover' - Alternative Browser!!???
+        background: url('../images/contact.png') center center / cover no-repeat fixed;  
         background-color: rgba(52, 52, 52, 0.6);
         border-radius: 22px;
         -webkit-background-size: cover;
@@ -1214,7 +1302,7 @@ form fieldset h2 {
 
 @media screen and (min-width:1700px){
     .left--suitcase--container{
-        max-width: 14%;
+        max-width: 12%;
         /*max-height: 94vh;*/
         margin: 0 auto;
         background-color: rgba(52, 52, 52, 0.6);
@@ -1226,53 +1314,32 @@ form fieldset h2 {
     } 
 
     .center--suitcase--container{
-        width: 69vw;
+        min-width: 64%;
         /*min-height: 76vh;*/
         margin: 0 5px;
+        padding: 50px;
         background-color: rgba(52, 52, 52, 0.6);
         display: inline-block;
         position: relative;
-        left: 25px;
     }
 
     .right--suitcase--container{
-        max-width: 14%;
-        /*max-height: 88vh;*/
+        max-width: 12%;
+        /*height: 94vh;*/
         margin: 0 auto;
         background-color: rgba(52, 52, 52, 0.6);
         border-top-right-radius: 30px;
         border-bottom-right-radius: 30px;
         display: inline-block;
         position: relative;
-        left: 25px;
     }
 }
 
-
-@media screen and (min-width:1200px){
-    .section--container{
-        max-width: 100%;
-        /*height: fit-content;
-        min-height: 140vh;*/
-        margin: 20px auto;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        background-color: #7FE7DC;
-    }
-
-    .outer--contact--container{
-        max-width: 100vw;
-        /*height: fit-content;    
-        min-height: 100vh;*/
-        /*margin-top: 50px;*/
-        background: url('../images/contact.png') center center / cover no-repeat fixed;  'cover' - Alternative Browser!!???
-        background-color: rgba(52, 52, 52, 0.6);
-        border-radius: 22px;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-    }
-} */
+.note{
+    text-align: center;
+    padding-top: 50px;
+    margin: 0 auto;
+}
 
 
 /* **************************************************General Media Queries */
