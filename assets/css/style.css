@@ -495,14 +495,12 @@ footer .form-group{
 
 footer form input:hover{
     border: 2px solid #7FE7DC;
-    
 }
 
 .social-media{
     color: #fff;
     padding-top: 15px;
-    background-color: #343434;  
-    
+    background-color: #343434;   
 }
 
 .social-media  i{       /* Code snippet modified from CI Resume walk-through project */
@@ -1281,6 +1279,7 @@ form fieldset h2 {
     margin-bottom: .5rem;
     text-align: left;
 }
+
 form fieldset h2 {
     display: block;
     font-size: 0.95em;
@@ -1292,15 +1291,10 @@ form fieldset h2 {
     font-weight: 500;
     color: #ffffff;
 }
-/*
-#headingOne #headingTwo #headingThree label{
-    text-align: left;
+
+form fieldset input:hover{
+    border: 2px solid #7FE7DC;
 }
-
-#headingOne #headingTwo #headingThree input{
-    margin-left: 200px;
-}*/
-
 /* End of Overriding Bootstrap CSS */
 
 
