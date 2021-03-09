@@ -171,19 +171,45 @@ body{
     -o-background-size: cover;
 }
 
-.package--options h2{
+.overlay h2{
     height: fit-content;
     width: fit-content;
     text-align: center;
     text-transform: uppercase;
-    margin: 0 auto;
-    /*font-family: 'Oswald', sans-serif;*/
+    margin: 30px auto;
+    color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    background: rgba(241, 229, 209, 0.5);
 }
 
+.overlay--anchor{
+    height: 16vh;
+    position: relative;
+}
 
+.overlay {   /* Adapted External code from the Code Institute walk-thru mini-project - Whiskey Drop */
+    position: absolute; 
+    top: -24px;
+    left: -1px;
+    display: block;
+    max-width: auto;
+    height: 14.3vh;
+    background-color: rgba(52, 52, 52, 0.6);
+    border-radius: 15px;
+}   /* End of external code */
+
+@media screen and (max-width: 400px){
+    .overlay {   /* Adapted External code from the Code Institute walk-thru mini-project - Whiskey Drop */
+        position: absolute; 
+        top: -24px;
+        left: -1px;
+        display: block;
+        max-width: auto;
+        height: 13.75vh;
+        background-color: rgba(52, 52, 52, 0.6);
+        border-radius: 15px;
+    }   /* End of external code */
+}
 
 .package--itin{
     width: 100%;
