@@ -456,6 +456,10 @@ form{
     text-align: center;
 } 
 
+footer .form-group{
+    padding-bottom: 0;
+}
+
 
 footer form input:hover{
     border: 2px solid #7FE7DC;

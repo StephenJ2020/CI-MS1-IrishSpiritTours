@@ -273,9 +273,18 @@ Bugs
 Carousel for Client Reviews:
 I had created an ID called #circle-container to create and format the circle around the first profile picture but then I had reused it for all of the 
 profile picture.  But then I had mistakenly re-used this ID for all the other profile pictures as well. To fix this I changed the ID to a Class.
+  
+Carousel for Client Reviews:
+Rectangle borders were different sizes so I adjusted the amount of text visible above the "read more" Bootstrap Collapse link in order to square up  
+the boarder of each carousel card.
 
 Contact form I had copied in code from Bootstrap but I had forgot to update the input ID's and had copied and pasted a number of of time.  This was hightlighted 
 to me in the Problems tab of Gitpod. To fix this I simply updated each label / imput with a unique ID.  
+
+Newsletter:
+The sign-up form was not maintaining it's correct layout on Mobile and Tablets. I added the Bootstrap Form Grid System by add divs with the classes  
+.form-row and .form-group and I also adjusted the .Col for Tablet & Desktop to .col-8 with an .offset-2. As per the screenshots the form now displays  
+correctly on Mobile, Tablet and Desktop.
 
 
 # Deployment  
