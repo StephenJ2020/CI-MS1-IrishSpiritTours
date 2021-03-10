@@ -63,11 +63,11 @@ body{
 }
 
 .active{
-    border-bottom: 2px solid #fff;
+    text-decoration-line: underline;
 }
 
 .nav-link a:hover{
-    border-bottom: 2px solid #fff;
+    text-decoration-line: underline;
 }
 
 
@@ -78,41 +78,41 @@ body{
     height: 65vh;
     overflow: hidden;
     background: url('../images/taste.jpg') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
-    /*-webkit-background-size: center center / cover no-repeat fixed;
+    -webkit-background-size: center center / cover no-repeat fixed;
     -moz-background-size: center center / cover no-repeat fixed;
-    -o-background-size: center center / cover no-repeat fixed;*/
+    -o-background-size: center center / cover no-repeat fixed;
 }
 
 .hero-image-itinerary{
     height: 65vh;
     background: url('../images/castletown-wide.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
-    /*-webkit-background-size: center center / cover no-repeat fixed;
+    -webkit-background-size: center center / cover no-repeat fixed;
     -moz-background-size: center center / cover no-repeat fixed;
-    -o-background-size: center center / cover no-repeat fixed;*/
+    -o-background-size: center center / cover no-repeat fixed;
 }
 
 .hero-image-add-on{
     height: 65vh;
     background: url('../images/add-on-hero.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
-    /*-webkit-background-size: center center / cover no-repeat fixed;
+    -webkit-background-size: center center / cover no-repeat fixed;
     -moz-background-size: center center / cover no-repeat fixed;
-    -o-background-size: center center / cover no-repeat fixed;*/
+    -o-background-size: center center / cover no-repeat fixed;
 }
 
 .hero-image-gallery{
     height: 65vh;
     background: url('../images/boann-pot-still.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
-    /*-webkit-background-size: center center / cover no-repeat fixed;
+    -webkit-background-size: center center / cover no-repeat fixed;
     -moz-background-size: center center / cover no-repeat fixed;
-    -o-background-size: center center / cover no-repeat fixed;*/
+    -o-background-size: center center / cover no-repeat fixed;
 }
 
 .hero-image-contact{
     height: 65vh;
     background: url('../images/contact.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
-    /*-webkit-background-size: center center / cover no-repeat fixed;
+    -webkit-background-size: center center / cover no-repeat fixed;
     -moz-background-size: center center / cover no-repeat fixed;
-    -o-background-size: center center / cover no-repeat fixed;*/
+    -o-background-size: center center / cover no-repeat fixed;
 }
 
 
@@ -1451,18 +1451,61 @@ form fieldset input:hover{
     }
 }
 
-/*@media screen and (max-width: 768px) {
-    form{
-        text-align: left;
-        margin-right: 150px;
+@media (min-device-width:320px) and (max-device-width:768px) {
+    @supports (-webkit-touch-callout: none) {
+        .hero-image-home{
+            height: 65vh;
+            background-position: center;
+            background-attachment: scroll;
+            background: url('../images/castletown-wide.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
+            -webkit-background-size: center center / cover no-repeat fixed;
+            -moz-background-size: center center / cover no-repeat fixed;
+            -o-background-size: center center / cover no-repeat fixed;
+        }
+
+        .hero-image-itinerary{
+            height: 65vh;
+            background-position: center;
+            background-attachment: scroll;
+            background: url('../images/castletown-wide.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
+            -webkit-background-size: center center / cover no-repeat fixed;
+            -moz-background-size: center center / cover no-repeat fixed;
+            -o-background-size: center center / cover no-repeat fixed;
+        }
+
+        .hero-image-add-on{
+            height: 65vh;
+            background-position: center;
+            background-attachment: scroll;
+            background: url('../images/add-on-hero.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
+            -webkit-background-size: center center / cover no-repeat fixed;
+            -moz-background-size: center center / cover no-repeat fixed;
+            -o-background-size: center center / cover no-repeat fixed;
+        }
+
+        .hero-image-gallery{
+            height: 65vh;
+            background-position: center;
+            background-attachment: scroll;
+            background: url('../images/boann-pot-still.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
+            -webkit-background-size: center center / cover no-repeat fixed;
+            -moz-background-size: center center / cover no-repeat fixed;
+            -o-background-size: center center / cover no-repeat fixed;
+        }
+
+        .hero-image-contact{
+            height: 65vh;
+            background-position: center;
+            background-attachment: scroll;
+            background: url('../images/contact.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
+            -webkit-background-size: center center / cover no-repeat fixed;
+            -moz-background-size: center center / cover no-repeat fixed;
+            -o-background-size: center center / cover no-repeat fixed;
+        }
     }
-    footer label {
-        margin-right: 10px
-    }
-    footer input{
-        margin-right: 2px;
-    }
-} */
+}
+
+
 
 
 
