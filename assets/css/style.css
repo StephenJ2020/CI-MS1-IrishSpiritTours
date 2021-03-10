@@ -58,6 +58,17 @@ body{
     border-style: none;
 }
 
+.navbar-dark .navbar-nav .nav-link{
+    color: #ffffff;
+}
+
+.active{
+    border-bottom: 2px solid #fff;
+}
+
+.nav-link a:hover{
+    border-bottom: 2px solid #fff;
+}
 
 
 
