@@ -1,8 +1,10 @@
-![Project logo](./assets/images/logo.png)
+![Project logo](./assets/images/mockup.png)
 
+![Project logo](./assets/images/logo.png) 
 # Irish Spirit Tours
-<br>  
-    
+<br>    
+ 
+      
 ## Contents:  
 ## 1. Project Description  
 ## 2. Goal and Requirements  

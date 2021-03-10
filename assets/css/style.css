@@ -1467,40 +1467,28 @@ form fieldset input:hover{
             height: 65vh;
             background-position: center;
             background-attachment: scroll;
-            background: url('../images/castletown-wide.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
-            -webkit-background-size: center center / cover no-repeat fixed;
-            -moz-background-size: center center / cover no-repeat fixed;
-            -o-background-size: center center / cover no-repeat fixed;
+            background: url('../images/castletown-wide.png') center center / cover no-repeat fixed; 
         }
 
         .hero-image-add-on{
             height: 65vh;
             background-position: center;
             background-attachment: scroll;
-            background: url('../images/add-on-hero.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
-            -webkit-background-size: center center / cover no-repeat fixed;
-            -moz-background-size: center center / cover no-repeat fixed;
-            -o-background-size: center center / cover no-repeat fixed;
+            background: url('../images/add-on-hero.png') center center / cover no-repeat fixed; 
         }
 
         .hero-image-gallery{
             height: 65vh;
             background-position: center;
             background-attachment: scroll;
-            background: url('../images/boann-pot-still.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
-            -webkit-background-size: center center / cover no-repeat fixed;
-            -moz-background-size: center center / cover no-repeat fixed;
-            -o-background-size: center center / cover no-repeat fixed;
+            background: url('../images/boann-pot-still.png') center center / cover no-repeat fixed;
         }
 
         .hero-image-contact{
             height: 65vh;
             background-position: center;
             background-attachment: scroll;
-            background: url('../images/contact.png') center center / cover no-repeat fixed; /* 'cover' - Alternative Browser!!???*/
-            -webkit-background-size: center center / cover no-repeat fixed;
-            -moz-background-size: center center / cover no-repeat fixed;
-            -o-background-size: center center / cover no-repeat fixed;
+            background: url('../images/contact.png') center center / cover no-repeat fixed;
         }
     }
 }
