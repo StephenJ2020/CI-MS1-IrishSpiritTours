@@ -62,7 +62,7 @@ body{
     color: #ffffff;
 }
 
-.active{
+.navbar .active{
     text-decoration-line: underline;
 }
 
@@ -588,19 +588,6 @@ footer ul li{
     background-color: #7FE7DC;
     border-radius: 22px;
 } 
-
-/*
-.button--coral--container{
-    max-width: 100%;
-    min-height: fit-content;
-    max-height: fit-content;
-    margin: 3px;
-    border-radius: 22px;
-    color: #fff;
-    background-color: #F47A60;
-    background-color: rgba(244, 122, 96, 0.9);
-    border: #35798e 1px solid;
-} */
 
 /* ******************************************** Media Queries for index.html */
 
