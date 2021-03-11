@@ -323,7 +323,38 @@ to break. I will now examine these two new classes to see if I can identify what
                                                             <!-- Read More "collapse" link -->                                
                                                             <div>
                                                                 <a data-toggle="collapse" href="#reviewRenate" role="button" aria-expanded="false" aria-controls="renateReview">
-                                                                    Read more    
+                                                                    Read more
+
+
+  https://web.dev/external-anchors-use-rel-noopener/?utm_source=lighthouse&utm_medium=devtools  
+  Links to cross-origin destinations are unsafe
+May 2, 2019 • Updated Aug 28, 2019
+Appears in: Best Practices audits
+When you link to a page on another site using the target="_blank" attribute, you can expose your site to performance and security issues:
+
+The other page may run on the same process as your page. If the other page is running a lot of JavaScript, your page's performance may suffer.
+The other page can access your window object with the window.opener property. This may allow the other page to redirect your page to a malicious URL.
+Adding rel="noopener" or rel="noreferrer" to your target="_blank" links avoids these issues.
+
+  
+https://web.dev/uses-rel-preconnect/?utm_source=lighthouse&utm_medium=devtools  
+Improve page load speed with preconnect #
+Consider adding preconnect or dns-prefetch resource hints to establish early connections to important third-party origins.
+
+<link rel="preconnect"> informs the browser that your page intends to establish a connection to another origin, and that you'd like the process to start as soon as possible.
+
+Establishing connections often involves significant time in slow networks, particularly when it comes to secure connections, as it may involve DNS lookups, redirects, and several round trips to the final server that handles the user's request.
+
+Taking care of all this ahead of time can make your application feel much snappier to the user without negatively affecting the use of bandwidth. Most of the time in establishing a connection is spent waiting, rather than exchanging data.
+
+Informing the browser of your intention is as simple as adding a link tag to your page:
+
+<link rel="preconnect" href="https://example.com">  
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
 
 # Deployment  

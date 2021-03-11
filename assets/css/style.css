@@ -95,7 +95,7 @@ body{
 
 .hero-image-add-on{
     height: 65vh;
-    background: url('../images/add-on-hero.png') center center / cover no-repeat fixed; 
+    background: url('../images/add-on-hero-min.png') center center / cover no-repeat fixed; 
     background-size: center center / cover no-repeat fixed;
     -webkit-background-size: center center / cover no-repeat fixed;
     -moz-background-size: center center / cover no-repeat fixed;
@@ -321,7 +321,7 @@ body{
 }  
 
 .circle-cover-ely{
-  background: url('../images/ely.png') no-repeat center center;
+  background: url('../images/ely-min.png') no-repeat center center;
   height: 100%;
   border-radius: 50%;
 }  
@@ -862,7 +862,7 @@ footer ul li{
     background-color: #ffffff;
 
     height: 16vh;    
-    background: url('../images/add-on-hero.png') center center / cover no-repeat fixed; 
+    background: url('../images/add-on-hero-min.png') center center / cover no-repeat fixed; 
     background-size: center center / cover no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
