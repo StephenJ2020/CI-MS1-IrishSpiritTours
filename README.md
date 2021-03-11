@@ -299,6 +299,32 @@ create add-ons.html. I then made additional changes to the class .itinerary--con
 commit log I then realised that it was something with in the two new classes that I had literally just added, that was causing the page layout and function  
 to break. I will now examine these two new classes to see if I can identify what the issue is.
 
+  
+   <!--"Read More" Text section--> <!-- Bootstrap code that I have added and modified -->
+                                                            <div class="card card-body collapse p-0" id="reviewRob" style="border: none;">
+                                                                <p class="card card-body collapse p-0" id="reviewRob1" style="border: none;">
+                                                                    lucky enough that our dates coincided with the Trinity Summer Series of outdoor concerts - What a wonderful 
+                                                                    city centre venue for outdoor concerts!
+                                                                </p>
+                                                            </div>
+                                                            <!-- Read More "collapse" link -->                                
+                                                            <div>
+                                                                <a data-toggle="collapse" href="#reviewRob,#reviewRob1" role="button" aria-expanded="false" aria-controls="reviewRob">
+                                                                    Read more
+
+
+ <!-- "Read More" Text section--> <!-- Bootstrap code that I have added and modified -->
+                                                            <div class="card card-body collapse p-0" id="reviewRenate,renateReview" style="border: none;">
+                                                                <p>
+                                                                    food here (maybe I shouldn't say that but it's true). Plus 
+                                                                    I was so happy to meet many lovely people from many parts of Europe, we were all different ages but everyone was so friendly and happy.
+                                                                </p>
+                                                            </div>
+                                                            <!-- Read More "collapse" link -->                                
+                                                            <div>
+                                                                <a data-toggle="collapse" href="#reviewRenate" role="button" aria-expanded="false" aria-controls="renateReview">
+                                                                    Read more    
+
 
 # Deployment  
 
