@@ -82,28 +82,28 @@
                                             <!-- Left-hand side container for the atesthetics of the layout on screens over 1500px -->
                                         </div>
                                         <div class="col-12 col-md-10 col-xl-6 center--suitcase--container"> <!--center container for contact form-->
-                                            <form>
+                                            <form action="/action_page.php"> <!-- Action links to W3S test server https://www.w3schools.com/tags/tag_form.asp -->
                                                 <fieldset>
-                                                    <legend>&nbsp; Your Details &nbsp;</legend>
-                                                    <div class="form-check form-check-inline form-control-sm">
+                                                    <legend class="ml-2">&nbsp; Your Details &nbsp;</legend>
+                                                    <div class="form-check form-check-inline">
                                                         <label for="contactFirstName"><span>First Name: </span></label>&nbsp;&nbsp;
                                                         <input type="text" id="contactFirstName" placeholder="First Name" name="contactFirstName" required>
                                                     </div>
-                                                    <div class="form-check form-check-inline form-control-sm">
+                                                    <div class="form-check form-check-inline">
                                                         <label for="contactLastName"><span>Last Name: </span></label>&nbsp;&nbsp;
                                                         <input type="text" id="contactLastName" placeholder="Last Name" name="contactLastName" required>
                                                     </div>
-                                                    <div class="form-check form-check-inline form-control-sm">
+                                                    <div class="form-check form-check-inline">
                                                         <label for="phone"><span>Telephone: </span></label>&nbsp;&nbsp;
-                                                        <input type="tel" id="phone" placeholder="Enter your number" name="phone">
+                                                        <input type="tel" id="phone" placeholder="Enter your number" name="phone" required>
                                                     </div>
-                                                    <div class="form-check form-check-inline form-control-sm">
+                                                    <div class="form-check form-check-inline">
                                                         <label for="email"><span>Enter Email: </span></label>&nbsp;&nbsp;
                                                         <input type="email" id="email" name="email" placeholder="Enter your E-mail" required>
                                                     </div>
                                                 </fieldset>
                                                 <fieldset>
-                                                    <legend>&nbsp; Request Details &nbsp;</legend>
+                                                    <legend class="ml-2">&nbsp; Request Details &nbsp;</legend>
                                                     <h2>I want to:</h2>
                                                     <div class="accordion" id="accordionExample"> <!-- Code adapted from Bootstrap Acordian https://getbootstrap.com/docs/4.5/components/collapse/#accordion-example and Forms https://getbootstrap.com/docs/4.5/components/forms/ --> 
                                                         <div class="card">
@@ -117,43 +117,43 @@
                                                                 <div class="card-body">
                                                                     <!-- How many people to quote for-->
                                                                     <p>How many people should we quote you for?</p>
-                                                                    <div class="form-check form-check-inline form-control-sm">
-                                                                        <input class="form-check-input" type="radio" name="quoteNumberPaxs" id="quotePaxInlineRadio1" value="quotePax1">
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="radio" name="quoteNumberPaxs" id="quotePaxInlineRadio1" value="quotePax1" required>
                                                                         <label class="form-check-label" for="quotePaxInlineRadio1">1</label>
                                                                     </div>
-                                                                    <div class="form-check form-check-inline form-control-sm">
+                                                                    <div class="form-check form-check-inline">
                                                                         <input class="form-check-input" type="radio" name="quoteNumberPaxs" id="quotePaxInlineRadio2" value="quotePax2">
                                                                         <label class="form-check-label" for="quotePaxInlineRadio2">2</label>
                                                                     </div>
-                                                                    <div class="form-check form-check-inline form-control-sm">
+                                                                    <div class="form-check form-check-inline">
                                                                         <input class="form-check-input" type="radio" name="quoteNumberPaxs" id="quotePaxInlineRadio3" value="quotePax3">
                                                                         <label class="form-check-label" for="quotePaxInlineRadio3">3</label>
                                                                     </div>
                                                                     <!-- What type of Hotel Accommodation is Required-->
-                                                                    <p class="d-block">What type of accommodation do you require?</p>
-                                                                    <div class="form-check form-check-inline form-control-sm">
-                                                                        <input class="form-check-input" type="radio" name="accomType" id="accomInlineRadio1" value="accom1">
+                                                                    <p>Accommodation type required?</p>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="radio" name="accomType" id="accomInlineRadio1" value="accom1" required>
                                                                         <label class="form-check-label" for="accomInlineRadio1"> Single</label>
                                                                     </div>
-                                                                    <div class="form-check form-check-inline form-control-sm">
+                                                                    <div class="form-check form-check-inline">
                                                                         <input class="form-check-input" type="radio" name="accomType" id="accomInlineRadio2" value="accom2">
                                                                         <label class="form-check-label" for="accomInlineRadio2"> Double</label>
                                                                     </div>
-                                                                    <div class="form-check form-check-inline form-control-sm">
+                                                                    <div class="form-check form-check-inline">
                                                                         <input class="form-check-input" type="radio" name="accomType" id="accomInlineRadio3" value="acomm3">
                                                                         <label class="form-check-label" for="accomInlineRadio"> Triple</label>
                                                                     </div>   
                                                                     <br>
                                                                     <!-- Preferred Date of Travel--> 
-                                                                    <div class="form-check form-check-inline form-control-sm">
-                                                                        <label class="form-check-label" for="travelDate"><span> Date of Travel: </span></label>&nbsp;&nbsp;
+                                                                    <div class="form-check form-check-inline">
+                                                                        <label class="form-check-label px-md-3 px-lg-5" for="travelDate"><span> Date of Travel: </span></label>&nbsp;&nbsp;
                                                                         <input class="form-check-input" type="date" name="travelDate" id="travelDate" value="yyyy-MM-dd">                                                                        
                                                                     </div>   
                                                                     <br>
                                                                     <!-- Pre or Post Tour Accommodation --> 
-                                                                    <div class="form-check form-check-inline form-control-sm">  
-                                                                        <label class="form-check-label" for="addNights"><span>Pre or Post Tour Accommodation Required? </span></label>&nbsp;&nbsp;
-                                                                        <input class="form-check-input" type="text" id="addNights" list="addNightsList" name="addNights">
+                                                                    <div class="form-check form-check-inline">  
+                                                                        <label class="form-check-label" for="addNights">Pre / Post Tour Accommodation?</label>
+                                                                        <input class="form-check-input" type="text" id="addNights" list="addNightsList" name="addNights" required>
                                                                         <datalist class="form-check-input" id="addNightsList">
                                                                             <option class="form-check-input" value="No Thank You"></option>
                                                                             <option class="form-check-input" value="Yes - 1 Night Pre Tour"></option>
@@ -167,77 +167,77 @@
                                                                     <br>
                                                                     <!-- Quote Additional Activities -->
                                                                     <fieldset>
-                                                                        <legend>&nbsp; Select any Add-Ons you wish to include: &nbsp;</legend>
-                                                                        <!--<p>Select any Add-Ons you wish to include: </p>-->
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <legend class="ml-2">&nbsp;Add-Ons &nbsp;</legend>
+                                                                        <p>Select any you wish to include: </p>
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="quoteInlineCheckbox1" value="quoteOption1">
                                                                             <label class="form-check-label" for="quoteInlineCheckbox1">The Alex</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="quoteInlineCheckbox2" value="quoteOption2">
                                                                             <label class="form-check-label" for="quoteInlineCheckbox2">Westbury</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="quoteInlineCheckbox3" value="quoteOption3">
                                                                             <label class="form-check-label" for="quoteInlineCheckbox3">Druids Glen</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="quoteInlineCheckbox4" value="quoteOption4">
                                                                             <label class="form-check-label" for="quoteInlineCheckbox4">Teelings</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="quoteInlineCheckbox5" value="quoteOption5">
                                                                             <label class="form-check-label" for="quoteInlineCheckbox5">Rascals</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="quoteInlineCheckbox6" value="quoteOption6">
                                                                             <label class="form-check-label" for="quoteInlineCheckbox6">Pearse Lyons</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="quoteInlineCheckbox7" value="quoteOption7">
                                                                             <label class="form-check-label" for="quoteInlineCheckbox7">Zip Lining</label>
                                                                         </div>                                                                    
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="quoteInlineCheckbox8" value="quoteOption8">
                                                                             <label class="form-check-label" for="quoteInlineCheckbox8">Abseiling</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="quoteInlineCheckbox9" value="quoteOption9">
                                                                             <label class="form-check-label" for="quoteInlineCheckbox9">Mountain Biking</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="quoteInlineCheckbox10" value="quoteOption10">
                                                                             <label class="form-check-label" for="quoteInlineCheckbox10">Alltech</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="quoteInlineCheckbox11" value="quoteOption11">
                                                                             <label class="form-check-label" for="quoteInlineCheckbox11">Craft Beer</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="quoteInlineCheckbox12" value="quoteOption12">
                                                                             <label class="form-check-label" for="quoteInlineCheckbox12">Brewdog</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="quoteInlineCheckbox13" value="quoteOption13">
                                                                             <label class="form-check-label" for="quoteInlineCheckbox13">Forbidden Fruit</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="quoteInlineCheckbox14" value="quoteOption14">
                                                                             <label class="form-check-label" for="quoteInlineCheckbox14">Trinity</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="quoteInlineCheckbox15" value="quoteOption15">
                                                                             <label class="form-check-label" for="quoteInlineCheckbox15">Electric Picnic</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="quoteInlineCheckbox16" value="quoteOption16">
                                                                             <label class="form-check-label" for="quoteInlineCheckbox16">Bloom</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="quoteInlineCheckbox17" value="quoteOption17">
                                                                             <label class="form-check-label" for="quoteInlineCheckbox17">Horse Show</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="quoteInlineCheckbox18" value="quoteOption18">
                                                                             <label class="form-check-label" for="quoteInlineCheckbox18">Big Grill</label>
                                                                         </div>
@@ -245,7 +245,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="card">
+                                                        <div class="card"> <!-- Booking Request -->
                                                             <div class="card-header" id="headingTwo">
                                                             <h2> 
                                                                 <label class="form-check-label" for="mainFormInlineRadio2"><i class="fas fa-suitcase orange-icon pr-2"></i> Make a Booking </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -255,48 +255,48 @@
                                                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                                                 <div class="card-body">
                                                                     <!-- Do they have a Quote Reference-->
-                                                                    <div class="form-check form-check-inline form-control-sm">
-                                                                        <label class="form-check-label" for="quoteReference"><span>Already have a quote? </span></label>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <label class="form-check-label" for="quoteReference">Already have a quote? </label>
                                                                         <input class="form-check-input" type="text" name="quoteReference" id="quoteReference" placeholder="Enter Quote Reference">                                                                        
                                                                     </div>
                                                                     <p>How many people are you booking for?</p>
-                                                                    <div class="form-check form-check-inline form-control-sm">
-                                                                        <input class="form-check-input" type="radio" name="bookNumberPaxs" id="bookInlineRadio1" value="bookPax1">
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="radio" name="bookNumberPaxs" id="bookInlineRadio1" value="bookPax1" required>
                                                                         <label class="form-check-label" for="bookInlineRadio1">1</label>
                                                                     </div>
-                                                                    <div class="form-check form-check-inline form-control-sm">
+                                                                    <div class="form-check form-check-inline">
                                                                         <input class="form-check-input" type="radio" name="bookNumberPaxs" id="bookInlineRadio2" value="bookPax2">
                                                                         <label class="form-check-label" for="bookInlineRadio2">2</label>
                                                                     </div>
-                                                                    <div class="form-check form-check-inline form-control-sm">
+                                                                    <div class="form-check form-check-inline">
                                                                         <input class="form-check-input" type="radio" name="bookNumberPaxs" id="bookInlineRadio3" value="bookPax3">
                                                                         <label class="form-check-label" for="bookInlineRadio3">3</label>
                                                                     </div>
                                                                     <!-- What type of Hotel Accommodation is Required-->
-                                                                    <p class="d-block">What type of accommodation do you require?</p>
-                                                                    <div class="form-check form-check-inline form-control-sm">
-                                                                        <input class="form-check-input" type="radio" name="bookAccomType" id="bookAccomInlineRadio1" value="bookAccom1">
+                                                                    <p class="d-block">Accommodation type required?</p>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="radio" name="bookAccomType" id="bookAccomInlineRadio1" value="bookAccom1" required>
                                                                         <label class="form-check-label" for="bookAccomInlineRadio1"> Single</label>
                                                                     </div>
-                                                                    <div class="form-check form-check-inline form-control-sm">
+                                                                    <div class="form-check form-check-inline">
                                                                         <input class="form-check-input" type="radio" name="bookAccomType" id="bookAccomInlineRadio2" value="bookAccom2">
                                                                         <label class="form-check-label" for="bookAccomInlineRadio2"> Double</label>
                                                                     </div>
-                                                                    <div class="form-check form-check-inline form-control-sm">
+                                                                    <div class="form-check form-check-inline">
                                                                         <input class="form-check-input" type="radio" name="bookAccomType" id="bookAccomInlineRadio3" value="bookAccom3">
                                                                         <label class="form-check-label" for="bookAccomInlineRadio"> Triple</label>
                                                                     </div>   
                                                                     <br>
                                                                     <!-- Preferred Date of Travel--> 
-                                                                    <div class="form-check form-check-inline form-control-sm">
+                                                                    <div class="form-check form-check-inline">
                                                                         <label class="form-check-label" for="bookdate"><span> Date of Travel: </span></label>&nbsp;&nbsp;
                                                                         <input class="form-check-input" type="date" name="bookDate" id="bookDate" value="yyyy-MM-dd">                                                                        
                                                                     </div>   
                                                                     <br>
                                                                     <!-- Pre or Post Tour Accommodation --> 
-                                                                    <div class="form-check form-check-inline form-control-sm">      
-                                                                        <label class="form-check-label" for="bookAddNights"><span>Pre or Post Tour Accommodation Required? </span></label>&nbsp;&nbsp;
-                                                                        <input class="form-check-input" type="text" id="bookAddNights" list="bookAddNightsList" name="bookAddNights">
+                                                                    <div class="form-check form-check-inline">      
+                                                                        <label class="form-check-label" for="bookAddNights"><span>Pre / Post Tour Accommodation? </span></label>&nbsp;&nbsp;
+                                                                        <input class="form-check-input" type="text" id="bookAddNights" list="bookAddNightsList" name="bookAddNights" required>
                                                                         <datalist class="form-check-input" id="bookAddNightsList">
                                                                             <option class="form-check-input" value="No Thank You"></option>
                                                                             <option class="form-check-input" value="Yes - 1 Night Pre Tour"></option>
@@ -310,77 +310,77 @@
                                                                     <br>
                                                                     <!-- Quote Additional Activities -->
                                                                     <fieldset>
-                                                                         <legend>&nbsp; Select any Add-Ons you wish to include: &nbsp;</legend>
-                                                                        <!--<p>Select any Add-Ons you wish to include: </p>-->
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                         <legend class="ml-2">&nbsp; Add-Ons &nbsp;</legend>
+                                                                        <p>Select any you wish to include: </p>
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="bookInlineCheckbox1" value="bookOption1">
                                                                             <label class="form-check-label" for="bookInlineCheckbox1">The Alex</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="bookInlineCheckbox2" value="bookOption2">
                                                                             <label class="form-check-label" for="bookInlineCheckbox2">Westbury</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="bookInlineCheckbox3" value="bookOption3">
                                                                             <label class="form-check-label" for="bookInlineCheckbox3">Druids Glen</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="bookInlineCheckbox4" value="bookOption4">
                                                                             <label class="form-check-label" for="bookInlineCheckbox4">Teelings</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="bookInlineCheckbox5" value="bookOption5">
                                                                             <label class="form-check-label" for="bookInlineCheckbox5">Rascals</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="bookInlineCheckbox6" value="bookOption6">
                                                                             <label class="form-check-label" for="bookInlineCheckbox6">Pearse Lyons</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="bookInlineCheckbox7" value="bookOption7">
                                                                             <label class="form-check-label" for="bookInlineCheckbox7">Zip Lining</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="bookInlineCheckbox8" value="bookOption8">
                                                                             <label class="form-check-label" for="bookInlineCheckbox8">Abseiling</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="bookInlineCheckbox9" value="bookOption9">
                                                                             <label class="form-check-label" for="bookInlineCheckbox9">Mountain Biking</label>
                                                                         </div>                                                                  
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="bookInlineCheckbox10" value="bookOption10">
                                                                             <label class="form-check-label" for="bookInlineCheckbox10">Alltech</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="bookInlineCheckbox11" value="bookOption11">
                                                                             <label class="form-check-label" for="bookInlineCheckbox11">Craft Beer</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="bookInlineCheckbox12" value="bookOption12">
                                                                             <label class="form-check-label" for="bookInlineCheckbox12">Brewdog</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="bookInlineCheckbox13" value="bookOption13">
                                                                             <label class="form-check-label" for="bookInlineCheckbox13">Forbidden Fruit</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="bookInlineCheckbox14" value="bookOption14">
                                                                             <label class="form-check-label" for="bookInlineCheckbox14">Trinity</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="bookInlineCheckbox15" value="bookOption15">
                                                                             <label class="form-check-label" for="bookInlineCheckbox15">Electric Picnic</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="bookInlineCheckbox16" value="bookOption16">
                                                                             <label class="form-check-label" for="bookInlineCheckbox16">Bloom</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="bookInlineCheckbox17" value="bookOption17">
                                                                             <label class="form-check-label" for="bookInlineCheckbox17">Horse Show</label>
                                                                         </div>
-                                                                        <div class="form-check form-check-inline form-control-sm">
+                                                                        <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="checkbox" id="bookInlineCheckbox18" value="bookOption18">
                                                                             <label class="form-check-label" for="bookInlineCheckbox18">Big Grill</label>
                                                                         </div>
@@ -397,7 +397,7 @@
                                                             </div>
                                                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                                                                 <div class="card-body">
-                                                                    <div class="form-group form-check form-check-inline form-control-sm">
+                                                                    <div class="form-group form-check form-check-inline">
                                                                         <label for="mainFormTextarea1"><span>Please enter your query here: </span></label>&nbsp;&nbsp;
                                                                         <textarea class="form-control" id="mainFormTextarea1" rows="5"></textarea>
                                                                     </div>
@@ -406,7 +406,7 @@
                                                         </div>
                                                     </div><!-- End of Bootstrap code -->
                                                 </fieldset>
-                                                <div class="form-check form-check-inline form-control-sm mb-3 mr-5 mr-md-0 pr-4 pr-md-0">
+                                                <div class="form-check form-check-inline mb-3 mr-5 mr-md-0 pr-4 pr-md-0">
                                                     <button type="submit" class="btn btn-info btn-styling mt-4 justify-content-center" >Submit Request</button>
                                                 </div>
                                             </form>
@@ -414,7 +414,7 @@
                                         <div class="col-2 right--suitcase--container d-none d-xl-block">
                                             <!--right side container-->
                                         </div>
-                                    </div>
+                                    </div> 
                                 </div>
                             </div>
                         </div>
