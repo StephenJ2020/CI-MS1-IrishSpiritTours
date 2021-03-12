@@ -30,7 +30,7 @@ body{
 }
 
 a{
-    color: #35798e;
+    color: #35798e;     /* Targets "read More" links in Carousel & Collapse */
     text-decoration: none;
     background-color: transparent;
 }
