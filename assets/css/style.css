@@ -29,6 +29,12 @@ body{
     padding-right: 5px;
 }
 
+a{
+    color: #35798e;
+    text-decoration: none;
+    background-color: transparent;
+}
+
 /* ******************************************************** Header Section */
 /* *********************************************************************** */
 
@@ -551,8 +557,8 @@ footer ul li{
 .btn-navbar{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    color: #fff;
-    background-color: #F47A60;
+    color: #343434;
+    background-color: #fff;
     border-radius: 22px;
 }
 
@@ -561,14 +567,13 @@ footer ul li{
 }
 
 .btn-light-blue:hover{
-    background-color: #7FE7DC;
-    color: #35798e;
+    background-color: #F47A60;
+    color: #ffffff;
 }
 
 .btn-styling{
     font-weight: bold;
     color: #fff;
-    /*background-color: #F47A60; */
     background-color: #35798e;
     border-radius: 22px;
 }
