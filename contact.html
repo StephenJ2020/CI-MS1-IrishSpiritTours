@@ -29,7 +29,7 @@
                         <ul class="navbar-nav">
                             <li class="nav-item mr-3"><a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
                             <li class="nav-item mr-3"><a class="nav-link" href="itinerary.html">Itinerary</a></li>      
-                            <li class="nav-item mr-3"><a class="nav-link" href="add-ons.html">Add-Ons</a></li>       <!--Do I need to add aria-label="Go to Add-on's section" ????-->
+                            <li class="nav-item mr-3"><a class="nav-link" href="add-ons.html">Add-Ons</a></li>       
                             <li class="nav-item mr-3"><a class="nav-link" href="gallery.html">Gallery</a></li>
                             <li class="active nav-item mr-3"><a class="nav-link" href="contact.html">Contact Us</a></li>
                             <li class="nav-item mr-3 d-none"><button class="btn btn-info btn-styling"><a class="nav-link" href="contact.html">Get a Quote</a></button></li>
@@ -65,23 +65,23 @@
                 <div class="col-12 offset-0 col-lg-10 offset-lg-2 container itinerary--container py-5 px-md-5">
                     <div class="container itinerary--container px-0 py-5">
                         <div class="row container itinerary--body">
-                            <div class="col-12 contact--outer--container"> <!-- col-md-6 col-xl-4 px-lg-5 -->
+                            <div class="col-12 contact--outer--container"> 
 
                                 <div class="col 12 opaque-overlay">
 
-                                    <div class="row container ">  <!-- my-5 mx-3 -->
-                                        <div class="col-4 handle--container d-none d-xl-block">   <!-- handle--container white background container-->
-                                            <div class="row inner--handle d-none d-xl-block">      <!-- inner--handle Blue background container-->
+                                    <div class="row container ">
+                                        <div class="col-4 handle--container d-none d-xl-block">   <!-- handle container for the atesthetics of the layout on screens over 1500px-->
+                                            <div class="row inner--handle d-none d-xl-block">      <!-- inner-handle  container for the atesthetics of the layout on screens over 1500px-->
                                                 <span class="sr-only" aria-label="This content is purely used as a visual representation of a suitcase"></span>
                                             </div>
                                         </div>
-                                    </div> <!--End of Row one with  Suitcase Handle-->
+                                    </div> <!--End of Row one with  Suitcase Handle -->
 
                                     <div class="row">
                                         <div class="col-2 left--suitcase--container d-none d-xl-block">
-                                            <!--Left-->
+                                            <!-- Left-hand side container for the atesthetics of the layout on screens over 1500px -->
                                         </div>
-                                        <div class="col-12 col-md-10 col-xl-6 center--suitcase--container"> <!--center-->
+                                        <div class="col-12 col-md-10 col-xl-6 center--suitcase--container"> <!--center container for contact form-->
                                             <form>
                                                 <fieldset>
                                                     <legend>&nbsp; Your Details &nbsp;</legend>
@@ -101,7 +101,6 @@
                                                         <label for="email"><span>Enter Email: </span></label>&nbsp;&nbsp;
                                                         <input type="email" id="email" name="email" placeholder="Enter your E-mail" required>
                                                     </div>
-
                                                 </fieldset>
                                                 <fieldset>
                                                     <legend>&nbsp; Request Details &nbsp;</legend>
@@ -109,7 +108,7 @@
                                                     <div class="accordion" id="accordionExample"> <!-- Code adapted from Bootstrap Acordian https://getbootstrap.com/docs/4.5/components/collapse/#accordion-example and Forms https://getbootstrap.com/docs/4.5/components/forms/ --> 
                                                         <div class="card">
                                                             <div class="card-header" id="headingOne">
-                                                            <h2> <!-- class="mb-0" -->
+                                                            <h2> 
                                                                 <label class="form-check-label" for="mainFormInlineRadio1"><i class="fas fa-file-invoice-dollar orange-icon pr-2"></i> Get a Quote </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                                 <input class="form-check-input" type="radio" name="formMainInlineRadioOptions" id="mainFormInlineRadio1" value="mainFormOption1"   data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> <!-- type="button" -->
                                                             </h2>
@@ -152,10 +151,8 @@
                                                                     </div>   
                                                                     <br>
                                                                     <!-- Pre or Post Tour Accommodation --> 
-                                                                    <div class="form-check form-check-inline form-control-sm">      <!-- *** Correct Sizing issue on Mobile devices *** -->
-                                                                        
+                                                                    <div class="form-check form-check-inline form-control-sm">  
                                                                         <label class="form-check-label" for="addNights"><span>Pre or Post Tour Accommodation Required? </span></label>&nbsp;&nbsp;
-                                                                        
                                                                         <input class="form-check-input" type="text" id="addNights" list="addNightsList" name="addNights">
                                                                         <datalist class="form-check-input" id="addNightsList">
                                                                             <option class="form-check-input" value="No Thank You"></option>
@@ -259,7 +256,7 @@
                                                                 <div class="card-body">
                                                                     <!-- Do they have a Quote Reference-->
                                                                     <div class="form-check form-check-inline form-control-sm">
-                                                                        <label class="form-check-label" for="quoteReference"><span>Have we already quoted you? </span></label>
+                                                                        <label class="form-check-label" for="quoteReference"><span>Already have a quote? </span></label>
                                                                         <input class="form-check-input" type="text" name="quoteReference" id="quoteReference" placeholder="Enter Quote Reference">                                                                        
                                                                     </div>
                                                                     <p>How many people are you booking for?</p>
@@ -297,7 +294,7 @@
                                                                     </div>   
                                                                     <br>
                                                                     <!-- Pre or Post Tour Accommodation --> 
-                                                                    <div class="form-check form-check-inline form-control-sm">      <!-- Correct Sizing issue on Mobile devices -->
+                                                                    <div class="form-check form-check-inline form-control-sm">      
                                                                         <label class="form-check-label" for="bookAddNights"><span>Pre or Post Tour Accommodation Required? </span></label>&nbsp;&nbsp;
                                                                         <input class="form-check-input" type="text" id="bookAddNights" list="bookAddNightsList" name="bookAddNights">
                                                                         <datalist class="form-check-input" id="bookAddNightsList">
@@ -393,7 +390,7 @@
                                                         </div>
                                                         <div class="card">
                                                             <div class="card-header" id="headingThree">
-                                                            <h2> <!-- class="mb-0" -->
+                                                            <h2> 
                                                                 <label class="form-check-label" for="mainFormInlineRadio3"><i class="fas fa-question orange-icon pr-2"> </i>Ask a General Question </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                                 <input class="form-check-input" type="radio" name="formMainInlineRadioOptions" id="mainFormInlineRadio3" value="mainFormOption3" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                                             </h2>
@@ -424,10 +421,8 @@
                     </div>
                 </div>
             </section>
-         
-             <section class="container gallery-container">
+            <section class="container gallery-container">
                 <div class="row intro--quote pl-2 pr-2 pl-md-5 pr-md-5 pl-lg-15 pr-lg-15">
-                    <!-- Empty conainter to create a white space between the gallery section and the footer to maintain the overall style of the site -->
                     <h2 class="note">We look forward to welcoming you to Ireland's Ancient East in the near future!</h2>
                 </div>
             </section>
