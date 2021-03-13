@@ -1219,7 +1219,7 @@ fieldset label{
 }
 
 input{
-    text-align: center;
+    text-align: justify;
 }
 
 fieldset span{
@@ -1234,11 +1234,6 @@ textarea{
     margin: 40px;
 }
 
-#bookAddNights{
-    
-    background-color: palevioletred;
-   
-}
 
 /* Start of Overriding Bootstrap CSS */
 
@@ -1287,7 +1282,7 @@ form fieldset p {
 
 form fieldset .h2 {
     font-size: 0.9em;
-    text-align: left;
+    text-align: justify;
 }
 
 form fieldset .h2 {

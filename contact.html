@@ -82,7 +82,7 @@
                                             <!-- Left-hand side container for the atesthetics of the layout on screens over 1500px -->
                                         </div>
                                         <div class="col-12 col-md-10 col-xl-6 center--suitcase--container"> <!--center container for contact form-->
-                                            <form action="/action_page.php"> <!-- Action links to W3S test server https://www.w3schools.com/tags/tag_form.asp -->
+                                            <form> 
                                                 <fieldset>
                                                     <legend class="ml-2">&nbsp; Your Details &nbsp;</legend>
                                                     <div class="form-check form-check-inline">
@@ -94,7 +94,7 @@
                                                         <input type="text" id="contactLastName" placeholder="Last Name" name="contactLastName" required>
                                                     </div>
                                                     <div class="form-check form-check-inline">
-                                                        <label for="phone"><span>Telephone: </span></label>&nbsp;&nbsp;
+                                                        <label for="phone"><span>Mobile: </span></label>&nbsp;&nbsp;
                                                         <input type="tel" id="phone" placeholder="Enter your number" name="phone" required>
                                                     </div>
                                                     <div class="form-check form-check-inline">
@@ -105,66 +105,95 @@
                                                 <fieldset>
                                                     <legend class="ml-2">&nbsp; Request Details &nbsp;</legend>
                                                     <h2>I want to:</h2>
-                                                    <div class="accordion" id="accordionExample"> <!-- Code adapted from Bootstrap Acordian https://getbootstrap.com/docs/4.5/components/collapse/#accordion-example and Forms https://getbootstrap.com/docs/4.5/components/forms/ --> 
+                                                    <div class="accordion" id="contactForm"> <!-- Code adapted from Bootstrap Acordian https://getbootstrap.com/docs/4.5/components/collapse/#accordion-example and Forms https://getbootstrap.com/docs/4.5/components/forms/ --> 
                                                         <div class="card">
-                                                            <div class="card-header" id="headingOne">
+                                                            <div class="card-header" id="getQuote">
                                                             <h2> 
                                                                 <label class="form-check-label" for="mainFormInlineRadio1"><i class="fas fa-file-invoice-dollar orange-icon pr-2"></i> Get a Quote </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                                <input class="form-check-input" type="radio" name="formMainInlineRadioOptions" id="mainFormInlineRadio1" value="mainFormOption1"   data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> <!-- type="button" -->
+                                                                <input class="form-check-input" type="radio" aria-checked="false" name="formMainInlineRadioOptions" id="mainFormInlineRadio1" value="mainFormOption1"   data-toggle="collapse" data-target="#collapseQuote" aria-expanded="false" aria-controls="collapseQuote">
                                                             </h2>
                                                             </div>
-                                                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                                            <div id="collapseQuote" class="collapse" aria-labelledby="getQuote" data-parent="#contactForm">
                                                                 <div class="card-body">
-                                                                    <!-- How many people to quote for-->
-                                                                    <p>How many people should we quote you for?</p>
-                                                                    <div class="form-check form-check-inline">
-                                                                        <input class="form-check-input" type="radio" name="quoteNumberPaxs" id="quotePaxInlineRadio1" value="quotePax1" required>
-                                                                        <label class="form-check-label" for="quotePaxInlineRadio1">1</label>
+                                                                    <div class="row"><!-- How many people to quote for-->
+                                                                        <div class="col-12">
+                                                                            <div class="row my-2">
+                                                                                <div class="form-check form-check-inline col-12 justify-content-center">
+                                                                                    <p>How many people should we quote you for?</p>
+                                                                                </div>
+                                                                                <div class="form-check form-check-inline col-12 justify-content-center">
+                                                                                    <div class="form-check form-check-inline">
+                                                                                        <input class="form-check-input" type="radio" name="quoteNumberPaxs" id="quotePaxInlineRadio1" value="quotePax1" required>
+                                                                                        <label class="form-check-label" for="quotePaxInlineRadio1">1</label>
+                                                                                    </div>
+                                                                                    <div class="form-check form-check-inline">
+                                                                                        <input class="form-check-input" type="radio" name="quoteNumberPaxs" id="quotePaxInlineRadio2" value="quotePax2">
+                                                                                        <label class="form-check-label" for="quotePaxInlineRadio2">2</label>
+                                                                                    </div>
+                                                                                    <div class="form-check form-check-inline">
+                                                                                        <input class="form-check-input" type="radio" name="quoteNumberPaxs" id="quotePaxInlineRadio3" value="quotePax3">
+                                                                                        <label class="form-check-label" for="quotePaxInlineRadio3">3</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                    <div class="form-check form-check-inline">
-                                                                        <input class="form-check-input" type="radio" name="quoteNumberPaxs" id="quotePaxInlineRadio2" value="quotePax2">
-                                                                        <label class="form-check-label" for="quotePaxInlineRadio2">2</label>
+                                                                    <div class="row"> <!-- What type of Hotel Accommodation is Required-->
+                                                                        <div class="col-12">
+                                                                            <div class="row my-2">
+                                                                                <div class="form-check form-check-inline col-12 justify-content-center">
+                                                                                    <p>Accommodation type required?</p>
+                                                                                </div>
+                                                                                <div class="form-check form-check-inline col-12 justify-content-center my-1">
+                                                                                    <div class="form-check form-check-inline">
+                                                                                        <input class="form-check-input" type="radio" name="accomType" id="accomInlineRadio1" value="accom1" required>
+                                                                                        <label class="form-check-label" for="accomInlineRadio1"> Single</label>
+                                                                                    </div>
+                                                                                    <div class="form-check form-check-inline">
+                                                                                        <input class="form-check-input" type="radio" name="accomType" id="accomInlineRadio2" value="accom2">
+                                                                                        <label class="form-check-label" for="accomInlineRadio2"> Double</label>
+                                                                                    </div>
+                                                                                    <div class="form-check form-check-inline">
+                                                                                        <input class="form-check-input" type="radio" name="accomType" id="accomInlineRadio3" value="acomm3">
+                                                                                        <label class="form-check-label" for="accomInlineRadio3"> Triple</label>
+                                                                                    </div> 
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                    <div class="form-check form-check-inline">
-                                                                        <input class="form-check-input" type="radio" name="quoteNumberPaxs" id="quotePaxInlineRadio3" value="quotePax3">
-                                                                        <label class="form-check-label" for="quotePaxInlineRadio3">3</label>
+                                                                    <div class="row"> <!-- Preferred Date of Travel-->
+                                                                        <div class="col-12">
+                                                                            <div class="row my-2">
+                                                                                <div class="form-check form-check-inline col-12 justify-content-center">
+                                                                                    <label class="form-check-label" for="travelDate">Preferred Date of Travel: </label>
+                                                                                </div>
+                                                                                <div class="form-check form-check-inline col-12 justify-content-center my-1">
+                                                                                    <input class="form-check-input" type="date" name="travelDate" id="travelDate" value="dd/mm/yyyy" required> 
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                    <!-- What type of Hotel Accommodation is Required-->
-                                                                    <p>Accommodation type required?</p>
-                                                                    <div class="form-check form-check-inline">
-                                                                        <input class="form-check-input" type="radio" name="accomType" id="accomInlineRadio1" value="accom1" required>
-                                                                        <label class="form-check-label" for="accomInlineRadio1"> Single</label>
+                                                                    <div class="row"> <!-- What type of Hotel Accommodation is Required-->
+                                                                        <div class="col-12">
+                                                                            <div class="row my-2">
+                                                                                <div class="form-check form-check-inline col-12 justify-content-center">
+                                                                                    <label class="form-check-label vw-100" for="addNights">Do you require Pre or Post Tour Accommodation?</label>
+                                                                                </div>
+                                                                                <div class="form-check form-check-inline col-12 justify-content-center my-1">
+                                                                                    <input class="form-check-input vw-100" type="text" id="addNights" list="addNightsList" name="addNights" required>
+                                                                                    <datalist class="form-check-input" id="addNightsList">
+                                                                                        <option class="form-check-input" value="No Thank You"></option>
+                                                                                        <option class="form-check-input" value="Yes - 1 Night Pre Tour"></option>
+                                                                                        <option class="form-check-input" value="Yes - 1 Night Post Tour"></option>
+                                                                                        <option class="form-check-input" value="Yes - 1 Night Pre & Post Tour"></option>
+                                                                                        <option class="form-check-input" value="Yes - 2 Nights Pre Tour"></option>
+                                                                                        <option class="form-check-input" value="Yes - 2 Nights Post Tour"></option>
+                                                                                        <option class="form-check-input" value="Yes - 2 Nights Pre & Post Tour"></option>
+                                                                                    </datalist>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                    <div class="form-check form-check-inline">
-                                                                        <input class="form-check-input" type="radio" name="accomType" id="accomInlineRadio2" value="accom2">
-                                                                        <label class="form-check-label" for="accomInlineRadio2"> Double</label>
-                                                                    </div>
-                                                                    <div class="form-check form-check-inline">
-                                                                        <input class="form-check-input" type="radio" name="accomType" id="accomInlineRadio3" value="acomm3">
-                                                                        <label class="form-check-label" for="accomInlineRadio"> Triple</label>
-                                                                    </div>   
-                                                                    <br>
-                                                                    <!-- Preferred Date of Travel--> 
-                                                                    <div class="form-check form-check-inline">
-                                                                        <label class="form-check-label px-md-3 px-lg-5" for="travelDate"><span> Date of Travel: </span></label>&nbsp;&nbsp;
-                                                                        <input class="form-check-input" type="date" name="travelDate" id="travelDate" value="yyyy-MM-dd">                                                                        
-                                                                    </div>   
-                                                                    <br>
-                                                                    <!-- Pre or Post Tour Accommodation --> 
-                                                                    <div class="form-check form-check-inline">  
-                                                                        <label class="form-check-label" for="addNights">Pre / Post Tour Accommodation?</label>
-                                                                        <input class="form-check-input" type="text" id="addNights" list="addNightsList" name="addNights" required>
-                                                                        <datalist class="form-check-input" id="addNightsList">
-                                                                            <option class="form-check-input" value="No Thank You"></option>
-                                                                            <option class="form-check-input" value="Yes - 1 Night Pre Tour"></option>
-                                                                            <option class="form-check-input" value="Yes - 1 Night Post Tour"></option>
-                                                                            <option class="form-check-input" value="Yes - 1 Night Pre & Post Tour"></option>
-                                                                            <option class="form-check-input" value="Yes - 2 Nights Pre Tour"></option>
-                                                                            <option class="form-check-input" value="Yes - 2 Nights Post Tour"></option>
-                                                                            <option class="form-check-input" value="Yes - 2 Nights Pre & Post Tour"></option>
-                                                                        </datalist>
-                                                                    </div>
-                                                                    <br>
                                                                     <!-- Quote Additional Activities -->
                                                                     <fieldset>
                                                                         <legend class="ml-2">&nbsp;Add-Ons &nbsp;</legend>
@@ -246,68 +275,105 @@
                                                             </div>
                                                         </div>
                                                         <div class="card"> <!-- Booking Request -->
-                                                            <div class="card-header" id="headingTwo">
+                                                            <div class="card-header" id="makeBooking">
                                                             <h2> 
                                                                 <label class="form-check-label" for="mainFormInlineRadio2"><i class="fas fa-suitcase orange-icon pr-2"></i> Make a Booking </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                                <input class="form-check-input" type="radio" name="formMainInlineRadioOptions" id="mainFormInlineRadio2" value="mainFormOption2" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                                <input class="form-check-input" type="radio" aria-checked="false" name="formMainInlineRadioOptions" id="mainFormInlineRadio2" value="mainFormOption2" data-toggle="collapse" data-target="#collapseBooking" aria-expanded="false" aria-controls="collapseBooking">
                                                             </h2>
                                                             </div>
-                                                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                                            <div id="collapseBooking" class="collapse" aria-labelledby="makeBooking" data-parent="#contactForm">
                                                                 <div class="card-body">
-                                                                    <!-- Do they have a Quote Reference-->
-                                                                    <div class="form-check form-check-inline">
-                                                                        <label class="form-check-label" for="quoteReference">Already have a quote? </label>
-                                                                        <input class="form-check-input" type="text" name="quoteReference" id="quoteReference" placeholder="Enter Quote Reference">                                                                        
+                                                                    <div class="row"><!-- Do they have a Quote Reference-->
+                                                                        <div class="col-12">
+                                                                            <div class="row my-2">
+                                                                                <div class="form-check form-check-inline col-12 justify-content-center">
+                                                                                    <label class="form-check-label" for="quoteReference">Have we already quoted you? </label>
+                                                                                </div>
+                                                                                <div class="form-check form-check-inline col-12 justify-content-center my-1">
+                                                                                    <input class="form-check-input" type="text" name="quoteReference" id="quoteReference" placeholder="Enter Quote Reference" required> 
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                    <p>How many people are you booking for?</p>
-                                                                    <div class="form-check form-check-inline">
-                                                                        <input class="form-check-input" type="radio" name="bookNumberPaxs" id="bookInlineRadio1" value="bookPax1" required>
-                                                                        <label class="form-check-label" for="bookInlineRadio1">1</label>
+                                                                    <div class="row"><!-- How many people to book for-->
+                                                                        <div class="col-12">
+                                                                            <div class="row my-2">
+                                                                                <div class="form-check form-check-inline col-12 justify-content-center">
+                                                                                    <p>How many people are you booking for?</p>
+                                                                                </div>
+                                                                                <div class="form-check form-check-inline col-12 justify-content-center my-1">
+                                                                                    <div class="form-check form-check-inline">
+                                                                                        <input class="form-check-input" type="radio" name="bookNumberPaxs" id="bookInlineRadio1" value="bookPax1" required>
+                                                                                        <label class="form-check-label" for="bookInlineRadio1">1</label>
+                                                                                    </div>
+                                                                                    <div class="form-check form-check-inline">
+                                                                                        <input class="form-check-input" type="radio" name="bookNumberPaxs" id="bookInlineRadio2" value="bookPax2">
+                                                                                        <label class="form-check-label" for="bookInlineRadio2">2</label>
+                                                                                    </div>
+                                                                                    <div class="form-check form-check-inline">
+                                                                                        <input class="form-check-input" type="radio" name="bookNumberPaxs" id="bookInlineRadio3" value="bookPax3">
+                                                                                        <label class="form-check-label" for="bookInlineRadio3">3</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                    <div class="form-check form-check-inline">
-                                                                        <input class="form-check-input" type="radio" name="bookNumberPaxs" id="bookInlineRadio2" value="bookPax2">
-                                                                        <label class="form-check-label" for="bookInlineRadio2">2</label>
+                                                                    <div class="row"> <!-- What type of Hotel Accommodation is Required-->
+                                                                        <div class="col-12">
+                                                                            <div class="row my-2">
+                                                                                <div class="form-check form-check-inline col-12 justify-content-center">
+                                                                                    <p>Accommodation type required?</p>
+                                                                                </div>
+                                                                                <div class="form-check form-check-inline col-12 justify-content-center my-1">
+                                                                                     <div class="form-check form-check-inline">
+                                                                                        <input class="form-check-input" type="radio" name="bookAccomType" id="bookAccomInlineRadio1" value="bookAccom1" required>
+                                                                                        <label class="form-check-label" for="bookAccomInlineRadio1"> Single</label>
+                                                                                    </div>
+                                                                                    <div class="form-check form-check-inline">
+                                                                                        <input class="form-check-input" type="radio" name="bookAccomType" id="bookAccomInlineRadio2" value="bookAccom2">
+                                                                                        <label class="form-check-label" for="bookAccomInlineRadio2"> Double</label>
+                                                                                    </div>
+                                                                                    <div class="form-check form-check-inline">
+                                                                                        <input class="form-check-input" type="radio" name="bookAccomType" id="bookAccomInlineRadio3" value="bookAccom3">
+                                                                                        <label class="form-check-label" for="bookAccomInlineRadio3"> Triple</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                    <div class="form-check form-check-inline">
-                                                                        <input class="form-check-input" type="radio" name="bookNumberPaxs" id="bookInlineRadio3" value="bookPax3">
-                                                                        <label class="form-check-label" for="bookInlineRadio3">3</label>
+                                                                    <div class="row"> <!-- Preferred Date of Travel-->
+                                                                        <div class="col-12">
+                                                                            <div class="row my-2">
+                                                                                <div class="form-check form-check-inline col-12 justify-content-center">
+                                                                                    <label class="form-check-label" for="bookdate">Date of Travel: </label>
+                                                                                </div>
+                                                                                <div class="form-check form-check-inline col-12 justify-content-center my-1">
+                                                                                    <input class="form-check-input" type="date" name="bookDate" id="bookDate" value="dd/mm/yyyy" required>  
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                    <!-- What type of Hotel Accommodation is Required-->
-                                                                    <p class="d-block">Accommodation type required?</p>
-                                                                    <div class="form-check form-check-inline">
-                                                                        <input class="form-check-input" type="radio" name="bookAccomType" id="bookAccomInlineRadio1" value="bookAccom1" required>
-                                                                        <label class="form-check-label" for="bookAccomInlineRadio1"> Single</label>
+                                                                    <div class="row"> <!-- Pre or Post Tour Accommodation -->
+                                                                        <div class="col-12">
+                                                                            <div class="row my-2">
+                                                                                <div class="form-check form-check-inline col-12 justify-content-center">
+                                                                                    <label class="form-check-label" for="bookAddNights">Do you require Pre or Post Tour Accommodation?</label>
+                                                                                </div>
+                                                                                <div class="form-check form-check-inline col-12 justify-content-center my-1">
+                                                                                    <input class="form-check-input" type="text" id="bookAddNights" list="bookAddNightsList" name="bookAddNights" required>
+                                                                                    <datalist class="form-check-input" id="bookAddNightsList">
+                                                                                        <option class="form-check-input" value="No Thank You"></option>
+                                                                                        <option class="form-check-input" value="Yes - 1 Night Pre Tour"></option>
+                                                                                        <option class="form-check-input" value="Yes - 1 Night Post Tour"></option>
+                                                                                        <option class="form-check-input" value="Yes - 1 Night Pre & Post Tour"></option>
+                                                                                        <option class="form-check-input" value="Yes - 2 Nights Pre Tour"></option>
+                                                                                        <option class="form-check-input" value="Yes - 2 Nights Post Tour"></option>
+                                                                                        <option class="form-check-input" value="Yes - 2 Nights Pre & Post Tour"></option>
+                                                                                    </datalist>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                    <div class="form-check form-check-inline">
-                                                                        <input class="form-check-input" type="radio" name="bookAccomType" id="bookAccomInlineRadio2" value="bookAccom2">
-                                                                        <label class="form-check-label" for="bookAccomInlineRadio2"> Double</label>
-                                                                    </div>
-                                                                    <div class="form-check form-check-inline">
-                                                                        <input class="form-check-input" type="radio" name="bookAccomType" id="bookAccomInlineRadio3" value="bookAccom3">
-                                                                        <label class="form-check-label" for="bookAccomInlineRadio"> Triple</label>
-                                                                    </div>   
-                                                                    <br>
-                                                                    <!-- Preferred Date of Travel--> 
-                                                                    <div class="form-check form-check-inline">
-                                                                        <label class="form-check-label" for="bookdate"><span> Date of Travel: </span></label>&nbsp;&nbsp;
-                                                                        <input class="form-check-input" type="date" name="bookDate" id="bookDate" value="yyyy-MM-dd">                                                                        
-                                                                    </div>   
-                                                                    <br>
-                                                                    <!-- Pre or Post Tour Accommodation --> 
-                                                                    <div class="form-check form-check-inline">      
-                                                                        <label class="form-check-label" for="bookAddNights"><span>Pre / Post Tour Accommodation? </span></label>&nbsp;&nbsp;
-                                                                        <input class="form-check-input" type="text" id="bookAddNights" list="bookAddNightsList" name="bookAddNights" required>
-                                                                        <datalist class="form-check-input" id="bookAddNightsList">
-                                                                            <option class="form-check-input" value="No Thank You"></option>
-                                                                            <option class="form-check-input" value="Yes - 1 Night Pre Tour"></option>
-                                                                            <option class="form-check-input" value="Yes - 1 Night Post Tour"></option>
-                                                                            <option class="form-check-input" value="Yes - 1 Night Pre & Post Tour"></option>
-                                                                            <option class="form-check-input" value="Yes - 2 Nights Pre Tour"></option>
-                                                                            <option class="form-check-input" value="Yes - 2 Nights Post Tour"></option>
-                                                                            <option class="form-check-input" value="Yes - 2 Nights Pre & Post Tour"></option>
-                                                                        </datalist>
-                                                                    </div>
-                                                                    <br>
                                                                     <!-- Quote Additional Activities -->
                                                                     <fieldset>
                                                                          <legend class="ml-2">&nbsp; Add-Ons &nbsp;</legend>
@@ -392,14 +458,22 @@
                                                             <div class="card-header" id="headingThree">
                                                             <h2> 
                                                                 <label class="form-check-label" for="mainFormInlineRadio3"><i class="fas fa-question orange-icon pr-2"> </i>Ask a General Question </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                                <input class="form-check-input" type="radio" name="formMainInlineRadioOptions" id="mainFormInlineRadio3" value="mainFormOption3" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                                <input class="form-check-input" type="radio" checked aria-checked="true" name="formMainInlineRadioOptions" id="mainFormInlineRadio3" value="mainFormOption3" data-toggle="collapse" data-target="#collapseAskQuestion" aria-expanded="true" aria-controls="collapseAskQuestion">
                                                             </h2>
                                                             </div>
-                                                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                            <div id="collapseAskQuestion" class="collapse show" aria-labelledby="headingThree" data-parent="#contactForm">
                                                                 <div class="card-body">
-                                                                    <div class="form-group form-check form-check-inline">
-                                                                        <label for="mainFormTextarea1"><span>Please enter your query here: </span></label>&nbsp;&nbsp;
-                                                                        <textarea class="form-control" id="mainFormTextarea1" rows="5"></textarea>
+                                                                    <div class="row"><!-- Ask a General Question-->
+                                                                        <div class="col-12">
+                                                                            <div class="row my-2">
+                                                                                <div class="form-check form-check-inline col-12 justify-content-center">
+                                                                                    <label for="mainFormTextarea1">Please enter your query here: </label>
+                                                                                </div>
+                                                                                <div class="form-check form-check-inline col-12 justify-content-center my-1">
+                                                                                     <textarea class="form-control" id="mainFormTextarea1" rows="5" required></textarea>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
