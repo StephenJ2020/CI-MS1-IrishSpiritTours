@@ -1218,22 +1218,9 @@ fieldset label{
     margin-right: 3px;
 }
 
-input{
-    text-align: justify;
+fieldset p{
+    text-align: center;
 }
-
-fieldset span{
-    padding-top: 14px;
-    padding-bottom: 14px;
-}
-
-textarea{
-    width: 0 auto;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin: 40px;
-}
-
 
 /* Start of Overriding Bootstrap CSS */
 
@@ -1254,51 +1241,6 @@ textarea{
 form fieldset .card-header {
     background-color: rgba(255, 255, 255, 0.164);
 }  
-
-form fieldset input label{
-    margin-left: 5px;
-} 
-
-form fieldset .card-body {
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    padding: 25px;
-    min-height: 300px;
-    margin: 0;
-}
-
-textarea {
-    width: 0 auto;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin: 40px 0 0 0;
-}
-
-form fieldset p {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    text-align: center;
-}
-
-form fieldset .h2 {
-    font-size: 0.9em;
-    text-align: justify;
-}
-
-form fieldset .h2 {
-    margin-bottom: 0;
-    font-family: inherit;
-    font-weight: inherit;
-    text-align: left;
-    line-height: 1;
-    color: inherit;
-}
-
-form fieldset h2 {
-    margin-top: 0;
-    margin-bottom: .5rem;
-    text-align: left;
-}
 
 form fieldset h2 {
     display: block;
@@ -1463,6 +1405,9 @@ form fieldset input:hover{
             background-attachment: scroll;
             background: url('../images/castletown-wide.png') center center / cover no-repeat fixed; 
             background-size: center center / cover no-repeat fixed;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             -webkit-background-size: center center / cover no-repeat fixed;
             -moz-background-size: center center / cover no-repeat fixed;
             -o-background-size: center center / cover no-repeat fixed;
