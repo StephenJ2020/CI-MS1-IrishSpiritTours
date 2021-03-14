@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Roboto&display=swap');
 
 *{
   margin: 0;
@@ -35,10 +35,7 @@ a{
     background-color: transparent;
 }
 
-/* ******************************************************** Header Section */
-/* *********************************************************************** */
-
-/* ********************************* Containers */
+/* ********************************************************* Navbar */
 
 .container--nav{
     font-family: 'Oswald', sans-serif;
@@ -47,11 +44,9 @@ a{
     color: #fff;
     position: fixed;
     z-index: 999;                  /*Credit to: https://stackoverflow.com/questions/23287610/my-fixed-navbar-doesnt-work-properly*/
-    background-color: #35798e;  /* Credit to: https://www.geeksforgeeks.org/how-to-change-navigation-bar-color-in-bootstrap/ */   /*Original Colour #316879*/
+    background-color: #35798e;  /* Credit to: https://www.geeksforgeeks.org/how-to-change-navigation-bar-color-in-bootstrap/ */  
     border-bottom-style: ridge;
 }
-
-/* ********************************* Navbar */
 
 .navbar{
     padding: 0 0 0 10px;
@@ -76,9 +71,7 @@ a{
     text-decoration-line: underline;
 }
 
-
-
-/* ********************************* Hero Image */
+/* ************************************************************ Hero Images */
 
 .hero-image-home{
     height: 65vh;
@@ -127,10 +120,7 @@ a{
 }
 
 
-/* ******************************************************** Main Sections */
-/* *********************************************************************** */
-
-/* ********************************* Intro Quote Section */
+/* ******************************************************** index.html */
 
 .intro--quote--container{
     max-width: 100vw;
@@ -146,12 +136,6 @@ a{
 .intro--quote h1{
     font-family: 'Oswald', sans-serif;
 }
-
-
-
-
-
-/* ********************************* Package Options Section */
 
 .package--container{
     max-width: 99vw;
@@ -217,27 +201,6 @@ a{
     border-radius: 15px;
 }   /* End of external code */
 
-@media screen and (max-width: 400px){   /* Media query for parallax overlay for index.html / itinerary.html / add-on.html */
-    .overlay {   /* Adapted External code from the Code Institute walk-thru mini-project - Whiskey Drop */
-        position: absolute; 
-        top: -24px;
-        left: -1px;
-        display: block;
-        max-width: auto;
-        height: 13.75vh;
-        background-color: rgba(52, 52, 52, 0.4);
-        border-radius: 15px;
-    }   /* End of external code */
-    #add--on--overlay--text h2{
-        text-align: center;
-        text-transform: uppercase;
-        margin: 07px auto;
-        color: #ffffff;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 700;
-    }
-}
-
 .package--itin{
     width: 100%;
     height: 200px;
@@ -261,7 +224,7 @@ a{
 }
 
 
-/* ********************************* Testimonials Section */
+/* **************************************************** Testimonials Section */
 
 .testimonials{
     text-align: center;
@@ -277,7 +240,6 @@ a{
 
 .testimonials{
     text-transform: uppercase;
-    /*font-family: 'Oswald', sans-serif;*/
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
@@ -338,9 +300,9 @@ a{
  
 .cta-100 {
   margin-top: 20px;  /* was 100px */
-  /* padding-left: 0.5%;   was 08% */
   padding-top: 2%;   /* was 07% */
 }
+
 .col-md-4{
     padding-bottom:20px;
 }
@@ -354,8 +316,6 @@ a{
   background-color: #35798e !important;     /* Updated with my colour palette*/ /* Backgound colour of review date*/
 } 
 
-/* figure img{width:300px;} */
-
 #blogCarousel {
   padding-bottom: 50px;  /* Reduced from 100px */
 }
@@ -365,7 +325,6 @@ a{
   top: -50px;
   height: 50%;
 }
-
 
 /* The colour of the indicators */
 
@@ -387,7 +346,7 @@ a{
 
 .item-box-blog {
   border: 1px solid #35798e;     /* Updated with blue from my colour palette */
-  font-family: 'Roboto', sans-serif;      /* Is this actually required or is it being picked up ok from Body{} ? */
+  font-family: 'Roboto', sans-serif;  
   font-weight: 400;
   font-size: 19px;
   text-align: justify;
@@ -401,34 +360,13 @@ a{
   position: relative;
 }
 
-/* .item-box-blog-image figure img {
-  width: 100%;
-  height: auto;
-} */
-
 .item-box-blog-date {
   position: absolute;
   z-index: 5;
   padding: 4px 20px;
   top: -20px;
   right: 8px;
-  background-color: #41cb52;
 } 
-
-/* .item-box-blog-date span {
-  color: #fff;
-  display: block;
-  text-align: center;
-  line-height: 1.2;
-} */
-
-/* .item-box-blog-date span.mon {
-  font-size: 18px;
-} */
-
-/* .item-box-blog-date span.day {
-  font-size: 16px;
-} */
 
 .item-box-blog-body {
   padding: 5px;             /* Reduced from 10px*/
@@ -439,25 +377,12 @@ a{
   margin: 0;
   line-height: 1;
   text-decoration:none;
-  transition: color 0.3s;   /* Was 0.3s but have increased while I work on the styling. Will need to be reduced again later!!! */
+  transition: color 0.3s;  
 }
 
 .item-box-blog-heading a {
     text-decoration: none;
 }
-
-/* .item-box-blog-data p {     /* These were for the Admin and Comments text under the image, but I have removed these in the html
-  font-size: 13px;
-} */
-
-/* .item-box-blog-data p i {
-  font-size: 12px;
-} */
-
-/* .item-box-blog-text {
-  max-height: 150px;        /* increased from 100px 
-  overflow: hidden;
-} */
 
 .mt-10 {
   float: left;
@@ -472,14 +397,7 @@ a{
   margin-top: 10px;
 }
 
-/* .btn.bg-blue-ui.white.read:hover {
-  box-shadow: 0px 5px 15px inset #4d5f77;
-} */
-
-
-
 /* ******************************************************** Footer Section */
-/* *********************************************************************** */
 
 .footer--container{
     color: #dae0e4;
@@ -510,7 +428,6 @@ form{
 footer .form-group{
     padding-bottom: 0;
 }
-
 
 footer form input:hover{
     border: 2px solid #7FE7DC;
@@ -551,89 +468,13 @@ footer ul li{
     padding-right: 4px;
 }
 
-/* *************************************************************** Buttons */
-/* *********************************************************************** */
-
-.btn-navbar{
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    color: #343434;
-    background-color: #fff;
-    border-radius: 22px;
-}
-
-.btn, .btn-info .btn-styling, .btn-navbar{
-    border: none;
-}
-
-.btn-light-blue:hover{
-    background-color: #F47A60;
-    color: #ffffff;
-}
-
-.btn-styling{
-    font-weight: bold;
-    color: #fff;
-    background-color: #35798e;
-    border-radius: 22px;
-}
-
-.btn-styling:hover{
-    /*background-color: #35798e; */
-    background-color: #F47A60;
-}
-
-.center{
-    align-items: center;
-}
-
- .btn-close{
-    font-weight: bold;
-    color: #fff;
-    background-color: #7FE7DC;
-    border-radius: 22px;
-} 
-
-/* ******************************************** Media Queries for index.html */
-
-@media screen and (max-width: 1500px) {
-    .item-box-blog {
-        margin: 10px;
-    }
-}
-
-@media screen and (max-width: 991px) {
-    .item-box-blog {
-        margin: 35px;
-    }
-}
-
-@media screen and (max-width: 695px) {
-    .item-box-blog {
-        margin: 10px;
-    }
-} 
-
-
-
 /* *****************************************************itinerary.html page */
-/* *********************************************************************** */
-
-
-
-
-
-
-
-
-/* ********************************* Itinerary Section */
 
 .itinerary--container{
     max-width: 100vw;
     min-height: 31rem;
     max-height: fit-content;
     margin: 0 auto;
-    /* border-bottom-style: ridge; */
     background-color: #7FE7DC;
 }
 
@@ -738,27 +579,6 @@ footer ul li{
     margin: auto;
 }
 
-
-
-@media (min-width:768px) {
-    #dayOneReadMore,
-    #dayTwoReadMore,
-    #dayThreeReadMore,
-    #dayFourReadMore,
-    #dayFiveReadMore,
-    #daySixReadMore,
-    #daySevenReadMore,
-    #dayEightReadMore {
-        display: block;
-    }
-    .itinerary--description div ul a{
-        display: inline-block;
-    }
-    .itinerary--description div a{
-        display: none;
-    } 
-}
-
 .videoWrapper{ /* Code snippet from https://css-tricks.com/fluid-width-video/ */
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
@@ -774,30 +594,6 @@ footer ul li{
     border-style: groove;
     border-radius: 22px;
     background-color: #dae0e4
-}
-
-@media (min-width:992px) {
-    .outer--day--container{
-        border: none;
-    }
-}
-
-@media (max-width:1182px) {
-    .day--header--container h5{
-        font-size: smaller;
-    }
-}
-
-@media (max-width:849px) {
-    .day--header--container h5{
-        display: none;
-    }
-}
-
-@media screen and (max-width:568px){
-    .day--header--container h4{
-        font-size: smaller;
-    }
 }
 
 .inclusions-section{
@@ -826,16 +622,9 @@ footer ul li{
     display: inline-block;
 }
 
-@media (min-width:678px){
-    .inclusions, optionals{
-        margin: 25px auto 0 auto;
-    }
-}
-
 .orange-icon{
     color: #F47A60;
 }
-
 
 /* *****************************************************add-on.html page */
 
@@ -845,13 +634,6 @@ footer ul li{
     max-height: fit-content;
     margin: 0 auto;
     background-color: #7FE7DC;
-
-    /* max-width: 100vw;
-    min-height: 31rem;
-    max-height: fit-content;
-    margin: 0 auto;
-    /* border-bottom-style: ridge; */
-    /*background-color: #7FE7DC;*/
 }
 
 .add-on--header{
@@ -888,28 +670,11 @@ footer ul li{
     position: relative;
 }
 
-
 hr{
     border: 1px solid #dae0e4;
 }
 
-@media (min-width:678px){ /* I was assisted by the following example: https://css-tricks.com/almanac/properties/o/order/ */
-    .flex-item-A{
-        order: 2;
-    }
-    .flex-item-B{
-        order: 1;
-    }
-    .flex-item-c{
-        order: 3;
-    }
-}
-
-
-
-
-/* *****************************************************Contact.html page */
-/* *********************************************************************** */
+/* ***************************************************** Gallery.html */
 
 .gallery-container{
     max-width: 100vw;
@@ -949,24 +714,12 @@ img{
   border: 2px solid #545454;
 }
 
-@media (min-width:678px){ 
-    #photos img:hover{
-    -ms-transform: scale(2.5); /* IE 9 */
-    -webkit-transform: scale(2.5); /* Safari 3-8 */
-    transform: scale(2.5); 
-    border: 3px solid #ffffff;
-    }
-}
-
-/************/
-
-
-
+/************************************************** Contact.html */
 
 .section--container{
     max-width: 100%;
     min-height: fit-content;
-    min-height: 190vh;
+    min-height: 100vh;
     max-height: fit-content;
     margin: 20px auto;
     padding-top: 50px;
@@ -978,7 +731,7 @@ img{
     max-width: 100vw;
     height: fit-content;  
     max-height: fit-content;  
-    min-height: 205vh;
+    min-height: 148vh;
     background: url('../images/contact.png') center center / cover no-repeat fixed; 
     background-color: rgba(52, 52, 52, 0.6);
     border-radius: 22px;
@@ -988,146 +741,10 @@ img{
     -o-background-size: cover;
 }
 
-@media screen and (min-width:569px){
-    .contact--outer--container{
-        max-width: 100vw; 
-        max-height: fit-content;  
-        min-height: 125vh;
-        font-size: 0.90em;
-    }
-    fieldset span{
-        font-size: 0.90em;
-        padding-top: 14px;
-        padding-bottom: 14px;
-    }
-    fieldset{
-        border: 1px solid #dae0e4;
-        color: #ffffff;
-        font-size: 0.90em;
-        padding: 10px;
-        margin-top: 20px;
-    }
-    fieldset label, p{
-        font-size: 0.90em;
-    }
-    fieldset .form-check-input{
-        size: 0px;
-    }
-}
-
-@media screen and (min-width:1200px){
-    .contact--outer--container{
-        max-width: 100vw; 
-        max-height: fit-content;  
-        min-height: 145vh;
-    }
-    fieldset span{
-        font-size: 1.25em;
-        padding-top: 14px;
-        padding-bottom: 14px;
-    }
-    fieldset{
-        border: 1px solid #dae0e4;
-        color: #ffffff;
-        font-size: 1.25em;
-        padding: 10px;
-        margin-top: 20px;
-    }
-    .left--suitcase--container{
-        min-height: 120vh;
-    }
-    .right--suitcase--container{
-        min-height: 120vh;
-    }
-}
-
-@media screen and (min-width:1240px){
-    .contact--outer--container{
-        max-width: 100vw; 
-        max-height: fit-content;  
-        min-height: 145vh;
-    }
-    fieldset span{
-        font-size: 1.25em;
-        padding-top: 14px;
-        padding-bottom: 14px;
-    }
-    fieldset{
-        border: 1px solid #dae0e4;
-        color: #ffffff;
-        font-size: 1.25em;
-        padding: 10px;
-        margin-top: 20px;
-    }
-    .left--suitcase--container{
-        min-height: 110vh;
-    }
-    .right--suitcase--container{
-        min-height: 110vh;
-    }
-}
-
-@media screen and (min-width:1500px){
-    .contact--outer--container{
-        max-width: 100vw; 
-        max-height: fit-content;  
-        min-height: 120vh;
-    }
-    fieldset span{
-        font-size: 1.25em;
-        padding-top: 14px;
-        padding-bottom: 14px;
-    }
-    fieldset{
-        border: 1px solid #dae0e4;
-        color: #ffffff;
-        font-size: 1.25em;
-        padding: 10px;
-        margin-top: 20px;
-    }
-    .left--suitcase--container{
-        min-height: 100vh;
-    }
-    .right--suitcase--container{
-        min-height: 100vh;
-    }
-}
-
-@media screen and (min-width:1515px){
-    .contact--outer--container{
-        max-width: 100vw; 
-        max-height: fit-content;  
-        min-height: 130vh;
-    }
-    fieldset span{
-        font-size: 1.25em;
-        padding-top: 14px;
-        padding-bottom: 14px;
-    }
-    fieldset{
-        border: 1px solid #dae0e4;
-        color: #ffffff;
-        font-size: 1.25em;
-        padding: 10px;
-        margin-top: 20px;
-    }
-    fieldset label, p{
-        font-size: 1.25em;
-    }
-    .left--suitcase--container{
-        min-height: 90vh;
-    }
-    .right--suitcase--container{
-        min-height: 90vh;
-    }
-}   /* Pretty sure code is good until here! */
-
-
 .handle--container{
     max-width: 25vw;
     max-height: 14vh;
-    margin-left: 27vw; 
-    /*margin-right: 34vw; */
+    margin-left: 25vw; 
     padding-top: 6vh;
     background-color: rgba(52, 52, 52, 0.6);
     border-top-left-radius: 30px;
@@ -1157,39 +774,34 @@ img{
 }
 
 .left--suitcase--container{
-    max-width: 14%;
-    margin: 0 auto;
+    max-width: 13%;
+    margin: 0 10px 0 15px;
     background-color: rgba(52, 52, 52, 0.6);
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     display: inline-block;
-    position: relative;
 } 
 
 .center--suitcase--container{
-    /*width: 64vw; */
-    /*min-height: 76vh;*/
+    width: 100vw;
     height: fit-content;
-    margin: 70px 8px;
+    margin: 0 auto;
     border-radius:11px;
     background-color: rgba(52, 52, 52, 0.6);
     display: inline-block;
-    position: relative;
-   
 }
 
 .right--suitcase--container{
-    max-width: 14%;
-    margin: 0 25px 0 0;
+    max-width: 13%;
+    margin: 0 10px 0 10px;
     background-color: rgba(52, 52, 52, 0.6);
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     display: inline-block;
-    position: relative;
 }
 
 .opaque-overlay{   /* External code from the Code Institute walk-thru mini-project - Whiskey Drop */
-    position: absolute; 
+    position: absolute;
     top: 0;
     left: 0;
     height: 100%;
@@ -1198,268 +810,322 @@ img{
     border-radius: 22px;
 }   /* End of external code */
 
-
-fieldset{
+fieldset{   /* Sets Font-size, text colour and border colour and margin of Fieldset */
     border: 1px solid #dae0e4;
     color: #ffffff;
     font-size: 0.9em;
-    margin-top: 20px;
+    margin: 20px 25px 20px 25px;
 }
 
-legend{
+legend{   /* Ensures the border-top of legend is displayed correctly */
     width: fit-content;
     text-align: left;
 } 
-
-fieldset label{
-    text-align: left;
-    padding-right: 5px;
-    margin-left: 3px;
-    margin-right: 3px;
-}
 
 fieldset p{
     text-align: center;
 }
 
+.note{   /* Targets text at bottom of Contact.html */
+    text-align: center;
+    padding-top: 50px;
+    margin: 0 auto;
+} 
+
 /* Start of Overriding Bootstrap CSS */
 
-.contact--outer--container .card { 
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
+.contact--outer--container .card {   /* Targets background colour and transparancy of collapse card */
     background-color: rgba(52, 52, 52, 0.1);
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: .25rem;
 } 
 
-form fieldset .card-header {
+form fieldset .card-header {   /* Targets the background colour of collapse headings */
     background-color: rgba(255, 255, 255, 0.164);
 }  
 
-form fieldset h2 {
-    display: block;
+form fieldset h2 {   /* Targets h2 elements containing the collapse headings and radio buttons */
     font-size: 0.95em;
     text-align: left;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-weight: 500;
     color: #ffffff;
 }
 
-form fieldset input:hover{
+form fieldset input:hover{   /* Input border colour upon hover*/
     border: 2px solid #7FE7DC;
 }
+
+form fieldset input:-internal-autofill-selected { /* To overide Bootstrap colour:  rgb(232, 240, 254) !important; */
+    background-color: #fff;
+}
+
 /* End of Overriding Bootstrap CSS */
 
+/* *************************************************************** Buttons */
 
-@media screen and (min-width:779px){
-    .center--suitcase--container{
-        /*width: 60vw; */
-        min-height: fit-content;
-        margin: 100px 70px;
-        padding: 20px 25px;
-        border-radius: 11px;
-        background-color: rgba(52, 52, 52, 0.6);
-        display: inline-block;
-        position: relative;
-        left: 21px; 
-    }
+.btn-navbar{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #343434;
+    background-color: #fff;
+    border-radius: 22px;
 }
 
-@media screen and (min-width:1200px){
-    .left--suitcase--container{
-        max-width: 12%;
-        /*max-height: 94vh;*/
-        margin: 0 20px 0 70px;
-        background-color: rgba(52, 52, 52, 0.6);
-        border-top-left-radius: 30px;
-        border-bottom-left-radius: 30px;
-        display: inline-block;
-        position: relative;
-    } 
-
-    .center--suitcase--container{
-        /*width: 70vw; */
-        min-height: 94vh;
-        margin: 0 8px;
-        border-radius: 0;
-        background-color: rgba(52, 52, 52, 0.6);
-        display: inline-block;
-        position: relative;
-    
-    }
-
-    .right--suitcase--container{
-        max-width: 12%;
-        /*max-height: 94vh;*/
-        margin: 0 auto;
-        background-color: rgba(52, 52, 52, 0.6);
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
-        display: inline-block;
-        position: relative;
-    }
-
-    .section--container{
-        max-width: 100%;
-        /*height: fit-content;
-        min-height: 110vh;*/
-        margin: 20px auto;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        background-color: #7FE7DC;
-    }
-
-    .outer--contact--container{
-        max-width: 100vw;
-        /*height: fit-content;    
-        min-height: 140vh;*/
-        /*margin-top: 50px;*/
-        background: url('../images/contact.png') center center / cover no-repeat fixed;  
-        background-color: rgba(52, 52, 52, 0.6);
-        border-radius: 22px;
-        background-size: center center / cover no-repeat fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-    }
+.btn, .btn-info .btn-styling, .btn-navbar{
+    border: none;
 }
 
-@media screen and (min-width:1700px){
-    .left--suitcase--container{
-        max-width: 12%;
-        /*max-height: 94vh;*/
-        margin: 0 auto;
-        background-color: rgba(52, 52, 52, 0.6);
-        border-top-left-radius: 30px;
-        border-bottom-left-radius: 30px;
-        display: inline-block;
-        position: relative;
-        left: 25px;
-    } 
-
-    .center--suitcase--container{
-        min-width: 64%;
-        /*min-height: 76vh;*/
-        margin: 0 5px;
-        padding: 50px;
-        background-color: rgba(52, 52, 52, 0.6);
-        display: inline-block;
-        position: relative;
-    }
-
-    .right--suitcase--container{
-        max-width: 12%;
-        /*height: 94vh;*/
-        margin: 0 auto;
-        background-color: rgba(52, 52, 52, 0.6);
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
-        display: inline-block;
-        position: relative;
-    }
+.btn-light-blue:hover{
+    background-color: #F47A60;
+    color: #ffffff;
 }
 
-.note{
-    text-align: center;
-    padding-top: 50px;
-    margin: 0 auto;
+.btn-styling{
+    font-weight: bold;
+    color: #fff;
+    background-color: #35798e;
+    border-radius: 22px;
 }
 
+.btn-styling:hover{
+    background-color: #F47A60;
+}
+
+.center{
+    align-items: center;
+}
 
 /* **************************************************General Media Queries */
-/* *********************************************************************** */
-/*
-@media only screen and (max-width: 768px) {
-  .responsive {
-    width: 100%;
-  }
-} */
 
-
-@media screen and (max-width: 420px) {
-    form{
-        text-align: right;
-    }
-    footer label {
-        margin-right: 10px
-    }
-    footer input{
-        margin-right: 2px;
+@media screen and (max-width: 400px){   /* Media query for parallax overlay for index.html / itinerary.html / add-on.html */
+    .overlay {   /* Adapted External code from the Code Institute walk-thru mini-project - Whiskey Drop */
+        position: absolute; 
+        top: -24px;
+        left: -1px;
+        display: block;
+        max-width: auto;
+        height: 13.75vh;
+        background-color: rgba(52, 52, 52, 0.4);
+        border-radius: 15px;
+    }   /* End of external code */
+    #add--on--overlay--text h2{
+        text-align: center;
+        text-transform: uppercase;
+        margin: 07px auto;
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
     }
 }
 
-@media (min-device-width:320px) and (max-device-width:768px) {
+@media (min-device-width:320px) and (max-device-width:768px) {   /* Targeting ISO devices to make hero image display in Parallax */
     @supports (-webkit-touch-callout: none) {
         .hero-image-home{
             height: 65vh;
             background-position: center;
             background-attachment: scroll;
-            background: url('../images/castletown-wide.png') center center / cover no-repeat fixed; 
-            background-size: center center / cover no-repeat fixed;
+            background: url('../images/castletown-wide.png'); 
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            -webkit-background-size: center center / cover no-repeat fixed;
-            -moz-background-size: center center / cover no-repeat fixed;
-            -o-background-size: center center / cover no-repeat fixed;
+            background: fixed;
         }
 
         .hero-image-itinerary{
             height: 65vh;
             background-position: center;
             background-attachment: scroll;
-            background: url('../images/castletown-wide.png') center center / cover no-repeat fixed; 
-            background-size: center center / cover no-repeat fixed;
-            -webkit-background-size: center center / cover no-repeat fixed;
-            -moz-background-size: center center / cover no-repeat fixed;
-            -o-background-size: center center / cover no-repeat fixed;
+            background: url('../images/castletown-wide.png'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background: fixed;
         }
 
         .hero-image-add-on{
             height: 65vh;
             background-position: center;
             background-attachment: scroll;
-            background: url('../images/add-on-hero.png') center center / cover no-repeat fixed; 
-            background-size: center center / cover no-repeat fixed;
-            -webkit-background-size: center center / cover no-repeat fixed;
-            -moz-background-size: center center / cover no-repeat fixed;
-            -o-background-size: center center / cover no-repeat fixed;
+            background: url('../images/add-on-hero.png'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background: fixed;
         }
 
         .hero-image-gallery{
             height: 65vh;
             background-position: center;
             background-attachment: scroll;
-            background: url('../images/boann-pot-still.png') center center / cover no-repeat fixed;
-            background-size: center center / cover no-repeat fixed;
-            -webkit-background-size: center center / cover no-repeat fixed;
-            -moz-background-size: center center / cover no-repeat fixed;
-            -o-background-size: center center / cover no-repeat fixed;
+            background: url('../images/boann-pot-still.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background: fixed;
         }
 
         .hero-image-contact{
             height: 65vh;
             background-position: center;
             background-attachment: scroll;
-            background: url('../images/contact.png') center center / cover no-repeat fixed;
-            background-size: center center / cover no-repeat fixed;
-            -webkit-background-size: center center / cover no-repeat fixed;
-            -moz-background-size: center center / cover no-repeat fixed;
-            -o-background-size: center center / cover no-repeat fixed;
+            background: url('../images/contact.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background: fixed;
         }
     }
 }
 
+/************************************* Media Queries targeting index.html */
 
+@media screen and (max-width: 1500px) {
+    .item-box-blog {
+        margin: 10px;
+    }
+}
 
+@media screen and (max-width: 991px) {
+    .item-box-blog {
+        margin: 35px;
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .item-box-blog {
+        margin: 10px;
+    }
+} 
+
+/************************************* Media Queries targeting itinerary.html */
+
+@media (min-width:768px) {
+    #dayOneReadMore,
+    #dayTwoReadMore,
+    #dayThreeReadMore,
+    #dayFourReadMore,
+    #dayFiveReadMore,
+    #daySixReadMore,
+    #daySevenReadMore,
+    #dayEightReadMore {
+        display: block;
+    }
+    .itinerary--description div ul a{
+        display: inline-block;
+    }
+    .itinerary--description div a{
+        display: none;
+    } 
+}
+
+@media (min-width:992px) {
+    .outer--day--container{
+        border: none;
+    }
+}
+
+@media (max-width:1182px) {
+    .day--header--container h5{
+        font-size: smaller;
+    }
+}
+
+@media (max-width:849px) {
+    .day--header--container h5{
+        display: none;
+    }
+}
+
+@media screen and (max-width:568px){
+    .day--header--container h4{
+        font-size: smaller;
+    }
+}
+
+@media (min-width:678px){
+    .inclusions, optionals{
+        margin: 25px auto 0 auto;
+    }
+}
+
+/************************************* Media Queries targeting add-ons.html */
+
+@media (min-width:678px){ /* I was assisted by the following example: https://css-tricks.com/almanac/properties/o/order/ */
+    .flex-item-A{
+        order: 2;
+    }
+    .flex-item-B{
+        order: 1;
+    }
+    .flex-item-c{
+        order: 3;
+    }
+}
+
+/************************************* Media Queries targeting Gallery.html */
+
+@media (min-width:678px){ 
+    #photos img:hover{
+    -ms-transform: scale(2.5); /* IE 9 */
+    -webkit-transform: scale(2.5); /* Safari 3-8 */
+    transform: scale(2.5); 
+    border: 3px solid #ffffff;
+    }
+}
+
+/************************************* Media Queries targeting Contact.html */
+
+@media (min-device-width:320px) and (max-device-width:569px){ 
+    .contact--outer--container{
+        max-width: 100vw;
+        height: fit-content;  
+        max-height: fit-content;  
+        min-height: 250vh;
+    }
+    fieldset{
+        margin: 25px 4px;
+    }
+    .center--suitcase--container{
+        margin: 30px 6px;
+    }
+}
+
+@media screen and (max-device-width:767px){ 
+    .contact--outer--container{
+        max-width: 100vw;
+        height: fit-content;  
+        max-height: fit-content;  
+        min-height: 140vh;
+    }
+    fieldset{
+        margin: 25px 4px;
+    }
+}
+
+@media (min-device-width:768px) and (max-device-width:991px){ 
+    .contact--outer--container{
+        max-width: 100vw;
+        height: fit-content;  
+        max-height: fit-content;  
+        min-height: 140vh;
+    }
+    fieldset{
+        margin: 30px 40px;
+    }
+    .center--suitcase--container{
+        margin: 50px auto;
+    }
+}
+
+@media screen and (min-width:1700px){
+    #phone, #contactFirstName{
+        margin-left: 25px;
+    }
+    
+    #email, #contactLastName{
+        margin-right: 20px;
+    }
+}
 
 
