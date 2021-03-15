@@ -21,7 +21,7 @@
             <!-- Navbar code adpated from Bootstrap https://getbootstrap.com/docs/4.0/components/navbar A combination of #brand & #nav -->
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <a class="navbar-brand" href="index.html">
-                    <img src="./assets/images/logo.png" width="100px" height="100px" class="d-inline-block align-top" alt="Irish Spirit Tours Logo">
+                    <img src="./assets/images/logo.png" width="100" height="100" class="d-inline-block align-top" alt="Irish Spirit Tours Logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span></button>
@@ -32,7 +32,7 @@
                         <li class="nav-item mr-3"><a class="nav-link" href="add-ons.html">Add-Ons</a></li>       
                         <li class="nav-item mr-3"><a class="nav-link" href="gallery.html">Gallery</a></li>
                         <li class="nav-item mr-3"><a class="nav-link" href="contact.html">Contact Us</a></li>
-                        <li class="nav-item mr-3 d-none"><button class="btn btn-info btn-styling"><a class="nav-link" href="contact.html">Get a Quote</a></button></li>
+                        <li class="nav-item mr-3 d-none"><a class="nav-link btn btn-info btn-styling" href="contact.html">Get a Quote</a></li>
                     </ul>
                 </div>
                 <div class="d-none d-lg-block">
@@ -79,10 +79,9 @@
                     <div class="row container itinerary--body">
                         <!-- Day One -->
                         <div class="container day--header--container col-12 align-center mb-1 px-0">
-                            <h4 class="d-inline-block p-2 m-1"><strong>Day One: </strong></h4><span class="d-none d-sm-inline-block"><h5> Walking Food Tour of Dublin & Private Whiskey Tasting</h5></span>
+                            <h4 class="d-inline-block p-2 m-1"><strong>Day One: </strong></h4><h5 class="d-none d-sm-inline-block"> Walking Food Tour of Dublin & Private Whiskey Tasting</h5>
                             <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayOne" aria-expanded="false" aria-controls="dayOne">
-                                <i class="far fa-caret-square-down"></i>
-                                <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day One of the tour."></span>
+                                <i class="far fa-caret-square-down" title="Click this Menu Icon to reval the itinerary for Day One of the tour."></i>
                             </button>   
                         </div>
                         <div class="col-12 outer--day--container mb-1 collapse" id="dayOne">
@@ -109,8 +108,9 @@
                                                     if some of you wish to sample a little more of Dublin's lively weekend nightlife then you can of cousre make your own way back to the 
                                                     hotel a <em>little</em> later.
                                                 </p>
+                                                
+                                                <h4>Included:</h4>
                                                 <ul>
-                                                    <h4>Included:</h4>
                                                     <li><i class="fas fa-hotel">&nbsp; </i><strong> Hotel: </strong> The Alex <a href="https://www.thealexhotel.ie/" target="_blank" rel="noreferrer">(4 Star)</a></li>
                                                     <li><i class="fas fa-binoculars">&nbsp; </i><strong> Tours: </strong> Walking Food Tour</li>
                                                     <li><i class="fas fa-glass-whiskey">&nbsp; </i><strong> Tastings: </strong> Private Whiskey Tasting</li>
@@ -137,10 +137,9 @@
                         </div>
                         <!-- Day Two -->
                         <div class="container day--header--container col-12 align-center mb-1 px-0">
-                            <h4 class="d-inline-block p-2 m-1"><strong>Day Two: </strong></h4><span class="d-none d-sm-inline-block"><h5> Ardgillan Castle, Boyne Brewhouse & Boann Distillery</h5></span>
+                            <h4 class="d-inline-block p-2 m-1"><strong>Day Two: </strong></h4><h5 class="d-none d-sm-inline-block"> Ardgillan Castle, Boyne Brewhouse & Boann Distillery</h5>
                             <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayTwo" aria-expanded="false" aria-controls="dayTwo">
-                                <i class="far fa-caret-square-down"></i>
-                                <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day Two of the tour."></span>
+                                <i class="far fa-caret-square-down" title="Click this Menu Icon to reval the itinerary for Day Two of the tour."></i>
                             </button>   
                         </div>
                         <div class="col-12 outer--day--container mb-1 collapse" id="dayTwo">
@@ -171,8 +170,9 @@
                                                     a guided tour of the Brewhouse & Distillery, you will also dine here with a sampler tray from the Brewhouse, followed with a Whiskey 
                                                     tasting from the Distillery.
                                                 </p>
+                                                
+                                                <h4>Included:</h4>
                                                 <ul>
-                                                    <h4>Included:</h4>
                                                     <li><i class="fas fa-hotel">&nbsp; </i><strong> Hotel: </strong> The D Hotel <a href="https://www.thedhotel.com/" target="_blank" rel="noreferrer">(4 Star)</a></li>
                                                     <li><i class="fas fa-binoculars">&nbsp; </i><strong> Tours: </strong> Skerries Mills & Ardgillian Castle</li>
                                                     <li><i class="fas fa-beer">&nbsp; </i><strong> Tastings: </strong> Boyne Brewhouse & Boann Distillery</li>
@@ -191,9 +191,8 @@
                                         <div class="itinerary--images"> 
                                             <img src="./assets/images/skerries-mills.png" height="225" width="325" alt="An 18th century windmill at Skerries Mills" class="d-none d-md-block">
                                             <img src="./assets/images/ardgillan-kitchen-min.png" height="225" width="325" alt="The 18th century kitchen at Ardgillan Castle" class="d-none d-md-block d-lg-none">
-                                            <div class="videoWrapper"> <!-- Code snippet from https://css-tricks.com/fluid-width-video/ -->
-                                                <iframe width="373" height="210" src="https://www.youtube.com/embed/l5mm3IJ5PH8" frameborder="3px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                                <span class="sr-only" aria-label="A Youtube video of the Boann Whiskey Distillery"></span>
+                                            <div class="videoWrapper" title="A Youtube video of the Boann Whiskey Distillery"> <!-- Code snippet from https://css-tricks.com/fluid-width-video/ -->
+                                                <iframe width="373" height="210" src="https://www.youtube.com/embed/l5mm3IJ5PH8" frameborder="3" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                             </div> <!-- End of Code Snippet -->
                                         </div>
                                     </div>
@@ -202,10 +201,9 @@
                         </div>
                         <!-- Day Three -->
                         <div class="container day--header--container col-12 align-center mb-1 px-0">
-                            <h4 class="d-inline-block p-2 m-1"><strong>Day Three: </strong></h4><span class="d-none d-sm-inline-block"><h5> Battle of the Boyne, Listoke Gin Distillery, Carlingford</h5></span>
+                            <h4 class="d-inline-block p-2 m-1"><strong>Day Three: </strong></h4><h5 class="d-none d-sm-inline-block"> Battle of the Boyne, Listoke Gin Distillery, Carlingford</h5>
                             <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayThree" aria-expanded="false" aria-controls="dayThree">
-                                <i class="far fa-caret-square-down"></i>
-                                <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day Three of the tour."></span>
+                                <i class="far fa-caret-square-down" title="Click this Menu Icon to reval the itinerary for Day Three of the tour."></i>
                             </button>   
                         </div>
                         <div class="col-12 outer--day--container mb-1 collapse" id="dayThree">
@@ -230,8 +228,9 @@
                                                     optional activities for you to choose from so the afternoon and evening is yours to do as you please.  Although why not check-out our Add-On’s section which contains some of 
                                                     the optional activities that we can help you pre-book.
                                                 </p>
+                                                
+                                                <h4>Included:</h4>
                                                 <ul>
-                                                    <h4>Included:</h4>
                                                     <li><i class="fas fa-hotel">&nbsp; </i><strong> Hotel: </strong> Four Seasons Hotel <a href="https://www.4seasonshotelcarlingford.ie/" target="_blank" rel="noreferrer">(4 Star)</a></li>
                                                     <li><i class="fas fa-binoculars">&nbsp; </i><strong> Tours: </strong> Battle of the Boyne</li>
                                                     <li><i class="fas fa-wine-glass-alt">&nbsp;&nbsp; </i><strong> Tastings: </strong> Listoke Gin Distillery</li>
@@ -258,10 +257,9 @@
                         </div>
                         <!-- Day Four -->
                         <div class="container day--header--container col-12 align-center mb-1 px-0">
-                            <h4 class="d-inline-block p-2 m-1"><strong>Day Four: </strong></h4><span class="d-none d-sm-inline-block"><h5> Carlingford Brewing, Newgrange UNESCO site & Slane Castle Distillery</h5></span>
+                            <h4 class="d-inline-block p-2 m-1"><strong>Day Four: </strong></h4><h5 class="d-none d-sm-inline-block"> Carlingford Brewing, Newgrange UNESCO site & Slane Castle Distillery</h5>
                             <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayFour" aria-expanded="false" aria-controls="dayFour">
-                                <i class="far fa-caret-square-down"></i>
-                                <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day Four of the tour."></span>
+                                <i class="far fa-caret-square-down" title="Click this Menu Icon to reval the itinerary for Day Four of the tour."></i>
                             </button>   
                         </div>
                         <div class="col-12 outer--day--container mb-1 collapse" id="dayFour">
@@ -285,8 +283,9 @@
                                                     GUNS N’ ROSES and the Foo Fighters playing to crowds of upto 80,000.  However, in recent years Slane has also become home to Slane Distillery which is the next stop on our 
                                                     itinerary.
                                                 </p>
+                                                
+                                                <h4>Included:</h4>
                                                 <ul>
-                                                    <h4>Included:</h4>
                                                     <li><i class="fas fa-hotel">&nbsp; </i><strong> Hotel: </strong> Conyngham Arms Hotel <a href="https://www.conynghamarms.ie/" target="_blank" rel="noreferrer">(3 Star)</a></li>
                                                     <li><i class="fas fa-binoculars">&nbsp; </i><strong> Tours: </strong> Newgrange (UNESCO World Heritage Site)</li>
                                                     <li><i class="fas fa-beer">&nbsp; </i><strong> Tastings: </strong> Carlingford Brewing & Slane Distillery</li>
@@ -313,10 +312,9 @@
                         </div>
                         <!-- Day Five -->
                         <div class="container day--header--container col-12 align-center mb-1 px-0">
-                            <h4 class="d-inline-block p-2 m-1"><strong>Day Five: </strong></h4><span class="d-none d-sm-inline-block"><h5> Boyne Valley Cheese, Trim Castle & Bru Brewery</h5></span>
+                            <h4 class="d-inline-block p-2 m-1"><strong>Day Five: </strong></h4><h5 class="d-none d-sm-inline-block"> Boyne Valley Cheese, Trim Castle & Bru Brewery</h5>
                             <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayFive" aria-expanded="false" aria-controls="dayFive">
-                                <i class="far fa-caret-square-down"></i>
-                                <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day Five of the tour."></span>
+                                <i class="far fa-caret-square-down" title="Click this Menu Icon to reval the itinerary for Day Five of the tour."></i>
                             </button>   
                         </div>
                         <div class="col-12 outer--day--container mb-1 collapse" id="dayFive">
@@ -342,8 +340,9 @@
                                                     lit-up the views from the hotel are stunning.  At 6pm the group will meet up again in the hotel reception and we will make our way to the nearby Bru Brewery for a guided tour 
                                                     of yet another awarding craft brewery.  Tonight we will dine in the relaxed setting of the brewery, giving you the opportunity to sample a few more of their excellent beers.
                                                 </p>
+                                            
+                                                <h4>Included:</h4>
                                                 <ul>
-                                                    <h4>Included:</h4>
                                                     <li><i class="fas fa-hotel">&nbsp; </i><strong> Hotel: </strong> Trim Castle Hotel <a href="https://www.trimcastlehotel.com/" target="_blank" rel="noreferrer">(4 Star)</a></li>
                                                     <li><i class="fas fa-binoculars">&nbsp; </i><strong> Tours: </strong> Boyne Valley Cheese & Trim Castle &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Featured in Braveheart <i class="fas fa-film"></i>)</li>
                                                     <li><i class="fas fa-beer">&nbsp; </i><strong> Tastings: </strong> Bru Brewery</li>
@@ -370,11 +369,10 @@
                         </div>
                         <!-- Day Six -->
                         <div class="container day--header--container col-12 align-center mb-1 px-0">
-                            <h4 class="d-inline-block p-2 m-1"><strong>Day Six: </strong></h4><span class="d-none d-sm-inline-block"><h5> Castletown House, Birth Place of Guinness & Rye River Brewing Co.</h5></span>
+                            <h4 class="d-inline-block p-2 m-1"><strong>Day Six: </strong></h4><h5 class="d-none d-sm-inline-block"> Castletown House, Birth Place of Guinness & Rye River Brewing Co.</h5>
 
                             <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#daySix" aria-expanded="false" aria-controls="daySix">
-                                <i class="far fa-caret-square-down"></i>
-                                <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day six of the tour."></span>
+                                <i class="far fa-caret-square-down" title="Click this Menu Icon to reval the itinerary for Day six of the tour."></i>
                             </button>   
                         </div>
                         <div class="col-12 outer--day--container mb-1 collapse" id="daySix">
@@ -406,8 +404,9 @@
                                                     recent years and these guys always want to out-do any of the other brewer tours, so we’re sure that they will pull-out all the stops to ensure that they are your favourite brewery 
                                                     tour!
                                                 </p>
+                                                
+                                                <h4>Included:</h4>
                                                 <ul>
-                                                    <h4>Included:</h4>
                                                     <li><i class="fas fa-hotel">&nbsp; </i><strong> Hotel: </strong> Celbridge Manor <a href="https://www.celbridgemanorhotel.ie/" target="_blank" rel="noreferrer">(4 Star)</a></li>
                                                     <li><i class="fas fa-binoculars">&nbsp; </i><strong> Tours: </strong> Castletown House & Guided Walking Tour</li>
                                                     <li><i class="fas fa-beer">&nbsp; </i><strong> Tastings: </strong> Rye River Brewing Co.</li>
@@ -424,12 +423,11 @@
                                     </div>
                                     <div class="col-12 col-md-5 col-xl-3">
                                         <div class="itinerary--images"> 
-                                            <img src="./assets/images/castletown-house-min.png" height="225px" width="325px" alt="Castletown House & Parklands, Celbridge Co. Kildare" class="d-none d-md-block">
-                                            <div class="videoWrapper">  <!-- Code snippet from https://css-tricks.com/fluid-width-video/ -->
-                                                <iframe width="560" height="315" src="https://www.youtube.com/embed/td96McUsH5E?start=162" frameborder="3px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                                <span class="sr-only" aria-label="A Youtube video of Castletown House & Parklands in Celbridge"></span>
+                                            <img src="./assets/images/castletown-house-min.png" height="225" width="325" alt="Castletown House & Parklands, Celbridge Co. Kildare" class="d-none d-md-block">
+                                            <div class="videoWrapper" title="A Youtube video of Castletown House & Parklands in Celbridge">  <!-- Code snippet from https://css-tricks.com/fluid-width-video/ -->
+                                                <iframe width="560" height="315" src="https://www.youtube.com/embed/td96McUsH5E?start=162" frameborder="3" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                             </div>  <!--End of Code Snippet --> <!-- Credit for helping change the start time of the Youtube video https://www.business2community.com/youtube/embed-youtube-video-specific-start-time-01010991-->
-                                            <img src="./assets/images/rye-river-brewing.png" height="225px" width="325px" alt="Craft Beer Festival at Rye River Brewing Co. in Celbridge, Co. Kildare" class="d-none d-md-block d-lg-none">
+                                            <img src="./assets/images/rye-river-brewing.png" height="225" width="325" alt="Craft Beer Festival at Rye River Brewing Co. in Celbridge, Co. Kildare" class="d-none d-md-block d-lg-none">
                                         </div>
                                     </div>
                                 </div>    
@@ -437,10 +435,9 @@
                         </div>
                         <!-- Day Seven -->
                         <div class="container day--header--container col-12 align-center mb-1 px-0">
-                            <h4 class="d-inline-block p-2 m-1"><strong>Day Seven: </strong></h4><span class="d-none d-sm-inline-block"><h5> Lilly O'Brien's Chocolate Factory, The National Stud & Glendalough Distillery</h5></span>
+                            <h4 class="d-inline-block p-2 m-1"><strong>Day Seven: </strong></h4><h5 class="d-none d-sm-inline-block"> Lilly O'Brien's Chocolate Factory, The National Stud & Glendalough Distillery</h5>
                             <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#daySeven" aria-expanded="false" aria-controls="daySeven">
-                                <i class="far fa-caret-square-down"></i>
-                                <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day Seven of the tour."></span>
+                                <i class="far fa-caret-square-down" title="Click this Menu Icon to reval the itinerary for Day Seven of the tour."></i>
                             </button>   
                         </div>
                         <div class="col-12 outer--day--container mb-1 collapse" id="daySeven">
@@ -468,8 +465,9 @@
                                                 <p>
                                                     You may want to check-out some of our Add-on options over in our customise section, the late evening spa treatments tend to be a popular option here! 
                                                 </p>
+                                                
+                                                <h4>Included:</h4>
                                                 <ul>
-                                                    <h4>Included:</h4>
                                                     <li><i class="fas fa-hotel">&nbsp; </i><strong> Hotel: </strong> Druids Glen  <a href="https://www.druidsglenresort.com/index.html" target="_blank" rel="noreferrer">(5 Star)</a></li>
                                                     <li><i class="fas fa-binoculars">&nbsp; </i><strong> Tours: </strong> Lilly O'Brien's Chocolate Factory & Irish National Stud</li>
                                                     <li><i class="fas fa-glass-whiskey">&nbsp; </i><strong> Tastings: </strong> Glendalough Distillery</li>
@@ -496,10 +494,9 @@
                         </div>
                         <!-- Day Eight -->
                         <div class="container day--header--container col-12 align-center mb-1 px-0">
-                            <h4 class="d-inline-block p-2 m-1"><strong>Day Eight: </strong></h4><span class="d-none d-sm-inline-block"><h5> Free morning in Glendalough (Wicklow National Park) & return to Dublin</h5></span>
+                            <h4 class="d-inline-block p-2 m-1"><strong>Day Eight: </strong></h4><h5 class="d-none d-sm-inline-block"> Free morning in Glendalough (Wicklow National Park) & return to Dublin</h5>
                             <button class="btn btn-info btn-styling float-right mr-1 mt-2 mb-1" type="button" data-toggle="collapse" data-target="#dayEight" aria-expanded="false" aria-controls="dayEight">
-                                <i class="far fa-caret-square-down"></i>
-                                <span class="sr-only" aria-label="Click this Menu Icon to reval the itinerary for Day Eight of the tour."></span>
+                                <i class="far fa-caret-square-down" title="Click this Menu Icon to reval the itinerary for Day Eight of the tour."></i>
                             </button>   
                         </div>
                         <div class="col-12 outer--day--container mb-1 collapse" id="dayEight">
@@ -523,8 +520,9 @@
                                                 <p>
                                                     If you do have a little extra time available, please do have a look at our Add-on options as we are only too happy to help you extend and customise your tour. 
                                                 </p>
+                                                
+                                                <h4>Included:</h4>
                                                 <ul>
-                                                    <h4>Included:</h4>
                                                     <li><i class="fas fa-binoculars">&nbsp; </i><strong> Tours: </strong> Glendalough National Park</li>
                                                     <li><i class="fas fa-utensils">&nbsp; </i><strong> Meals: </strong> Breakfast</li>
                                                 </ul>
