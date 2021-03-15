@@ -35,6 +35,10 @@ a{
     background-color: transparent;
 }
 
+iframe{
+    border: 3px groove #dae0e4;
+}
+
 /* ********************************************************* Navbar */
 
 .container--nav{
