@@ -21,7 +21,7 @@
                 <!-- Navbar code adpated from Bootstrap https://getbootstrap.com/docs/4.0/components/navbar A combination of #brand & #nav -->
                 <nav class="navbar navbar-expand-lg navbar-dark">
                     <a class="navbar-brand" href="index.html">
-                        <img src="./assets/images/logo.png" width="100px" height="100px" class="d-inline-block align-top" alt="Irish Spirit Tours Logo">
+                        <img src="./assets/images/logo.png" width="100" height="100" class="d-inline-block align-top" alt="Irish Spirit Tours Logo">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span></button>
@@ -32,7 +32,7 @@
                             <li class="nav-item mr-3"><a class="nav-link" href="add-ons.html">Add-Ons</a></li>       
                             <li class="nav-item mr-3"><a class="nav-link" href="gallery.html">Gallery</a></li>
                             <li class="active nav-item mr-3"><a class="nav-link" href="contact.html">Contact Us</a></li>
-                            <li class="nav-item mr-3 d-none"><button class="btn btn-info btn-styling"><a class="nav-link" href="contact.html">Get a Quote</a></button></li>
+                            <li class="nav-item mr-3 d-none"><a class="nav-link btn btn-info btn-styling" href="contact.html">Get a Quote</a></li>
                         </ul>
                     </div>
                     <div class="d-none d-lg-block">
@@ -110,7 +110,7 @@
                                                             <div class="card-header" id="getQuote">
                                                             <h2> 
                                                                 <label class="form-check-label" for="mainFormInlineRadio1"><i class="fas fa-file-invoice-dollar orange-icon pr-2"></i> Get a Quote </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                                <input class="form-check-input" type="radio" aria-checked="false" name="formMainInlineRadioOptions" id="mainFormInlineRadio1" value="mainFormOption1"   data-toggle="collapse" data-target="#collapseQuote" aria-expanded="false" aria-controls="collapseQuote">
+                                                                <input class="form-check-input" type="radio" name="formMainInlineRadioOptions" id="mainFormInlineRadio1" value="mainFormOption1"   data-toggle="collapse" data-target="#collapseQuote"  aria-controls="collapseQuote">
                                                             </h2>
                                                             </div>
                                                             <div id="collapseQuote" class="collapse" aria-labelledby="getQuote" data-parent="#contactForm">
@@ -168,7 +168,7 @@
                                                                                     <label class="form-check-label" for="travelDate">Preferred Date of Travel: </label>
                                                                                 </div>
                                                                                 <div class="form-check form-check-inline col-12 justify-content-center my-1">
-                                                                                    <input class="form-check-input" type="date" name="travelDate" id="travelDate" value="dd/mm/yyyy" required> 
+                                                                                    <input class="form-check-input" type="date" name="travelDate" id="travelDate" required> 
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -278,7 +278,7 @@
                                                             <div class="card-header" id="makeBooking">
                                                             <h2> 
                                                                 <label class="form-check-label" for="mainFormInlineRadio2"><i class="fas fa-suitcase orange-icon pr-2"></i> Make a Booking </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                                <input class="form-check-input" type="radio" aria-checked="false" name="formMainInlineRadioOptions" id="mainFormInlineRadio2" value="mainFormOption2" data-toggle="collapse" data-target="#collapseBooking" aria-expanded="false" aria-controls="collapseBooking">
+                                                                <input class="form-check-input" type="radio" name="formMainInlineRadioOptions" id="mainFormInlineRadio2" value="mainFormOption2" data-toggle="collapse" data-target="#collapseBooking" aria-controls="collapseBooking">
                                                             </h2>
                                                             </div>
                                                             <div id="collapseBooking" class="collapse" aria-labelledby="makeBooking" data-parent="#contactForm">
@@ -348,7 +348,7 @@
                                                                                     <label class="form-check-label" for="bookdate">Date of Travel: </label>
                                                                                 </div>
                                                                                 <div class="form-check form-check-inline col-12 justify-content-center my-1">
-                                                                                    <input class="form-check-input" type="date" name="bookDate" id="bookDate" value="dd/mm/yyyy" required>  
+                                                                                    <input class="form-check-input" type="date" name="bookDate" id="bookdate" required>  
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -458,7 +458,7 @@
                                                             <div class="card-header" id="headingThree">
                                                             <h2> 
                                                                 <label class="form-check-label" for="mainFormInlineRadio3"><i class="fas fa-question orange-icon pr-2"> </i>Ask a General Question </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                                <input class="form-check-input" type="radio" checked aria-checked="true" name="formMainInlineRadioOptions" id="mainFormInlineRadio3" value="mainFormOption3" data-toggle="collapse" data-target="#collapseAskQuestion" aria-expanded="true" aria-controls="collapseAskQuestion">
+                                                                <input class="form-check-input" type="radio" checked name="formMainInlineRadioOptions" id="mainFormInlineRadio3" value="mainFormOption3" data-toggle="collapse" data-target="#collapseAskQuestion"  aria-controls="collapseAskQuestion">
                                                             </h2>
                                                             </div>
                                                             <div id="collapseAskQuestion" class="collapse show" aria-labelledby="headingThree" data-parent="#contactForm">
