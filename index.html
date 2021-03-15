@@ -22,7 +22,7 @@
             <!-- Navbar code adpated from Bootstrap https://getbootstrap.com/docs/4.0/components/navbar A combination of #brand & #nav -->
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <a class="navbar-brand" href="index.html">
-                    <img src="./assets/images/logo.png" width="100px" height="100px" class="d-inline-block align-top" alt="Irish Spirit Tours Logo">
+                    <img src="./assets/images/logo.png" width="100" height="100" class="d-inline-block align-top" alt="Irish Spirit Tours Logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span></button>
@@ -33,7 +33,7 @@
                         <li class="nav-item mr-3"><a class="nav-link" href="add-ons.html">Add-Ons</a></li>      
                         <li class="nav-item mr-3"><a class="nav-link" href="gallery.html">Gallery</a></li>
                         <li class="nav-item mr-3"><a class="nav-link" href="contact.html">Contact Us</a></li>
-                        <li class="nav-item mr-3 d-none"><button class="btn btn-info btn-styling"><a class="nav-link" href="contact.html">Get a Quote</a></button></li>
+                        <li class="nav-item mr-3 d-none"><a class="nav-link btn btn-info btn-styling" href="contact.html">Get a Quote</a></li>
                     </ul>
                 </div>
                 <div class="d-none d-lg-block">
@@ -43,13 +43,9 @@
         </div>         
     </header>
     <!-- End of Header --> 
-    
-    <section>
-        <div class="hero-image-home">
-            <!--Hero Image specified in style.css-->
-        </div>
-    </section>
-
+    <div class="hero-image-home">
+        <!--Hero Image specified in style.css-->
+    </div>
     <!-- Start of article -->
     <article>
         <section>
@@ -83,7 +79,7 @@
                     <div class="col-12 col-md-6">
                         <div class="package--option mx-1 my-3 mr-0 mx-lg-5 my-lg-3 p-2 px-lg-4 py-lg-4">
                             <div class="d-none d-sm-block package--itin mr-0">
-                                <span class="sr-only" aria-label="The UNESCO world heritage site: Newgrange, in County Meath"><!-- Image specified in style.css--></span>
+                                <!-- Image specified in style.css-->
                             </div>
                             <h3 class="text-center"><i class="fas fa-bus"></i> The Standard Package</h3>
                             <p>There's nothing standard about our Standard Package other than the name!</p>
@@ -94,7 +90,7 @@
                     <div class="col-12 col-md-6">
                         <div class="package--option mx-1 my-3 ml-0 mx-lg-5 my-lg-3 mb-3 p-2 pb-3 px-lg-4 py-lg-4">
                             <div class="d-none d-sm-block package--addon mr-0">
-                                <span class="sr-only" aria-label="The 3Arena, Dublin"><!-- Image specified in style.css--></span>
+                                <!-- Image specified in style.css-->
                             </div>
                             <h3 class="text-center"><i class="fas fa-clipboard-list"></i> Customise Your Tour</h3>
                             <p>We all want a little more and that's not a bad thing!</p>
@@ -142,8 +138,8 @@
                                                             </div>
                                                             <!--Image-->
                                                             <div class="circle-container">   <!-- Code snippet from Love Running Mini-project-->
-                                                                <div class="circle-cover-rob">
-                                                                        <span class="sr-only" aria-label="This is Rob from London who left the following review of the tour."><!-- Image specified in style.css--></span>
+                                                                <div class="circle-cover-rob" title="This is Rob from London who left the following review of the tour">
+                                                                    <!-- Image specified in style.css-->
                                                                 </div>
                                                             </div>  <!-- End of modified code snippet -->
                                                         </div>
@@ -153,7 +149,7 @@
                                                                 <h5>Rob (26)</h5>
                                                             </div>
                                                             <!--Data-->
-                                                            <div class="item-box-blog-data" style="padding: px 15px;">
+                                                            <div class="item-box-blog-data">
                                                                 <h5>From London</h5>
                                                             </div>
                                                             <!--Text-->
@@ -165,14 +161,14 @@
                                                             </div>
                                                             <!--"Read More" Text section--> <!-- Bootstrap code that I have added and modified -->
                                                             <div class="card card-body collapse p-0" id="robReview" style="border: none;">
-                                                                <p class="card card-body collapse p-0" id="robReview2" style="border: none;">
+                                                                <p>
                                                                     lucky enough that our dates coincided with the Trinity Summer Series of outdoor concerts - What a wonderful 
                                                                     city centre venue for outdoor concerts!
                                                                 </p>
                                                             </div>
                                                             <!-- Read More "collapse" link -->                                
                                                             <div>
-                                                                <a data-toggle="collapse" href="#robReview,#robReview2"  role="button" aria-expanded="false" aria-controls="reviewRob">
+                                                                <a data-toggle="collapse" href="#robReview"  role="button" aria-expanded="false" aria-controls="reviewRob">
                                                                     Read more
                                                                 </a>
                                                             </div> <!-- End of Bootstrap Collapse -->
@@ -188,8 +184,8 @@
                                                             </div>
                                                             <!--Image-->
                                                             <div class="circle-container">   <!-- Code snippet from Love Running Mini-project-->
-                                                                <div class="circle-cover-renate">
-                                                                        <span class="sr-only" aria-label="This is Renate from Sao Paulo who left the following review of the tour."><!-- Image specified in style.css--></span>
+                                                                <div class="circle-cover-renate" title="This is Renate from Sao Paulo who left the following review of the tour.">
+                                                                    <!-- Image specified in style.css-->
                                                                 </div>
                                                             </div>  <!-- End of modified code snippet -->
                                                         </div>
@@ -199,7 +195,7 @@
                                                                 <h5>Renate (35)</h5>   
                                                             </div>
                                                             <!--Data-->
-                                                            <div class="item-box-blog-data" style="padding: px 15px;">
+                                                            <div class="item-box-blog-data">
                                                                 <h5>From Sao Paulo</h5>
                                                             </div>
                                                             <!--Text-->
@@ -234,8 +230,8 @@
                                                             </div>
                                                             <!--Image-->
                                                             <div class="circle-container">   <!-- Code snippet from Love Running Mini-project-->
-                                                                <div class="circle-cover-hans">
-                                                                        <span class="sr-only" aria-label="This is Hans from Cologne who left the following review of the tour."><!-- Image specified in style.css--></span>
+                                                                <div class="circle-cover-hans" title="This is Hans from Cologne who left the following review of the tour.">
+                                                                    <!-- Image specified in style.css-->
                                                                 </div>
                                                             </div>  <!-- End of modified code snippet -->
                                                         </div>
@@ -245,7 +241,7 @@
                                                                 <h5>Hans (52)</h5>
                                                             </div>
                                                             <!--Data-->
-                                                            <div class="item-box-blog-data" style="padding: px 15px;">
+                                                            <div class="item-box-blog-data">
                                                                 <h5>From Colonge</h5>
                                                             </div>
                                                             <!--Text-->
@@ -284,8 +280,8 @@
                                                             </div>
                                                             <!--Image-->
                                                             <div class="circle-container">   <!-- Code snippet from Love Running Mini-project-->
-                                                                <div class="circle-cover-william">
-                                                                        <span class="sr-only" aria-label="This is Wiliam from Chester who left the following review of the tour."><!-- Image specified in style.css--></span>
+                                                                <div class="circle-cover-william" title="This is Wiliam from Chester who left the following review of the tour.">
+                                                                    <!-- Image specified in style.css-->
                                                                 </div>
                                                             </div>  <!-- End of modified code snippet -->
                                                         </div>
@@ -295,7 +291,7 @@
                                                                 <h5>William (39)</h5>
                                                             </div>
                                                             <!--Data-->
-                                                            <div class="item-box-blog-data" style="padding: px 15px;">
+                                                            <div class="item-box-blog-data">
                                                                 <h5>From Chester</h5>
                                                             </div>
                                                             <!--Text-->
@@ -330,8 +326,8 @@
                                                             </div>
                                                             <!--Image-->
                                                             <div class="circle-container">   <!-- Code snippet from Love Running Mini-project-->
-                                                                <div class="circle-cover-veronica">
-                                                                    <span class="sr-only" aria-label="This is Veronica from Paris who left the following review of the tour."><!-- Image specified in style.css--></span>
+                                                                <div class="circle-cover-veronica" title="This is Veronica from Paris who left the following review of the tour.">
+                                                                   <!-- Image specified in style.css-->
                                                                 </div>
                                                             </div>  <!-- End of modified code snippet -->
                                                         </div>
@@ -341,7 +337,7 @@
                                                                 <h5>Veronica (37)</h5> 
                                                             </div>
                                                             <!--Data-->
-                                                            <div class="item-box-blog-data" style="padding: px 15px;">
+                                                            <div class="item-box-blog-data">
                                                                 <h5>From Paris</h5>
                                                             </div>
                                                             <!--Text-->
@@ -376,8 +372,8 @@
                                                             </div>
                                                             <!--Image-->
                                                             <div class="circle-container">   <!-- Code snippet from Love Running Mini-project-->
-                                                                <div class="circle-cover-ely">
-                                                                        <span class="sr-only" aria-label="This is Ely from New York who left the following review of the tour."><!-- Image specified in style.css--></span>
+                                                                <div class="circle-cover-ely" title="This is Ely from New York who left the following review of the tour.">
+                                                                    <!-- Image specified in style.css-->
                                                                 </div>
                                                             </div>  <!-- End of modified code snippet -->
                                                         </div>
@@ -387,7 +383,7 @@
                                                                 <h5>Ely (31)</h5>
                                                             </div>
                                                             <!--Data-->
-                                                            <div class="item-box-blog-data" style="padding: px 15px;">
+                                                            <div class="item-box-blog-data">
                                                                 <h5>From New York</h5>
                                                             </div>
                                                             <!--Text-->
@@ -426,8 +422,8 @@
                                                             </div>
                                                             <!--Image-->
                                                             <div class="circle-container">   <!-- Code snippet from Love Running Mini-project-->
-                                                                <div class="circle-cover-rob">
-                                                                        <span class="sr-only" aria-label="This is Rob from London who left the following review of the tour."><!-- Image specified in style.css--></span>
+                                                                <div class="circle-cover-rob" title="This is Rob from London who left the following review of the tour.">
+                                                                    <!-- Image specified in style.css-->
                                                                 </div>
                                                             </div>  <!-- End of modified code snippet -->
                                                         </div>
@@ -437,7 +433,7 @@
                                                                 <h5>Rob (26)</h5>
                                                             </div>
                                                             <!--Data-->
-                                                            <div class="item-box-blog-data" style="padding: px 15px;">
+                                                            <div class="item-box-blog-data">
                                                                 <h5>From London</h5>
                                                             </div>
                                                             <!--Text-->
@@ -448,15 +444,15 @@
                                                                 </p>
                                                             </div>
                                                             <!--"Read More" Text section--> <!-- Bootstrap code that I have added and modified -->
-                                                            <div class="card card-body collapse p-0" id="reviewRob" style="border: none;">
-                                                                <p class="card card-body collapse p-0" id="reviewRob1" style="border: none;">
+                                                            <div class="card card-body collapse p-0" id="reviewRob2" style="border: none;">
+                                                                <p>
                                                                     lucky enough that our dates coincided with the Trinity Summer Series of outdoor concerts - What a wonderful 
                                                                     city centre venue for outdoor concerts!
                                                                 </p>
                                                             </div>
                                                             <!-- Read More "collapse" link -->                                
                                                             <div>
-                                                                <a data-toggle="collapse" href="#reviewRob,#reviewRob1" role="button" aria-expanded="false" aria-controls="reviewRob">
+                                                                <a data-toggle="collapse" href="#reviewRob2" role="button" aria-expanded="false" aria-controls="reviewRob">
                                                                     Read more
                                                                 </a>
                                                             </div> <!-- End of Bootstrap Collapse -->
@@ -472,10 +468,10 @@
                                                             </div>
                                                             <!--Image-->
                                                             <div class="circle-container">   <!-- Code snippet from Love Running Mini-project-->
-                                                                <div class="circle-cover-renate">
-                                                                        <span class="sr-only" aria-label="This is Renate from Sao Paulo who left the following review of the tour."><!-- Image specified in style.css--></span>
+                                                                <div class="circle-cover-renate" title="This is Renate from Sao Paulo who left the following review of the tour.">
+                                                                    <!-- Image specified in style.css-->
                                                                 </div>
-                                                            </div>                        <!-- End of modified code snippet -->
+                                                            </div> <!-- End of modified code snippet -->
                                                         </div>
                                                         <div class="item-box-blog-body">
                                                             <!--Heading-->
@@ -483,7 +479,7 @@
                                                                 <h5>Renate (35)</h5>   
                                                             </div>
                                                             <!--Data-->
-                                                            <div class="item-box-blog-data" style="padding: px 15px;">
+                                                            <div class="item-box-blog-data">
                                                                 <h5>From Sao Paulo</h5>
                                                             </div>
                                                             <!--Text-->
@@ -518,8 +514,8 @@
                                                             </div>
                                                             <!--Image-->
                                                             <div class="circle-container">   <!-- Code snippet from Love Running Mini-project-->
-                                                                <div class="circle-cover-hans">
-                                                                        <span class="sr-only" aria-label="This is Hans from Cologne who left the following review of the tour."><!-- Image specified in style.css--></span>
+                                                                <div class="circle-cover-hans" title="This is Hans from Cologne who left the following review of the tour.">
+                                                                    <!-- Image specified in style.css-->
                                                                 </div>
                                                             </div> <!-- End of modified code snippet -->
                                                         </div>
@@ -529,7 +525,7 @@
                                                                 <h5>Hans (52)</h5>
                                                             </div>
                                                             <!--Data-->
-                                                            <div class="item-box-blog-data" style="padding: px 15px;">
+                                                            <div class="item-box-blog-data">
                                                                 <h5>From Colonge</h5>
                                                             </div>
                                                             <!--Text-->
@@ -568,8 +564,8 @@
                                                             </div>
                                                             <!--Image-->
                                                             <div class="circle-container">   <!-- Code snippet from Love Running Mini-project-->
-                                                                <div class="circle-cover-william">
-                                                                        <span class="sr-only" aria-label="This is Wiliam from Chester who left the following review of the tour."><!-- Image specified in style.css--></span>
+                                                                <div class="circle-cover-william" title="This is Wiliam from Chester who left the following review of the tour.">
+                                                                    <!-- Image specified in style.css-->
                                                                 </div>
                                                             </div>  <!-- End of modified code snippet -->
                                                         </div>
@@ -579,7 +575,7 @@
                                                                 <h5>William (39)</h5>
                                                             </div>
                                                             <!--Data-->
-                                                            <div class="item-box-blog-data" style="padding: px 15px;">
+                                                            <div class="item-box-blog-data">
                                                                 <h5>From Chester</h5>
                                                             </div>
                                                             <!--Text-->
@@ -614,8 +610,8 @@
                                                             </div>
                                                             <!--Image-->
                                                             <div class="circle-container">   <!-- Code snippet from Love Running Mini-project-->
-                                                                <div class="circle-cover-veronica">
-                                                                    <span class="sr-only" aria-label="This is Veronica from Paris who left the following review of the tour."><!-- Image specified in style.css--></span>
+                                                                <div class="circle-cover-veronica" title="This is Veronica from Paris who left the following review of the tour.">
+                                                                    <!-- Image specified in style.css-->
                                                                 </div>
                                                             </div>  <!-- End of modified code snippet -->
                                                         </div>
@@ -625,7 +621,7 @@
                                                                 <h5>Veronica (37)</h5>   
                                                             </div>
                                                             <!--Data-->
-                                                            <div class="item-box-blog-data" style="padding: px 15px;">
+                                                            <div class="item-box-blog-data">
                                                                 <h5>From Paris</h5>
                                                             </div>
                                                             <!--Text-->
@@ -660,8 +656,8 @@
                                                             </div>
                                                             <!--Image-->
                                                             <div class="circle-container">   <!-- Code snippet from Love Running Mini-project-->
-                                                                <div class="circle-cover-ely">
-                                                                        <span class="sr-only" aria-label="This is Ely from New York who left the following review of the tour."><!-- Image specified in style.css--></span>
+                                                                <div class="circle-cover-ely" title="This is Ely from New York who left the following review of the tour.">
+                                                                    <!-- Image specified in style.css-->
                                                                 </div>
                                                             </div>  <!-- End of modified code snippet -->
                                                         </div>
@@ -671,7 +667,7 @@
                                                                 <h5>Ely (31)</h5>
                                                             </div>
                                                             <!--Data-->
-                                                            <div class="item-box-blog-data" style="padding: px 15px;">
+                                                            <div class="item-box-blog-data">
                                                                 <h5>From New York</h5>
                                                             </div>
                                                             <!--Text-->
@@ -711,8 +707,8 @@
                                                             </div>
                                                             <!--Image-->
                                                             <div class="circle-container">   <!-- Code snippet from Love Running Mini-project-->
-                                                                <div class="circle-cover-rob">
-                                                                        <span class="sr-only" aria-label="This is Rob from London who left the following review of the tour."><!-- Image specified in style.css--></span>
+                                                                <div class="circle-cover-rob" title="This is Rob from London who left the following review of the tour.">
+                                                                    <!-- Image specified in style.css-->
                                                                 </div>
                                                             </div> <!-- End of modified code snippet -->
                                                         </div>
@@ -722,7 +718,7 @@
                                                                 <h5>Rob (26)</h5>
                                                             </div>
                                                             <!--Data-->
-                                                            <div class="item-box-blog-data" style="padding: px 15px;">
+                                                            <div class="item-box-blog-data">
                                                                 <h5>From London</h5>
                                                             </div>
                                                             <!--Text-->
@@ -734,14 +730,14 @@
                                                             </div>
                                                             <!--"Read More" Text section--> <!-- Bootstrap code that I have added and modified -->
                                                             <div class="card card-body collapse p-0" id="reviewRob3" style="border: none;">
-                                                                <p class="card card-body collapse p-0" id="robReview3" style="border: none;">
+                                                                <p>
                                                                     lucky enough that our dates coincided with the Trinity Summer Series of outdoor concerts - What a wonderful 
                                                                     city centre venue for outdoor concerts!
                                                                 </p>
                                                             </div>
                                                             <!-- Read More "collapse" link -->                                
                                                             <div>
-                                                                <a data-toggle="collapse" href="#reviewRob3,#robReview3" role="button" aria-expanded="false" aria-controls="reviewRob">
+                                                                <a data-toggle="collapse" href="#reviewRob3" role="button" aria-expanded="false" aria-controls="reviewRob">
                                                                     Read more
                                                                 </a>
                                                             </div> <!-- End of Bootstrap Collapse -->
@@ -757,8 +753,8 @@
                                                             </div>
                                                             <!--Image-->
                                                             <div class="circle-container">   <!-- Code snippet from Love Running Mini-project-->
-                                                                <div class="circle-cover-renate">
-                                                                        <span class="sr-only" aria-label="This is Renate from Sao Paulo who left the following review of the tour."><!-- Image specified in style.css--></span>
+                                                                <div class="circle-cover-renate" title="This is Renate from Sao Paulo who left the following review of the tour.">
+                                                                    <!-- Image specified in style.css-->
                                                                 </div>
                                                             </div>  <!-- End of modified code snippet -->
                                                         </div>
@@ -768,7 +764,7 @@
                                                                 <h5>Renate (35)</h5>  
                                                             </div>
                                                             <!--Data-->
-                                                            <div class="item-box-blog-data" style="padding: px 15px;">
+                                                            <div class="item-box-blog-data">
                                                                 <h5>From Sao Paulo</h5>
                                                             </div>
                                                             <!--Text-->
@@ -779,7 +775,7 @@
                                                                 </p>
                                                             </div>
                                                             <!-- "Read More" Text section--> <!-- Bootstrap code that I have added and modified -->
-                                                            <div class="card card-body collapse p-0" id="reviewRenate,renateReview3" style="border: none;">
+                                                            <div class="card card-body collapse p-0" id="reviewRenate3" style="border: none;">
                                                                 <p>
                                                                     food here (maybe I shouldn't say that but it's true). Plus 
                                                                     I was so happy to meet many lovely people from many parts of Europe, we were all different ages but everyone was so friendly and happy.
@@ -787,7 +783,7 @@
                                                             </div>
                                                             <!-- Read More "collapse" link -->                                
                                                             <div>
-                                                                <a data-toggle="collapse" href="#reviewRenate" role="button" aria-expanded="false" aria-controls="renateReview3">
+                                                                <a data-toggle="collapse" href="#reviewRenate3" role="button" aria-expanded="false" aria-controls="renateReview3">
                                                                     Read more
                                                                 </a>
                                                             </div>  <!-- End of Bootstrap Collapse -->
@@ -803,8 +799,8 @@
                                                             </div>
                                                             <!--Image-->
                                                             <div class="circle-container">   <!-- Code snippet from Love Running Mini-project-->
-                                                                <div class="circle-cover-hans">
-                                                                        <span class="sr-only" aria-label="This is Hans from Cologne who left the following review of the tour."><!-- Image specified in style.css--></span>
+                                                                <div class="circle-cover-hans" title="This is Hans from Cologne who left the following review of the tour.">
+                                                                    <!-- Image specified in style.css-->
                                                                 </div>
                                                             </div> <!-- End of modified code snippet -->
                                                         </div>
@@ -814,7 +810,7 @@
                                                                 <h5>Hans (52)</h5>
                                                             </div>
                                                             <!--Data-->
-                                                            <div class="item-box-blog-data" style="padding: px 15px;">
+                                                            <div class="item-box-blog-data">
                                                                 <h5>From Colonge</h5>
                                                             </div>
                                                             <!--Text-->
@@ -825,7 +821,7 @@
                                                                 </p>
                                                             </div>
                                                             <!-- "Read More" Text section--> <!-- Bootstrap code that I have added and modified -->
-                                                            <div class="card card-body collapse p-0" id="reviewHans,hansReview3" style="border: none;">
+                                                            <div class="card card-body collapse p-0" id="reviewHans3" style="border: none;">
                                                                 <p>
                                                                     are also very impressed with the quality of the local Breweries and distilleries here. I highly recommend the 
                                                                     Whiskey from the Slane Distillery, I brought a bottle home with me!
@@ -833,7 +829,7 @@
                                                             </div>
                                                             <!-- Read More "collapse" link -->                                
                                                             <div>
-                                                                <a data-toggle="collapse" href="#reviewHans" role="button" aria-expanded="false" aria-controls="hansReview3">
+                                                                <a data-toggle="collapse" href="#reviewHans3" role="button" aria-expanded="false" aria-controls="hansReview3">
                                                                     Read more
                                                                 </a>
                                                             </div>  <!-- End of Bootstrap Collapse -->
@@ -853,8 +849,8 @@
                                                             </div>
                                                             <!--Image-->
                                                             <div class="circle-container">   <!-- Code snippet from Love Running Mini-project-->
-                                                                <div class="circle-cover-william">
-                                                                        <span class="sr-only" aria-label="This is Wiliam from Chester who left the following review of the tour."><!-- Image specified in style.css--></span>
+                                                                <div class="circle-cover-william" title="This is Wiliam from Chester who left the following review of the tour.">
+                                                                    <!-- Image specified in style.css-->
                                                                 </div>
                                                             </div> <!-- End of modified code snippet -->
                                                         </div>
@@ -864,7 +860,7 @@
                                                                 <h5>William (39)</h5>
                                                             </div>
                                                             <!--Data-->
-                                                            <div class="item-box-blog-data" style="padding: px 15px;">
+                                                            <div class="item-box-blog-data">
                                                                 <h5>From Chester</h5>
                                                             </div>
                                                             <!--Text-->
@@ -899,8 +895,8 @@
                                                             </div>
                                                             <!--Image-->
                                                             <div class="circle-container">   <!-- Code snippet from Love Running Mini-project-->
-                                                                <div class="circle-cover-veronica">
-                                                                    <span class="sr-only" aria-label="This is Veronica from Paris who left the following review of the tour."><!-- Image specified in style.css--></span>
+                                                                <div class="circle-cover-veronica" title="This is Veronica from Paris who left the following review of the tour.">
+                                                                    <!-- Image specified in style.css-->
                                                                 </div>
                                                             </div> <!-- End of modified code snippet -->
                                                         </div>
@@ -910,7 +906,7 @@
                                                                 <h5>Veronica (37)</h5>  
                                                             </div>
                                                             <!--Data-->
-                                                            <div class="item-box-blog-data" style="padding: px 15px;">
+                                                            <div class="item-box-blog-data">
                                                                 <h5>From Paris</h5>
                                                             </div>
                                                             <!--Text-->
@@ -921,7 +917,7 @@
                                                                 </p>
                                                             </div>
                                                             <!-- "Read More" Text section--> <!-- Bootstrap code that I have added and modified -->
-                                                            <div class="card card-body collapse p-0" id="reviewVeronica,veronicaReview3" style="border: none;">
+                                                            <div class="card card-body collapse p-0" id="veronicaReview3" style="border: none;">
                                                                 <p>
                                                                     food here (maybe I shouldn't say that but it's true). Plus 
                                                                     I was so happy to meet many lovely people from many parts of Europe, we were all different ages but everyone was so friendly and happy.
@@ -929,7 +925,7 @@
                                                             </div>
                                                             <!-- Read More "collapse" link -->                                
                                                             <div>
-                                                                <a data-toggle="collapse" href="#reviewVeronica" role="button" aria-expanded="false" aria-controls="veronicaReview3">
+                                                                <a data-toggle="collapse" href="#reviewVeronica3" role="button" aria-expanded="false" aria-controls="veronicaReview3">
                                                                     Read more
                                                                 </a>
                                                             </div>  <!-- End of Bootstrap Collapse -->
@@ -945,8 +941,8 @@
                                                             </div>
                                                             <!--Image-->
                                                             <div class="circle-container">   <!-- Code snippet from Love Running Mini-project-->
-                                                                <div class="circle-cover-ely">
-                                                                        <span class="sr-only" aria-label="This is Ely from New York who left the following review of the tour."><!-- Image specified in style.css--></span>
+                                                                <div class="circle-cover-ely" title="This is Ely from New York who left the following review of the tour.">
+                                                                    <!-- Image specified in style.css-->
                                                                 </div>
                                                             </div> <!-- End of modified code snippet -->
                                                         </div>
@@ -956,7 +952,7 @@
                                                                 <h5>Ely (31)</h5>
                                                             </div>
                                                             <!--Data-->
-                                                            <div class="item-box-blog-data" style="padding: px 15px;">
+                                                            <div class="item-box-blog-data">
                                                                 <h5>From New York</h5>
                                                             </div>
                                                             <!--Text-->
@@ -967,7 +963,7 @@
                                                                 </p>
                                                             </div>
                                                             <!-- "Read More" Text section--> <!-- Bootstrap code that I have added and modified -->
-                                                            <div class="card card-body collapse p-0" id="reviewEly,elyReview3" style="border: none;">
+                                                            <div class="card card-body collapse p-0" id="reviewEly3" style="border: none;">
                                                                 <p>
                                                                     are also very impressed with the quality of the 
                                                                     local Breweries and distilleries here. I highly recommend the Whiskey from the Slane Distillery, I brought a bottle home with me!
@@ -975,7 +971,7 @@
                                                             </div>
                                                             <!-- Read More "collapse" link -->                                
                                                             <div>
-                                                                <a data-toggle="collapse" href="#reviewEly" role="button" aria-expanded="false" aria-controls="elyReview3">
+                                                                <a data-toggle="collapse" href="#reviewEly3" role="button" aria-expanded="false" aria-controls="ReviewEly3">
                                                                     Read more
                                                                 </a>
                                                             </div>  <!-- End of Bootstrap Collapse -->
@@ -1001,67 +997,66 @@
                 <h3 class="text-uppercase d-inline-block mr-lg-5"><i class="far fa-newspaper"></i> Newsletter</h3>
                 <p class="d-inline-block">
                     For all the latest tour updates, special events and promotional Discounts, Subcribe to our Newsletter!
-                </p>       
-                <form>   <!-- Form code adapted from https://getbootstrap.com/docs/4.0/components/forms/ --> 
-                    <div class="col-12 col-md-8 offset-md-2 col-lg-8 offset-lg-2">
+                </p> 
+                <div class="col-12 col-md-8 offset-md-2 col-lg-8 offset-lg-2">
+                    <form> <!-- Form code adapted from https://getbootstrap.com/docs/4.0/components/forms/ --> 
                         <div class="form-row">
-                            <div class="form-group col-md-4">
+                            <div class="form-group col-md-4"> 
                                 <label for="firstName">First Name</label>
                                 <input type="text" class="form-control-sm mr-md-4 mb-md-2" id="firstName" placeholder="First Name" required>
                             </div>
-                            <div class="form-group col-md-4">
+                            <div class="form-group col-md-4"> 
                                 <label for="lastName">Last Name</label>
                                 <input type="text" class="form-control-sm mr-md-4 mb-md-2" id="lastName" placeholder="Last Name" required>
                             </div>
-                            <div class="form-group col-md-4">
+                            <div class="form-group col-md-4"> 
                                 <label for="exampleInputEmail1">Enter Email </label>
                                 <input type="email" class="form-control-sm mr-md-4 mb-md-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email" required>
                             </div>
                         </div>
-                        <div class="form-row">
-                            <div class="form-group col-md-12">
-                                <span class="d-none d-md-inline-block"><a href="contact.html" class="btn btn-info btn-styling">Subscribe</a></span> <!-- Tablet upwards -->
-                                <div class="form-group text-center">
-                                    <small id="emailHelp" class="form-text text-muted mb-2">We'll never share your email with anyone else.</small>
-                                    <span class="sr-only" aria-label="This small text advises that we'll never share your email with anyone else."></span>
-                                <div>
-                                <span class="d-md-none mb-md-2"><a href="contact.html" class="btn btn-info btn-styling">Subscribe</a></span> <!-- Only on Mobile -->
-                            </div>
+                        <span class="d-none d-md-inline-block"><a href="contact.html" class="btn btn-info btn-styling">Subscribe</a></span> <!-- Tablet upwards -->
+                        <div class="form-group text-center"> 
+                            <small id="emailHelp" class="form-text text-muted mb-2" title="This small text advises that we'll never share your email with anyone else.">We'll never share your email with anyone else.</small>
                         </div>
-                    </div>
-                </form> 
+                        <span class="d-md-none mb-md-2"><a href="contact.html" class="btn btn-info btn-styling">Subscribe</a></span> <!-- Only on Mobile -->
+                    </form>
+                </div> 
             </div>
         </div>
         <!-- Social Media Links--> 
-        <div class="row social-media justify-content-center">
-            <div class="col-12"> 
-                <h5>FOLLOW US ON SOCIAL MEDIA</h5>
-                <ul>
-                    <li class="list-inline-item">
-                        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
-                            <i class="fab fa-facebook-f" aria-hidden="true"></i>  
-                            <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
-                            <i class="fab fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://twitter.com/?lang=en" target="_blank" rel="noreferrer">
-                            <i class="fab fa-twitter" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
-                            <i class="fab fa-youtube" aria-hidden="true"></i>  
-                            <span class="sr-only">Youtube</span>
-                        </a>
-                    </li>
-                </ul>
+        <div class="row">
+            <div class="col-12 newsletter">  
+                <div class="row social-media justify-content-center">
+                    <div class="col-12"> 
+                        <h5 class="text-uppercase">Follow Us on Social Media</h5>
+                        <ul>
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+                                    <i class="fab fa-facebook-f" aria-hidden="true"></i>  
+                                    <span class="sr-only">Facebook</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                    <span class="sr-only">Instagram</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/?lang=en" target="_blank" rel="noreferrer">
+                                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                                    <span class="sr-only">Twitter</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
+                                    <i class="fab fa-youtube" aria-hidden="true"></i>  
+                                    <span class="sr-only">Youtube</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </footer> <!-- End of Footer Container-->
