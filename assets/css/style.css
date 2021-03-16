@@ -637,7 +637,7 @@ footer ul li{
 
 .optionals{
     max-width: 100%;
-    margin: 0x auto 0 auto;
+    margin: 0 auto 0 auto;
     padding: 20px 25px;
     min-height: 20rem;
     max-height: fit-content;
@@ -933,7 +933,7 @@ form fieldset input:-internal-autofill-selected { /* To overide Bootstrap colour
         top: -24px;
         left: -1px;
         display: block;
-        max-width: auto;
+        max-width: 100%;
         height: 13.75vh;
         background-color: rgba(52, 52, 52, 0.4);
         border-radius: 15px;
@@ -948,7 +948,8 @@ form fieldset input:-internal-autofill-selected { /* To overide Bootstrap colour
     }
 }
 
-@media screen (min-width:320px) and (max-width:768px) {   /* Targeting ISO devices to make hero image display in Parallax */
+/* Targeting ISO devices to make hero image display in Parallax */
+@media screen and (min-width:320px) and (max-width:768px) {   
     @supports (-webkit-touch-callout: none) {
         .hero-image-home{
             height: 65vh;
@@ -956,7 +957,7 @@ form fieldset input:-internal-autofill-selected { /* To overide Bootstrap colour
             background-attachment: scroll;
             background: url('../images/castletown-wide.png'); 
             background-size: cover;
-            background-position: center .center;
+            background-position: center center;
             background-repeat: no-repeat;
             background: fixed;
         }
