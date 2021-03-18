@@ -627,7 +627,6 @@ footer ul li{
 }
 .inclusions{
     max-width: 100%;
-    margin: 0 auto 0 auto;
     padding: 20px 25px;
     min-height: 20rem;
     max-height: fit-content;
@@ -1073,11 +1072,6 @@ form fieldset input:-internal-autofill-selected { /* To overide Bootstrap colour
     }
 }
 
-@media screen and (min-width:678px){
-    .inclusions, optionals{
-        margin: 25px auto 0 auto;
-    }
-}
 
 /************************************* Media Queries targeting add-ons.html */
 
