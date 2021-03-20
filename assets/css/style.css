@@ -24,19 +24,19 @@ body{
     padding-left: 0;
 }
 
-.col-12{                    /* affects the footer form */
+.col-12{                    /* Helps maintain the page layout and in particular the footer form on iPhone 5/se but doesn't negatively impact other devices */
     padding-left: 5px;
     padding-right: 5px;
-}
+} 
 
 a{
-    color: #35798e;     /* Targets "read More" links in Carousel & Collapse */
+    color: #35798e;     /* Targets "read More" links in Carousel & Collapse */ /* Button links are overridden with their own additional styling */
     text-decoration: none;
     background-color: transparent;
 }
 
 iframe{
-    border: 3px groove #dae0e4;
+    border: 3px groove #dae0e4; /* According to the HTML validator the frameborder attribute on iframe element is now obsolete and advises to use css instead */
 }
 
 /* ********************************************************* Navbar */
@@ -47,7 +47,7 @@ iframe{
     font-weight: bold;
     color: #fff;
     position: fixed;
-    z-index: 999;                  /*Credit to: https://stackoverflow.com/questions/23287610/my-fixed-navbar-doesnt-work-properly*/
+    z-index: 999;                 /*Credit to: https://stackoverflow.com/questions/23287610/my-fixed-navbar-doesnt-work-properly*/
     background-color: #35798e;  /* Credit to: https://www.geeksforgeeks.org/how-to-change-navigation-bar-color-in-bootstrap/ */  
     border-bottom-style: ridge;
 }
@@ -63,7 +63,7 @@ iframe{
     border-style: none;
 }
 
-.navbar-dark .navbar-nav .nav-link{
+.navbar-dark .navbar-nav .nav-link{   /* Set navbar text colour */
     color: #ffffff;
 }
 
@@ -75,13 +75,12 @@ iframe{
     text-decoration-line: underline;
 }
 
-/* ************************************************************ Hero Images */
+/* ************************************************************ Hero Images / Parallax effect */
 
 .hero-image-home{
     height: 65vh;
     overflow: hidden;
     background: url('../images/taste.jpg') center center / cover no-repeat fixed; 
-    /*background-size: center center / cover no-repeat fixed;*/
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -137,7 +136,7 @@ iframe{
 
 /* ******************************************************** index.html */
 
-.intro--quote--container{
+.intro--quote--container{   /* Has been re-used in itinerary.html / add-ons.html */
     max-width: 100vw;
     margin: 0;
     min-height: 19rem;
@@ -491,7 +490,7 @@ footer ul li{
 
 /* *****************************************************itinerary.html page */
 
-.itinerary--container{
+.itinerary--container{   /* Has been re-used in add-ons.html / gallery.html / contact.html */
     max-width: 100vw;
     min-height: 31rem;
     max-height: fit-content;
@@ -526,7 +525,7 @@ footer ul li{
     -o-background-size: cover;
 }
 
-.itinerary--body{
+.itinerary--body{   /* Has been re-used in add-ons.html / gallery.html / contact.html */
     max-width: 95vw;
     min-height: fit-content;
     max-height: fit-content;
@@ -546,14 +545,14 @@ footer ul li{
     color: #ffffff;
 }
 
-.outer--day--container{
+.outer--day--container{   /* Has been re-used in add-ons.html */
     width: 100%;
     border: #35798e 1px solid;
     border-radius: 22px;
     padding: 0;
 } 
 
-.day--header--container{      
+.day--header--container{    /* Has been re-used in add-ons.html */  
     max-width: 100vw;
     min-height: fit-content;
     max-height: fit-content;
@@ -571,7 +570,7 @@ footer ul li{
     border-radius: 22px;
 }
 
-.itinerary--description{
+.itinerary--description{   /* Has been re-used in add-ons.html */
     width: 100%;
     font-size: 18px;
 }
@@ -584,7 +583,7 @@ footer ul li{
     color: #F47A60;
 }
 
-.itinerary--images img{
+.itinerary--images img{   /* Has been re-used in add-ons.html */
     width: 100%;
     justify-content: flex-start;
     margin-left: 0px;
@@ -700,7 +699,7 @@ hr{
 
 /* ***************************************************** Gallery.html */
 
-.gallery-container{
+.gallery-container{   /* Has been re-used in contact.html */
     max-width: 100vw;
     margin: 0;
     min-height: 12rem;
