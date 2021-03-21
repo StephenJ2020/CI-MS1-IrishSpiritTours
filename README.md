@@ -1,4 +1,4 @@
-![Project logo](./assets/images/mockup.png)
+![Project logo](./assets/images/rm-index-responsive.png)
 
 ![Project logo](./assets/images/logo.png) 
 # Irish Spirit Tours
@@ -7,8 +7,8 @@
       
 ## Contents:  
 ## 1. Project Description  
-## 2. Goal and Requirements  
-### 2.1 Strategy  
+## 2. User Experience  
+
 * **2.1.1 - Business objectives**  
 * **2.1.2 - User needs**  
 * **2.1.3 - User persona's** 
@@ -41,7 +41,7 @@ up with my own idea:
    
 I have decided to create a website for a fictional tour company here in Ireland.  However, while the tour company is fictional the places featured are real and this was an idea that I had brought forward in September 2019 to the Celbridge Tourism and Heritage Forum, of which I'm a voluntary member. Over the last 5 years this voluntary community group has sought funding to produce [Celbridge Tourism and Heritage Strategy (2016-2020)](http://www.kildarelcdc.ie/wp-content/uploads/2012/07/Celbridge-Gateway-to-Irelands-AE-Tourism-Heritage-Strategy-May-2016.pdf), [Celbridge Heritage Trail Audio Guide](http://www.abartaheritage.ie/product/celbridge-heritage-trail-audio-guide/) and [The Discover Celbridge website](http://www.discovercelbridge.com/). While the group have not met since the end of 2019 and our activities have been suspended due to the Covid-19 Pandemic and the devastating effects it continues to have across the globe; it is hoped that we will be able to resume our work on future projects in late 2021 or early 2022.  
   
-The idea for this tour came from the fact that the town of Celbridge, in Co. Kildare, has many historic and cultural sites that would appeal to the domestic and international tourism market, but also the realisation that our offering isn't yet developed enough to be able to  market Celbridge as a stand-alone tourist destination.  Therefore, my idea was to identify other coummunity groups in neighbouring counties who are also working to promote their local area and to collaborate to create a ready-made tour itinerary featuring each of our localities and to then pitch it at a number of local tour companies for one of them to take on and opperate.  The idea is not for any of the community groups or the individuals involed with them to directly benefit from this project. Rather the objective is for our wider communities to benefit from the impact that increased tourism will lead to i.e. increased private and public sector investment into improved facilities in these localities.  
+The idea for this tour came from the fact that the town of Celbridge, in Co. Kildare, has many historic and cultural sites that would appeal to the domestic and international tourism market, but also the realisation that our offering isn't yet developed enough to be able to  market Celbridge as a stand-alone tourist destination.  Therefore, my idea was to identify other coummunity groups in neighbouring counties who are also working to promote their local area and to collaborate to create a ready-made tour itinerary featuring each of our localities and to then pitch it at a number of local tour companies for one of them to take on and opperate.  The idea is not for any of the community groups or the individuals involed with them to directly benefit from this project. Rather the objective is for our wider communities to benefit from the impact that increased tourism will lead to i.e. the creation of local employment opportunities as well as increased private and public sector investment into improved facilities in these localities.  
   
 For the purpose of my Milestone 1 project we're going to assume that the final tour itinerary has been agreed and that the fictional family run tour operator, Irish Spirit Tours, has undertaken to incorporate this itinerary into thier business as a means of expanding their current product offering.  
   
@@ -51,28 +51,30 @@ On that basis I have used the five planes of UX methodology to identify the user
   
 ## 2. Goal and Requirements 
 ### 2.1 Strategy  
-#### 2.1.1 - Business objectives  
-  
-### ***Tom O'Donoghue: Owner of Irish Spirit Tours***  
-  
-Tom started his career in his early 20's working for a chauffeur company that serviced the corporate and high-end leisure market. For the 10 years that Tom worked for this company he was a chauffeur and qualified tour guide and he mainly drove 24 seater mini-coaches.  In his late 20's Tom got married and started a family, by his early 30's Tom spotted an opportunity to go out on his own and he decided to buy his own 16 seater mini-bus and to start operating a series of day-trips from Dublin. Over the years the business has grown and Tom has continue to invest in the business by buying a second 16 seater mini-bus and in recent years he has replaced his original mini-bus with a brand new luxary 24 seater mini-coach.  
-  
-Now in his early 50's and his children fully grown, Tom's son Patrick works with Tom on a full-time basis as a tour guide driving the 16 seater mini-bus while Tom leads the larger tour groups in the 24 seater mini-coach.  Tom's wife Mary works part-time in a local supermarket but she also helps process the bookings for Tom's business. His daughter Grainne recently graduated from Trinity College with a degree in Marketing and is now working for a leading multi-national in Dublin's Silicon Docks. Grainne has been updating Tom's wordpress website and social media channels for the last 7 years but with her increasing work load in her own job this is becoming more of a challenge for Grainne to maintain.
 
-Celbridge Tourism and Heritage Forum approached a number of Irish based tour operators, including Irish Spirit Tours.  The group presented their ready-made tour itinerary as a cultural tour of Ireland's Ancient East, which has been designed around some of the best Craft Food & Drink producers that lie just beyond the doorstep of Dublin, Ireland's capitol city.  The group highlighted how this exciting new tour ties in with Faile Ireland's [FOOD AND DRINK STRATEGY 2018 – 2023](https://www.failteireland.ie/FailteIreland/media/WebsiteStructure/Documents/Publications/FI-Food-Strategy-Document.pdf) and the fact that there may be grant opportunities available to companies who are actively involved in developing and promoting products that compliment Failte Ireland's strategy.
 
-The group had interest from two of the five tour operators that they approached but Tom was by far the most enthusiastic about the new possibilities that this tour itinerary presented his small family run company.  Irish Spirit Tours have traditionally promoted their products as a series of day-trips aimed as an add-on to the itineraries of overseas tourists who have already made their way to Dublin.  With the creation of this new 6 day tour Tom can see the added value in moving away from offering a purely last minute add-on product, to having a tour package that would be the main purpose of his client's trip to Ireland, one which is booked and paid for in advance of their arrival into Ireland.
-
-As part of this agreement to operate the tour itinerary Tom has undertaken to commission a new website that is more professional and user-friendly.  Tom needs the site to act as his principle tool to promote the tour to international clients.  The site needs to look professional and eye-catching, it need to clearly display the details of the tour and the available add-on options pre & post tour.  The site needs to offer a streamlined way to process enquiries, quotes and bookings and it needs to be fully responsive for multiple device sizes.
-  
-
-#### 2.1.2 - User needs:  
+#### 2.1.2 - User Stories:  
     
 The user is looking to get more out of their trip to Ireland. They want to get a little bit off the beaten track but they don't want the hassle of having to organise everything themselves.  They are interested in seeing some of the culture and history of Ireland's Ancient East but they enjoy sampling quality local food and they are keen to experience some of the craft beers & spirits that Ireland is fast establishing a name for.  
 
-The User wants an informative but simple site that shows them the details of the tour and gives them the option to customise the start or end of their tour by booking additional nights and activities in Dublin, which is the main gateway city for the majority of international visitors to Ireland.
+  - #### First Time Visitor Goals
 
-The user wants a quick and easy way to make enquiries and get a quote via a site that makes them feel confident that they are dealing with a reliable  local tour operator and that it is safe to ultimately book their tour via this site.  
+   1. As a First Time Visitor, I want to easily see the details of the tour.
+   2. As a First Time Visitor, I want to easily see the options available to customise the tour.
+   3. As a First Time Visitor, I want to be able to navigate the site easily with the minimum number of clicks to get to the desired information.
+   4. As a First Time Visitor, I want to look for testimonials to see what reputation the tour operator has and if people enjoyed the tour.
+   5. As a First Time Visitor, I want to be able to easily get a quote for the date and options that I'm interested in.
+   6. As a First Time Visitor, I want a site that reassures me that I am dealing with a reliable tour operator and that it is safe to book my holiday with them.
+
+   - #### Returning Visitor Goals
+
+   1. As a Returning Visitor, I want to be able to easily contact the tour operator to ask questions and to ask for any clarifications I require.
+   2. As a Returning Visitor, I want to be able to find social links to see if any interesting updates or special offers have been posted. 
+
+   - #### Frequent User Goals
+
+   1. As a Frequent User, I want to be able to subcribe to the tour operators Newletter so that I can receive monthly update with information about amendments to the tour, up-coming special events and promotional discounts.
+
 
 #### 2.1.3 - User personas   
 
@@ -92,6 +94,22 @@ Renate is a strong independent career focused woman who works for a U.S. multi-n
 ### ***Hans - Aged 52 - From Colonge***  
 Hans is somewhat of your sterotypical German, he loves beer and is partial to a good Whiskey. When it comes to beer Hans doesn't talk about craft beer, he talks about real beer as Hans doesn't consider these mass produced lagers to be real beer.  Hans has been married for 31 years and has two grown-up children.  While Hans and his wife go on holiday together every year they both like to get away separately every other year with a small group of their closest friends.  Hans has been to Ireland a number of times before with his work and loves the atmophere and the laid-back nature of the Irish people he has met. When a friend of Hans mentions that he has never been to Ireland but he has read alot recently about the many new mrico-breweries and a resurgence in Irish Distilleries they decide that Ireland should be the destination for their next short break.  
 <br>
+  
+### ***Tom O'Donoghue: Owner of Irish Spirit Tours***  
+  
+Tom started his career in his early 20's working for a chauffeur company that serviced the corporate and high-end leisure market. For the 10 years that Tom worked for this company he was a chauffeur and qualified tour guide and he mainly drove 24 seater mini-coaches.  In his late 20's Tom got married and started a family, by his early 30's Tom spotted an opportunity to go out on his own and he decided to buy his own 16 seater mini-bus and to start operating a series of day-trips from Dublin. Over the years the business has grown and Tom has continue to invest in the business by buying a second 16 seater mini-bus and in recent years he has replaced his original mini-bus with a brand new luxary 24 seater mini-coach.  
+  
+Now in his early 50's and his children fully grown, Tom's son Patrick works with Tom on a full-time basis as a tour guide driving the 16 seater mini-bus while Tom leads the larger tour groups in the 24 seater mini-coach.  Tom's wife Mary works part-time in a local supermarket but she also helps process the bookings for Tom's business. His daughter Grainne recently graduated from Trinity College with a degree in Marketing and is now working for a leading multi-national in Dublin's Silicon Docks. Grainne has been updating Tom's wordpress website and social media channels for the last 7 years but with her increasing work load in her own job this is becoming more of a challenge for Grainne to maintain.
+
+
+### The Business Scenario  
+
+Celbridge Tourism and Heritage Forum approached a number of Irish based tour operators, including Irish Spirit Tours.  The group presented their ready-made tour itinerary as a cultural tour of Ireland's Ancient East, which has been designed around some of the best Craft Food & Drink producers that lie just beyond the doorstep of Dublin, Ireland's capital city.  The group highlighted how this exciting new tour ties in with Faile Ireland's [FOOD AND DRINK STRATEGY 2018 – 2023](https://www.failteireland.ie/FailteIreland/media/WebsiteStructure/Documents/Publications/FI-Food-Strategy-Document.pdf) and the fact that there may be grant opportunities available to companies who are actively involved in developing and promoting products that compliment Failte Ireland's strategy.
+
+The group had interest from two of the five tour operators that they approached but Tom was by far the most enthusiastic about the new possibilities that this tour itinerary presented his small family run company.  Irish Spirit Tours have traditionally promoted their products as a series of day-trips aimed as an add-on to the itineraries of overseas tourists who have already made their way to Dublin.  With the creation of this new 6 day tour Tom can see the added value in moving away from offering a purely last minute add-on product, to having a tour package that would be the main purpose of his client's trip to Ireland, one which is booked and paid for in advance of their arrival into Ireland.
+
+As part of this agreement to operate the tour itinerary Tom has undertaken to commission a new website that is more professional and user-friendly.  Tom needs the site to act as his principle tool to promote the tour to international clients.  The site needs to look professional and eye-catching, it need to clearly display the details of the tour and the available add-on options pre & post tour.  The site needs to offer a streamlined way to process enquiries, quotes and bookings and it needs to be fully responsive for multiple device sizes.
+  
 <br>
 
 ## 3. Scope  
@@ -148,24 +166,24 @@ So by applying these principles to the objects of my site I can group them as fo
 * An overview of the comapny and the main product i.e. the tour.  
 * A text area with link to entice the user to explore the full tour itinerary.  
 * A text area with link to entice the user to explore the full list of options available to customise the tour.  
-* A testimonial section to help build trust with the user.   
+* A testimonial section to help build trust with the user. 
+* Newsletter sign-up form so that the company can stay in contact with the user and work on building their trust until they are ready to book the tour.
   
 ***itinerary.html***  
 * The full tour itinerary  
-* The tour inclusions  
+* The tour inclusions & Exclusions   
   
 ***add-ons.html***  
-* The full list of optional pre & post tour add-on's.  
+* The full list of optional pre & post tour add-ons.  
   
 ***gallery.html***  
 * An image gallery to visually re-encfore the quality and value of the tour.  
   
 ***contact.html***  
-* A multi-functional contact form that can handle enguiries, quotes & bookings.  
+* A multi-functional contact form that can handle enquiries, quotes & bookings.  
   
 Objects common to all pages will be located in the ***footer***  
 * Social media links to help re-enforce the brand, to stay connected with the user and for users to use as a promotion tool on our behalf. 
-* A subcription form so that we can stay in contact with the user and work on building their trust until they are ready to book the tour. 
   
 ![Information Architecture](./assets/images/ia.png)
   
@@ -173,9 +191,13 @@ Objects common to all pages will be located in the ***footer***
 <br>
 
 ## 5. wireframes
-[Desktop](./assets/images/wireframe-desktop.png)    
-[Tablet](./assets/images/wireframe-tablet.png)   
-[Mobile](./assets/images/wireframe-mobile.png)   
+[Desktop](https://stephenj2020.github.io/CI-MS1-IrishSpiritTours/assets/images/wireframe-desktop.png)  
+![Desktop](./assets/images/rm-wireframe-desktop.png)     
+[Tablet](https://stephenj2020.github.io/CI-MS1-IrishSpiritTours/assets/images/wireframe-tablet.png)  
+![Tablet](./assets/images/rm-wireframe-tablet.png)    
+[Mobile](https://stephenj2020.github.io/CI-MS1-IrishSpiritTours/assets/images/wireframe-mobile.png)  
+![Mobile](./assets/images/rm-wireframe-mobile.png)  
+ 
 <br>  
 <br>  
        
@@ -203,7 +225,7 @@ In order to test my colour palette prior to starting to code I've created a part
 the desktop view and I'm satisfied it works.  
 ![Wireframe Mockup](./assets/images/wireframe-mockup.png)  
   
-Having started to apply the styling to the site I feel that the dark blue ![#316879](https://placehold.it/20/316879/316879) `#316879` is not contrasting enough with the rest of the colour palette  
+Having started to apply the styling to the site I feel that the dark blue ![#316879](https://placehold.it/20/316879/316879) `#316879` is not blending enough with the rest of the colour palette  
 so I have amended to a slightly lighter blue ![#35798e](https://placehold.it/20/35798e/35798e) `#35798e`  
   
     
