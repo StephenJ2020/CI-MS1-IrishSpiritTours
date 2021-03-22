@@ -25,10 +25,9 @@
 ## Deployment  
 ## Credits 
 
-
-<br>
-<br>  
-
+  
+---   
+  
 ## 1. Project Description 
 Code Institute: User-Centric Front-End Development  
   
@@ -51,8 +50,9 @@ On that basis I have used the five planes of UX methodology to identify the user
   
 ## 2. Goal and Requirements 
 ### 2.1 Strategy  
-
-
+  
+---  
+    
 #### 2.1.2 - User Stories:  
     
 The user is looking to get more out of their trip to Ireland. They want to get a little bit off the beaten track but they don't want the hassle of having to organise everything themselves.  They are interested in seeing some of the culture and history of Ireland's Ancient East but they enjoy sampling quality local food and they are keen to experience some of the craft beers & spirits that Ireland is fast establishing a name for.  
@@ -109,9 +109,9 @@ Celbridge Tourism and Heritage Forum approached a number of Irish based tour ope
 The group had interest from two of the five tour operators that they approached but Tom was by far the most enthusiastic about the new possibilities that this tour itinerary presented his small family run company.  Irish Spirit Tours have traditionally promoted their products as a series of day-trips aimed as an add-on to the itineraries of overseas tourists who have already made their way to Dublin.  With the creation of this new 6 day tour Tom can see the added value in moving away from offering a purely last minute add-on product, to having a tour package that would be the main purpose of his client's trip to Ireland, one which is booked and paid for in advance of their arrival into Ireland.
 
 As part of this agreement to operate the tour itinerary Tom has undertaken to commission a new website that is more professional and user-friendly.  Tom needs the site to act as his principle tool to promote the tour to international clients.  The site needs to look professional and eye-catching, it need to clearly display the details of the tour and the available add-on options pre & post tour.  The site needs to offer a streamlined way to process enquiries, quotes and bookings and it needs to be fully responsive for multiple device sizes.
-  
-<br>
-
+    
+---  
+      
 ## 3. Scope  
 ### 3.1 - Functional Specification  
 #### 3.1.1 - Current feature requirements  
@@ -140,9 +140,9 @@ As part of this agreement to operate the tour itinerary Tom has undertaken to co
 * An image gallery to visually re-encfore the quality and value of the tour.
 * A multi-functional contact form that can handle enguiries, quotes & bookings.
 * Social media links to help re-enforce the brand, to stay connected with the user and for users to use as a promotion tool on our behalf.
-<br>
-<br>  
-     
+
+---      
+       
 ## 4. Structure  / Information Design  (IA)
 ### 4.1 -   
 
@@ -186,10 +186,9 @@ Objects common to all pages will be located in the ***footer***
 * Social media links to help re-enforce the brand, to stay connected with the user and for users to use as a promotion tool on our behalf. 
   
 ![Information Architecture](./assets/images/ia.png)
+    
+---    
   
-<br>  
-<br>
-
 ## 5. wireframes
 [Desktop](https://stephenj2020.github.io/CI-MS1-IrishSpiritTours/assets/images/wireframe-desktop.png)  
 ![Desktop](./assets/images/rm-wireframe-desktop.png)     
@@ -197,10 +196,9 @@ Objects common to all pages will be located in the ***footer***
 ![Tablet](./assets/images/rm-wireframe-tablet.png)    
 [Mobile](https://stephenj2020.github.io/CI-MS1-IrishSpiritTours/assets/images/wireframe-mobile.png)  
 ![Mobile](./assets/images/rm-wireframe-mobile.png)  
- 
-<br>  
-<br>  
-       
+   
+---   
+         
 ## 6. Visual Design   
 For my colour palette I looked at a number of different sites (all of which are referenced in the credits section) but the site that provided the most inspiration was [99designs](https://99designs.ie/blog/creative-inspiration/color-combinations/)  
 as it really helped me to visualise how the colours might interact with each other.  So I choose the following colour scheme from 99designs as the basis of my colour palette.  
@@ -227,7 +225,8 @@ the desktop view and I'm satisfied it works.
   
 Having started to apply the styling to the site I feel that the dark blue ![#316879](https://placehold.it/20/316879/316879) `#316879` is not blending enough with the rest of the colour palette  
 so I have amended to a slightly lighter blue ![#35798e](https://placehold.it/20/35798e/35798e) `#35798e`  
-  
+
+  --- 
     
 ## Technologies Used
 
@@ -240,46 +239,42 @@ so I have amended to a slightly lighter blue ![#35798e](https://placehold.it/20/
   
 ### Frameworks, Libraries & Programs Used
 
- [Bootstrap 4.1.3:](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
-
-- Bootstrap Grid was used for responsiveness as well as features such as Collapse, Carousel & Forms.
-
-[Font Awesome 5.6.3:](https://fontawesome.com/)
-
-- Font Awesome was used for the Icons throughout the site.
-
- [Google Fonts:](https://fonts.google.com/)
-
-- Google Fonts was used to add font families Oswald & Roboto for the site text.
-
- [jQuery:](https://jquery.com/)
-
-- jQuery used by Bootstrap for features such as Collapse & Carousel.
-
-[Gitpod](https://gitpod.io/)
-
-- Gitpod was the IDE used to create the site and for version control.
-
-[GitHub:](https://github.com/)
-
-- GitHub is used to store the projects code after being pushed from Gitpod.
-
-[Balsamiq:](https://balsamiq.com/)
-
-- Balsamiq was used to create wireframes during the design process.
+* [__Bootstrap 4.1.3__](https://getbootstrap.com/docs/4.1/getting-started/introduction/) Bootstrap Grid was used for responsiveness as well as features such as Collapse, Carousel & Forms..
+* [__Balsamiq__](https://balsamiq.com) Balsamiq was used to create wireframes during the design process.
+* [__Google Fonts__](https://fonts.google.com) used for project fonts.
+* [__Gitpod__](https://gitpod.io) Gitpod was the IDE used to create the site and for version control.
+* [__Github__](https://github.com/) GitHub is used to store the projects code after being pushed from Gitpod.
+* [__FreeLogoDesign__](https://editor.freelogodesign.org/en/logo/edit/4fbd3a25-d057-49d5-a552-98cb7b40d545) used for logo creation.
+* [__Fontawesome__](https://fontawesome.com) Font Awesome was used for the Icons throughout the site.
+* [__99designs__](https://99designs.ie/blog/creative-inspiration/color-combinations/) used for color palette selection.
+* [__TinyPNG__](https://tinypng.com/) used to compress image sizes.
+* Mozilla DevTools used for debugging and testing.
+* Google DevTools used for debugging and testing.
+* [__W3Scool__](https://www.w3schools.com/) used as a general source of information.
+* [__Unsplash__](https://unsplash.com/) used to download images for the website.
+* [__Rawpixel__](https://www.rawpixel.com/free-images?sort=shuffle&premium=free&page=1) used to download images for the website.
+* [__Stackoverflow__](https://stackoverflow.com/) used as one of my main sources of information.
+* [__W3C Markup Validator__](https://validator.w3.org/) Used to test HTML code validation.
+* [__W3C CSS Validatior - Jigsaw__](https://jigsaw.w3.org/css-validator/) Used to test CSS code validation.
+* [__Mobile-Friendly Test__](https://search.google.com/test/mobile-friendly?id=ZteYI-6sVDRnrLMf_Chjmw) used to check if code is Mobile Friendly.
+* [__Am I Responsive__](http://ami.responsivedesign.is/) used to create Mock-up images to represent the site's responsiveness.
+* [__WAVE__](https://wave.webaim.org/) used as a Web Accessibility Evaluation Tool.
   
+---  
   
 ## Development Notes:  
   
 ### Some of the challenges I faced during the Development process and how I addressed them:
 
--  One of the first issue I encounted was with the fixed Navbar, the page text and images where scrolling over the Navbar rather than behind it.  I googled this issue and I found post on [Stackoverflow](https://stackoverflow.com/questions/23287610/my-fixed-navbar-doesnt-work-properly) which help me realise that I need to add the z-index attribute to my container--nav class in order to elevate the Navbar layer above the rest of the page.
+-  One of the first issue I encounted was with the fixed Navbar, the page text and images where scrolling over the Navbar rather than behind it.  I googled this issue and I found post on [Stackoverflow](https://stackoverflow.com/questions/23287610/my-fixed-navbar-doesnt-work-properly) which help me realise that I needed to add the z-index attribute to my container--nav class in order to elevate the Navbar layer above the rest of the page.
 
 -  The next thing I needed help with was overriding the background colour of the Bootstrap navbar and I found this post [GeeksforGeeks](https://www.geeksforgeeks.org/how-to-change-navigation-bar-color-in-bootstrap/) which helped me figure out that as well as setting the background colour in my container--nav class, which can be viewed on line 44 of style.css, it also helped me realise that rather than trying to override the bootstrap class bg-dark, I could just remove it.
 
--  I had initially included a modal on index.html for a cookies policy and this article by [TutorialRepublic](https://www.tutorialrepublic.com/faq/how-to-launch-bootstrap-modal-on-page-load.php#:~:text=You%20can%20use%20the%20Bootstrap,to%20subscribe%20the%20website%20newsletter.https://www.tutorialrepublic.com/faq/how-to-prevent-bootstrap-modal-from-closing-when-clicking-outside.php) figure out how to auto-launch the modal upon page load for index.html and it also provided me with a Javascript code snippet to achieve this.  However after speaking with my Mentor at my mid-point review I decided to remove the modal for two reasons. Firstly as I realised that I needed additional Javascript in order to access local storage to be able to save the users input, otherwise the modal for the cookie policy would appear each time index.html was reloaded, i.e. if you navigated to a secondary page and then returned to index.html. The second reason that I decided to remove the modal was because my Mentor expalined that as my site is a static site it isn't actually using cookie so it was wrong to try to include a feature that doesn't actually exist yet and that I should wait until my MS2 before I implement a modal into my project.
+-  I had initially included a modal on index.html for a cookies policy and this article by [TutorialRepublic](https://www.tutorialrepublic.com/faq/how-to-launch-bootstrap-modal-on-page-load.php#:~:text=You%20can%20use%20the%20Bootstrap,to%20subscribe%20the%20website%20newsletter.https://www.tutorialrepublic.com/faq/how-to-prevent-bootstrap-modal-from-closing-when-clicking-outside.php) helped me figure out how to auto-launch the modal upon page load for index.html and it also provided me with a Javascript code snippet to achieve this.  However after speaking with my Mentor at my mid-point review I decided to remove the modal for two reasons. Firstly as I realised that I needed additional Javascript in order to access local storage to be able to save the users input, otherwise the modal for the cookie policy would appear each time index.html was reloaded, i.e. if you navigated to a secondary page and then returned to index.html. The second reason that I decided to remove the modal was because my Mentor expalined that as my site is a static site it isn't actually using cookies (which I already understood), it was wrong to try to include a feature that doesn't actually exist yet and that I should wait until my MS2 before I implement a modal into my project.
 
--  I wanted to implement a carousel for the client reviews and while I had viewed the carousel options available in [Booststrap](https://getbootstrap.com/docs/4.0/components/carousel/) none of these provided what I wanted and I was unsure of how to properly modify the Bootstrap carousel component to achieve what I wanted.  Therefore I decided to search for an external code snippet that did what I wanted and I found exactly what I was looking for at [Bootsnipp](https://bootsnipp.com/snippets/BxA1B). I actually found it very beneficial doing it this way as I was able to unpick the external code to figure out what each element of it did and once I had done that I was then able to modify the code and apply my own styling to it. In the Bootstrap documentation I had read that data-ride controls the scrolling or slide action of the carousel and I also read about using the data-pause="hover" attribute to make the carousel pause when the user hovers the mouse over the carousel but I was a little unsure of how this worked so I also viewed the [W3Cschools](https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_ref_js_carousel_pause_data&stacked=h) example of this and I found it very helpful.
+-  I wanted to implement a carousel for the client reviews and while I had viewed the carousel options available in [Booststrap](https://getbootstrap.com/docs/4.0/components/carousel/) none of these provided what I wanted and I was unsure of how to properly modify the Bootstrap carousel component to achieve what I wanted.  Therefore I decided to search for an external code snippet that did what I wanted and I found exactly what I was looking for at [Bootsnipp](https://bootsnipp.com/snippets/BxA1B). I actually found it very beneficial doing it this way as I was able to unpick the external code to figure out what each element of it did and once I had done that I was then able to modify the code and apply my own styling to it. In the Bootstrap documentation I had read that data-ride controls the scrolling or slide action of the carousel and I also read about using the data-pause="hover" attribute to make the carousel pause when the user hovers the mouse over the carousel but I was a little unsure of how this worked so I also viewed the [W3Cschools](https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_ref_js_carousel_pause_data&stacked=h) example of this and I found it very helpful.  
+    In addition to this, I did face another issue with implementing this code snippet for the Carousel as it didn't follow the Mobile first methodology and was clearly written with desktops in mind.  So this did pose a challenge for me to be able to adapt this code to make it responsive to smaller device screen sizes. The code snippet was formatted in two Carousel rows, each with three cards.  It also has a scroll indicator that appears above the carousel items, two dots, one for each row.  
+    I had initially thought I could manage this by just applying the display attribute `d-none` or `d-md-block` to the code snippet as it was, but I soon realised that I couldn't
 
 -  Another issue I came across while building my site was how to make embedded videos responsive.  Again I turned to google and I found an article by [cssTricks](https://css-tricks.com/fluid-width-video/) which had a code snippet to make an iframe video fluid width, which I have used in several places.   
 ![videoWrapper](./assets/images/videoWrapper.png) 
@@ -293,10 +288,46 @@ so I have amended to a slightly lighter blue ![#35798e](https://placehold.it/20/
 
 
 
+---
+
+## Testing
+
+  ### Code validation
+
+The W3C HTML Validator and W3C CSS Validator Services were used to validate the project to ensure there were no syntax errors in the project.
+
+-  [W3C Markup Validator](https://validator.w3.org) - [Results]()
+
+-  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results])
 
 
 
-# Testing  
+### Accessibility Testing
+
+Google Lighthouse and WAVE Web Accessibility Evaluation Tool were used to test the site's accessibility. 
+
+The site was also tested manually to make sure that it was navigable by using the tab key, ensuring elements had correct focus states.
+
+![Google Lighthouse Results]()
+
+![WAVE Web Accessibility Evaluation Tool Results]()
+
+
+### Responsive Testing
+
+The site's repsonsiveness was tested using:
+
+- [Google's Mobile Friendly Tester](https://search.google.com/test/mobile-friendly) - [Results](https://github.com/StephenJ2020/CI-MS1-IrishSpiritTours/blob/master/assets/images/rm-mobile-friendl.png)   
+  
+   A Page loading warning does come up for itinerary.html & add-ons.html but the issues relate to the iFrames containing the YouTube videos on these pages and I don't think I can do anything about this as the content of the iFrames is loaded from an external source.
+
+- ![Chrome DevTools Device Mode](https://github.com/StephenJ2020/CI-MS1-IrishSpiritTours/blob/master/assets/images/rm-device-mode.png)
+
+The site was also tested by manually resizing the browser to check for any issues at uncommon screen sizes.
+
+No known issues were found.
+
+---
 
 <p>
     <a href="https://jigsaw.w3.org/css-validator/check/referer">
@@ -396,9 +427,9 @@ Informing the browser of your intention is as simple as adding a link tag to you
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
-
-
-
+  
+---  
+  
 ## Deployment
 
 ### GitHub Pages
@@ -444,7 +475,9 @@ $ git clone https://github.com/StephenJ2020/CI-MS1-IrishSpiritTours
 > remote: Compressing objects: 100% (8/8), done.
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
-```
+```  
+  
+  ---
 
 ## Credits
   
