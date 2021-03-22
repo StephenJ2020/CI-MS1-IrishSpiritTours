@@ -260,174 +260,23 @@ so I have amended to a slightly lighter blue ![#35798e](https://placehold.it/20/
 * [__Am I Responsive__](http://ami.responsivedesign.is/) used to create Mock-up images to represent the site's responsiveness.
 * [__WAVE__](https://wave.webaim.org/) used as a Web Accessibility Evaluation Tool.
   
----  
-  
-## Development Notes:  
-  
-### Some of the challenges I faced during the Development process and how I addressed them:
+--- 
+   
+# **TESTING**  
 
--  One of the first issue I encounted was with the fixed Navbar, the page text and images where scrolling over the Navbar rather than behind it.  I googled this issue and I found post on [Stackoverflow](https://stackoverflow.com/questions/23287610/my-fixed-navbar-doesnt-work-properly) which help me realise that I needed to add the z-index attribute to my container--nav class in order to elevate the Navbar layer above the rest of the page.
+The entire testing process, issues and bugs found during development, solutions, and final results can be found [here]().
 
--  The next thing I needed help with was overriding the background colour of the Bootstrap navbar and I found this post [GeeksforGeeks](https://www.geeksforgeeks.org/how-to-change-navigation-bar-color-in-bootstrap/) which helped me figure out that as well as setting the background colour in my container--nav class, which can be viewed on line 44 of style.css, it also helped me realise that rather than trying to override the bootstrap class bg-dark, I could just remove it.
+- Development Notes
+- HTML Validation Testing
+- CSS Validation Testing
+- Testing Performance
+- Testing Accessibility
+- Testing User Stories
+- Code Institute Peer Code Review
+- Manual Testing
 
--  I had initially included a modal on index.html for a cookies policy and this article by [TutorialRepublic](https://www.tutorialrepublic.com/faq/how-to-launch-bootstrap-modal-on-page-load.php#:~:text=You%20can%20use%20the%20Bootstrap,to%20subscribe%20the%20website%20newsletter.https://www.tutorialrepublic.com/faq/how-to-prevent-bootstrap-modal-from-closing-when-clicking-outside.php) helped me figure out how to auto-launch the modal upon page load for index.html and it also provided me with a Javascript code snippet to achieve this.  However after speaking with my Mentor at my mid-point review I decided to remove the modal for two reasons. Firstly as I realised that I needed additional Javascript in order to access local storage to be able to save the users input, otherwise the modal for the cookie policy would appear each time index.html was reloaded, i.e. if you navigated to a secondary page and then returned to index.html. The second reason that I decided to remove the modal was because my Mentor expalined that as my site is a static site it isn't actually using cookies (which I already understood), it was wrong to try to include a feature that doesn't actually exist yet and that I should wait until my MS2 before I implement a modal into my project.
-
--  I wanted to implement a carousel for the client reviews and while I had viewed the carousel options available in [Booststrap](https://getbootstrap.com/docs/4.0/components/carousel/) none of these provided what I wanted and I was unsure of how to properly modify the Bootstrap carousel component to achieve what I wanted.  Therefore I decided to search for an external code snippet that did what I wanted and I found exactly what I was looking for at [Bootsnipp](https://bootsnipp.com/snippets/BxA1B). I actually found it very beneficial doing it this way as I was able to unpick the external code to figure out what each element of it did and once I had done that I was then able to modify the code and apply my own styling to it. In the Bootstrap documentation I had read that data-ride controls the scrolling or slide action of the carousel and I also read about using the data-pause="hover" attribute to make the carousel pause when the user hovers the mouse over the carousel but I was a little unsure of how this worked so I also viewed the [W3Cschools](https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_ref_js_carousel_pause_data&stacked=h) example of this and I found it very helpful.  
-    In addition to this, I did face another issue with implementing this code snippet for the Carousel as it didn't follow the Mobile first methodology and was clearly written with desktops in mind.  So this did pose a challenge for me to be able to adapt this code to make it responsive to smaller device screen sizes. The code snippet was formatted in two Carousel rows, each with three cards.  It also has a scroll indicator that appears above the carousel items, two dots, one for each row.  
-    I had initially thought I could manage this by just applying the display attribute `d-none` or `d-md-block` to the code snippet as it was, but I soon realised that I couldn't
-
--  Another issue I came across while building my site was how to make embedded videos responsive.  Again I turned to google and I found an article by [cssTricks](https://css-tricks.com/fluid-width-video/) which had a code snippet to make an iframe video fluid width, which I have used in several places.   
-![videoWrapper](./assets/images/videoWrapper.png) 
-
--  On some of the videos I didn't want to show the whole video as some of them are a little long. At first I wasn't sure how to achieve this so I read this post by [Business2Community.com](https://www.business2community.com/youtube/embed-youtube-video-specific-start-time-01010991) and turned out that with YouTube videos it's very easy to do!
-
--  For the Gallery I wanted the a hover zoom effect but I wasn't sure how to achieve this so I turned to this code snippet from [W3Cschools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_zoom_hover)
-
--  For the contact form I took some design inspiration from [wpforms.com](https://wpforms.com/beautiful-contact-form-designs-you-can-steal/)  
-![contact form](./assets/images/rm-contact.png) ![suitcase form](./assets/images/rm-suitcase-form.png) 
-
-
-
----
-
-## Testing
-
-  ### Code validation
-
-The W3C HTML Validator and W3C CSS Validator Services were used to validate the project to ensure there were no syntax errors in the project.
-
--  [W3C Markup Validator](https://validator.w3.org) - [Results]()
-
--  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results])
-
-
-
-### Accessibility Testing
-
-Google Lighthouse and WAVE Web Accessibility Evaluation Tool were used to test the site's accessibility. 
-
-The site was also tested manually to make sure that it was navigable by using the tab key, ensuring elements had correct focus states.
-
-![Google Lighthouse Results]()
-
-![WAVE Web Accessibility Evaluation Tool Results]()
-
-
-### Responsive Testing
-
-The site's repsonsiveness was tested using:
-
-- [Google's Mobile Friendly Tester](https://search.google.com/test/mobile-friendly) - [Results](https://github.com/StephenJ2020/CI-MS1-IrishSpiritTours/blob/master/assets/images/rm-mobile-friendl.png)   
-  
-   A Page loading warning does come up for itinerary.html & add-ons.html but the issues relate to the iFrames containing the YouTube videos on these pages and I don't think I can do anything about this as the content of the iFrames is loaded from an external source.
-
-- ![Chrome DevTools Device Mode](https://github.com/StephenJ2020/CI-MS1-IrishSpiritTours/blob/master/assets/images/rm-device-mode.png)
-
-The site was also tested by manually resizing the browser to check for any issues at uncommon screen sizes.
-
-No known issues were found.
-
----
-
-<p>
-    <a href="https://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="https://jigsaw.w3.org/css-validator/images/vcss"
-            alt="Valid CSS!" />
-    </a>
-</p>
-
-
-
-Bugs  
-
-
-
-Carousel for Client Reviews:
-I had created an ID called #circle-container to create and format the circle around the first profile picture but then I had reused it for all of the 
-profile picture.  But then I had mistakenly re-used this ID for all the other profile pictures as well. To fix this I changed the ID to a Class.
-  
-Carousel for Client Reviews:
-Rectangle borders were different sizes so I adjusted the amount of text visible above the "read more" Bootstrap Collapse link in order to square up  
-the boarder of each carousel card.
-
-Contact form I had copied in code from Bootstrap but I had forgot to update the input ID's and had copied and pasted a number of of time.  This was hightlighted 
-to me in the Problems tab of Gitpod. To fix this I simply updated each label / imput with a unique ID.  
-
-Newsletter:
-The sign-up form was not maintaining it's correct layout on Mobile and Tablets. I added the Bootstrap Form Grid System by add divs with the classes  
-.form-row and .form-group and I also adjusted the .Col for Tablet & Desktop to .col-8 with an .offset-2. As per the screenshots the form now displays  
-correctly on Mobile, Tablet and Desktop.
-
-Rename add-on.html to add-ons.html to match AI Design.
-  
-Unintentionally broke the function and layout of the add-ons.html page. Had to use my last commit in Github to identify which classes I had 
-inadvertently modified so that i could manually reinstate them. As it turned out the initial fault was caused by the two new classes that I added  
-into the add-ons.html file.  These being .overlay--anchor and .overlay, but I didn't think they had caused the problem as the overlay affect did  
-display, albeit out of page as the rest of the page layout had changed. I mistakenly made the assumption that it was changes to the .itinerary--container  
-that I had made during my previous update to the itinerary.html file as I had forgotten that I had re-used some of the classes from that file to  
-create add-ons.html. I then made additional changes to the class .itinerary--container which then made the fault worst. Having retraced my steps using the  
-commit log I then realised that it was something with in the two new classes that I had literally just added, that was causing the page layout and function  
-to break. I will now examine these two new classes to see if I can identify what the issue is.
-
-  
-   <!--"Read More" Text section--> <!-- Bootstrap code that I have added and modified -->
-                                                            <div class="card card-body collapse p-0" id="reviewRob" style="border: none;">
-                                                                <p class="card card-body collapse p-0" id="reviewRob1" style="border: none;">
-                                                                    lucky enough that our dates coincided with the Trinity Summer Series of outdoor concerts - What a wonderful 
-                                                                    city centre venue for outdoor concerts!
-                                                                </p>
-                                                            </div>
-                                                            <!-- Read More "collapse" link -->                                
-                                                            <div>
-                                                                <a data-toggle="collapse" href="#reviewRob,#reviewRob1" role="button" aria-expanded="false" aria-controls="reviewRob">
-                                                                    Read more
-
-
- <!-- "Read More" Text section--> <!-- Bootstrap code that I have added and modified -->
-                                                            <div class="card card-body collapse p-0" id="reviewRenate,renateReview" style="border: none;">
-                                                                <p>
-                                                                    food here (maybe I shouldn't say that but it's true). Plus 
-                                                                    I was so happy to meet many lovely people from many parts of Europe, we were all different ages but everyone was so friendly and happy.
-                                                                </p>
-                                                            </div>
-                                                            <!-- Read More "collapse" link -->                                
-                                                            <div>
-                                                                <a data-toggle="collapse" href="#reviewRenate" role="button" aria-expanded="false" aria-controls="renateReview">
-                                                                    Read more
-
-
-  https://web.dev/external-anchors-use-rel-noopener/?utm_source=lighthouse&utm_medium=devtools  
-  Links to cross-origin destinations are unsafe
-May 2, 2019 • Updated Aug 28, 2019
-Appears in: Best Practices audits
-When you link to a page on another site using the target="_blank" attribute, you can expose your site to performance and security issues:
-
-The other page may run on the same process as your page. If the other page is running a lot of JavaScript, your page's performance may suffer.
-The other page can access your window object with the window.opener property. This may allow the other page to redirect your page to a malicious URL.
-Adding rel="noopener" or rel="noreferrer" to your target="_blank" links avoids these issues.
-
-  
-https://web.dev/uses-rel-preconnect/?utm_source=lighthouse&utm_medium=devtools  
-Improve page load speed with preconnect #
-Consider adding preconnect or dns-prefetch resource hints to establish early connections to important third-party origins.
-
-<link rel="preconnect"> informs the browser that your page intends to establish a connection to another origin, and that you'd like the process to start as soon as possible.
-
-Establishing connections often involves significant time in slow networks, particularly when it comes to secure connections, as it may involve DNS lookups, redirects, and several round trips to the final server that handles the user's request.
-
-Taking care of all this ahead of time can make your application feel much snappier to the user without negatively affecting the use of bandwidth. Most of the time in establishing a connection is spent waiting, rather than exchanging data.
-
-Informing the browser of your intention is as simple as adding a link tag to your page:
-
-<link rel="preconnect" href="https://example.com">  
-
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-
-  
+[Back to Content](#content)  
+    
 ---  
   
 ## Deployment
