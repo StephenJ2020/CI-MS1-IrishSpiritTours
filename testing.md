@@ -1,12 +1,22 @@
+# Contents
+- [Contents](#contents)
+- [Development Notes:](#development-notes-)
+- [Bugs](#bugs)
+- [HTML validation](#html-validation)
+  * [index.html](#indexhtml)
+  * [itinerary.html](#itineraryhtml)
+  * [add-ons.html](#add-onshtml)
+  * [gallery.html](#galleryhtml)
+  * [contact.html](#contacthtml)
+- [CSS validation](#css-validation)
+- [Accessibility Testing](#accessibility-testing)
+- [Responsive Testing](#responsive-testing)
 
-
-
-
-
-
-## **Development Notes:**  
+---
   
-### Some of the challenges I faced during the Development process and how I addressed them:
+# Development Notes:  
+  
+**Some of the challenges I faced during the Development process and how I addressed them:**  
 
 -  One of the first issue I encounted was with the fixed Navbar, the page text and images where scrolling over the Navbar rather than behind it.  I googled this issue and I found post on [Stackoverflow](https://stackoverflow.com/questions/23287610/my-fixed-navbar-doesnt-work-properly) which help me realise that I needed to add the z-index attribute to my container--nav class in order to elevate the Navbar layer above the rest of the page.
 
@@ -28,11 +38,10 @@
 -  For the contact form I took some design inspiration from [wpforms.com](https://wpforms.com/beautiful-contact-form-designs-you-can-steal/)  
 ![contact form](./assets/images/rm-contact.png) ![suitcase form](./assets/images/rm-suitcase-form.png) 
 
+---
 
-Bugs  
-
-
-
+# Bugs   
+  
 Carousel for Client Reviews:
 I had created an ID called #circle-container to create and format the circle around the first profile picture but then I had reused it for all of the 
 profile picture.  But then I had mistakenly re-used this ID for all the other profile pictures as well. To fix this I changed the ID to a Class.
@@ -120,11 +129,11 @@ Informing the browser of your intention is as simple as adding a link tag to you
 
 ---
 
-## HTML validation
+# HTML validation  
 
 -  I used [W3C Markup Validator](https://validator.w3.org) to validate my HTML code and the results for each page can be seen below.
 
-### **index.html**  
+## index.html  
   
 ![Index Mock-up](./assets/images/rm-index-responsive.png)  
 ![Validation Errors & Warnings](./assets/images/rm-html-validator-index.png)  
@@ -146,7 +155,7 @@ To view all changes made to correct the initial 54 issues click [here](https://g
 ![Validation Passed](./assets/images/rm-validator-index-passed.png)   
 
 
-### **itinerary.html**      
+## itinerary.html       
 
 ![Itinerary Mock-up](./assets/images/rm-itinerary-responsive.png)
 ![Validation Errors & Warnings](./assets/images/rm-html-validator-itinerary.png)   
@@ -161,7 +170,7 @@ To view all changes made to correct these 38 issues click [here](https://github.
 ![Validation Passed](./assets/images/rm-validator-itinerary-passed.png)   
    
 
-### **add-ons.html**  
+## add-ons.html  
   
 ![Add-Ons Mock-up](./assets/images/rm-add-ons-responsive.png)  
 ![Validation Errors & Warnings](./assets/images/rm-html-validator-add-ons.png)  
@@ -177,7 +186,7 @@ To view all changes made to correct the initial 28 issues click [here](https://g
      
   
 
-### **gallery.html**  
+## gallery.html  
   
 ![Gallery Mock-up](./assets/images/rm-gallery-responsive.png)  
 ![Validation Errors & Warnings](./assets/images/rm-html-validator-gallery.png)  
@@ -191,7 +200,7 @@ To view all changes made to correct the initial 7 issues click [here](https://gi
 ![Validation Passed](./assets/images/rm-validator-gallery-passed.png)      
   
 
-### **contact.html**  
+## contact.html  
   
 ![Contact Mock-up](./assets/images/rm-contact-responsive.png)  
 ![Validation Errors & Warnings](./assets/images/rm-html-validator-contact.png)  
@@ -206,7 +215,7 @@ To view all changes made to correct the initial 13 issues click [here](https://g
 
 ---  
   
-## CSS validation  
+# CSS validation  
   
 -  I used [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) to validate my CSS code and the results for each page can be seen below.
 
@@ -225,8 +234,10 @@ To view all changes made to correct these 3 issues click [here](https://github.c
   
 My CSS code now passed Validation:      
 ![Initial Validation Results](./assets/images/rm-css-validator-passed.png) 
+  
+---  
 
-### Accessibility Testing
+# Accessibility Testing
 
 Google Lighthouse and WAVE Web Accessibility Evaluation Tool were used to test the site's accessibility. 
 
@@ -236,15 +247,23 @@ The site was also tested manually to make sure that it was navigable by using th
 
 ![WAVE Web Accessibility Evaluation Tool Results]()
 
+![Index](./assets/images/rm-lighthouse-index.png)  
+![Index](./assets/images/rm-lighthouse-itinerary.png)  
+![Index](./assets/images/rm-lighthouse-add-ons.png)  
+![Index](./assets/images/rm-lighthouse-gallery.png)  
+![Index](./assets/images/rm-lighthouse-contact.png)  
+  
+---
 
-### **Responsive Testing**
+# Responsive Testing
 
 The site's repsonsiveness was tested using: [Google's Mobile Friendly Tester](https://search.google.com/test/mobile-friendly)  
 ![Results](./assets/images/rm-mobile-friendly.png)   
   
 -   A Page loading warning does come up for itinerary.html & add-ons.html but the issues relate to the iFrames containing the YouTube videos on these pages and I don't think I can do anything about this as the content of the iFrames is loaded from an external source.
   
-I also used Chrome Dev Tools Device Mode to check my site's responsiveness on a number of emulated mobile devices.  This is documented in more detail in the Manual Testing section below.
+I also used Chrome Dev Tools Device Mode to check my site's responsiveness on a number of emulated mobile devices.  This is documented in more detail in the Manual Testing section below.  
+  
 ![Chrome DevTools Device Mode](./assets/images/rm-device-mode.png)
 
 The site was also tested by manually resizing the browser to check for any issues at uncommon screen sizes.

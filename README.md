@@ -1,34 +1,12 @@
 ![Project logo](./assets/images/rm-index-responsive.png)
 
 ![Project logo](./assets/images/logo.png) 
-# Irish Spirit Tours
-<br>    
- 
-      
-## Contents:  
-## 1. Project Description  
-## 2. User Experience  
-
-* **2.1.1 - Business objectives**  
-* **2.1.2 - User needs**  
-* **2.1.3 - User persona's** 
-## 3. Scope  
-* **3.1 - Features**  
-* **3.1.1 - Current feature requirements**    
-* **3.1.2 - Future feature requirements**  
-## 4. Structure  
-* ### 4.1 - 
-## 5. wireframes
-## 6. Visual Design  
-## Technologies  
-## Testing  
-## Deployment  
-## Credits 
-
-  
+**Irish Spirit Tours**
+   
+   
 ---   
   
-## 1. Project Description 
+# Project Description   
 Code Institute: User-Centric Front-End Development  
   
 The Milestone 1 project assignment is to build a static front-end website using the technologies that we have learned  
@@ -45,15 +23,53 @@ The idea for this tour came from the fact that the town of Celbridge, in Co. Kil
 For the purpose of my Milestone 1 project we're going to assume that the final tour itinerary has been agreed and that the fictional family run tour operator, Irish Spirit Tours, has undertaken to incorporate this itinerary into thier business as a means of expanding their current product offering.  
   
 On that basis I have used the five planes of UX methodology to identify the user needs, the features required, the most logical way to structure the information and the functionality required in order to produce a wireframe that will form the blueprint for this Milestone project.
-<br>
-<br>
   
-## 2. Goal and Requirements 
-### 2.1 Strategy  
-  
+---    
+      
+# Contents
+
+- [Project Description](#project-description)
+- [Contents](#contents)
+- [UX Design](#ux-design)
+  * [Strategy](#strategy)
+    + [User Stories:](#user-stories-)
+      - [First Time Visitor Goals](#first-time-visitor-goals)
+      - [Returning Visitor Goals](#returning-visitor-goals)
+      - [Frequent User Goals](#frequent-user-goals)
+    + [User personas](#user-personas)
+    + [The Business Scenario](#the-business-scenario)
+- [Scope](#scope)
+  * [Functional Specification](#functional-specification)
+    + [Current feature requirements:](#current-feature-requirements-)
+    + [Future feature requirements:](#future-feature-requirements-)
+    + [Content Requirements:](#content-requirements-)
+- [Structure](#structure)
+  * [Information Design  (IA)](#information-design---ia-)
+  * [5. wireframes](#5-wireframes)
+  * [6. Visual Design](#6-visual-design)
+- [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+    + [Frameworks, Libraries & Programs Used](#frameworks--libraries---programs-used)
+- [TESTING](#testing)
+- [Deployment](#deployment)
+  * [GitHub Pages](#github-pages)
+  * [Forking the GitHub Repository](#forking-the-github-repository)
+  * [Making a Local Clone](#making-a-local-clone)
+- [Credits](#credits)
+  * [Media](#media)
+  * [Quotes:](#quotes-)
+  * [Research for choice of Colour palette:](#research-for-choice-of-colour-palette-)
+  * [Tourism websites from which I took inspiration when planning my project:](#tourism-websites-from-which-i-took-inspiration-when-planning-my-project-)
+- [Acknowledgements](#acknowledgements)
+
+
 ---  
-    
-#### 2.1.2 - User Stories:  
+
+# UX Design    
+ 
+## Strategy     
+   
+### User Stories:  
     
 The user is looking to get more out of their trip to Ireland. They want to get a little bit off the beaten track but they don't want the hassle of having to organise everything themselves.  They are interested in seeing some of the culture and history of Ireland's Ancient East but they enjoy sampling quality local food and they are keen to experience some of the craft beers & spirits that Ireland is fast establishing a name for.  
 
@@ -76,26 +92,26 @@ The user is looking to get more out of their trip to Ireland. They want to get a
    1. As a Frequent User, I want to be able to subcribe to the tour operators Newletter so that I can receive monthly update with information about amendments to the tour, up-coming special events and promotional discounts.
 
 
-#### 2.1.3 - User personas   
+### User personas   
 
-What are User Personas and why use them?  
+**What are User Personas and why use them?**  
 Well this LinkedIn article by [Boz Zou](https://www.linkedin.com/pulse/how-many-personas-too-boz-zou/) explains that a "Persona is essentially a design tool to create empathy with a group of real users. Personas are fictional characters (but based upon robust research with real people) designed to represent a group of people with similar characters, values, and behaviours. Personas are most useful when they are paired with scenarios to provide contexts and lead to insights thus guide design decisions."  
 As per this article by [Jared M. Spool](https://articles.uie.com/benefits_of_personas/) User Personas can help prevent "grounding", if "designers ground themselves in the design, they run the serious risk of creating an interface that only they can use".  Instead of asking, “How would I use this system?” User Personas focus you to ask “How would Rob use the site?”  
 While I did not engage in research specific to this project in order to create these User Personas, I did draw on my experience of working in the Irish Travel Industry for 20 years, during which time I dealt with clients and suppliers on a daily basis.  
   
-So who exactly are the users who are interested in using the internet to search for a tour like this.  Well lets look at the Personas below to discover more about our users:  
+ - So who exactly are the users who are interested in using the internet to search for a tour like this.  Well lets look at the Personas below to discover more about our users:  
 
-### ***Rob - Aged 26 - From London***  
+ - ***Rob - Aged 26 - From London***  
 Rob works in the city and lives in trendy Camden with his girlfriend.  Rob is a bit of a self-confessed hipster who is really into the craft beer scene.  Rob wants to surprise his girlfriend by booking them a short holiday although neither of them are interested in your standard package sun holiday and his girlfriend is quite into history and culture and she is more of a foodie.  Rob has come across a number of award winning craft beers from Ireland recently and decides that Ireland would be the perfect place for them to go as he can indulge his passion for craft beer and there's plenty of history and culture to keep his girlfriend happy.  
    
-### ***Renate - Aged 35 - From Sao Paulo***  
+ - ***Renate - Aged 35 - From Sao Paulo***  
 Renate is a strong independent career focused woman who works for a U.S. multi-national in Sao Paulo and she loves to travel as much as possible. Her favourite program is Game of Thrones and her all time favourite film is Braveheart.  For many years she has dreamed of travelling to Europe and in particular Ireland, ever since she realised that Braveheart was filmed here.  Renate loves meeting new people and experiencing new cultures and is quite happy to travel by herself but she does prefer to join up with a local tour group once she arrives in her destination as she finds this is the best way to meet like-minded people.  
 
-### ***Hans - Aged 52 - From Colonge***  
+ - ***Hans - Aged 52 - From Colonge***  
 Hans is somewhat of your sterotypical German, he loves beer and is partial to a good Whiskey. When it comes to beer Hans doesn't talk about craft beer, he talks about real beer as Hans doesn't consider these mass produced lagers to be real beer.  Hans has been married for 31 years and has two grown-up children.  While Hans and his wife go on holiday together every year they both like to get away separately every other year with a small group of their closest friends.  Hans has been to Ireland a number of times before with his work and loves the atmophere and the laid-back nature of the Irish people he has met. When a friend of Hans mentions that he has never been to Ireland but he has read alot recently about the many new mrico-breweries and a resurgence in Irish Distilleries they decide that Ireland should be the destination for their next short break.  
-<br>
+ 
   
-### ***Tom O'Donoghue: Owner of Irish Spirit Tours***  
+ - ***Tom O'Donoghue: Owner of Irish Spirit Tours***  
   
 Tom started his career in his early 20's working for a chauffeur company that serviced the corporate and high-end leisure market. For the 10 years that Tom worked for this company he was a chauffeur and qualified tour guide and he mainly drove 24 seater mini-coaches.  In his late 20's Tom got married and started a family, by his early 30's Tom spotted an opportunity to go out on his own and he decided to buy his own 16 seater mini-bus and to start operating a series of day-trips from Dublin. Over the years the business has grown and Tom has continue to invest in the business by buying a second 16 seater mini-bus and in recent years he has replaced his original mini-bus with a brand new luxary 24 seater mini-coach.  
   
@@ -109,12 +125,16 @@ Celbridge Tourism and Heritage Forum approached a number of Irish based tour ope
 The group had interest from two of the five tour operators that they approached but Tom was by far the most enthusiastic about the new possibilities that this tour itinerary presented his small family run company.  Irish Spirit Tours have traditionally promoted their products as a series of day-trips aimed as an add-on to the itineraries of overseas tourists who have already made their way to Dublin.  With the creation of this new 6 day tour Tom can see the added value in moving away from offering a purely last minute add-on product, to having a tour package that would be the main purpose of his client's trip to Ireland, one which is booked and paid for in advance of their arrival into Ireland.
 
 As part of this agreement to operate the tour itinerary Tom has undertaken to commission a new website that is more professional and user-friendly.  Tom needs the site to act as his principle tool to promote the tour to international clients.  The site needs to look professional and eye-catching, it need to clearly display the details of the tour and the available add-on options pre & post tour.  The site needs to offer a streamlined way to process enquiries, quotes and bookings and it needs to be fully responsive for multiple device sizes.
-    
+
+[Back to Content](#content)  
+
 ---  
       
-## 3. Scope  
-### 3.1 - Functional Specification  
-#### 3.1.1 - Current feature requirements  
+# Scope   
+
+## Functional Specification   
+
+### Current feature requirements:     
 * Fully responsive website that will automatically adapt for for desktop, tablet and mobile devices.
 * A navigation bar that will be fixed to the top of the screen so that it is always visible, even as the user scrolls down the page.  
 * A unique hero image for each page that will visually communicate the content contained within the page.
@@ -124,11 +144,13 @@ As part of this agreement to operate the tour itinerary Tom has undertaken to co
 * A page that will allow the user to extend their trip either pre or post tour and present a list of Add-On's that will allow the user to customise their tour.
 * A gallery page to visually re-enforce the quality of the tour.
 * A Contact Us page that will contain a multi-fucntional form to enable the user to make an enquiry, request a quote or make a booking.
-* A Get a Quote button on the right of the navbar that will link to the multi-functional form on the Contact Us page.
-#### 3.1.2 - Future feature requirements  
+* A Get a Quote button on the right of the navbar that will link to the multi-functional form on the Contact Us page.  
+  
+### Future feature requirements:    
 * The addition of an interactive map on the Itinerary page.
-* The addition of a language selection option so that users can access the site in their own language.
-### 3.2 - Content Requirements  
+* The addition of a language selection option so that users can access the site in their own language.  
+  
+### Content Requirements:    
 * An overview of the comapny and the main product i.e. the tour.  
 * A text area with link to entice the user to explore the full tour itinerary.  
 * A text area with link to entice the user to explore the full list of options available to customise the tour.  
@@ -139,13 +161,16 @@ As part of this agreement to operate the tour itinerary Tom has undertaken to co
 * The full list of optional pre & post tour add-on's.  
 * An image gallery to visually re-encfore the quality and value of the tour.
 * A multi-functional contact form that can handle enguiries, quotes & bookings.
-* Social media links to help re-enforce the brand, to stay connected with the user and for users to use as a promotion tool on our behalf.
+* Social media links to help re-enforce the brand, to stay connected with the user and for users to use as a promotion tool on our behalf.  
+
+ [Back to Content](#content)  
 
 ---      
        
-## 4. Structure  / Information Design  (IA)
-### 4.1 -   
+# Structure  
 
+## Information Design  (IA)
+  
 Using Dan Brown's 8 Principles Of Information Architecture as described by [careerfoundry](https://careerfoundry.com/en/blog/ux-design/a-beginners-guide-to-information-architecture/) I now need to group the content (objects) from the contents requirements above so that   
 I can define the structure / design (Information Architecture) of the site.  
   
@@ -186,8 +211,7 @@ Objects common to all pages will be located in the ***footer***
 * Social media links to help re-enforce the brand, to stay connected with the user and for users to use as a promotion tool on our behalf. 
   
 ![Information Architecture](./assets/images/ia.png)
-    
----    
+      
   
 ## 5. wireframes
 [Desktop](https://stephenj2020.github.io/CI-MS1-IrishSpiritTours/assets/images/wireframe-desktop.png)  
@@ -197,7 +221,7 @@ Objects common to all pages will be located in the ***footer***
 [Mobile](https://stephenj2020.github.io/CI-MS1-IrishSpiritTours/assets/images/wireframe-mobile.png)  
 ![Mobile](./assets/images/rm-wireframe-mobile.png)  
    
----   
+
          
 ## 6. Visual Design   
 For my colour palette I looked at a number of different sites (all of which are referenced in the credits section) but the site that provided the most inspiration was [99designs](https://99designs.ie/blog/creative-inspiration/color-combinations/)  
@@ -226,11 +250,13 @@ the desktop view and I'm satisfied it works.
 Having started to apply the styling to the site I feel that the dark blue ![#316879](https://placehold.it/20/316879/316879) `#316879` is not blending enough with the rest of the colour palette  
 so I have amended to a slightly lighter blue ![#35798e](https://placehold.it/20/35798e/35798e) `#35798e`  
 
+[Back to Content](#content)  
+
   --- 
     
-## Technologies Used
+# Technologies Used  
 
-### Languages Used
+## Languages Used
 
 -  [HTML5](https://en.wikipedia.org/wiki/HTML5)
 
@@ -260,11 +286,13 @@ so I have amended to a slightly lighter blue ![#35798e](https://placehold.it/20/
 * [__Am I Responsive__](http://ami.responsivedesign.is/) used to create Mock-up images to represent the site's responsiveness.
 * [__WAVE__](https://wave.webaim.org/) used as a Web Accessibility Evaluation Tool.
   
+[Back to Content](#content)  
+
 --- 
    
-# **TESTING**  
+# TESTING  
 
-The entire testing process, issues and bugs found during development, solutions, and final results can be found [here]().
+The entire testing process, issues and bugs found during development, solutions, and final results can be found [here](https://github.com/StephenJ2020/CI-MS1-IrishSpiritTours/blob/master/testing.md).
 
 - Development Notes
 - HTML Validation Testing
@@ -279,9 +307,9 @@ The entire testing process, issues and bugs found during development, solutions,
     
 ---  
   
-## Deployment
+# Deployment
 
-### GitHub Pages
+## GitHub Pages
 
 This project was deployed to GitHub Pages following these steps:
 
@@ -297,7 +325,7 @@ This project was deployed to GitHub Pages following these steps:
 10. You will now see a link to the deployed website  [See Visual Aid](https://github.com/StephenJ2020/CI-MS1-IrishSpiritTours/blob/master/assets/images/github-deployed.png)  
 11. To view the deployed website [click here!](https://stephenj2020.github.io/CI-MS1-IrishSpiritTours/index.html)  
 
-### Forking the GitHub Repository
+## Forking the GitHub Repository
 
 By forking the GitHub Repository you make a copy of the original repository on your own GitHub account to view and/or make changes without affecting the original repository by following these simple steps:
 
@@ -305,7 +333,7 @@ By forking the GitHub Repository you make a copy of the original repository on y
 2. Near the top of the Repository, on the right-hand side of the screen, locate the "Fork" button.
 3. Click this button and you should now have a copy of the original repository in your GitHub account.
   
-### Making a Local Clone
+## Making a Local Clone
 
 1. Log in to GitHub and locate the [StephenJ2020/CI-MS1-IrishSpiritTours Repository](https://github.com/StephenJ2020/CI-MS1-IrishSpiritTours)
 2. Under the repository name, click "Clone or download".
@@ -325,12 +353,13 @@ $ git clone https://github.com/StephenJ2020/CI-MS1-IrishSpiritTours
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
 ```  
-  
+  [Back to Content](#content)  
+
   ---
 
-## Credits
+# Credits
   
-### Media   
+## Media   
   
 Images used on index.html:  
 -  [Hero Image for index.html](https://secretldn.com/sample-capitals-finest-food-taste-london-festival/)  Taken from Secret London  
@@ -403,17 +432,17 @@ Additional Images used in gallery.html:
 Image used on contact.html:  
 -  [contact](https://unsplash.com/photos/PSie8BkuB0w)  Taken from UnSplash  
   
-Quotes:  
+## Quotes:  
 -  The James Joyce quote used at the top of the itinerary.html page was taken from [GoodReads.com](https://www.goodreads.com/quotes/334561-they-lived-and-laughed-and-loved-and-left)
 -  The John Keats quote used at the top of the Add-Ons.html page waqs taken from [BrainyQuote.com](https://www.brainyquote.com/quotes/john_keats_137094)  
       
-Research for choice of Colour palette:      
+## Research for choice of Colour palette:      
 -  [Adobe](https://color.adobe.com/create/color-wheel)  
 -  [Canva](https://www.canva.com/colors/color-wheel/)  
 -  [Oberlo](https://ie.oberlo.com/blog/color-combinations-cheat-sheet)    
 
     
-Tourism site from which I took inspiration when planning my project:  
+## Tourism websites from which I took inspiration when planning my project:  
 -  [IrelandLuxuryTravel](https://irelandluxurytravel.com/ireland-tours/ireland-food-tours/)  
 -  [AudleyTravel](https://www.audleytravel.com/ie/brazil/tours/in-search-of-the-jaguar)    
 -  [BreweryHops](https://breweryhops.com/)  
@@ -425,6 +454,15 @@ Tourism site from which I took inspiration when planning my project:
 -  [SacredIrishTours](http://www.sacredirishtours.com/testimonial-2/)  
 -  [AuthenticVacations](https://www.authenticvacations.com/europe/ireland-tours/irish-spirit-tour/)   
   
+[Back to Content](#content)  
 
+---  
+   
+# Acknowledgements     
 
- 
+I would like to thank the following people for their support and guidance during this project:    
+- My Mentor Chris Quinn  
+- Cheryl from Code Institute Tutor Support  
+- The Code Institute Slack Community  
+
+[Back to Content](#content)   
