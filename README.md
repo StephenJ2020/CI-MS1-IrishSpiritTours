@@ -1,32 +1,30 @@
+  # ***[Irish Spirit Tours](https://stephenj2020.github.io/CI-MS1-IrishSpiritTours/index.html)***  
 ![Project logo](./assets/images/rm-index-responsive.png)
 
-![Project logo](./assets/images/logo.png) 
-**Irish Spirit Tours**
+[![Project logo](./assets/images/logo.png)](https://stephenj2020.github.io/CI-MS1-IrishSpiritTours/index.html) 
    
    
 ---   
   
 # Project Description   
-Code Institute: User-Centric Front-End Development  
+**Code Institute: User-Centric Front-End Development**  
   
-The Milestone 1 project assignment is to build a static front-end website using the technologies that we have learned  
-so far on the Code Institute course. I have the option to choose from one of the following three scenarios or to come   
-up with my own idea:  
+The Milestone 1 project assignment is to build a static front-end website using the technologies that we have learned so far on the Code Institute course. I have the option to choose from one of the following three scenarios or to come up with my own idea:  
 . Build a website for a band (real or fictional)  
 . Build a website for a gym  
 . Build a personal portfolio site ( potentially for yourself) 
    
 I have decided to create a website for a fictional tour company here in Ireland.  However, while the tour company is fictional the places featured are real and this was an idea that I had brought forward in September 2019 to the Celbridge Tourism and Heritage Forum, of which I'm a voluntary member. Over the last 5 years this voluntary community group has sought funding to produce [Celbridge Tourism and Heritage Strategy (2016-2020)](http://www.kildarelcdc.ie/wp-content/uploads/2012/07/Celbridge-Gateway-to-Irelands-AE-Tourism-Heritage-Strategy-May-2016.pdf), [Celbridge Heritage Trail Audio Guide](http://www.abartaheritage.ie/product/celbridge-heritage-trail-audio-guide/) and [The Discover Celbridge website](http://www.discovercelbridge.com/). While the group have not met since the end of 2019 and our activities have been suspended due to the Covid-19 Pandemic and the devastating effects it continues to have across the globe; it is hoped that we will be able to resume our work on future projects in late 2021 or early 2022.  
   
-The idea for this tour came from the fact that the town of Celbridge, in Co. Kildare, has many historic and cultural sites that would appeal to the domestic and international tourism market, but also the realisation that our offering isn't yet developed enough to be able to  market Celbridge as a stand-alone tourist destination.  Therefore, my idea was to identify other coummunity groups in neighbouring counties who are also working to promote their local area and to collaborate to create a ready-made tour itinerary featuring each of our localities and to then pitch it at a number of local tour companies for one of them to take on and opperate.  The idea is not for any of the community groups or the individuals involed with them to directly benefit from this project. Rather the objective is for our wider communities to benefit from the impact that increased tourism will lead to i.e. the creation of local employment opportunities as well as increased private and public sector investment into improved facilities in these localities.  
+The idea for this tour came from the fact that the town of Celbridge, in Co. Kildare, has many historic and cultural sites that would appeal to the domestic and international tourism market, but also the realisation that our offering isn't yet developed enough to be able to  market Celbridge as a stand-alone tourist destination.  Therefore, my idea was to identify other community groups in neighbouring counties who are also working to promote their local area and to collaborate to create a ready-made tour itinerary featuring each of our localities and to then pitch it at a number of local tour companies for one of them to take on and operate.  The idea is not for any of the community groups or the individuals involved with them to directly benefit from this project. Rather the objective is for our wider communities to benefit from the impact that increased tourism will lead to i.e. the creation of local employment opportunities as well as increased private and public sector investment into improved facilities in these localities.  
   
-For the purpose of my Milestone 1 project we're going to assume that the final tour itinerary has been agreed and that the fictional family run tour operator, Irish Spirit Tours, has undertaken to incorporate this itinerary into thier business as a means of expanding their current product offering.  
+For the purpose of my Milestone 1 project we're going to assume that the final tour itinerary has been agreed and that the fictional family run tour operator, Irish Spirit Tours, has undertaken to incorporate this itinerary into their business as a means of expanding their current product offering.  
   
 On that basis I have used the five planes of UX methodology to identify the user needs, the features required, the most logical way to structure the information and the functionality required in order to produce a wireframe that will form the blueprint for this Milestone project.
   
 ---    
       
-# Contents
+# Content
 
 - [Project Description](#project-description)
 - [Contents](#contents)
@@ -34,8 +32,7 @@ On that basis I have used the five planes of UX methodology to identify the user
   * [Strategy](#strategy)
     + [User Stories:](#user-stories-)
       - [First Time Visitor Goals](#first-time-visitor-goals)
-      - [Returning Visitor Goals](#returning-visitor-goals)
-      - [Frequent User Goals](#frequent-user-goals)
+      - [Returning & Frequent Visitor Goals](#returning-visitor-goals)
     + [User personas](#user-personas)
     + [The Business Scenario](#the-business-scenario)
 - [Scope](#scope)
@@ -82,14 +79,11 @@ The user is looking to get more out of their trip to Ireland. They want to get a
    5. As a First Time Visitor, I want to be able to easily get a quote for the date and options that I'm interested in.
    6. As a First Time Visitor, I want a site that reassures me that I am dealing with a reliable tour operator and that it is safe to book my holiday with them.
 
-   - #### Returning Visitor Goals
+   - #### Returning & Frequent Visitor Goals
 
    1. As a Returning Visitor, I want to be able to easily contact the tour operator to ask questions and to ask for any clarifications I require.
    2. As a Returning Visitor, I want to be able to find social links to see if any interesting updates or special offers have been posted. 
-
-   - #### Frequent User Goals
-
-   1. As a Frequent User, I want to be able to subcribe to the tour operators Newletter so that I can receive monthly update with information about amendments to the tour, up-coming special events and promotional discounts.
+   3. As a Frequent User, I want to be able to subcribe to the tour operators Newletter so that I can receive monthly update with information about amendments to the tour, up-coming special events and promotional discounts.
 
 
 ### User personas   
@@ -108,12 +102,12 @@ Rob works in the city and lives in trendy Camden with his girlfriend.  Rob is a 
 Renate is a strong independent career focused woman who works for a U.S. multi-national in Sao Paulo and she loves to travel as much as possible. Her favourite program is Game of Thrones and her all time favourite film is Braveheart.  For many years she has dreamed of travelling to Europe and in particular Ireland, ever since she realised that Braveheart was filmed here.  Renate loves meeting new people and experiencing new cultures and is quite happy to travel by herself but she does prefer to join up with a local tour group once she arrives in her destination as she finds this is the best way to meet like-minded people.  
 
  - ***Hans - Aged 52 - From Colonge***  
-Hans is somewhat of your sterotypical German, he loves beer and is partial to a good Whiskey. When it comes to beer Hans doesn't talk about craft beer, he talks about real beer as Hans doesn't consider these mass produced lagers to be real beer.  Hans has been married for 31 years and has two grown-up children.  While Hans and his wife go on holiday together every year they both like to get away separately every other year with a small group of their closest friends.  Hans has been to Ireland a number of times before with his work and loves the atmophere and the laid-back nature of the Irish people he has met. When a friend of Hans mentions that he has never been to Ireland but he has read alot recently about the many new mrico-breweries and a resurgence in Irish Distilleries they decide that Ireland should be the destination for their next short break.  
+Hans is somewhat of your stereotypical German, he loves beer and is partial to a good Whiskey. When it comes to beer Hans doesn't talk about craft beer, he talks about real beer as Hans doesn't consider these mass-produced lagers to be real beer.  Hans has been married for 31 years and has two grown-up children.  While Hans and his wife go on holiday together every year they both like to get away separately every other year with a small group of their closest friends.  Hans has been to Ireland a number of times before with his work and loves the atmosphere and the laid-back nature of the Irish people he has met. When a friend of Hans mentions that he has never been to Ireland but he has read a lot recently about the many new micro-breweries and a resurgence in Irish Distilleries they decide that Ireland should be the destination for their next short break.  
  
   
  - ***Tom O'Donoghue: Owner of Irish Spirit Tours***  
   
-Tom started his career in his early 20's working for a chauffeur company that serviced the corporate and high-end leisure market. For the 10 years that Tom worked for this company he was a chauffeur and qualified tour guide and he mainly drove 24 seater mini-coaches.  In his late 20's Tom got married and started a family, by his early 30's Tom spotted an opportunity to go out on his own and he decided to buy his own 16 seater mini-bus and to start operating a series of day-trips from Dublin. Over the years the business has grown and Tom has continue to invest in the business by buying a second 16 seater mini-bus and in recent years he has replaced his original mini-bus with a brand new luxary 24 seater mini-coach.  
+Tom started his career in his early 20's working for a chauffeur company that serviced the corporate and high-end leisure market. For the 10 years that Tom worked for this company he was a chauffeur and qualified tour guide and he mainly drove 24 seater mini-coaches.  In his late 20's Tom got married and started a family, by his early 30's Tom spotted an opportunity to go out on his own and he decided to buy his own 16 seater mini-bus and to start operating a series of day-trips from Dublin. Over the years the business has grown and Tom has continue to invest in the business by buying a second 16 seater mini-bus and in recent years he has replaced his original mini-bus with a brand new luxury 24 seater mini-coach.  
   
 Now in his early 50's and his children fully grown, Tom's son Patrick works with Tom on a full-time basis as a tour guide driving the 16 seater mini-bus while Tom leads the larger tour groups in the 24 seater mini-coach.  Tom's wife Mary works part-time in a local supermarket but she also helps process the bookings for Tom's business. His daughter Grainne recently graduated from Trinity College with a degree in Marketing and is now working for a leading multi-national in Dublin's Silicon Docks. Grainne has been updating Tom's wordpress website and social media channels for the last 7 years but with her increasing work load in her own job this is becoming more of a challenge for Grainne to maintain.
 
@@ -135,7 +129,7 @@ As part of this agreement to operate the tour itinerary Tom has undertaken to co
 ## Functional Specification   
 
 ### Current feature requirements:     
-* Fully responsive website that will automatically adapt for for desktop, tablet and mobile devices.
+* Fully responsive website that will automatically adapt for desktop, tablet and mobile devices.
 * A navigation bar that will be fixed to the top of the screen so that it is always visible, even as the user scrolls down the page.  
 * A unique hero image for each page that will visually communicate the content contained within the page.
 * A Home page that will focus the users attention to either the tour itinerary or the options to customise & extend the tour.
@@ -143,7 +137,7 @@ As part of this agreement to operate the tour itinerary Tom has undertaken to co
 * A page that will clearly display the full tour itinerary, tour inclusions and the base starting price based on two people sharing.
 * A page that will allow the user to extend their trip either pre or post tour and present a list of Add-On's that will allow the user to customise their tour.
 * A gallery page to visually re-enforce the quality of the tour.
-* A Contact Us page that will contain a multi-fucntional form to enable the user to make an enquiry, request a quote or make a booking.
+* A Contact Us page that will contain a multi-functional form to enable the user to make an enquiry, request a quote or make a booking.
 * A Get a Quote button on the right of the navbar that will link to the multi-functional form on the Contact Us page.  
   
 ### Future feature requirements:    
@@ -151,16 +145,16 @@ As part of this agreement to operate the tour itinerary Tom has undertaken to co
 * The addition of a language selection option so that users can access the site in their own language.  
   
 ### Content Requirements:    
-* An overview of the comapny and the main product i.e. the tour.  
+* An overview of the company and the main product i.e. the tour.  
 * A text area with link to entice the user to explore the full tour itinerary.  
 * A text area with link to entice the user to explore the full list of options available to customise the tour.  
 * A testimonial section to help build trust with the user.
-* A subcription form so that we can stay in contact with the user and work on building their trust until they are ready to book the tour.
+* A subscription form so that we can stay in contact with the user and work on building their trust until they are ready to book the tour.
 * The full tour itinerary
 * The tour inclusions
 * The full list of optional pre & post tour add-on's.  
-* An image gallery to visually re-encfore the quality and value of the tour.
-* A multi-functional contact form that can handle enguiries, quotes & bookings.
+* An image gallery to visually re-enforce the quality and value of the tour.
+* A multi-functional contact form that can handle enquiries, quotes & bookings.
 * Social media links to help re-enforce the brand, to stay connected with the user and for users to use as a promotion tool on our behalf.  
 
  [Back to Content](#content)  
@@ -176,7 +170,7 @@ I can define the structure / design (Information Architecture) of the site.
   
 ***These 8 principles are:***  
   
-***The principle of objects:*** Content should be treated as a living, breathing thing. It has lifecycles, behaviors, and attributes.  
+***The principle of objects:*** Content should be treated as a living, breathing thing. It has lifecycles, behaviours, and attributes.  
 ***The principle of choices:*** Less is more. Keep the number of choices to a minimum.  
 ***The principle of disclosure:*** Show a preview of information that will help users understand what kind of information is hidden if they dig deeper.  
 ***The principle of exemplars:*** Show examples of content when describing the content of the categories.  
@@ -188,7 +182,7 @@ I can define the structure / design (Information Architecture) of the site.
 So by applying these principles to the objects of my site I can group them as follows:  
   
 ***index.html***  
-* An overview of the comapny and the main product i.e. the tour.  
+* An overview of the company and the main product i.e. the tour.  
 * A text area with link to entice the user to explore the full tour itinerary.  
 * A text area with link to entice the user to explore the full list of options available to customise the tour.  
 * A testimonial section to help build trust with the user. 
@@ -202,7 +196,7 @@ So by applying these principles to the objects of my site I can group them as fo
 * The full list of optional pre & post tour add-ons.  
   
 ***gallery.html***  
-* An image gallery to visually re-encfore the quality and value of the tour.  
+* An image gallery to visually re-enforce the quality and value of the tour.  
   
 ***contact.html***  
 * A multi-functional contact form that can handle enquiries, quotes & bookings.  
@@ -213,7 +207,7 @@ Objects common to all pages will be located in the ***footer***
 ![Information Architecture](./assets/images/ia.png)
       
   
-## 5. wireframes
+## wireframes
 [Desktop](https://stephenj2020.github.io/CI-MS1-IrishSpiritTours/assets/images/wireframe-desktop.png)  
 ![Desktop](./assets/images/rm-wireframe-desktop.png)     
 [Tablet](https://stephenj2020.github.io/CI-MS1-IrishSpiritTours/assets/images/wireframe-tablet.png)  
@@ -223,17 +217,14 @@ Objects common to all pages will be located in the ***footer***
    
 
          
-## 6. Visual Design   
+## Visual Design   
 For my colour palette I looked at a number of different sites (all of which are referenced in the credits section) but the site that provided the most inspiration was [99designs](https://99designs.ie/blog/creative-inspiration/color-combinations/)  
 as it really helped me to visualise how the colours might interact with each other.  So I choose the following colour scheme from 99designs as the basis of my colour palette.  
 ![The foundation of my colour palette](./assets/images/colour-palette.png)  
 **Hex code: #316879, #F47A60, #7FE7DC, #CED7D8**  
-"This complimentary combination blends the peacefulness of blue-green with little pops of coral passion. An elegant gray rounds out the palette."  
+"This complimentary combination blends the peacefulness of blue-green with little pops of coral passion. An elegant grey rounds out the palette."  
   
-However, I felt that it wasn't exactly what I needed for my site so I also took elements from the colour schemed used on the [Audley Travel](https://www.audleytravel.com/ie/brazil/tours/in-search-of-the-jaguar) website, as it is one of the sites  
-from which I took inspiration when I first started thinking about how I would approach this project. So I subsituted the gray #CED7D8 from the 99designs colour palette with  
-the lighter gray #DAE0E4 from the Audley Travel site.  Plus I added two additional tones of gray #545454 #343434 to my colour palette, and again I took these from the colour   
-palette used for the Audely Travel site.  
+However, I felt that it wasn't exactly what I needed for my site so I also took elements from the colour schemed used on the [Audley Travel](https://www.audleytravel.com/ie/brazil/tours/in-search-of-the-jaguar) website, as it is one of the sites from which I took inspiration when I first started thinking about how I would approach this project. So I substituted the grey #CED7D8 from the 99designs colour palette with the lighter grey #DAE0E4 from the Audley Travel site.  Plus I added two additional tones of grey #545454 #343434 to my colour palette, and again I took these from the colour palette used for the Audley Travel site.  
   
 The final colour palette that I decided upon is:  
 - ![#316879](https://placehold.it/20/316879/316879) `#316879` 
@@ -272,8 +263,9 @@ so I have amended to a slightly lighter blue ![#35798e](https://placehold.it/20/
 * [__Github__](https://github.com/) GitHub is used to store the projects code after being pushed from Gitpod.
 * [__FreeLogoDesign__](https://editor.freelogodesign.org/en/logo/edit/4fbd3a25-d057-49d5-a552-98cb7b40d545) used for logo creation.
 * [__Fontawesome__](https://fontawesome.com) Font Awesome was used for the Icons throughout the site.
-* [__99designs__](https://99designs.ie/blog/creative-inspiration/color-combinations/) used for color palette selection.
+* [__99designs__](https://99designs.ie/blog/creative-inspiration/color-combinations/) used for colour palette selection.
 * [__TinyPNG__](https://tinypng.com/) used to compress image sizes.
+* [__CompressPNG__](https://compresspng.com/) used to compress image sizes.
 * Mozilla DevTools used for debugging and testing.
 * Google DevTools used for debugging and testing.
 * [__W3Scool__](https://www.w3schools.com/) used as a general source of information.
@@ -284,7 +276,7 @@ so I have amended to a slightly lighter blue ![#35798e](https://placehold.it/20/
 * [__W3C CSS Validatior - Jigsaw__](https://jigsaw.w3.org/css-validator/) Used to test CSS code validation.
 * [__Mobile-Friendly Test__](https://search.google.com/test/mobile-friendly?id=ZteYI-6sVDRnrLMf_Chjmw) used to check if code is Mobile Friendly.
 * [__Am I Responsive__](http://ami.responsivedesign.is/) used to create Mock-up images to represent the site's responsiveness.
-* [__WAVE__](https://wave.webaim.org/) used as a Web Accessibility Evaluation Tool.
+* [__GitHub Wiki TOC generator__](https://ecotrust-canada.github.io/markdown-toc/) Markdown Table of Content Generator.
   
 [Back to Content](#content)  
 
@@ -294,14 +286,14 @@ so I have amended to a slightly lighter blue ![#35798e](https://placehold.it/20/
 
 The entire testing process, issues and bugs found during development, solutions, and final results can be found [here](https://github.com/StephenJ2020/CI-MS1-IrishSpiritTours/blob/master/testing.md).
 
-- Development Notes
+- Development Notes  
+- Bugs
 - HTML Validation Testing
 - CSS Validation Testing
-- Testing Performance
-- Testing Accessibility
-- Testing User Stories
-- Code Institute Peer Code Review
-- Manual Testing
+- Accessibility Testing
+- Responsive Testing
+- Manual Testing  
+- User Stories
 
 [Back to Content](#content)  
     
@@ -461,8 +453,9 @@ Image used on contact.html:
 # Acknowledgements     
 
 I would like to thank the following people for their support and guidance during this project:    
-- My Mentor Chris Quinn  
-- Cheryl from Code Institute Tutor Support  
-- The Code Institute Slack Community  
+- My Mentor Chris Quinn.  
+- Cheryl from Code Institute Tutor Support.  
+- The Code Institute Slack Community.  
+- My daughter Fiona for all her constructive feedback on my project.  
 
 [Back to Content](#content)   
